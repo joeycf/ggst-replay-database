@@ -69,6 +69,17 @@ export default defineAppConfig({
     // face.
     shortName: 'STRIVE',
     rightsHolder: 'ARC SYSTEM WORKS',
+    // THE LICENCE NOTICE, and the reason engine v0.12.1 exists. Every portrait
+    // and splash here is cropped from Arc System Works' own Fan Kit, whose
+    // terms (guiltygear.com/ggst/en/fankit/, Article 3.1, read firsthand
+    // 2026-09-07) require "© ARC SYSTEM WORKS" in an easily visible location
+    // on any page that shows the art — "(C)" permitted where © garbles. The
+    // engine renders this string in the footer at every width, verbatim; it
+    // is also baked into public/og-default.png, which travels standalone.
+    // Lucy is the one fighter this does NOT cover: Article 5 carves her out of
+    // the kit entirely, so her tile is generated, carries no ASW asset, and
+    // owes no credit — scripts/art.ts and data/art-provenance.json say so.
+    artCredit: 'Character art © ARC SYSTEM WORKS',
     baseURL: '/ggst', // behind the shell at replaydatabase.com/ggst
     siteUrl: 'https://replaydatabase.com',
     // Web Analytics beacons go to THIS project instead of pooling into the

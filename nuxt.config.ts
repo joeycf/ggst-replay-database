@@ -45,12 +45,14 @@ export default defineNuxtConfig({
   // REQUIRED for git layers: without it the cloned layer gets no node_modules
   // and its runtime deps (@tailwindcss/vite, ufo, …) don't resolve.
   //
-  // v0.12.0 is the floor for this app, not a preference: it is the release that
-  // shipped the partner registry and the `Combos ↗` nav item, both of which
-  // this app's ComboForge block depends on. (The engine README still advertises
-  // v0.10.0 as "the current platform-wide pin" — that line is stale; all six
-  // consumers pin 0.12.0.)
-  extends: [process.env.ENGINE_PATH || ['github:joeycf/replay-engine#v0.12.0', { install: true }]],
+  // v0.12.1 is the floor for this app, not a preference. v0.12.0 shipped the
+  // partner registry and the `Combos ↗` nav item the ComboForge block depends
+  // on; v0.12.1 added GameConfig.artCredit, the footer line that satisfies the
+  // Fan Kit licence's copyright-notice term — and this is the first game that
+  // needs it. THE TAG MUST BE PUSHED BEFORE THE FIRST VERCEL BUILD: Vercel
+  // leaves ENGINE_PATH unset and clones the pinned tag, so a tag that exists
+  // only locally fails the remote build on a missing ref.
+  extends: [process.env.ENGINE_PATH || ['github:joeycf/replay-engine#v0.12.1', { install: true }]],
 
   compatibilityDate: '2025-07-01',
 
