@@ -1,0 +1,125 @@
+/* ==========================================================================
+   GUILTY GEAR -STRIVE- — Replay Database skin (game #6)
+   Tokens only: colors + three font families. No new components.
+
+   Sampled from the official logo (user-supplied asset “GGStrive_Logo.webp”,
+   pixel-modal sample, 820×230):
+     • GUILTY / GEAR “G” red      #7B1B1E   (mode of the red letterforms)
+     • letterform bone-white      #E5E5E5
+     • STRIVE sub-wordmark steel  #C9CDD2   (thin strokes — low-alpha edge sample)
+   Metallic gold is NOT present in the supplied red/white logo variant. The
+   gold primary below is anchored on the gold-foil logo variant used on the
+   Steam / PS Store capsules — value is PROVISIONAL until a pixel sample of
+   that asset is supplied. Everything else is sampled.
+
+   TEKKEN COLLISION — LEVER 1 (gold primary, red demoted):
+     sampled red  #7B1B1E  hsl(358 64% 29%)   Tekken crimson #E13048 hsl(352 75% 54%)
+     Tōkon danger #FF4B42  hsl(3 100% 63%)
+   The sampled oxblood is measurably distinct from Tekken (dL .25, chroma
+   −11) — but only while it is too dark to be a text-grade primary
+   (1.8:1 on surface). Lifting it to AA (≥ #D3403F, L .54) lands it at
+   dH 6° / dL .00 from Tekken: a chip-size sibling. So the red cannot be
+   primary at any AA lightness; GOLD is primary, the oxblood stays as
+   secondary/accent (fills, rules, badges — never body text).
+   Gold vs neighbors at chip size: SF6 orange #FF7D00 dH 11° + S 68 vs 100
+   + dL .04 (muted brass vs pure orange); umbrella gold — verify against
+   the selector's gold hex once read from the live shell.
+   CotW RECONCILIATION: Strive's sampled red is #7B1B1E (oxblood, L .29).
+   If CotW's sampled red is brighter than L .40 it is the one nearer Tekken
+   and cedes primacy per the rule; Strive has already ceded regardless.
+
+   Fonts (Google Fonts / @fontsource):
+     display  “Black Ops One”      @fontsource/black-ops-one     400
+              (stencil slab; verified glyphs: ' - # . digits → Jack-O',
+               Zato-1, Asuka R#, A.B.A, I-No render at badge size)
+     ui       “Figtree”            @fontsource/figtree           400 500 600 700 800
+              (tabular figures via font-variant-numeric on data grids)
+     mono     “JetBrains Mono”     @fontsource/jetbrains-mono    400 700
+
+   Ratios are WCAG contrast vs --color-surface #12151B unless noted.
+   ========================================================================== */
+:root {
+  --font-display: "Black Ops One", "Impact", sans-serif;
+  --font-ui: "Figtree", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-bg: #0B0D11;                /* page — gunmetal, cold steel cast hsl(220 21% 5%) vs Tekken neutral carbon / SF6 warm asphalt / Tōkon ink-navy */
+  --color-surface: #12151B;           /* card panel — accent AA reference */
+  --color-surface-raised: #191D25;    /* hover / raised panel (+3 L per step: tighter than Tōkon's +4) */
+  --color-surface-high: #21262F;      /* chips, inputs, top layer */
+  --color-border: #2C323D;            /* hairline panel gutter */
+  --color-border-strong: #414958;     /* emphasized rules / focus adjacency */
+  --color-text: #ECEDEF;              /* bone white (from sampled #E5E5E5, cooled) · 15.6:1 */
+  --color-text-muted: #A9AFBA;        /* secondary copy, steel · 8.3:1 */
+  --color-text-faint: #808896;        /* meta / timestamps · 5.1:1 */
+  --color-primary: #D9A53A;           /* metallic gold — PRIMARY by collision lever 1 (provisional sample, see header) · 8.2:1 */
+  --color-primary-contrast: #1A1406;  /* gunmetal-brown text on gold · 8.2:1 on primary */
+  --color-primary-hover: #EBBB55;     /* primary hover/active lift · 10.2:1 */
+  --color-secondary: #7B1B1E;         /* oxblood — SAMPLED logo red; fill/accent only (1.8:1 on surface — never text) */
+  --color-secondary-contrast: #F5EDEE;/* bone text on oxblood · 9.0:1 on secondary */
+  --color-danger: #FF4B2B;            /* vermilion — 19° orange-side of Tekken crimson, dL .29 above own oxblood · 5.5:1 */
+  --color-warning: #F7E27E;           /* pale straw — dL .19 + chroma above gold primary; 21° + dL .23 from SF6 orange · 14.0:1 */
+  --color-success: #3DDC97;           /* mint-emerald — 65° from SF6 Drive-green, 24° from umbrella teal · 10.3:1 */
+  --color-info: #B7C0CC;              /* steel — sampled from the STRIVE sub-wordmark strokes · 9.9:1 */
+  --color-win: #3DDC97;               /* W marker (success family) · 10.3:1 */
+  --color-loss: #FF7E60;              /* L marker — softened vermilion; calmer than danger in dense rows · 7.3:1 */
+  --color-focus: #6FA8FF;             /* focus ring azure — cool against a warm primary · 7.6:1 */
+
+  /* 34 fighters · one accent each · all ≥4.5:1 on --color-surface.
+     Roster enumerated from guiltygear.com/ggst/en/character/ on 2026-09-03:
+     15 launch + S1 (5) + S2 (4) + S3 (4) + S4 (4) + S5 Jam, Robo-Ky (rel.
+     2026-07-02). S5 slots 3–4 are announced without names or dates → not
+     tokenized; slot them into the family map below when named.
+     Method: 1 anchor on the canonical costume/VFX hue · 2 snap to the
+     FAMILY band (six families, below) · 3 enforce dH 8–12° vs neighbors
+     where the wheel allows — with 34 accents it mostly does not, so the
+     RULE here is a lightness ladder (dL ≥ .12) or a chroma split inside
+     each family, each documented · 4 AA-check. A new DLC fighter takes
+     the empty rung of its family ladder; no re-shuffle. */
+
+  /* Fire — orange arc (hue 7–32) */
+  --char-sol:           #FF8C1A;  /* Tyrant Rave flame orange (headband red ceded to A.B.A/I-No) · 7.8:1 */
+  --char-may:           #FFC27A;  /* Jellyfish-pirate orange dress, lifted to apricot — dL .19 from sol · 11.5:1 */
+  --char-jack-o:        #FFC4A8;  /* Halloween pumpkin-white; dH 11 from jam + dL .12 · 11.9:1 */
+  --char-jam:           #FF7F6E;  /* qipao coral — dL .14 above --color-danger, dH 14 from i-no · 7.4:1 */
+  --char-potemkin:      #C78356;  /* Zepp armor bronze — chroma split from sol (S 50 vs 100), dH 6 · 5.9:1 */
+
+  /* Gold — the primary's own family, ladder by lightness (hue 45–63) */
+  --char-axl:           #FFD23B;  /* bandana yellow — dL .08 + chroma split (S 100/68) from primary gold; never a legend neighbor of a button · 12.7:1 */
+  --char-leo:           #F3D98C;  /* Whitefang lion-gold armor — dL .13 above axl, dL .13 below millia · 13.2:1 */
+  --char-millia:        #FFF0C2;  /* platinum-blond hair — top of the gold ladder · 16.1:1 */
+  --char-goldlewis:     #A9AE4E;  /* Secretary of Defense olive-brass (coat + coffin) — duller/darker than SF6 Drive-green, dH 27 from ramlethal · 7.7:1 */
+
+  /* Blood — red→magenta arc (hue 321–357); the sampled logo red lives here as --color-secondary */
+  --char-aba:           #E5414A;  /* blood-red hair — darkest AA red; dH 15 from slayer · 4.5:1 */
+  --char-i-no:          #FF6E7B;  /* red hat / guitar — dL .13 above aba; dH 15 from --color-danger · 6.8:1 */
+  --char-slayer:        #D45078;  /* dandy vampire wine — dH 15 from aba (hue-only), dL .14 below bedman · 4.5:1 */
+  --char-bedman:        #FF8FB8;  /* Delilah rose-pink over red frame — dH 16 from i-no · 8.6:1 */
+  --char-elphelt:       #FFCCE0;  /* white bridal pink — dL .12 above bedman · 13.0:1 */
+  --char-baiken:        #F062B4;  /* pink hair / red kimono magenta — dH 10 from nagoriyuki + dL .13 · 6.2:1 */
+  --char-nagoriyuki:    #C05AA0;  /* Blood Gauge wine-violet — darkest slot of the magenta arc · 4.5:1 */
+
+  /* Verdant — green/aqua (hue 89–164) */
+  --char-giovanna:      #3FCB6E;  /* Rei wolf-spirit green — dH 51 from SF6 Drive-green · 8.7:1 */
+  --char-chipp:         #9BF0C8;  /* Alpha Blade ki jade (white gi ceded to happy-chaos) — dL .25 above giovanna · 13.7:1 */
+  --char-dizzy:         #5FE0BE;  /* Undine aquamarine — dH 24 from giovanna, dH 26 from unika · 11.2:1 */
+  --char-ramlethal:     #B9F27A;  /* Lucifero sword-glow lime — lighter than SF6 Drive-green by dL .11 + dH 0 → never shares a row · 14.0:1 */
+
+  /* Steel — blues + achromatics (hue 190–224) */
+  --char-ky:            #5C9DFF;  /* Thunderseal royal blue — dL .14 below sin · 6.7:1 */
+  --char-sin:           #A3BCFF;  /* Kiske pale-lightning blue — dL .14 above ky · 9.7:1 */
+  --char-anji:          #3A8FD9;  /* kimono indigo — dL .14 below ky, dH 8 (hue-only floor, so dL added) · 5.3:1 */
+  --char-bridget:       #7CC4FF;  /* yo-yo nun sky-blue — dL .20 above anji, dH 17 from unika · 9.7:1 */
+  --char-unika:         #4FDCF7;  /* Garuda thruster cyan — dH 17 from bridget, dH 26 from dizzy · 11.2:1 */
+  --char-asuka:         #B3ECFF;  /* spell-circle ice — dL .11 + dH 12 from bridget; dL .15 from robo-ky · 14.2:1 */
+  --char-robo-ky:       #9FB4C4;  /* hydraulic steel — chroma split (S 24) from every saturated blue · 8.5:1 */
+  --char-happy-chaos:   #EEF1F5;  /* white robe / gun-smoke — the one achromatic accent; dL .17 from --color-info · 16.1:1 */
+
+  /* Violet (hue 234–275) */
+  --char-johnny:        #7C86E0;  /* Mist Finer coat indigo — dH 18 from ky, dH 18 from venom · 5.5:1 */
+  --char-venom:         #8870F5;  /* Assassins Guild violet — dL .16 below faust · 4.9:1 */
+  --char-testament:     #A7A2D9;  /* Succubus lilac — chroma split (S 42) from venom + dL .09 · 7.7:1 */
+  --char-lucy:          #D6CCFF;  /* Edgerunner cyberware periwinkle — dL .16 above testament · 12.1:1 */
+  --char-zato-1:        #A36FC9;  /* Eddie shadow dusty purple — dH 23 from venom, dL .21 below faust · 4.9:1 */
+  --char-faust:         #D9A5FF;  /* paper-bag purple lifted to lavender — dH 25 from lucy · 9.4:1 */
+}

@@ -1,0 +1,285 @@
+/* ==========================================================================
+   GUILTY GEAR -STRIVE- — the skin.
+
+   Transcribed from design/handoff/tokens.css, which is the design system's
+   source of truth. Only the ENGINE'S semantic tokens live here; the 34
+   --char-* fighter accents are NOT in this file — they go to app.config.ts
+   `accents`, which the engine injects as --accent-<id> (app/plugins/accents.ts),
+   and scripts/characters.ts reads the same handoff block so the two cannot
+   drift. All 34 Strive ids are already CSS-identifier-safe, so the engine's
+   safeId() is a no-op on every one. Do not add them here.
+
+   THE CONTRACT (STACK §5.13, engine README "Theme override contract"):
+   this MUST be a plain, UNLAYERED :root block — never @theme. An app
+   stylesheet does not pass through the engine's Tailwind root compile, so an
+   @theme block ships raw, the browser drops it as an unknown at-rule, and
+   production silently wears the umbrella defaults. `nuxt dev` compiles each
+   CSS file on its own and masks it exactly. Unlayered :root beats the
+   engine's @layer theme in every build mode because app CSS loads after it.
+   Gated by the engine's scripts/verify-override.mjs on the BUILT bundle, in
+   both directions (override wins; removal → umbrella).
+
+   @fontsource specifiers are EXTENSIONLESS on purpose: the packages are not
+   uniform about their ./*.css exports, and the extension form is what broke
+   SF6's display face.
+
+   ── TRANSCRIPTION NOTE ────────────────────────────────────────────────────
+   The handoff declares 21 --color-* names; the engine shadows 18. Reconciled:
+
+   · 15 map 1:1 and are VERBATIM — one more than CotW, and worth saying
+     because the CotW precedent invites the wrong move here. CotW's handoff
+     spelled the fourth text tier `--color-faint` and needed a rename to the
+     engine's `--color-text-faint` (af9d128: shipping the handoff spelling
+     would have left the engine token at its umbrella default with nothing to
+     report it). THIS handoff already spells it `--color-text-faint`
+     (tokens.css:54). 15 verbatim / 0 renames. Do not "fix" it back.
+   · 3 the engine wants are ABSENT from the handoff and are DERIVED below —
+     surface-sunken, border-subtle, text-secondary. Each is derived on THIS
+     game's ramp: a cold gunmetal H220 at S ~20 climbing +3.3 L per step
+     (tokens.css:48, "tighter than Tōkon's +4"), never CotW's warm one. The
+     arithmetic is written out at each declaration, because all three are
+     load-bearing rather than ceremonial: grepped 2026-09-07 across the
+     engine's app/, text-text-secondary appears 45 times, border-subtle 35 and
+     surface-sunken 15. A wrong derivation here is visible on every page.
+   · 6 the handoff declares have NO engine consumer (surface-high,
+     border-strong, secondary-contrast, info, win, loss — the same six CotW
+     parked). They sit at the bottom as comments so the design intent
+     survives without shipping dead custom properties.
+
+   Every ratio the handoff claimed was re-measured against --color-surface
+   #12151B — 48 claims, 14 semantic + 34 accents — and 48 of 48 matched to
+   0.05. The claims are carried through below unchanged; re-measure before
+   "correcting" one.
+
+   That is a good record, and it is NOT a clean bill of health: the two
+   corrections below are both documentation errors in the same handoff, and
+   neither is a contrast ratio. What was audited was the 48 ratio claims. The
+   provenance sentences and the degree claims were not, and that is exactly
+   where the errors turned out to be.
+
+   TEKKEN COLLISION — LEVER 1, from the handoff and unchanged: the sampled
+   letterform red #7B1B1E is an oxblood at L .29 and 1.76:1 on surface, so it
+   cannot carry text; lifting it to a text-grade lightness walks it into
+   Tekken's #E13048. GOLD is primary, the oxblood is secondary — fills,
+   rules, badges, the VS glyph, never body text. See correction 1.
+
+   ── CORRECTION 1: the handoff's "AA lift" is not AA ───────────────────────
+   tokens.css:20 reads "Lifting it to AA (≥ #D3403F, L .54)". Re-measured
+   2026-09-07: #D3403F is 3.98:1 on --color-surface #12151B, BELOW the 4.5:1
+   floor this palette holds everywhere else (the roster's three darkest
+   accents — a.b.a 4.51, slayer 4.54, nagoriyuki 4.54 — clear it and nothing
+   else comes near). The real AA frontier on that hue family is around
+   hsl(0 62% 58.5%): #D65151 is 4.49:1 at L 58, #D75656 is 4.66:1 at L 59.
+
+   THE CONCLUSION SURVIVES AND GETS STRONGER, which is why no shipped value
+   moves. An AA-true red has to go LIGHTER than the handoff assumed, and
+   lighter is TOWARD Tekken rather than away: #D3403F sits OKLCH Δhue 5.4
+   from #E13048, and the first red on that ramp that actually clears AA —
+   #D75656 at 4.66:1 — sits Δhue 3.29 (ΔL .024), closer still. (#D65151 is
+   4.49:1, one 8-bit step BELOW the floor; it is quoted above as the frontier,
+   not as an AA value, because calling a 4.49 colour AA-true would repeat the
+   very mistake this correction exists to fix.) Against
+   the shell's own separation rule — replay-database-shell/lib/games.ts,
+   "OKLCH Δhue ≥ 25, or Δhue ≥ 10 with |ΔL| ≥ .12" — an AA Strive red fails
+   both clauses outright. Corrected the way af9d128 corrected CotW's
+   --char-mr-karate: the evidence was wrong, the design was not.
+
+   ── CORRECTION 2: --color-info is SYNTHESIZED, not sampled ────────────────
+   The handoff header calls #C9CDD2 the "STRIVE sub-wordmark steel (thin
+   strokes — low-alpha edge sample)" and closes "Everything else is sampled".
+   Re-measured over design/handoff/GGStrive_Logo.webp (820×230; 36,130 opaque
+   px at α≥250): #C9CDD2 has ZERO exact pixels at any alpha, and of the 177
+   opaque pixels within ±6 per channel ALL 177 are strictly R = G = B. The
+   logo's whites are perfectly achromatic — #E5E5E5 alone is 52.52% of opaque
+   pixels — and the largest blue-over-red delta anywhere in the image is 8.
+   The sub-wordmark band (y ≈ 161–206) is neutral grey and neutral antialias,
+   zero cool pixels.
+
+   NOTHING THAT SHIPS CHANGES. --color-info #B7C0CC (H214 S17 L76) is
+   internally coherent: the entire surface ramp is a deliberate cold H220 S20
+   gunmetal, so a cool steel info token belongs on it. Only the citation was
+   wrong — and info is the one token that would otherwise be inherited under
+   a false provenance, which is the same class of defect af9d128 caught in
+   CotW ("the letterforms are NEUTRAL, not warm"). The header's other two
+   samples both hold exactly: the red #7B1B1E is 4,517 exact pixels, 12.50%
+   of opaque and the modal red, and the bone-white #E5E5E5 is the image's #1
+   colour.
+
+   ── THE GOLD HAS TWO TIGHT NEIGHBOURS. Read this before resampling it. ────
+   --color-primary #D9A53A is PROVISIONAL by the handoff's own header: it is
+   anchored on the gold-foil store-capsule logo variant, not on a pixel
+   sample. That disclaimer is real — the supplied red/white logo contains no
+   gold at all (zero pixels at S ≥ .30, H 35–60, any alpha). A resample will
+   plausibly land LIGHTER, which is toward the first neighbour, not away:
+
+     · FATAL FURY's selector-card accent #FFD21F — OKLCH Δhue 10.9, ΔL .125.
+       The shell rule is "Δhue ≥ 25, or Δhue ≥ 10 with |ΔL| ≥ .12", so this
+       pair clears on lightness alone with .005 to spare. ZERO MARGIN. Any
+       resample that lightens the gold breaks the Strive card off the shelf.
+     · the engine umbrella's --color-secondary #FBC318 — HSL Δhue 4.8 and
+       ΔL .00 (both L 53.9%), separated on CHROMA ALONE, S 68 vs 97. This is
+       the open item tokens.css:25-26 flagged ("verify against the selector's
+       gold hex once read from the live shell"), now answered. It is tighter
+       than CotW's yellow-vs-SF6-orange pair, which af9d128 called "the
+       tightest primary pair on the platform". It is NOT governed by the
+       shell rule — the umbrella gold is the engine's default
+       --color-secondary, which this file replaces with the oxblood, so the
+       two never render together inside the app. It binds at resample time:
+       do not land the primary on it.
+
+   SF6's #FF7D00 is the one where the two colour spaces disagree, and the
+   disagreement is worth knowing before someone re-runs the comparison and
+   panics: it reads as a near neighbour in HSL (Δhue 11.0, which is the frame
+   the handoff header uses) but is OKLCH Δhue 29.9 away, clearing the shell
+   rule's first clause outright. The shell rule is stated in OKLCH, so that is
+   the measurement that governs the card shelf.
+
+   Ratios are WCAG contrast vs --color-surface #12151B unless noted.
+   ========================================================================== */
+
+@import '@fontsource/black-ops-one/400';
+@import '@fontsource/figtree/400';
+@import '@fontsource/figtree/500';
+@import '@fontsource/figtree/600';
+@import '@fontsource/figtree/700';
+@import '@fontsource/figtree/800';
+@import '@fontsource/jetbrains-mono/400';
+@import '@fontsource/jetbrains-mono/700';
+
+:root {
+  /* Type. Black Ops One is display-only stencil slab and ships one weight.
+     Unlike Tōkon there is no diacritic in the wordmark ("STRIVE / REPLAY" is
+     plain ASCII), but this roster leans on PUNCTUATION harder than any
+     sibling's — Jack-O', Zato-1, Asuka R#, A.B.A, I-No, Bedman? — and the
+     whole of it (' - # . ? / and the digits) sits inside the face's `latin`
+     subset (U+0000-00FF), so ONE latin probe covers every roster case.
+     Figtree is the face that has to draw parsed player handles, which is
+     where latin-ext actually turns up.
+
+     Assert both in e2e PER SUBSET, not per family: document.fonts.check
+     returns true for a family whose unicode-range does not cover the text,
+     because the uncovered glyph silently falls back. And a latin-ext probe
+     must use a codepoint ≥ U+0100 (ō, Ł) — Â, é and Á are all inside latin
+     and prove nothing about the latin-ext face, which is the trap CotW's own
+     latin-ext story half fell into. */
+  --font-display: 'Black Ops One', 'Impact', sans-serif;
+  --font-ui: 'Figtree', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Surfaces — cold gunmetal, H220 at S ~20, +3.3 L per step. The cast is
+     what separates Strive from the four dark siblings at a glance: Tekken's
+     neutral carbon (S 0), SF6's warm asphalt, CotW's warm-grey asphalt,
+     Tōkon's ink-navy. */
+  --color-bg: #0b0d11; /* page — H220 S21 L5.5 */
+  --color-surface: #12151b; /* card panel — THE accent AA reference; do not move */
+  --color-surface-raised: #191d25; /* hover / raised panel */
+  --color-surface-sunken: #08090c; /* DERIVED — inset tracks, inputs, wells. The
+                                      handoff's ramp only climbs (bg → surface →
+                                      raised → high) and never defines the step
+                                      BELOW bg. Engine default steps bg #0a0b0f →
+                                      sunken #07080b, a mean-channel factor of
+                                      0.722; 0.722 × (11,13,17) = (7.9, 9.4, 12.3)
+                                      → #08090c, S 20.0 / L 3.9 with blue-over-red
+                                      +4. It stays ON the cold ramp instead of
+                                      collapsing to neutral black, which is the
+                                      whole point of deriving rather than lifting a
+                                      sibling's value. Measured hue reads 225 rather
+                                      than 220 only because at L 3.9 one 8-bit step
+                                      is ~15° of hue and 220 is unrepresentable.
+                                      NOT a full −3.3 ramp step: that lands at L 2.2
+                                      (≈#040507), a hole rather than a well. No
+                                      sibling takes a full step at the bottom
+                                      either — measured 2026-09-07, bg→sunken runs
+                                      −1.37 L on the engine/2XKO/CotW, −1.57 on
+                                      Tekken, −1.76 on Tōkon and −2.16 on SF6,
+                                      against −1.57 here — because bg is already
+                                      near the floor.
+                                      One number to distrust if you re-derive this:
+                                      CotW's header prints 0.7424 for this factor,
+                                      but that is CotW's own shipped bg→sunken step
+                                      and does not reproduce from the engine pair.
+                                      Tōkon's stated 0.720 does. Either figure
+                                      rounds to #08090c or one 8-bit step off it. */
+
+  /* Borders */
+  --color-border: #2c323d; /* hairline panel gutter */
+  --color-border-subtle: #1f232b; /* DERIVED — the engine's quieter rule. Engine
+                                     steps border #2a3040 → subtle #1e222c, a
+                                     mean-channel factor of 0.701; 0.701 ×
+                                     (44,50,61) = (30.8, 35.0, 42.8) → #1f232b,
+                                     H220 S16 L14.5. That puts the Strive ramp at
+                                     raised 12.2 / subtle 14.5 / border 20.6
+                                     against the engine default's 12.6 / 14.5 /
+                                     20.8 — the same relationship, on Strive's own
+                                     hue. CotW's stated 0.7092 rounds to the same
+                                     hex, so this one is not sensitive to which
+                                     figure you start from. */
+
+  /* Text ramp — four tiers. */
+  --color-text: #ecedef; /* bone white, from the sampled logo #E5E5E5 cooled onto
+                            the H220 ramp · 15.60:1 */
+  --color-text-secondary: #babec6; /* DERIVED — the engine places text-secondary
+                                      78.87% of the way from text down to
+                                      text-muted in RELATIVE LUMINANCE (#f4f5f8
+                                      Y .91315 → #a8aebe Y .42315 → #8b93a8
+                                      Y .29184). The same fraction on Strive's ramp
+                                      (#ecedef Y .84633 → #a9afba Y .42640) targets
+                                      Y .51513; #babec6 measures Y .51343 — 0.4% of
+                                      the span off — at H220.0 S9.5 L75.3, i.e. on
+                                      the ramp's own hue and between its two
+                                      saturations (8.6 and 11.0) · 9.81:1 */
+  --color-text-muted: #a9afba; /* secondary copy, steel · 8.29:1 */
+  --color-text-faint: #808896; /* meta / timestamps — the handoff already spells
+                                  this the engine's way; no rename · 5.12:1 */
+
+  /* Brand. Gold primary by collision lever 1; the sampled red is demoted to
+     secondary and is FILL ONLY at 1.76:1 — the engine uses --color-secondary
+     for source badges, the drawer result count and the typeahead affordance,
+     all of which sit on a surface, so anything that puts text ON it must use
+     the parked --color-secondary-contrast rather than --color-text. */
+  --color-primary: #d9a53a; /* metallic gold — PROVISIONAL, see the header · 8.18:1 */
+  --color-primary-hover: #ebbb55; /* hover / active lift · 10.25:1 */
+  --color-primary-contrast: #1a1406; /* gunmetal-brown ON gold · 8.19:1 on primary */
+  --color-secondary: #7b1b1e; /* oxblood — the sampled logo red, 4,517 exact px and
+                                 the modal red of the mark · 1.76:1, never text */
+  --color-focus: #6fa8ff; /* focus ring azure — cool against a warm primary, so the
+                             ring never reads as a gold hover state · 7.59:1 */
+
+  /* Status. Danger is deliberately split off the secondary: with red demoted
+     to a brand colour, a red danger state would be indistinguishable from
+     ordinary chrome. CotW solved that by leaving red entirely (hot pink);
+     Strive stays in the family and separates on lightness instead — danger is
+     ΔL .290 above the oxblood, measured, exactly the handoff's claim.
+     One number in the handoff header does NOT reproduce, and it is a degree
+     claim rather than one of the 48 audited ratios: it calls danger "19°
+     orange-side of Tekken crimson", which measures Δhue 17.2 in HSL and 12.6
+     in OKLCH. Nothing turns on it — the separation that matters is the ΔL
+     against Strive's own secondary — but do not treat 19 as measured. */
+  --color-danger: #ff4b2b; /* vermilion, orange-side of Tekken crimson · 5.48:1 */
+  --color-warning: #f7e27e; /* pale straw — ΔL .19 + chroma above the gold · 14.04:1 */
+  --color-success: #3ddc97; /* mint-emerald — 65° from SF6 Drive-green · 10.34:1 */
+}
+
+/* ── Parked: declared by the handoff, no engine consumer ────────────────────
+   The same six CotW parked, re-grepped against the engine's app/ on
+   2026-09-07 — zero references for all six, as custom properties and as
+   Tailwind utilities alike. Kept as comments so a future engine token can
+   adopt the design's intent rather than re-derive it, and so this file and
+   design/handoff/tokens.css stay diffable line for line.
+
+     --color-surface-high:       #21262F   chips / inputs / top layer
+     --color-border-strong:      #414958   emphasized rules, focus adjacency
+     --color-secondary-contrast: #F5EDEE   bone text on the oxblood · 9.04:1 on
+                                           secondary — the value to reach for
+                                           whenever anything sits ON --color-secondary
+     --color-info:               #B7C0CC   cool steel · 9.95:1 — SYNTHESIZED,
+                                           not sampled; see correction 2
+     --color-win:                #3DDC97   W marker (success family) · 10.34:1
+     --color-loss:               #FF7E60   L marker, softened vermilion · 7.32:1
+
+   Two of these are load-bearing in the handoff's own artboards, so a reader
+   who needs them should know where they went rather than re-inventing values:
+   the replay card's win/loss segment bar uses win/loss, and the stats
+   leaderboard's row hairline uses --color-surface-raised #191D25 where the
+   engine would use --color-border-subtle. Prefer the engine token there.
+   ------------------------------------------------------------------------ */

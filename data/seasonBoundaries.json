@@ -1,0 +1,51 @@
+[
+  {
+    "season": 0,
+    "start": "2020-04-18",
+    "end": "2021-06-11",
+    "confirmed": true,
+    "battleMajor": null,
+    "label": "Pre-release",
+    "note": "Pre-launch builds, April 2020 onward. Admitted per channel via preReleaseFrom, never globally."
+  },
+  {
+    "season": 1,
+    "start": "2021-06-11",
+    "end": "2022-06-10",
+    "confirmed": true,
+    "battleMajor": 1,
+    "note": "Launch. The battle version stayed in the 1.x line the whole era, reaching 1.09."
+  },
+  {
+    "season": 2,
+    "start": "2022-06-10",
+    "end": "2023-08-24",
+    "confirmed": true,
+    "battleMajor": 2,
+    "note": "Opened by Ver. 1.18 — battle version 1.09 → 2.00, in the vendor’s own words."
+  },
+  {
+    "season": 3,
+    "start": "2023-08-24",
+    "end": "2024-10-31",
+    "confirmed": true,
+    "battleMajor": 3,
+    "note": "Opened by Ver. 1.29 (Johnny) — battle version 2.06 → 3.00."
+  },
+  {
+    "season": 4,
+    "start": "2024-10-31",
+    "end": "2026-04-09",
+    "confirmed": true,
+    "battleMajor": 4,
+    "note": "Opened by Ver. 1.40 (Queen Dizzy) — battle version 3.07 → 4.00."
+  },
+  {
+    "season": 5,
+    "start": "2026-04-09",
+    "end": null,
+    "confirmed": true,
+    "battleMajor": 5,
+    "note": "Opened by Ver. 2.00 (Jam Kuradoberi) — battle version 4.09 → 5.00."
+  }
+]

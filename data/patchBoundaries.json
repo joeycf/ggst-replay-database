@@ -1,0 +1,433 @@
+[
+  {
+    "version": "2020-04-18",
+    "start": "2020-04-18",
+    "announcedOn": "beta",
+    "note": "April 2020 closed beta",
+    "end": "2020-10-11",
+    "season": 0
+  },
+  {
+    "version": "2020-10-11",
+    "start": "2020-10-11",
+    "announcedOn": "beta",
+    "note": "An isolated October 2020 build — 3 records, 174 days clear of the beta before it",
+    "end": "2021-02-10",
+    "season": 0
+  },
+  {
+    "version": "2021-02-10",
+    "start": "2021-02-10",
+    "announcedOn": "beta",
+    "note": "The 2021 pre-launch run: February open beta through to launch",
+    "end": "2021-06-11",
+    "season": 0
+  },
+  {
+    "version": "2021-06-11",
+    "start": "2021-06-11",
+    "announcedOn": "launch",
+    "note": "Launch build — the Steam release before the day-one console patch reached PC",
+    "end": "2021-06-18",
+    "season": 1
+  },
+  {
+    "version": "1.03",
+    "start": "2021-06-18",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1206/",
+    "announcedOn": "guiltygear-news",
+    "note": "PS4/PS5 2021-06-11, Steam 2021-06-18 with its own changelist",
+    "end": "2021-06-29",
+    "season": 1
+  },
+  {
+    "version": "1.05",
+    "start": "2021-06-29",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1226/",
+    "announcedOn": "guiltygear-news",
+    "end": "2021-07-27",
+    "season": 1
+  },
+  {
+    "version": "1.07",
+    "start": "2021-07-27",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1280/",
+    "announcedOn": "guiltygear-news",
+    "note": "Goldlewis Dickinson",
+    "end": "2021-08-27",
+    "season": 1
+  },
+  {
+    "version": "1.09",
+    "start": "2021-08-27",
+    "battleVersion": "1.04",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1342/",
+    "announcedOn": "guiltygear-news",
+    "note": "Jack-O'",
+    "end": "2021-10-15",
+    "season": 1
+  },
+  {
+    "version": "1.10",
+    "start": "2021-10-15",
+    "battleVersion": "1.05",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1387/",
+    "announcedOn": "guiltygear-news",
+    "end": "2021-11-30",
+    "season": 1
+  },
+  {
+    "version": "1.11",
+    "start": "2021-11-30",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1424/",
+    "announcedOn": "guiltygear-news",
+    "note": "Happy Chaos",
+    "end": "2022-01-28",
+    "season": 1
+  },
+  {
+    "version": "1.13",
+    "start": "2022-01-28",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1437/",
+    "announcedOn": "guiltygear-news",
+    "note": "Baiken",
+    "end": "2022-03-28",
+    "season": 1
+  },
+  {
+    "version": "1.16",
+    "start": "2022-03-28",
+    "battleVersion": "1.09",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1532/",
+    "announcedOn": "guiltygear-news",
+    "note": "Testament",
+    "end": "2022-06-10",
+    "season": 1
+  },
+  {
+    "version": "1.18",
+    "start": "2022-06-10",
+    "battleVersion": "2.00",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1560/",
+    "announcedOn": "guiltygear-news",
+    "note": "Season 2 opener — roster-wide balance, battle version 1.09 → 2.00",
+    "end": "2022-07-01",
+    "season": 2
+  },
+  {
+    "version": "1.19",
+    "start": "2022-07-01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1582/",
+    "announcedOn": "guiltygear-news",
+    "end": "2022-08-08",
+    "season": 2
+  },
+  {
+    "version": "1.21",
+    "start": "2022-08-08",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1614/",
+    "announcedOn": "guiltygear-news",
+    "note": "Bridget",
+    "end": "2022-09-16",
+    "season": 2
+  },
+  {
+    "version": "1.22",
+    "start": "2022-09-16",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1654/",
+    "announcedOn": "guiltygear-news",
+    "end": "2022-11-24",
+    "season": 2
+  },
+  {
+    "version": "1.23",
+    "start": "2022-11-24",
+    "battleVersion": "2.03",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1698/",
+    "announcedOn": "guiltygear-news",
+    "note": "Sin Kiske",
+    "end": "2022-12-15",
+    "season": 2
+  },
+  {
+    "version": "1.24",
+    "start": "2022-12-15",
+    "battleVersion": "2.04",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1739/",
+    "announcedOn": "guiltygear-news",
+    "note": "Crossplay",
+    "end": "2023-03-01",
+    "season": 2
+  },
+  {
+    "version": "1.25",
+    "start": "2023-03-01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1800/",
+    "announcedOn": "guiltygear-news",
+    "end": "2023-04-06",
+    "season": 2
+  },
+  {
+    "version": "1.26",
+    "start": "2023-04-06",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1859/",
+    "announcedOn": "guiltygear-news",
+    "note": "Bedman? · Xbox and Windows editions",
+    "end": "2023-05-25",
+    "season": 2
+  },
+  {
+    "version": "1.27",
+    "start": "2023-05-25",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1910/",
+    "announcedOn": "guiltygear-news",
+    "note": "Asuka R♯",
+    "end": "2023-06-15",
+    "season": 2
+  },
+  {
+    "version": "1.28",
+    "start": "2023-06-15",
+    "battleVersion": "2.06",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1916/",
+    "announcedOn": "guiltygear-news",
+    "end": "2023-08-24",
+    "season": 2
+  },
+  {
+    "version": "1.29",
+    "start": "2023-08-24",
+    "battleVersion": "3.00",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-1973/",
+    "announcedOn": "guiltygear-news",
+    "note": "Season 3 opener — Johnny, Season Pass 3, battle version 2.06 → 3.00",
+    "end": "2023-09-04",
+    "season": 3
+  },
+  {
+    "version": "1.30",
+    "start": "2023-09-04",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2005/",
+    "announcedOn": "guiltygear-news",
+    "end": "2023-09-25",
+    "season": 3
+  },
+  {
+    "version": "1.31",
+    "start": "2023-09-25",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2007/",
+    "announcedOn": "guiltygear-news",
+    "end": "2023-11-07",
+    "season": 3
+  },
+  {
+    "version": "1.32",
+    "start": "2023-11-07",
+    "battleVersion": "3.01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2022/",
+    "announcedOn": "guiltygear-news",
+    "end": "2023-12-08",
+    "season": 3
+  },
+  {
+    "version": "1.33",
+    "start": "2023-12-08",
+    "battleVersion": "3.02",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2027/",
+    "announcedOn": "guiltygear-news",
+    "note": "Elphelt Valentine",
+    "end": "2024-01-11",
+    "season": 3
+  },
+  {
+    "version": "1.34",
+    "start": "2024-01-11",
+    "battleVersion": "3.03",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2121/",
+    "announcedOn": "guiltygear-news",
+    "end": "2024-03-26",
+    "season": 3
+  },
+  {
+    "version": "1.35",
+    "start": "2024-03-26",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2163/",
+    "announcedOn": "guiltygear-news",
+    "note": "A.B.A",
+    "end": "2024-04-04",
+    "season": 3
+  },
+  {
+    "version": "1.36",
+    "start": "2024-04-04",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2177/",
+    "announcedOn": "guiltygear-news",
+    "end": "2024-05-30",
+    "season": 3
+  },
+  {
+    "version": "1.37",
+    "start": "2024-05-30",
+    "battleVersion": "3.05",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2213/",
+    "announcedOn": "guiltygear-news",
+    "note": "Slayer",
+    "end": "2024-07-22",
+    "season": 3
+  },
+  {
+    "version": "1.38",
+    "start": "2024-07-22",
+    "battleVersion": "3.06",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2266/",
+    "announcedOn": "guiltygear-news",
+    "note": "Roster-wide balance — mid-season, not a season opener",
+    "end": "2024-08-08",
+    "season": 3
+  },
+  {
+    "version": "1.39",
+    "start": "2024-08-08",
+    "battleVersion": "3.07",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2300/",
+    "announcedOn": "guiltygear-news",
+    "end": "2024-10-31",
+    "season": 3
+  },
+  {
+    "version": "1.40",
+    "start": "2024-10-31",
+    "battleVersion": "4.00",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2340/",
+    "announcedOn": "guiltygear-news",
+    "note": "Season 4 opener — Queen Dizzy, Season Pass 4, battle version 3.07 → 4.00",
+    "end": "2024-11-20",
+    "season": 4
+  },
+  {
+    "version": "1.41",
+    "start": "2024-11-20",
+    "battleVersion": "4.01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2383/",
+    "announcedOn": "guiltygear-news",
+    "note": "Team of 3",
+    "end": "2024-12-23",
+    "season": 4
+  },
+  {
+    "version": "1.43",
+    "start": "2024-12-23",
+    "battleVersion": "4.01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2405/",
+    "announcedOn": "guiltygear-news",
+    "note": "Balance update",
+    "end": "2025-03-24",
+    "season": 4
+  },
+  {
+    "version": "1.44",
+    "start": "2025-03-24",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2426/",
+    "announcedOn": "guiltygear-news",
+    "note": "Venom",
+    "end": "2025-04-08",
+    "season": 4
+  },
+  {
+    "version": "1.45",
+    "start": "2025-04-08",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2463/",
+    "announcedOn": "guiltygear-news",
+    "end": "2025-05-27",
+    "season": 4
+  },
+  {
+    "version": "1.46",
+    "start": "2025-05-27",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2472/",
+    "announcedOn": "guiltygear-news",
+    "note": "Unika",
+    "end": "2025-06-24",
+    "season": 4
+  },
+  {
+    "version": "1.47",
+    "start": "2025-06-24",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2543/",
+    "announcedOn": "guiltygear-news",
+    "end": "2025-08-21",
+    "season": 4
+  },
+  {
+    "version": "1.48",
+    "start": "2025-08-21",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2559/",
+    "announcedOn": "guiltygear-news",
+    "note": "Lucy · Ranked Match",
+    "end": "2025-09-09",
+    "season": 4
+  },
+  {
+    "version": "1.49",
+    "start": "2025-09-09",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2683/",
+    "announcedOn": "guiltygear-news",
+    "end": "2025-10-09",
+    "season": 4
+  },
+  {
+    "version": "1.50",
+    "start": "2025-10-09",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2712/",
+    "announcedOn": "guiltygear-news",
+    "end": "2025-10-22",
+    "season": 4
+  },
+  {
+    "version": "1.51",
+    "start": "2025-10-22",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2771/",
+    "announcedOn": "guiltygear-news",
+    "end": "2026-02-26",
+    "season": 4
+  },
+  {
+    "version": "1.52",
+    "start": "2026-02-26",
+    "battleVersion": "4.09",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2839/",
+    "announcedOn": "guiltygear-news",
+    "end": "2026-04-09",
+    "season": 4
+  },
+  {
+    "version": "2.00",
+    "start": "2026-04-09",
+    "battleVersion": "5.00",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2851/",
+    "announcedOn": "guiltygear-news",
+    "note": "Season 5 opener — Jam Kuradoberi, Counter Blitz, roster-wide balance",
+    "end": "2026-05-14",
+    "season": 5
+  },
+  {
+    "version": "2.01",
+    "start": "2026-05-14",
+    "battleVersion": "5.01",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-2963/",
+    "announcedOn": "guiltygear-news",
+    "note": "Blazing Pass Duel 1",
+    "end": "2026-07-02",
+    "season": 5
+  },
+  {
+    "version": "2.02",
+    "start": "2026-07-02",
+    "battleVersion": "5.02",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-5079/",
+    "announcedOn": "guiltygear-news",
+    "note": "Robo-Ky",
+    "end": null,
+    "season": 5
+  }
+]

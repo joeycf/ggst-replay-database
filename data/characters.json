@@ -1,0 +1,562 @@
+[
+  {
+    "id": "sol-badguy",
+    "name": "Sol Badguy",
+    "imgPortrait": "/img/char/sol-badguy.webp",
+    "imgSplash": "/img/splash/sol-badguy.webp",
+    "accent": "#FF8C1A",
+    "extra": {
+      "aliases": [
+        "Sol",
+        "ソル"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "sol"
+    }
+  },
+  {
+    "id": "ky-kiske",
+    "name": "Ky Kiske",
+    "imgPortrait": "/img/char/ky-kiske.webp",
+    "imgSplash": "/img/splash/ky-kiske.webp",
+    "accent": "#5C9DFF",
+    "extra": {
+      "aliases": [
+        "Ky",
+        "カイ"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "kyk"
+    }
+  },
+  {
+    "id": "may",
+    "name": "May",
+    "imgPortrait": "/img/char/may.webp",
+    "imgSplash": "/img/splash/may.webp",
+    "accent": "#FFC27A",
+    "extra": {
+      "aliases": [
+        "メイ"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "may"
+    }
+  },
+  {
+    "id": "axl-low",
+    "name": "Axl Low",
+    "imgPortrait": "/img/char/axl-low.webp",
+    "imgSplash": "/img/splash/axl-low.webp",
+    "accent": "#FFD23B",
+    "extra": {
+      "aliases": [
+        "Axl",
+        "アクセル"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "axl"
+    }
+  },
+  {
+    "id": "chipp-zanuff",
+    "name": "Chipp Zanuff",
+    "imgPortrait": "/img/char/chipp-zanuff.webp",
+    "imgSplash": "/img/splash/chipp-zanuff.webp",
+    "accent": "#9BF0C8",
+    "extra": {
+      "aliases": [
+        "Chipp",
+        "Zanuff",
+        "チップ",
+        "Chiip"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "chp"
+    }
+  },
+  {
+    "id": "potemkin",
+    "name": "Potemkin",
+    "imgPortrait": "/img/char/potemkin.webp",
+    "imgSplash": "/img/splash/potemkin.webp",
+    "accent": "#C78356",
+    "extra": {
+      "aliases": [
+        "Pot",
+        "Potempkin",
+        "ポチョムキン",
+        "Potemmkin"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "pot"
+    }
+  },
+  {
+    "id": "faust",
+    "name": "Faust",
+    "imgPortrait": "/img/char/faust.webp",
+    "imgSplash": "/img/splash/faust.webp",
+    "accent": "#D9A5FF",
+    "extra": {
+      "aliases": [
+        "ファウスト",
+        "Fauts"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "fau"
+    }
+  },
+  {
+    "id": "millia-rage",
+    "name": "Millia Rage",
+    "imgPortrait": "/img/char/millia-rage.webp",
+    "imgSplash": "/img/splash/millia-rage.webp",
+    "accent": "#FFF0C2",
+    "extra": {
+      "aliases": [
+        "Millia",
+        "Milia",
+        "ミリア"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "mll"
+    }
+  },
+  {
+    "id": "zato-1",
+    "name": "Zato=1",
+    "imgPortrait": "/img/char/zato-1.webp",
+    "imgSplash": "/img/splash/zato-1.webp",
+    "accent": "#A36FC9",
+    "extra": {
+      "aliases": [
+        "Zato",
+        "ザトー"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "zat"
+    }
+  },
+  {
+    "id": "ramlethal-valentine",
+    "name": "Ramlethal Valentine",
+    "imgPortrait": "/img/char/ramlethal-valentine.webp",
+    "imgSplash": "/img/splash/ramlethal-valentine.webp",
+    "accent": "#B9F27A",
+    "extra": {
+      "aliases": [
+        "Ram",
+        "Ramlethal",
+        "Ramu",
+        "ラムレザル"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "ram"
+    }
+  },
+  {
+    "id": "leo-whitefang",
+    "name": "Leo Whitefang",
+    "imgPortrait": "/img/char/leo-whitefang.webp",
+    "imgSplash": "/img/splash/leo-whitefang.webp",
+    "accent": "#F3D98C",
+    "extra": {
+      "aliases": [
+        "Leo",
+        "Whitefang",
+        "レオ"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "leo"
+    }
+  },
+  {
+    "id": "nagoriyuki",
+    "name": "Nagoriyuki",
+    "imgPortrait": "/img/char/nagoriyuki.webp",
+    "imgSplash": "/img/splash/nagoriyuki.webp",
+    "accent": "#C05AA0",
+    "extra": {
+      "aliases": [
+        "Nago",
+        "Nagori",
+        "名残雪",
+        "Nagoroyuki"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "nag"
+    }
+  },
+  {
+    "id": "giovanna",
+    "name": "Giovanna",
+    "imgPortrait": "/img/char/giovanna.webp",
+    "imgSplash": "/img/splash/giovanna.webp",
+    "accent": "#3FCB6E",
+    "extra": {
+      "aliases": [
+        "Gio",
+        "ジオヴァーナ"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "gio"
+    }
+  },
+  {
+    "id": "anji-mito",
+    "name": "Anji Mito",
+    "imgPortrait": "/img/char/anji-mito.webp",
+    "imgSplash": "/img/splash/anji-mito.webp",
+    "accent": "#3A8FD9",
+    "extra": {
+      "aliases": [
+        "Anji",
+        "Aniji",
+        "闇慈"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "anji"
+    }
+  },
+  {
+    "id": "i-no",
+    "name": "I-No",
+    "imgPortrait": "/img/char/i-no.webp",
+    "imgSplash": "/img/splash/i-no.webp",
+    "accent": "#FF6E7B",
+    "extra": {
+      "aliases": [
+        "イノ"
+      ],
+      "season": 0,
+      "released": "2021-06-11",
+      "siteSlug": "ino"
+    }
+  },
+  {
+    "id": "goldlewis-dickinson",
+    "name": "Goldlewis Dickinson",
+    "imgPortrait": "/img/char/goldlewis-dickinson.webp",
+    "imgSplash": "/img/splash/goldlewis-dickinson.webp",
+    "accent": "#A9AE4E",
+    "extra": {
+      "aliases": [
+        "Goldlewis",
+        "Goldlweis",
+        "Dickinson",
+        "ゴールドルイス",
+        "Goldlwis"
+      ],
+      "season": 1,
+      "released": "2021-07-27",
+      "siteSlug": "gld"
+    }
+  },
+  {
+    "id": "jack-o",
+    "name": "Jack-O'",
+    "imgPortrait": "/img/char/jack-o.webp",
+    "imgSplash": "/img/splash/jack-o.webp",
+    "accent": "#FFC4A8",
+    "extra": {
+      "aliases": [
+        "Jack-O' Valentine",
+        "ジャック・オー"
+      ],
+      "season": 1,
+      "released": "2021-08-27",
+      "siteSlug": "jko"
+    }
+  },
+  {
+    "id": "happy-chaos",
+    "name": "Happy Chaos",
+    "imgPortrait": "/img/char/happy-chaos.webp",
+    "imgSplash": "/img/splash/happy-chaos.webp",
+    "accent": "#EEF1F5",
+    "extra": {
+      "aliases": [
+        "Chaos",
+        "ハッピーケイオス",
+        "ケイオス",
+        "Hasppychaos"
+      ],
+      "season": 1,
+      "released": "2021-11-30",
+      "siteSlug": "cos"
+    }
+  },
+  {
+    "id": "baiken",
+    "name": "Baiken",
+    "imgPortrait": "/img/char/baiken.webp",
+    "imgSplash": "/img/splash/baiken.webp",
+    "accent": "#F062B4",
+    "extra": {
+      "aliases": [
+        "梅喧"
+      ],
+      "season": 1,
+      "released": "2022-01-28",
+      "siteSlug": "bkn"
+    }
+  },
+  {
+    "id": "testament",
+    "name": "Testament",
+    "imgPortrait": "/img/char/testament.webp",
+    "imgSplash": "/img/splash/testament.webp",
+    "accent": "#A7A2D9",
+    "extra": {
+      "aliases": [
+        "テスタメント"
+      ],
+      "season": 1,
+      "released": "2022-03-28",
+      "siteSlug": "tst"
+    }
+  },
+  {
+    "id": "bridget",
+    "name": "Bridget",
+    "imgPortrait": "/img/char/bridget.webp",
+    "imgSplash": "/img/splash/bridget.webp",
+    "accent": "#7CC4FF",
+    "extra": {
+      "aliases": [
+        "Bridgette",
+        "ブリジット"
+      ],
+      "season": 2,
+      "released": "2022-08-09",
+      "siteSlug": "bgt"
+    }
+  },
+  {
+    "id": "sin-kiske",
+    "name": "Sin Kiske",
+    "imgPortrait": "/img/char/sin-kiske.webp",
+    "imgSplash": "/img/splash/sin-kiske.webp",
+    "accent": "#A3BCFF",
+    "extra": {
+      "aliases": [
+        "Sin",
+        "シン"
+      ],
+      "season": 2,
+      "released": "2022-11-24",
+      "siteSlug": "sin"
+    }
+  },
+  {
+    "id": "bedman",
+    "name": "Bedman?",
+    "imgPortrait": "/img/char/bedman.webp",
+    "imgSplash": "/img/splash/bedman.webp",
+    "accent": "#FF8FB8",
+    "extra": {
+      "aliases": [
+        "Delilah",
+        "ベッドマン"
+      ],
+      "season": 2,
+      "released": "2023-04-06",
+      "siteSlug": "bed"
+    }
+  },
+  {
+    "id": "asuka-r",
+    "name": "Asuka R#",
+    "imgPortrait": "/img/char/asuka-r.webp",
+    "imgSplash": "/img/splash/asuka-r.webp",
+    "accent": "#B3ECFF",
+    "extra": {
+      "aliases": [
+        "Asuka",
+        "飛鳥＝R♯"
+      ],
+      "season": 2,
+      "released": "2023-05-25",
+      "siteSlug": "ask",
+      "vendorName": "Asuka R♯"
+    }
+  },
+  {
+    "id": "johnny",
+    "name": "Johnny",
+    "imgPortrait": "/img/char/johnny.webp",
+    "imgSplash": "/img/splash/johnny.webp",
+    "accent": "#7C86E0",
+    "extra": {
+      "aliases": [
+        "Jonny",
+        "ジョニー"
+      ],
+      "season": 3,
+      "released": "2023-08-24",
+      "siteSlug": "jhn"
+    }
+  },
+  {
+    "id": "elphelt-valentine",
+    "name": "Elphelt Valentine",
+    "imgPortrait": "/img/char/elphelt-valentine.webp",
+    "imgSplash": "/img/splash/elphelt-valentine.webp",
+    "accent": "#FFCCE0",
+    "extra": {
+      "aliases": [
+        "Elphelt",
+        "Elpheldt",
+        "エルフェルト",
+        "Elphlet"
+      ],
+      "season": 3,
+      "released": "2023-12-08",
+      "siteSlug": "elp"
+    }
+  },
+  {
+    "id": "aba",
+    "name": "A.B.A",
+    "imgPortrait": "/img/char/aba.webp",
+    "imgSplash": "/img/splash/aba.webp",
+    "accent": "#E5414A",
+    "extra": {
+      "aliases": [
+        "アバ"
+      ],
+      "season": 3,
+      "released": "2024-03-26",
+      "siteSlug": "aba"
+    }
+  },
+  {
+    "id": "slayer",
+    "name": "Slayer",
+    "imgPortrait": "/img/char/slayer.webp",
+    "imgSplash": "/img/splash/slayer.webp",
+    "accent": "#D45078",
+    "extra": {
+      "aliases": [
+        "スレイヤー"
+      ],
+      "season": 3,
+      "released": "2024-05-30",
+      "siteSlug": "sly"
+    }
+  },
+  {
+    "id": "queen-dizzy",
+    "name": "Queen Dizzy",
+    "imgPortrait": "/img/char/queen-dizzy.webp",
+    "imgSplash": "/img/splash/queen-dizzy.webp",
+    "accent": "#5FE0BE",
+    "extra": {
+      "aliases": [
+        "Dizzy",
+        "Dizzie",
+        "ディズィー"
+      ],
+      "season": 4,
+      "released": "2024-10-31",
+      "siteSlug": "dzy"
+    }
+  },
+  {
+    "id": "venom",
+    "name": "Venom",
+    "imgPortrait": "/img/char/venom.webp",
+    "imgSplash": "/img/splash/venom.webp",
+    "accent": "#8870F5",
+    "extra": {
+      "aliases": [
+        "ヴェノム",
+        "Vemom"
+      ],
+      "season": 4,
+      "released": "2025-03-24",
+      "siteSlug": "ven"
+    }
+  },
+  {
+    "id": "unika",
+    "name": "Unika",
+    "imgPortrait": "/img/char/unika.webp",
+    "imgSplash": "/img/splash/unika.webp",
+    "accent": "#4FDCF7",
+    "extra": {
+      "aliases": [
+        "Unica",
+        "ユニカ"
+      ],
+      "season": 4,
+      "released": "2025-05-27",
+      "siteSlug": "uni"
+    }
+  },
+  {
+    "id": "lucy",
+    "name": "Lucy",
+    "imgPortrait": "/img/char/lucy.webp",
+    "imgSplash": "/img/splash/lucy.webp",
+    "accent": "#D6CCFF",
+    "extra": {
+      "aliases": [
+        "Lucyna",
+        "Lucyna Kushinada",
+        "ルーシー"
+      ],
+      "season": 4,
+      "released": "2025-08-21",
+      "siteSlug": "luc"
+    }
+  },
+  {
+    "id": "jam-kuradoberi",
+    "name": "Jam Kuradoberi",
+    "imgPortrait": "/img/char/jam-kuradoberi.webp",
+    "imgSplash": "/img/splash/jam-kuradoberi.webp",
+    "accent": "#FF7F6E",
+    "extra": {
+      "aliases": [
+        "Jam",
+        "Kuradoberi",
+        "紗夢"
+      ],
+      "season": 5,
+      "released": "2026-04-09",
+      "siteSlug": "jam"
+    }
+  },
+  {
+    "id": "robo-ky",
+    "name": "Robo-Ky",
+    "imgPortrait": "/img/char/robo-ky.webp",
+    "imgSplash": "/img/splash/robo-ky.webp",
+    "accent": "#9FB4C4",
+    "extra": {
+      "aliases": [
+        "Robokai",
+        "ロボカイ"
+      ],
+      "season": 5,
+      "released": "2026-07-02",
+      "siteSlug": "rbk"
+    }
+  }
+]

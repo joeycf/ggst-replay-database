@@ -1,0 +1,18 @@
+# CLI uploads (vercel deploy): this file REPLACES .gitignore-based exclusion,
+# so it must mirror .gitignore. Critically: .env must not ride an upload — the
+# remote build must resolve the engine from the pinned github: tag, never a
+# local ENGINE_PATH. raw/ is listed because it holds every upload from eight
+# intake channels; unlike the sibling games the marker gate rejects only ~10%
+# of it (seven of the eight channels are single-game), so raw/ here is large
+# because the corpus is large, not because most of it is another game.
+.env*
+node_modules
+raw
+cache
+secrets
+.nuxt
+.output
+.vercel
+.data
+dist
+public/data

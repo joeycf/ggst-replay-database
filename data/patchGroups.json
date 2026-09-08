@@ -1,0 +1,261 @@
+[
+  {
+    "id": "Beta",
+    "label": "Pre-release",
+    "note": "Pre-launch builds, April 2020 onward. Admitted per channel via preReleaseFrom, never globally.",
+    "children": [
+      {
+        "id": "2020-04-18",
+        "label": "2020-04-18",
+        "note": "April 2020 closed beta"
+      },
+      {
+        "id": "2020-10-11",
+        "label": "2020-10-11",
+        "note": "An isolated October 2020 build — 3 records, 174 days clear of the beta before it"
+      },
+      {
+        "id": "2021-02-10",
+        "label": "2021-02-10",
+        "note": "The 2021 pre-launch run: February open beta through to launch"
+      }
+    ]
+  },
+  {
+    "id": "S1",
+    "note": "Launch. The battle version stayed in the 1.x line the whole era, reaching 1.09.",
+    "children": [
+      {
+        "id": "2021-06-11",
+        "label": "2021-06-11",
+        "note": "Launch build — the Steam release before the day-one console patch reached PC"
+      },
+      {
+        "id": "1.03",
+        "label": "Ver. 1.03",
+        "note": "PS4/PS5 2021-06-11, Steam 2021-06-18 with its own changelist"
+      },
+      {
+        "id": "1.05",
+        "label": "Ver. 1.05"
+      },
+      {
+        "id": "1.07",
+        "label": "Ver. 1.07",
+        "note": "Goldlewis Dickinson"
+      },
+      {
+        "id": "1.09",
+        "label": "Ver. 1.09",
+        "note": "Jack-O'"
+      },
+      {
+        "id": "1.10",
+        "label": "Ver. 1.10"
+      },
+      {
+        "id": "1.11",
+        "label": "Ver. 1.11",
+        "note": "Happy Chaos"
+      },
+      {
+        "id": "1.13",
+        "label": "Ver. 1.13",
+        "note": "Baiken"
+      },
+      {
+        "id": "1.16",
+        "label": "Ver. 1.16",
+        "note": "Testament"
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "note": "Opened by Ver. 1.18 — battle version 1.09 → 2.00, in the vendor’s own words.",
+    "children": [
+      {
+        "id": "1.18",
+        "label": "Ver. 1.18",
+        "note": "Season 2 opener — roster-wide balance, battle version 1.09 → 2.00"
+      },
+      {
+        "id": "1.19",
+        "label": "Ver. 1.19"
+      },
+      {
+        "id": "1.21",
+        "label": "Ver. 1.21",
+        "note": "Bridget"
+      },
+      {
+        "id": "1.22",
+        "label": "Ver. 1.22"
+      },
+      {
+        "id": "1.23",
+        "label": "Ver. 1.23",
+        "note": "Sin Kiske"
+      },
+      {
+        "id": "1.24",
+        "label": "Ver. 1.24",
+        "note": "Crossplay"
+      },
+      {
+        "id": "1.25",
+        "label": "Ver. 1.25"
+      },
+      {
+        "id": "1.26",
+        "label": "Ver. 1.26",
+        "note": "Bedman? · Xbox and Windows editions"
+      },
+      {
+        "id": "1.27",
+        "label": "Ver. 1.27",
+        "note": "Asuka R♯"
+      },
+      {
+        "id": "1.28",
+        "label": "Ver. 1.28"
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "note": "Opened by Ver. 1.29 (Johnny) — battle version 2.06 → 3.00.",
+    "children": [
+      {
+        "id": "1.29",
+        "label": "Ver. 1.29",
+        "note": "Season 3 opener — Johnny, Season Pass 3, battle version 2.06 → 3.00"
+      },
+      {
+        "id": "1.30",
+        "label": "Ver. 1.30"
+      },
+      {
+        "id": "1.31",
+        "label": "Ver. 1.31"
+      },
+      {
+        "id": "1.32",
+        "label": "Ver. 1.32"
+      },
+      {
+        "id": "1.33",
+        "label": "Ver. 1.33",
+        "note": "Elphelt Valentine"
+      },
+      {
+        "id": "1.34",
+        "label": "Ver. 1.34"
+      },
+      {
+        "id": "1.35",
+        "label": "Ver. 1.35",
+        "note": "A.B.A"
+      },
+      {
+        "id": "1.36",
+        "label": "Ver. 1.36"
+      },
+      {
+        "id": "1.37",
+        "label": "Ver. 1.37",
+        "note": "Slayer"
+      },
+      {
+        "id": "1.38",
+        "label": "Ver. 1.38",
+        "note": "Roster-wide balance — mid-season, not a season opener"
+      },
+      {
+        "id": "1.39",
+        "label": "Ver. 1.39"
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "note": "Opened by Ver. 1.40 (Queen Dizzy) — battle version 3.07 → 4.00.",
+    "children": [
+      {
+        "id": "1.40",
+        "label": "Ver. 1.40",
+        "note": "Season 4 opener — Queen Dizzy, Season Pass 4, battle version 3.07 → 4.00"
+      },
+      {
+        "id": "1.41",
+        "label": "Ver. 1.41",
+        "note": "Team of 3"
+      },
+      {
+        "id": "1.43",
+        "label": "Ver. 1.43",
+        "note": "Balance update"
+      },
+      {
+        "id": "1.44",
+        "label": "Ver. 1.44",
+        "note": "Venom"
+      },
+      {
+        "id": "1.45",
+        "label": "Ver. 1.45"
+      },
+      {
+        "id": "1.46",
+        "label": "Ver. 1.46",
+        "note": "Unika"
+      },
+      {
+        "id": "1.47",
+        "label": "Ver. 1.47"
+      },
+      {
+        "id": "1.48",
+        "label": "Ver. 1.48",
+        "note": "Lucy · Ranked Match"
+      },
+      {
+        "id": "1.49",
+        "label": "Ver. 1.49"
+      },
+      {
+        "id": "1.50",
+        "label": "Ver. 1.50"
+      },
+      {
+        "id": "1.51",
+        "label": "Ver. 1.51"
+      },
+      {
+        "id": "1.52",
+        "label": "Ver. 1.52"
+      }
+    ]
+  },
+  {
+    "id": "S5",
+    "note": "Opened by Ver. 2.00 (Jam Kuradoberi) — battle version 4.09 → 5.00.",
+    "children": [
+      {
+        "id": "2.00",
+        "label": "Ver. 2.00",
+        "note": "Season 5 opener — Jam Kuradoberi, Counter Blitz, roster-wide balance"
+      },
+      {
+        "id": "2.01",
+        "label": "Ver. 2.01",
+        "note": "Blazing Pass Duel 1"
+      },
+      {
+        "id": "2.02",
+        "label": "Ver. 2.02",
+        "note": "Robo-Ky"
+      }
+    ]
+  }
+]
