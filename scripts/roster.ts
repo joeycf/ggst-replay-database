@@ -431,68 +431,116 @@ export interface ConfirmedFighterNamedPlayer {
   note: string;
 }
 
+// EVERY ROW BELOW CARRIES ITS EVIDENCE. Adjudicated 2026-09-08 against the
+// hydrated title set (all 18,509 marked uploads): each `video` is an upload
+// whose title puts the handle in the PLAYER slot for that channel's grammar —
+// outside the parens on ggHighLevel / guiltyGearReplays, inside them on
+// ggstHighRank, inside the square brackets on ggstBattleCollection — and, for
+// the fighter-named ones, playing a DIFFERENT character where that is what
+// settles it ("Zato-VaN (TOP Ranked Asuka)", "SOL mugi" on Nagoriyuki). Row
+// counts are title matches in that set, not the recon's sketch numbers.
 export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
   {
     id: 'lasagna-slayer',
     handle: 'Lasagna Slayer',
-    video: null,
-    note: '69 rows on ggHighLevel plus 51 as the typo "Lasanga Slayer" on ggstHighRank; plays Goldlewis, Venom and Happy Chaos, not Slayer.',
+    video: 'H_t4C3PQvWM',
+    note: '55 titles on ggHighLevel, handle slot: "Peluna (#1 Ranked Dizzy) vs Lasagna Slayer (#4 Ranked Goldlewis)". Plays Goldlewis and Venom, never Slayer.',
   },
   {
     id: 'lasanga-slayer',
     handle: 'Lasanga Slayer',
-    video: null,
-    note: 'The same person as lasagna-slayer, spelled the way ggstHighRank writes them. Left as a separate row deliberately — merging two handles is scripts/parse.ts’ job and needs its own evidence.',
+    video: 'mkcFej-fWfs',
+    note: 'The same person as lasagna-slayer as ggstBattleCollection and ggstHighRank spell them ("[ Lasanga Slayer ]", "#4 GOLDLEWIS (Lasanga Slayer)"), 20 titles. Left as a separate row deliberately — merging two handles is a player-redirect decision and needs its own evidence.',
   },
   {
     id: 'leo-whatsapp',
     handle: 'Leo Whatsapp',
-    video: null,
-    note: '10 rows. Contains the whole of "Leo", so the span matcher covers the fighter name exactly.',
+    video: 'We-fm4HvNA4',
+    note: '12 titles on ggHighLevel, handle slot: "Leo Whatsapp (#2 Ranked Leo)". Contains the whole of "Leo", so the span matcher covers the fighter name exactly; a Leo main named Leo.',
   },
   {
     id: 'zato-van',
     handle: 'Zato-VaN',
-    video: null,
-    note: '13 rows across the spellings Zato-VaN / Zato-2 / "Zato - 2".',
+    video: 'VHPni7bdO0I',
+    note: '34 titles on ggHighLevel, handle slot, and they play ASUKA: "Raf (#5 Ranked Jam) vs Zato-VaN (TOP Ranked Asuka)". The clearest case in the list.',
   },
-  { id: 'zato-2', handle: 'Zato-2', video: null, note: 'See zato-van.' },
+  {
+    id: 'zato-2',
+    handle: 'Zato-2',
+    video: 'ihaHrdNxsGg',
+    note: '3 titles on guiltyGearReplays, handle slot: "Zato-2 (Zato) VS KingAfrica4 (Venom)". A Zato main named Zato-2; whether it is the same person as zato-van is unproven and the rows stay separate.',
+  },
   {
     id: 'sol-low-tier',
     handle: 'Sol＝Low tier',
-    video: null,
-    note: 'Fullwidth U+FF1D in the handle; folded to "sol-low-tier" by playerId(). Filed as the PLAYER on a ggstBattleCollection title whose bracket is the handle slot.',
+    video: '1eRFjx1wvD8',
+    note: 'Fullwidth U+FF1D in the handle; folded to "sol-low-tier" by playerId(). One title, ggstBattleCollection, in the handle bracket: "Rank 3rd SOL / ソル [ Sol＝Low tier ]".',
   },
-  { id: 'sol-mugi', handle: 'SOL mugi', video: null, note: 'ggHighLevel.' },
-  { id: 'millia-thighs', handle: 'Millia Thighs', video: null, note: 'ggHighLevel.' },
-  { id: 'bbl-dizzy', handle: 'BBL Dizzy', video: null, note: 'ggHighLevel.' },
-  { id: 'axl-the-grappler', handle: 'Axl The Grappler', video: null, note: 'ggHighLevel.' },
-  { id: 'sabamiso-bedman', handle: 'Sabamiso bedman', video: null, note: 'ggHighLevel.' },
-  { id: 'unika-8-deluxe', handle: 'Unika 8 Deluxe', video: null, note: 'ggHighLevel.' },
-  { id: 'futa-elphelt-67', handle: 'Futa Elphelt 67', video: null, note: 'ggHighLevel.' },
+  {
+    id: 'sol-mugi',
+    handle: 'SOL mugi',
+    video: '-WXxdpMLQ10',
+    note: '7 titles on ggstHighRank, handle inside the parens, playing NAGORIYUKI: "#3 NAGORIYUKI (SOL mugi)".',
+  },
+  {
+    id: 'millia-thighs',
+    handle: 'Millia Thighs',
+    video: 'dNWf5RbWbfk',
+    note: 'One title on ggHighLevel, handle slot: "Millia Thighs (#2 Ranked Millia)".',
+  },
+  {
+    id: 'bbl-dizzy',
+    handle: 'BBL Dizzy',
+    video: '7N__PD2XOZ8',
+    note: 'One title on guiltyGearReplays, handle slot: "BBL Dizzy (Dizzy) VS KingAfrica4 (Bedman)".',
+  },
+  {
+    id: 'axl-the-grappler',
+    handle: 'Axl The Grappler',
+    video: 'eDrJ4O1UtTw',
+    note: '4 titles, ggstBattleCollection handle bracket "[ Axl The Grappler ]" and ggstHighRank\'s older bracket-less shape.',
+  },
+  {
+    id: 'sabamiso-bedman',
+    handle: 'Sabamiso bedman',
+    video: 'SwqOcXjVUOM',
+    note: '3 titles on ggstBattleCollection, handle bracket: "BEDMAN? / ベッドマン [ Sabamiso bedman ]". A Bedman? main.',
+  },
+  {
+    id: 'unika-8-deluxe',
+    handle: 'Unika 8 Deluxe',
+    video: 'jXNjxogpnJ8',
+    note: 'One title on ggstBattleCollection, handle bracket: "UNIKA / ユニカ [ Unika 8 Deluxe ]".',
+  },
+  {
+    id: 'futa-elphelt-67',
+    handle: 'Futa Elphelt 67',
+    video: '_F0s7UQPTAI',
+    note: '11 titles on ggstBattleCollection, handle bracket, playing JACK-O\': "Jack-O\' / ジャックオー [ Futa Elphelt 67]" — note the bracket flush against the handle on that title; the extractor must tolerate it.',
+  },
   {
     id: 'johnny',
     handle: 'Johnny',
-    video: null,
-    note: 'A player whose handle IS a fighter’s whole name: "GGST | chocoservant (Jam) VS Johnny (Johnny)". The severe class — this is exactly what the guard exists to catch, so it must be confirmed by a human before it is exempted.',
+    video: 'WeFnyXoVvEw',
+    note: 'A player whose handle IS a fighter\'s whole name — the severe class the guard exists to catch. Confirmed on guiltyGearReplays, handle slot: "chocoservant (Jam) VS Johnny (Johnny)". Nine such titles; the other 1,300+ hits for the word are the character in the paren slot.',
   },
   {
     id: 'may',
     handle: 'May',
-    video: null,
-    note: 'Same severe class: "GGST | May (May) VS tms (Ramlethal)". May is also the month and the modal verb.',
+    video: 'CmgDZsno39k',
+    note: 'Same severe class. Confirmed on guiltyGearReplays, handle slot: "May (May) VS tms (Ramlethal)". May is also the month and the modal verb; the guard sees only the handle slot.',
   },
   {
     id: 'ユニカ',
     handle: 'ユニカ',
-    video: null,
-    note: 'The bracket handle in "Rank 3rd UNIKA / ユニカ [ ユニカ ]". All-katakana, so playerId() takes the non-Latin fallback and the id is the handle. Severe class.',
+    video: '4639SeT9ZIA',
+    note: 'The bracket handle in "Rank 3rd UNIKA / ユニカ [ ユニカ ]" on ggstBattleCollection — one title, and the one where a naive parser filed the player as "UNIKA / ユニカ". All-katakana, so playerId() takes the non-Latin fallback and the id is the handle.',
   },
   {
     id: 'こん-メイ',
     handle: 'こん@メイ',
-    video: null,
-    note: 'Contains メイ (May). Reaches the guard only because the "@" delimits the kana — an undelimited Japanese handle would not match at all.',
+    video: 'uBqEnKU_MJg',
+    note: 'One title on ggHighLevel, handle slot, playing May: "ノリィ (Highest level Giovanna) vs こん@メイ (May)". Reaches the guard only because the "@" delimits the kana — an undelimited Japanese handle would not match at all.',
   },
 ];
 
