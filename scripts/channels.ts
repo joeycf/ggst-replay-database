@@ -193,6 +193,15 @@ export const CHANNELS: ChannelConfig[] = [
     // attribution and the only channel on any game here that offers one.
     slotOrder: 'handle-first-bare',
     striveSignal: 'title',
+    // THE ONE CHANNEL WITH A DURATION FLOOR OF ITS OWN. Hydrated 2026-09-08:
+    // 434 of its 2,994 uploads run under 120s and 434 of those are fully titled
+    // matchups — YouTube Shorts, median exactly 60s. 242 are the only footage
+    // of that matchup the channel ever posted. The platform default of 120 is
+    // the measured clip boundary everywhere else and would drop 14.5% of this
+    // channel silently; 30 keeps them and cuts only the 7 sub-30s stubs. The
+    // card shows the duration, so nothing here pretends a Short is a set.
+    // See types/index.ts minDurationSec and ggst-notes/hydration.md.
+    minDurationSec: 30,
   },
   {
     id: 'ggstHighRank',

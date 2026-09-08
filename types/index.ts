@@ -192,6 +192,27 @@ export interface ChannelConfig {
    *  event-brand signal is a miss (`not-an-event`), not a record. */
   eventsOnly?: boolean;
   /**
+   * This channel's duration floor in seconds, in place of the global
+   * MIN_MATCH_SEC (parse.ts, 120). A record shorter than the floor is a
+   * `too-short` miss, counted per channel in report.md.
+   *
+   * WHY THIS IS PER-CHANNEL, MEASURED 2026-09-08 (ggst-notes/hydration.md): the
+   * first videos.list pass over all 18,509 marked uploads found the 60–120s band
+   * on every channel to be clips and lab shorts — except ggstHq, where 434
+   * uploads under 120s are FULLY TITLED MATCHUPS ("GGST 5.2 Gobou Robo Ky VS
+   * Nanashi Zato", 69s). They are YouTube Shorts (median exactly 60s, the
+   * Shorts ceiling), and 242 of them are the ONLY footage of that matchup the
+   * channel ever posted (title-stem match against every ≥120s upload, ±7 days:
+   * 26 duplicates, 242 with no long counterpart at all). A global 120 would
+   * silently drop 14.5% of that channel, all of it parseable and most of it
+   * unique. The record carries its own durationSec, so a 1:09 clip is honest on
+   * the card; what changes is the wording — "sets and short clips", never
+   * "matches" — not the schema.
+   *
+   * Absent means the global floor. Only ggstHq sets it today.
+   */
+  minDurationSec?: number;
+  /**
    * This channel's date floor, in place of the global LAUNCH gate.
    *
    * Strive's pre-release footage reaches back further than any sibling's: the
