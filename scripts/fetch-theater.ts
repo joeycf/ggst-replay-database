@@ -823,9 +823,43 @@ async function main(): Promise<void> {
     : 0;
 
   const records: TheaterRawRecord[] = [];
+  /** Segments whose offset lies past the end of their own VOD — counted and
+   *  dropped in the loop below, reported as a rate, never fatal. */
+  const pastEnd: string[] = [];
+
   for (const { e, link } of deduped) {
     const vod = vods.get(link.videoId);
     if (!vod) continue; // unresolvable video — counted above, never built
+
+    // AN OFFSET PAST THE END OF ITS OWN VOD IS NOT A MATCH. This is the LAST
+    // place both numbers are in scope: a segment record deliberately carries
+    // `durationSec: 0` (there is nothing honest to derive one from), so from
+    // here on nothing downstream can compare them — parse-finish's duration
+    // floor only applies where a duration is KNOWN, and emit asserts nothing
+    // about the pair. Without this the row ships as a real record whose player
+    // opens the video and lands past the end.
+    //
+    // It is a live defect in the catalogue, not a hypothetical: the 2026-09-07
+    // recon found one such row in a 60-row sample. The newest 300 rows hold
+    // none, which is exactly why verify-gates INJECTS it rather than hunting
+    // for a specimen — and that control reported this as a GAP with no gate
+    // answering it until this guard landed.
+    //
+    // Counted and dropped, never fatal, for the same reason the bad-link and
+    // collision counters are: upstream data errors are a standing condition of
+    // a third-party catalogue, and refusing 22,000 rows over one of them is the
+    // wrong trade.
+    if (
+      link.startSeconds !== undefined &&
+      vod.durationSec > 0 &&
+      link.startSeconds >= vod.durationSec
+    ) {
+      pastEnd.push(
+        `${link.videoId}@${link.startSeconds} — RT #${e.id}, but the VOD runs ${vod.durationSec}s`,
+      );
+      continue;
+    }
+
     const c1 = chars(e, 1);
     const c2 = chars(e, 2);
     // TRIMMED, AND OTHERWISE VERBATIM. 43 rows across 3 tags carry a trailing
@@ -880,6 +914,14 @@ async function main(): Promise<void> {
       players: [p1, p2],
       characters: [c1, c2],
     });
+  }
+
+  if (pastEnd.length) {
+    console.log(
+      `  ⚠ ${pastEnd.length} segment(s) start past the end of their own VOD — dropped, not published:`,
+    );
+    for (const l of pastEnd.slice(0, 5)) console.log(`      ${l}`);
+    if (pastEnd.length > 5) console.log(`      … ${pastEnd.length - 5} more`);
   }
 
   // Stable, TOTAL order: newest VOD first, then by offset within the VOD, then
@@ -983,6 +1025,7 @@ async function main(): Promise<void> {
     unresolvable: missing.length,
     unresolvablePct,
     badLinks: badLinks.length,
+    pastEnd: pastEnd.length,
     collisions: collisions.length,
     wrongGame: wrongGame.length,
     // Beyond the shared contract — for the log, the report and the gates.

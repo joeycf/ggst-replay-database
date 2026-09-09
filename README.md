@@ -242,8 +242,8 @@ token appearing in no patch note may not become one.
 **The marker is `STRIVE`, never `GUILTY GEAR`.** The series is 27 years old and
 its back catalogue is live on these channels; matching the series name reads 576
 Xrd and Rev2 uploads. And it must be `GGST(?![A-Za-z])`, never `\bGGST\b` —
-`GGST2.0` is the dominant spelling on one channel and word-boundary loses 1,003
-videos with no symptom.
+`GGST2.0` is the dominant spelling on one channel and word-boundary loses 150 of
+this repo's videos with no symptom (1,003 over the recon's wider sweep).
 
 **Invisible Unicode is here, but not the one CotW found.** U+202F does not occur
 at all in 56,951 titles. U+3000 does (547 times, hiding the hashtag-run

@@ -183,7 +183,10 @@ export interface ChannelConfig {
    *
    * The marker itself needs two corrections CotW's did not (checklist 5l):
    * `GGST(?![A-Za-z])` and never `\bGGST\b`, because `GGST2.0` is the dominant
-   * spelling on ggstBattleCollection and word-boundary loses 1,003 videos
+   * spelling on ggstBattleCollection and word-boundary loses 150 of the eight
+   * intake dumps' videos (1,003 across the recon's wider 24-channel sweep —
+   * measured both ways 2026-09-09 by the verify-gates control, which asserts
+   * the marked total falls and prints the real number)
    * silently; and STRIVE is the marker while GUILTY GEAR is NOT, because the
    * series is 27 years old and matching it reads 576 Xrd/Rev2 uploads.
    */

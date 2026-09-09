@@ -154,7 +154,10 @@ export const CHANNELS: ChannelConfig[] = [
     //
     // Three traps, all measured on this channel:
     //  · `GGST2.0` is its dominant spelling of the marker. See STRIVE_MARKER —
-    //    `\bGGST\b` loses 1,003 of this channel's videos silently.
+    //    `\bGGST\b` loses 150 of this channel's videos silently — the figure
+    //    scoped to THIS repo's eight dumps, measured 2026-09-09 by the
+    //    verify-gates marker control. The 1,003 quoted elsewhere is the
+    //    recon's, over its wider 24-channel / 56,951-title sweep.
     //  · Both fields are bilingual, and independently so: characters as
     //    `SOL / ソル`, handles as `TAKASHI/タカシ`.
     //  · The handle `(ノ-_-)ノ` (3 of the sampled 50) puts ROUND parens INSIDE
@@ -418,7 +421,8 @@ export const CHANNEL_BY_ID = new Map(CHANNELS.map((c) => [c.id, c]));
  * 1. `GGST(?![A-Za-z])`, NEVER `\bGGST\b`. "GGST2.0", "GGST5.2" and "ggst2.0"
  *    are the dominant spelling on ggstBattleCollection and common on ggstHq, and
  *    `\b` does not fire between "T" and "2" because both are word characters.
- *    Measured: word-boundary matching loses 1,003 videos — 4.6% of the corpus —
+ *    Measured: word-boundary matching loses 150 videos across the eight dumps
+ *    this repo ingests (1,003 over the recon's 24-channel sweep) —
  *    and loses them silently, as a channel that simply looks smaller than it is.
  *
  * 2. STRIVE IS THE MARKER; "GUILTY GEAR" IS NOT. The series is 27 years old and
