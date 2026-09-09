@@ -1,0 +1,789 @@
+{
+  "source": "https://www.guiltygear.com/ggst/en/fankit/",
+  "credit": "© ARC SYSTEM WORKS",
+  "licenceVerified": "2026-09-07",
+  "fetched": "2026-09-09",
+  "files": [
+    {
+      "id": "sol-badguy",
+      "ordinal": 1,
+      "caption": "Sol Badguy",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara01_sol.png",
+      "sourceSha256": "7fd6a1a4cc85e7196d3ca68df3e248b92df4abd84601b8292274ed3020677477",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 579×772 at 566,91 on #FF8C1A",
+        "figure": "head estimated at 58%,5% of body 1049×1484 (top rows span x 44–64%)",
+        "bytes": 44372,
+        "sha256": "ef0e43200cbd9561"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1049×1484, visible 1051×1485 → 443×626 at x2351",
+        "bytes": 55590,
+        "sha256": "89da890a599ca189"
+      }
+    },
+    {
+      "id": "ky-kiske",
+      "ordinal": 2,
+      "caption": "Ky Kiske",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara02_kyk.png",
+      "sourceSha256": "4a6ad1881b45175a8ab9e412d4af01d7515e934a4e45a773efbb74db06fd5df9",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 528×704 at 584,121 on #5C9DFF",
+        "figure": "head estimated at 36%,5% of body 903×1353 (top rows span x 34–44%)",
+        "bytes": 40318,
+        "sha256": "237321b57f861af1"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 903×1353, visible 905×1355 → 418×627 at x2376",
+        "bytes": 43552,
+        "sha256": "e19d4e5c61629c90"
+      }
+    },
+    {
+      "id": "may",
+      "ordinal": 3,
+      "caption": "May",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara03_may.png",
+      "sourceSha256": "83ab8b3575e9c69a958566d256a1496d0fe57d0189dad2861d089b34f0c8c3ab",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 523×697 at 698,310 on #FFC27A",
+        "figure": "head TABLE at 60%,9% of body 1594×1340 (estimate 56%,5%; top rows span x 60–70%)",
+        "bytes": 38784,
+        "sha256": "af64deb6071149a5"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1594×1340, visible 1597×1341 → 746×626 at x2048",
+        "bytes": 44604,
+        "sha256": "7a17f6eb993db7d9"
+      }
+    },
+    {
+      "id": "axl-low",
+      "ordinal": 4,
+      "caption": "Axl Low",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara04_axl.png",
+      "sourceSha256": "6ba35a6fbe67b1564936dcea3216047538e0e5a74c80978a89376e02f2cf36d4",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 560×747 at 583,144 on #FFD23B",
+        "figure": "head TABLE at 58%,5% of body 1352×1436 (estimate 47%,5%; top rows span x 57–63%)",
+        "bytes": 44868,
+        "sha256": "bdb0571791d5d579"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1352×1436, visible 1358×1438 → 592×626 at x2202",
+        "bytes": 56088,
+        "sha256": "c0d0579bbacca94e"
+      }
+    },
+    {
+      "id": "chipp-zanuff",
+      "ordinal": 5,
+      "caption": "Chipp Zanuff",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara05_chipp.png",
+      "sourceSha256": "59c64330b2e7251486260ffaf813a092f85b54f87b55cac17b075578c5f5de6e",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 569×759 at 527,70 on #9BF0C8",
+        "figure": "head TABLE at 63%,5% of body 1134×1460 (estimate 57%,5%; top rows span x 63–67%)",
+        "bytes": 45576,
+        "sha256": "50dd6e5169e0836e"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1134×1460, visible 1137×1464 → 487×627 at x2307",
+        "bytes": 53432,
+        "sha256": "119e28bc24953bb9"
+      }
+    },
+    {
+      "id": "potemkin",
+      "ordinal": 6,
+      "caption": "Potemkin",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara06_pot.png",
+      "sourceSha256": "b8c0d22887a6815fadae521c4ec668ba43ecf343f831da33cd8f668a75a58e9c",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 615×820 at 828,105 on #C78356",
+        "figure": "head TABLE at 74%,11% of body 1422×1577 (estimate 35%,5%; top rows span x 24–36%)",
+        "bytes": 24470,
+        "sha256": "58d38b59f323078b"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1422×1577, visible 1424×1579 → 565×626 at x2229",
+        "bytes": 52940,
+        "sha256": "23d91d5f8ad23578"
+      }
+    },
+    {
+      "id": "faust",
+      "ordinal": 7,
+      "caption": "Faust",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara07_fau.png",
+      "sourceSha256": "5f3caa8f96a0df35382c14df91261cf2fcf6e59be0c19beb4d8c71b1ddd8981e",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 539×719 at 657,67 on #D9A5FF",
+        "figure": "head TABLE at 85%,3% of body 878×1382 (estimate 73%,5%; top rows span x 80–97%)",
+        "bytes": 24524,
+        "sha256": "0a6503ed406d3609"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 878×1382, visible 880×1384 → 398×627 at x2396",
+        "bytes": 56166,
+        "sha256": "ca460c74e701129f"
+      }
+    },
+    {
+      "id": "millia-rage",
+      "ordinal": 8,
+      "caption": "Millia Rage",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara08_mll.png",
+      "sourceSha256": "8bacc7e230208b25b754cf96a1cd2473caebd040b1b9466b5ce5b624665f37e0",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 594×792 at 496,92 on #FFF0C2",
+        "figure": "head TABLE at 58%,7% of body 941×1523 (estimate 47%,5%; top rows span x 52–65%)",
+        "bytes": 44070,
+        "sha256": "ebfa1b13a5d65814"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 941×1523, visible 943×1525 → 387×626 at x2407",
+        "bytes": 50656,
+        "sha256": "168c6ec80e5a0947"
+      }
+    },
+    {
+      "id": "zato-1",
+      "ordinal": 9,
+      "caption": "Zato-1",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara09_zat.png",
+      "sourceSha256": "373f751914422c486fa00ff2c5037f0a37bafa14b6505d14cfed7fa5524dab66",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 603×803 at 583,225 on #A36FC9",
+        "figure": "head TABLE at 60%,19% of body 1315×1545 (estimate 47%,5%; top rows span x 52–55%)",
+        "bytes": 28774,
+        "sha256": "12aa5b97a7abf00e"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1315×1545, visible 1444×1547 → 585×626 at x2209",
+        "bytes": 59234,
+        "sha256": "a90ef838b258a14b"
+      }
+    },
+    {
+      "id": "ramlethal-valentine",
+      "ordinal": 10,
+      "caption": "Ramlethal Valentine",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara10_ram.png",
+      "sourceSha256": "1033fb5a445a2d774091d10c26e3a7360036fb9aad94e3f3aefc4db853356806",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 522×696 at 510,278 on #B9F27A",
+        "figure": "head TABLE at 48%,12% of body 1589×1338 (estimate 50%,5%; top rows span x 3–55%)",
+        "bytes": 41436,
+        "sha256": "5179a161df6863fa"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1589×1338, visible 1592×1350 → 744×631 at x2050",
+        "bytes": 82600,
+        "sha256": "f503405fe9d53040"
+      }
+    },
+    {
+      "id": "leo-whitefang",
+      "ordinal": 11,
+      "caption": "Leo Whitefang",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara11_leo.png",
+      "sourceSha256": "f30fdca25238ee86bac79a8f50ebec4060038f4395b685fb730f0cad7f63e6d2",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 605×807 at 433,288 on #F3D98C",
+        "figure": "head TABLE at 50%,21% of body 1249×1552 (estimate 55%,5%; top rows span x 86–92%)",
+        "bytes": 53074,
+        "sha256": "77e70eba108521ad"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1249×1552, visible 1251×1554 → 504×626 at x2290",
+        "bytes": 53522,
+        "sha256": "7ff35635236d0a67"
+      }
+    },
+    {
+      "id": "nagoriyuki",
+      "ordinal": 12,
+      "caption": "Nagoriyuki",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara12_nag.png",
+      "sourceSha256": "e856f37d4379827d0edf3d1b66dd3a559d48753969969071c4c97dbc3537f973",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 584×778 at 515,290 on #C05AA0",
+        "figure": "head TABLE at 47%,21% of body 927×1497 (estimate 38%,5%; top rows span x 29–33%)",
+        "bytes": 55538,
+        "sha256": "462ed7a8692a0aeb"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 927×1497, visible 929×1499 → 388×626 at x2406",
+        "bytes": 45952,
+        "sha256": "38534c89e9c497dd"
+      }
+    },
+    {
+      "id": "giovanna",
+      "ordinal": 13,
+      "caption": "Giovanna",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara13_gio.png",
+      "sourceSha256": "d8cdd2baf68a2cd6eff06eadf04997c7650a0f44ac3dd5192130581efe70edf9",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 560×747 at 586,230 on #3FCB6E",
+        "figure": "head TABLE at 60%,16% of body 862×1437 (estimate 51%,5%; top rows span x 57–61%)",
+        "bytes": 47918,
+        "sha256": "8ef281ebb58b3247"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 862×1437, visible 863×1440 → 376×627 at x2418",
+        "bytes": 61682,
+        "sha256": "d4d5e1a7fcf02441"
+      }
+    },
+    {
+      "id": "anji-mito",
+      "ordinal": 14,
+      "caption": "Anji Mito",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara14_anj.png",
+      "sourceSha256": "ef3f71fff9dda49a492942a1a0e6d454fa7a0ac36cfe9cb46b518ce4f4669267",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 619×825 at 531,79 on #3A8FD9",
+        "figure": "head TABLE at 55%,10% of body 1019×1587 (estimate 54%,5%; top rows span x 49–54%)",
+        "bytes": 58190,
+        "sha256": "569cc571a93a9e97"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1019×1587, visible 1021×1589 → 402×626 at x2392",
+        "bytes": 55778,
+        "sha256": "5debe08244740044"
+      }
+    },
+    {
+      "id": "i-no",
+      "ordinal": 15,
+      "caption": "I-No",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara15_ino.png",
+      "sourceSha256": "2f00816a95b2523237355b039ca4db16c8caeecb78202d4521c71af46dd6cf08",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 579×772 at 439,140 on #FF6E7B",
+        "figure": "head TABLE at 36%,12% of body 965×1485 (estimate 40%,5%; top rows span x 31–38%)",
+        "bytes": 42540,
+        "sha256": "7e10756dad9073bc"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 965×1485, visible 967×1487 → 407×626 at x2387",
+        "bytes": 54040,
+        "sha256": "0a4aa138cbd28e1a"
+      }
+    },
+    {
+      "id": "goldlewis-dickinson",
+      "ordinal": 16,
+      "caption": "Goldlewis Dickinson",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara16_gld.png",
+      "sourceSha256": "7994c3024e9a4e5f0a72a8881813d00bea8c51d67436317aabb92d6f5532cc66",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 600×800 at 473,76 on #A9AE4E",
+        "figure": "head TABLE at 52%,8% of body 1251×1539 (estimate 54%,5%; top rows span x 54–58%)",
+        "bytes": 53700,
+        "sha256": "cdccaaaa15b6e2f0"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1251×1539, visible 1253×1541 → 509×626 at x2285",
+        "bytes": 74332,
+        "sha256": "1c3382ec78934b98"
+      }
+    },
+    {
+      "id": "jack-o",
+      "ordinal": 17,
+      "caption": "Jack-O'",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara17_jko.png",
+      "sourceSha256": "a1d70f2da5dae2ce68547116ad9826635c8bb18efb0abb59abdf591948033944",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 615×820 at 508,245 on #FFC4A8",
+        "figure": "head TABLE at 48%,20% of body 763×1577 (estimate 55%,5%; top rows span x 28–30%)",
+        "bytes": 60262,
+        "sha256": "7d21c75e7cef2415"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 763×1577, visible 1032×1589 → 409×630 at x2385",
+        "bytes": 69730,
+        "sha256": "0fb7ed4581a61520"
+      }
+    },
+    {
+      "id": "happy-chaos",
+      "ordinal": 18,
+      "caption": "Happy Chaos",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara18_cos.png",
+      "sourceSha256": "c5b62ea653fe3b581e80afc92fe41ebb1673bcc9e20992ccb3852c3ce75ad307",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 610×813 at 451,194 on #EEF1F5",
+        "figure": "head TABLE at 57%,16% of body 661×1563 (estimate 60%,5%; top rows span x 69–72%)",
+        "bytes": 41406,
+        "sha256": "082c8e1e04ddd19c"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 661×1563, visible 665×1567 → 266×627 at x2528",
+        "bytes": 38288,
+        "sha256": "dd4857063cb5dac9"
+      }
+    },
+    {
+      "id": "baiken",
+      "ordinal": 19,
+      "caption": "Baiken",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara19_bkn.png",
+      "sourceSha256": "0ef1694a0aabe21988874ba408e1b3af39384adad29fa83b0dbf10d0a814eec5",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 533×711 at 450,378 on #F062B4",
+        "figure": "head TABLE at 42%,21% of body 1080×1367 (estimate 44%,5%; top rows span x 50–51%)",
+        "bytes": 52936,
+        "sha256": "9ecee7d0955e139d"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1080×1367, visible 1082×1370 → 495×627 at x2299",
+        "bytes": 65984,
+        "sha256": "6c34bf0636c2256d"
+      }
+    },
+    {
+      "id": "testament",
+      "ordinal": 20,
+      "caption": "Testament",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara20_tst.png",
+      "sourceSha256": "d22590de4edb14259e8335a39d104caa2837d179c369e853ddfc632dadebc5d8",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 571×761 at 698,175 on #A7A2D9",
+        "figure": "head TABLE at 67%,12% of body 1269×1463 (estimate 46%,5%; top rows span x 39–45%)",
+        "bytes": 46732,
+        "sha256": "92b2f591989b540b"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1269×1463, visible 1272×1465 → 544×626 at x2250",
+        "bytes": 62964,
+        "sha256": "552fda4a21939457"
+      }
+    },
+    {
+      "id": "bridget",
+      "ordinal": 21,
+      "caption": "Bridget",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara21_bgt.png",
+      "sourceSha256": "e9d2043da468825cda117f0eac9db930a43ec7b547e0e041a29f0660d14311da",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 576×769 at 514,154 on #7CC4FF",
+        "figure": "head TABLE at 55%,12% of body 946×1478 (estimate 53%,5%; top rows span x 50–59%)",
+        "bytes": 49298,
+        "sha256": "59fbc51ed856d457"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 946×1478, visible 949×1481 → 402×627 at x2392",
+        "bytes": 55418,
+        "sha256": "5e583a8f37b9da20"
+      }
+    },
+    {
+      "id": "sin-kiske",
+      "ordinal": 22,
+      "caption": "Sin Kiske",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara22_sin.png",
+      "sourceSha256": "c699d30634a2ebd62e5532eecc99df5c31cf67cb8253d1d67e78ae894097a738",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 564×752 at 560,168 on #A3BCFF",
+        "figure": "head TABLE at 53%,10% of body 1508×1447 (estimate 48%,5%; top rows span x 32–45%)",
+        "bytes": 52746,
+        "sha256": "de55988ccbe56600"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1508×1447, visible 1511×1450 → 653×627 at x2141",
+        "bytes": 65824,
+        "sha256": "c9ed952449fca9ad"
+      }
+    },
+    {
+      "id": "bedman",
+      "ordinal": 23,
+      "caption": "Bedman?",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara23_bed.png",
+      "sourceSha256": "c246a13cb1b69ae41938fbec0eab2b55de8f9929bf6b6bf5882c07a7f43259a0",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 585×780 at 396,689 on #FF8FB8",
+        "figure": "head TABLE at 43%,46% of body 1592×1500 (estimate 49%,5%; top rows span x 60–64%)",
+        "bytes": 44260,
+        "sha256": "e1c9ae616e90ca32"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1592×1500, visible 1594×1502 → 665×626 at x2129",
+        "bytes": 85534,
+        "sha256": "688fbe61478fb10c"
+      }
+    },
+    {
+      "id": "asuka-r",
+      "ordinal": 24,
+      "caption": "Asuka R♯",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara24_ask.png",
+      "sourceSha256": "b63a09f88398a5a8ff10b7014ee38f8686c976a6ea6bd8488063c9e4b98502b7",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 607×809 at 574,144 on #B3ECFF",
+        "figure": "head TABLE at 55%,13% of body 1588×1556 (estimate 63%,5%; top rows span x 26–32%)",
+        "bytes": 54536,
+        "sha256": "485b3caa28d68b6a"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1588×1556, visible 1590×1558 → 639×626 at x2155",
+        "bytes": 97974,
+        "sha256": "afce1bbef3048765"
+      }
+    },
+    {
+      "id": "johnny",
+      "ordinal": 25,
+      "caption": "Johnny",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara25_jhn.png",
+      "sourceSha256": "3eb0791ac498112bba24a1baf6ffa7a0c85b8c14c25f6ed5940658f99a2e4b4a",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 578×770 at 603,162 on #7C86E0",
+        "figure": "head TABLE at 52%,9% of body 997×1481 (estimate 48%,5%; top rows span x 18–22%)",
+        "bytes": 48894,
+        "sha256": "b31ba2b4f7765b51"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 997×1481, visible 999×1483 → 422×626 at x2372",
+        "bytes": 48542,
+        "sha256": "349134fbe1e4bb2b"
+      }
+    },
+    {
+      "id": "elphelt-valentine",
+      "ordinal": 26,
+      "caption": "Elphelt Valentine",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara26_elp.png",
+      "sourceSha256": "4603476954628dc80302d2722db1fee5c4cd3f7f0bdb25d832b875a91c9cb33d",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 584×778 at 486,145 on #FFCCE0",
+        "figure": "head TABLE at 50%,11% of body 948×1497 (estimate 54%,5%; top rows span x 20–60%)",
+        "bytes": 60444,
+        "sha256": "7bf642419572a941"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 948×1497, visible 957×1499 → 400×626 at x2394",
+        "bytes": 49508,
+        "sha256": "d89a669d388b6172"
+      }
+    },
+    {
+      "id": "aba",
+      "ordinal": 27,
+      "caption": "A.B.A",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara27_aba.png",
+      "sourceSha256": "01220615bfaab036d68dfc5dd513fcf0b95c6a664a03777d6f475dc6224d24d6",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 606×808 at 373,360 on #E5414A",
+        "figure": "head TABLE at 38%,27% of body 936×1554 (estimate 37%,5%; top rows span x 26–41%)",
+        "bytes": 60412,
+        "sha256": "0b81f9df1d83bc6b"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 936×1554, visible 939×1558 → 378×627 at x2416",
+        "bytes": 60608,
+        "sha256": "d2d5fe42128e9576"
+      }
+    },
+    {
+      "id": "slayer",
+      "ordinal": 28,
+      "caption": "Slayer",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara28_sly.png",
+      "sourceSha256": "ddf010bdf58da5146a6ba47aa62cbfcd8b15a046b2e1cfe0f66ddda7b1864c5c",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 619×826 at 608,67 on #D45078",
+        "figure": "head TABLE at 62%,9% of body 1339×1588 (estimate 63%,5%; top rows span x 41–66%)",
+        "bytes": 34308,
+        "sha256": "3e34894782364609"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1339×1588, visible 1341×1591 → 528×627 at x2266",
+        "bytes": 55736,
+        "sha256": "e92602d4d9d62bd9"
+      }
+    },
+    {
+      "id": "queen-dizzy",
+      "ordinal": 29,
+      "caption": "Queen Dizzy",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara29_dzy.png",
+      "sourceSha256": "18c89697e05e813c2a6e5b8f0fbc311b1facf5e2dd8195a4943dcbbbf6266d71",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 613×817 at 652,352 on #5FE0BE",
+        "figure": "head TABLE at 60%,26% of body 1594×1572 (estimate 54%,5%; top rows span x 60–60%)",
+        "bytes": 51038,
+        "sha256": "eeedbd7ee3386851"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1594×1572, visible 1596×1584 → 635×630 at x2159",
+        "bytes": 101992,
+        "sha256": "5c9332f5037490be"
+      }
+    },
+    {
+      "id": "venom",
+      "ordinal": 30,
+      "caption": "Venom",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara30_ven.png",
+      "sourceSha256": "925566c749aee888b59db10efb071859cc12f9a63b66305d41905a671ca25163",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 615×821 at 397,358 on #8870F5",
+        "figure": "head TABLE at 33%,27% of body 901×1578 (estimate 37%,5%; top rows span x 43–46%)",
+        "bytes": 36276,
+        "sha256": "163776508598b35d"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 901×1578, visible 903×1579 → 358×626 at x2436",
+        "bytes": 43320,
+        "sha256": "0e65999831a70e9c"
+      }
+    },
+    {
+      "id": "unika",
+      "ordinal": 31,
+      "caption": "Unika",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara31_uni.png",
+      "sourceSha256": "734c73f95a9cad232c1d149fa577fb9343b8831314421e094ab0fe4ad9e1e034",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 540×720 at 348,117 on #4FDCF7",
+        "figure": "head estimated at 38%,5% of body 1559×1385 (top rows span x 31–37%)",
+        "bytes": 59956,
+        "sha256": "02e44c045f7dfd0a"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1559×1385, visible 1579×1387 → 713×627 at x2081",
+        "bytes": 72592,
+        "sha256": "df31b6eaf211da8b"
+      }
+    },
+    {
+      "id": "lucy",
+      "ordinal": 32,
+      "caption": "Lucy",
+      "source": null,
+      "sourceSha256": null,
+      "sourceDimensions": null,
+      "credit": null,
+      "reason": "Fan Kit Article 5 (Special Provisions: Use of the character Lucy): her materials are \"not subject to the provisions of this Agreement (including the copyright notice obligation in Article 3, Paragraph 1 and the redistribution permission in Article 3, Paragraph 3)\"; CD PROJEKT RED's fan-content guideline applies instead. Publishing a crop is redistribution and ArcSys has not granted it, so chara32_luc.png was neither fetched nor written. Read firsthand 2026-09-07.",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "generated: accent ground #D6CCFF with \"LUCY\" as display-face outlines",
+        "bytes": 3766,
+        "sha256": "822afb3e02ffdd7c"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "generated: 470×626 cut-corner slab on #D6CCFF at x2324, transparent canvas",
+        "bytes": 7152,
+        "sha256": "0a14435a51084d69"
+      }
+    },
+    {
+      "id": "jam-kuradoberi",
+      "ordinal": 33,
+      "caption": "Jam",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara33_jam.png",
+      "sourceSha256": "ef67e963ac285ed4ae51ebfa254df227477540c99118436c2df285ae63254b0c",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 612×816 at 396,366 on #FF7F6E",
+        "figure": "head TABLE at 42%,27% of body 1318×1569 (estimate 63%,5%; top rows span x 88–96%)",
+        "bytes": 62870,
+        "sha256": "bce528087e3cdd1a"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1318×1569, visible 1320×1571 → 526×626 at x2268",
+        "bytes": 71496,
+        "sha256": "ca5c13952cbc56ee"
+      }
+    },
+    {
+      "id": "robo-ky",
+      "ordinal": 34,
+      "caption": "Robo-Ky",
+      "source": "https://www.guiltygear.com/ggst/jp/wordpress/wp-content/themes/ggst/img/fankit/chara34_rbk.png",
+      "sourceSha256": "e6d82c7c7e330574d0b60da4f497226a65db7ecb2d51673fa9d6d30227debb86",
+      "sourceDimensions": "1600×1600",
+      "credit": "© ARC SYSTEM WORKS",
+      "portrait": {
+        "dimensions": "512×683",
+        "crop": "bust 602×802 at 428,364 on #9FB4C4",
+        "figure": "head TABLE at 43%,27% of body 1380×1543 (estimate 45%,5%; top rows span x 38–57%)",
+        "bytes": 58408,
+        "sha256": "5775cda212ff9302"
+      },
+      "splash": {
+        "dimensions": "2880×680",
+        "crop": "full figure composed onto the hero's own 2880×680 ratio (2× the 1440×340 box, so object-cover crops nothing at desktop)",
+        "figure": "body 1380×1543, visible 1381×1545 → 560×626 at x2234",
+        "bytes": 70144,
+        "sha256": "2b7e24392f0946cc"
+      }
+    }
+  ]
+}

@@ -317,7 +317,13 @@ export const CHANNELS: ChannelConfig[] = [
     frozen: {
       since: '2026-07-16',
       reason: 'stopped publishing GGST on 2026-07-16; 96.5% of its titles name no player',
-      records: -1,
+      // SEEDED 2026-09-09 from the one-time --include-frozen fetch + parse: 717
+      // uploads, 19 records. Low on purpose — 606 of its titles name no player
+      // at all (the parens hold a Floor tier, not a handle), and its per-game
+      // uploads run 2m34 median against the 120s floor. Editing this number IS
+      // the deliberate-prune mechanism; a mismatch nobody edited means the
+      // archive moved on its own and parse refuses to write.
+      records: 19,
     },
     slotOrder: 'chars-only',
     striveSignal: 'title',

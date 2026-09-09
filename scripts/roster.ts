@@ -542,6 +542,442 @@ export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
     video: 'uBqEnKU_MJg',
     note: 'One title on ggHighLevel, handle slot, playing May: "ノリィ (Highest level Giovanna) vs こん@メイ (May)". Reaches the guard only because the "@" delimits the kana — an undelimited Japanese handle would not match at all.',
   },
+
+  // ── ADJUDICATED FROM THE FIRST FULL PARSE, 2026-09-09 ────────────────────
+  //
+  // The invariant fired on 69 handles across 16,442 title-parsed records and
+  // 20,311 catalogue records. EVERY ONE WAS A REAL PERSON — zero fighters filed
+  // as players. That is the orientation work paying off: the both-sides-resolve
+  // tie-break plus the per-channel slotOrder removed the class the recon
+  // measured at 67 confidently-wrong rows, and what is left is only the
+  // "Star Lord" case the allow-list exists for.
+  //
+  // Read the evidence lines below and the pattern is plain. A bare fighter name
+  // in the handle slot is almost never the parser slipping — it is a person:
+  // `Leo.` plays FAUST, `Dizzy` plays MILLIA, `pot` plays CHIPP, `Lucy` plays
+  // HAPPY CHAOS. Several are a player who mains their namesake (`Baiken
+  // (Baiken)`, `Ky (Ky)`), which reads like a defect and is not. And the
+  // catalogue itself carries `p2_name: "I-No"` and `p2_name: "Millia Rage"` —
+  // third-party rows where a person's handle IS the fighter's full name.
+  //
+  // 68 rows, not 69: `Fauts` came off this list and out of Faust's aliases
+  // entirely. It was added as a measured typo on the recon's word; its single
+  // occurrence is `Fauts (Faust) VS iDom (Testament)`, a HANDLE, with the
+  // character spelled correctly beside it. See the faust entry in ROSTER.
+  //
+  // THIS LIST WILL KEEP GROWING, and that is the cost of the guard rather than
+  // a flaw in it: a 34-fighter roster and a five-year corpus means new players
+  // named after fighters arrive continuously, and each one hard-stops the
+  // pipeline until a human looks. The alternative — a guard that guesses — is
+  // what put 26 fighter-named player pages on another game.
+  {
+    id: 'daru-i-no',
+    handle: 'Daru_I-No',
+    video: 'tnzlD9N_bns',
+    note: '231 side(s), replayTheater. Resolves to i-no. Evidence: "Daru_I-No(I-No) vs papaya(Venom)"',
+  },
+  {
+    id: 'leo',
+    handle: 'Leo',
+    video: 'l_eK0XsDoB8',
+    note: '59 side(s), ggstHighRank. Resolves to leo-whitefang. Evidence: "GGST 🔥 #2 FAUST (WIP|Leo.) vs #3 ELPHELT (haruka) | High Level Gameplay"',
+  },
+  {
+    id: 'chris-chaos',
+    handle: 'Chris Chaos',
+    video: 'VE4fBR5v__o',
+    note: '23 side(s), ggstHighRank. Resolves to happy-chaos. Evidence: "GGST 🔥 DAY 3 ROBO-KY (Hotashi) vs KY (Chris Chaos) | High Level Gameplay"',
+  },
+  {
+    id: 'pedrito-ky',
+    handle: 'pedrito_ky',
+    video: 'EEPloSrj56M',
+    note: '20 side(s), ggstBattleCollection. Resolves to ky-kiske. Evidence: "GGST➤Rank 2nd A.B.A / アバ [ pedrito_ky ] vs Rank 1st SIN / シン [ realize ] Guilty Gear Strive"',
+  },
+  {
+    id: 'papa-leo',
+    handle: 'Papa Leo',
+    video: 'shi1M87_hHo@2615',
+    note: '14 side(s), replayTheater · TNS #39. Resolves to leo-whitefang. Evidence: "Papa Leo(May) vs Ikushisu(Ramlethal Valentine)"',
+  },
+  {
+    id: 'life-jam',
+    handle: 'life jam',
+    video: '3AQ4Ht4t6tI@1',
+    note: '11 side(s), replayTheater. Resolves to jam-kuradoberi. Evidence: "Sajam(Goldlewis Dickinson) vs life jam(Happy Chaos)"',
+  },
+  {
+    id: 'zato-bro',
+    handle: 'Zato Bro',
+    video: 'WgEXdEnIfKQ',
+    note: '11 side(s), ggstBattleCollection. Resolves to zato-1. Evidence: "GGST➤ Rank 7th ELPHELT /エルフェルト [ Zoner ] vs Rank 2nd JOHNNY/ ジョニー [ Zato Bro... ] Guilty Gear Strive"',
+  },
+  {
+    id: 'dizzy',
+    handle: 'Dizzy',
+    video: 'OtZA1-tnlD8',
+    note: '10 side(s), ggstHighRank. Resolves to queen-dizzy. Evidence: "GGST 🔥 #3 MILLIA (Dizzy) vs #5 ANJI (Scissors) | High Level Gameplay"',
+  },
+  {
+    id: 'futa-elphelt',
+    handle: 'Futa Elphelt',
+    video: 'VkGoqIyXo4M',
+    note: '10 side(s), guiltyGearVods. Resolves to elphelt-valentine. Evidence: "GGST ✪ THE SYSTEM (#4 Ranked Unika) VS FUTA ELPHELT (#5 Ranked Jack-O) | GGS High Level Match Replay"',
+  },
+  {
+    id: 'high-may',
+    handle: 'High May',
+    video: 'up6m3Z3fHr4@2326',
+    note: '10 side(s), replayTheater · Square Up #53. Resolves to may. Evidence: "Limland(Sin Kiske) vs High May(Sol Badguy)"',
+  },
+  {
+    id: 'par-daru-i-no',
+    handle: 'PAR Daru_I-No',
+    video: 'FJLi9d56HzE',
+    note: '9 side(s), ggstHighRank. Resolves to i-no. Evidence: "#1 I-NO PAR Daru_I-No vs HIGH RANK SOL tatuma - GGST High Level Gameplay"',
+  },
+  {
+    id: 'jam-session',
+    handle: 'Jam session',
+    video: 'QDdV571AgLA',
+    note: '6 side(s), ggHighLevel. Resolves to jam-kuradoberi. Evidence: "GGST ▰ Dany (#1 Ranked Ky) vs Jam session (#3 Ranked Slayer). High Level Gameplay"',
+  },
+  {
+    id: 'lucy',
+    handle: 'Lucy',
+    video: '5509ORyK_XI',
+    note: '6 side(s), ggHighLevel. Resolves to lucy. Evidence: "GGST ▰ Peluna (#1 Ranked Dizzy) vs Lucy (#5 Ranked Chaos). High Level Gameplay"',
+  },
+  {
+    id: 'axl-low',
+    handle: 'Axl Low',
+    video: 'jeQRszP0-J8',
+    note: '5 side(s), ggstBattleCollection. Resolves to axl-low. Evidence: "GGST➤Rank 3rdAxl / アクセル [ Axl Low ] vs Rank 1st KY / カイ [ DM EL Maza ] Guilty Gear Strive"',
+  },
+  {
+    id: 'mark-i-no',
+    handle: 'Mark I-no',
+    video: 'mE7sOvTw59A@2798',
+    note: '4 side(s), replayTheater · Quinzenal de GGST Nº26. Resolves to i-no. Evidence: "Mark I-no(I-No) vs Besaro(Testament)"',
+  },
+  {
+    id: 'pot',
+    handle: 'pot',
+    video: 'sXiESFVP6Ds',
+    note: '4 side(s), guiltyGearReplays. Resolves to potemkin. Evidence: "GGST | pot (Chipp) VS Gobou (Goldlewis) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'zoner-testament',
+    handle: 'Zoner Testament',
+    video: 'Wlz5HXk5Vdo@1830',
+    note: '4 side(s), replayTheater. Resolves to testament. Evidence: "Sajam(Testament) vs Zoner Testament(Testament)"',
+  },
+  {
+    id: '光景-ヘットマン',
+    handle: '「光景」ベッドマン?',
+    video: 'iK4-wLH7vaA',
+    note: '4 side(s), yumegiwa. Resolves to bedman. Evidence: "【しょくしゅ（Chipp チップ）VS 「光景」ベッドマン？（Bedman？ ベッドマン？）】#GGST No.377日曜から夜更かし WinnersFinal🔥High Level Gameplay"',
+  },
+  {
+    id: 'sandbag-ky',
+    handle: 'Sandbag Ky',
+    video: 'fE8zxY4WG8I@714',
+    note: '3 side(s), replayTheater · Brojo Cup #54. Resolves to ky-kiske. Evidence: "Sandbag Ky(Ky Kiske) vs Nery(Ramlethal Valentine)"',
+  },
+  {
+    id: 'sonic-sol',
+    handle: 'Sonic_Sol',
+    video: '3ycWq9IBh9g@2290',
+    note: '3 side(s), replayTheater · NLBC 85. Resolves to sol-badguy. Evidence: "Dadpool(Jack-O\') vs Sonic_Sol(I-No)"',
+  },
+  {
+    id: 'asuka',
+    handle: 'Asuka',
+    video: 'AWWQI_V4L08',
+    note: '2 side(s), ggstBattleCollection. Resolves to asuka-r. Evidence: "GGST➤ Rank 5th SLAYER / スレイヤー [ biased ear ] vs Rank TOP ASUKA /飛鳥 [ Asuka ] GGuilty Gear Strive"',
+  },
+  {
+    id: 'bridget-bussy',
+    handle: 'Bridget Bussy',
+    video: 'mE7sOvTw59A@6606',
+    note: '2 side(s), replayTheater · Quinzenal de GGST Nº26. Resolves to bridget. Evidence: "Eon(Giovanna) vs Bridget Bussy(Bridget)"',
+  },
+  {
+    id: 'f-elphelt',
+    handle: 'F. Elphelt',
+    video: 'y1Yn_KEMY7o',
+    note: '2 side(s), ggHighLevel. Resolves to elphelt-valentine. Evidence: "GGST ▰ WALTER (#1 Ranked Millia) vs F. Elphelt (#4 Ranked Jack-O). High Level Gameplay"',
+  },
+  {
+    id: 'i-no-s-tier',
+    handle: 'I-No S Tier',
+    video: 'Z5u6E1HG-ec@1380',
+    note: '2 side(s), replayTheater · Dumpster Duel. Resolves to i-no. Evidence: "Kronokat(Anji Mito) vs I-No S Tier(I-No)"',
+  },
+  {
+    id: 'ibushigin-leo',
+    handle: 'IBUSHIGIN Leo',
+    video: '0QSUvAPcT34',
+    note: '2 side(s), guiltyGearReplays. Resolves to leo-whitefang. Evidence: "GGST | IBUSHIGIN Leo (Faust) VS Mocchi (Sol Badguy) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'jam-s-thighs',
+    handle: "jam's thighs",
+    video: '2W1DxUTsuug',
+    note: '2 side(s), ggstBattleCollection. Resolves to jam-kuradoberi. Evidence: "GGST➤Rank 5th JAM / 紗夢 [ jam\'s thighs ] vs Rank 5th Elphelt / エルフェルト [ Janemba ] Guilty Gear Strive"',
+  },
+  {
+    id: 'johnny-black',
+    handle: 'JOHNNY BLACK',
+    video: 'IMC4IzzsvPw',
+    note: '2 side(s), replayTheater. Resolves to johnny. Evidence: "papaya(Venom) vs JOHNNY BLACK(Ramlethal Valentine)"',
+  },
+  {
+    id: 'lucy-the-lamia',
+    handle: 'Lucy the Lamia',
+    video: 'FDJpOl8s560@1450',
+    note: '2 side(s), replayTheater · Warring Triad 4. Resolves to lucy. Evidence: "SoloMan98(Ramlethal Valentine) vs Lucy the Lamia(Happy Chaos)"',
+  },
+  {
+    id: 'oscar-d-leo',
+    handle: "Oscar d'Leo",
+    video: 'RqAPy6rfoE0',
+    note: '2 side(s), ggstBattleCollection. Resolves to leo-whitefang. Evidence: "GGST➤Rank 5th HappyChaos / ケイオス [ Milkshake ] vs Rank 1st POTEMKIN / ポチョムキン [ Oscar d\'Leo ]"',
+  },
+  {
+    id: 'pot-noodle',
+    handle: 'Pot Noodle',
+    video: 'kLllc_P6kDU',
+    note: '2 side(s), ggstHighRank. Resolves to potemkin. Evidence: "GGST High Level Gameplay | #3 RANKED JACK-O (Nitro\'s No.1 fan) vs HIGH RANK RAMLETHAL (Pot Noodle)"',
+  },
+  {
+    id: 'sol-hc',
+    handle: 'Sol HC',
+    video: 'E9B9zz-P4i0',
+    note: '2 side(s), ggstHighRank. Resolves to sol-badguy. Evidence: "#2 ANJI Sol HC vs HIGH RANK TESTAMENT Dom - GGST High Level Gameplay"',
+  },
+  {
+    id: 'usui-a-b-a',
+    handle: 'Usui A.B.A',
+    video: 'Nf2Co0E3-W8@1327',
+    note: '2 side(s), replayTheater · Brojo Cup #105. Resolves to aba. Evidence: "Usui A.B.A(A.B.A) vs Harakiri(Sin Kiske)"',
+  },
+  {
+    id: '薄い-紗夢',
+    handle: '薄い 紗夢',
+    video: '9t25PfVc01k',
+    note: '2 side(s), yumegiwa. Resolves to jam-kuradoberi. Evidence: "【ぽニュース（Slayer スレイヤー）VS 薄い 紗夢（Venom ヴェノム）】#ggst No.463 日曜から夜更し 🔥Season4"',
+  },
+  {
+    id: 'a-b-a',
+    handle: 'A.B.A',
+    video: 'zn-BqmIbr-I',
+    note: '1 side(s), ggstBattleCollection. Resolves to aba. Evidence: "GGST➤Rank 3rd A.B.A / アバ [ A.B.A ] vs Rank TOP Goldlewis / ゴールドルイス [ Noedda ] Guilty Gear Strive"',
+  },
+  {
+    id: 'aba-bottom-1',
+    handle: 'ABA bottom 1',
+    video: 'cGGYXATwhsc',
+    note: '1 side(s), ggstHighRank. Resolves to aba. Evidence: "GGST High Level Gameplay | #2 RANKED ABA (ABA bottom 1) vs #3 RANKED LUCY (Zaye)"',
+  },
+  {
+    id: 'baiken',
+    handle: 'Baiken',
+    video: 'IlAxWbkidUE',
+    note: '1 side(s), guiltyGearReplays. Resolves to baiken. Evidence: "GGST | saryu (Ramlethal) VS Baiken (Baiken) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'baiken-hain',
+    handle: 'BAIKEN HAIN/バイケンハイン',
+    video: 'Q9-yQ17XzUI',
+    note: '1 side(s), ggstBattleCollection. Resolves to baiken. Evidence: "GGST➤ Rank TOP BAIKEN /梅喧 [ BAIKEN HAIN/バイケンハイン ] vs Rank 2nd ASUKA/飛鳥 [ Cure Noble/キュアノーブル ]"',
+  },
+  {
+    id: 'bald-pot',
+    handle: 'Bald Pot',
+    video: 'vtOdeD7RtpM',
+    note: '1 side(s), ggstBattleCollection. Resolves to potemkin. Evidence: "GGST➤ Rank 1st POTEMMKIN /ポチョムキン [ Bald Pot ] vs Rank 6th SLAYER / スレイヤー [ Lingangu ] Guilty Gear"',
+  },
+  {
+    id: 'bridget-hater',
+    handle: 'bridget hater',
+    video: 'GRuJRYZYaxc',
+    note: '1 side(s), ggstBattleCollection. Resolves to bridget. Evidence: "GGST➤Rank 1st bridget /ブリジット [ bridget hater ] vs Rank 7th ELPHELT /エルフェルト [ Kazam ]GuiltyGearStrive"',
+  },
+  {
+    id: 'dara-i-no',
+    handle: 'Dara_I-No',
+    video: 'wp53K1zvluA',
+    note: '1 side(s), guiltyGearReplays. Resolves to i-no. Evidence: "GGST | Yamamoto (Elphelt) VS Dara_I-No (I-No) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'giovanna',
+    handle: 'Giovanna',
+    video: '-dZtc1sb_sw@2763',
+    note: '1 side(s), replayTheater · Brojo Cup #45. Resolves to giovanna. Evidence: "Nekoziru(Potemkin) vs Giovanna(Giovanna)"',
+  },
+  {
+    id: 'goldlewis',
+    handle: 'Goldlewis',
+    video: 'wt1sbMahkPc',
+    note: '1 side(s), ggstBattleCollection. Resolves to goldlewis-dickinson. Evidence: "GGST➤Rank 3rd Goldlewis / ゴールドルイス [ GOBOU/御傍 ] vs Rank 7th Goldlewis / ゴールドルイス [ Goldlewis ]"',
+  },
+  {
+    id: 'gp-daru-i-no',
+    handle: 'GP Daru I-No',
+    video: 'FNA3LaSuHqQ',
+    note: '1 side(s), replayTheater. Resolves to i-no. Evidence: "GP Daru I-No(I-No) vs TRL Saryu(Ramlethal Valentine)"',
+  },
+  {
+    id: 'his-bridget',
+    handle: 'His Bridget',
+    video: 'xHjgxLfem-o',
+    note: '1 side(s), ggstBattleCollection. Resolves to bridget. Evidence: "GGST➤ Rank 3rd SIN /シン [ pulsr ] vs Rank 3rd Bridget /ブリジット [ His Bridget ] Guilty Gear Strive"',
+  },
+  {
+    id: 'huawen-sol',
+    handle: 'HuaWen Sol',
+    video: 'bp_jQGwcMkU@1',
+    note: '1 side(s), replayTheater. Resolves to sol-badguy. Evidence: "HuaWen Sol(Chipp Zanuff) vs Kazunoko(Ky Kiske)"',
+  },
+  {
+    id: 'i-no',
+    handle: 'I-No',
+    video: 'NmJ9Jr5_K2E@6048',
+    note: '1 side(s), replayTheater · Dumpster Duel. Resolves to i-no. Evidence: "Tupaaas(Ky Kiske) vs I-No(I-No)"',
+  },
+  {
+    id: 'johnny-peperon',
+    handle: 'Johnny Peperon',
+    video: '8dM_KcGaTjM@350',
+    note: '1 side(s), replayTheater · Brojo Cup #95. Resolves to johnny. Evidence: "FAB(Potemkin) vs Johnny Peperon(Johnny)"',
+  },
+  {
+    id: 'johnny-volcano',
+    handle: 'Johnny Volcano',
+    video: 'mcZC4LjOqt4@2012',
+    note: '1 side(s), replayTheater · NLBC Online #101. Resolves to johnny. Evidence: "MarlinPie(Zato-1) vs Johnny Volcano(Ramlethal Valentine)"',
+  },
+  {
+    id: 'ky',
+    handle: 'Ky',
+    video: 'JI1L-Fgekkk',
+    note: '1 side(s), guiltyGearReplays. Resolves to ky-kiske. Evidence: "GGST | Ky (Ky) VS UMISHO (Sol Badguy) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'lasangna-slayer',
+    handle: 'Lasangna Slayer',
+    video: '_8MaGwPflwM',
+    note: '1 side(s), ggstBattleCollection. Resolves to slayer. Evidence: "GGST➤Rank 9th DIZZY / ディズィー [ ByteSizadTaco ] vs Rank TOP Goldlewis / ゴールドルイス [ Lasangna Slayer ]"',
+  },
+  {
+    id: 'leo-heart',
+    handle: 'Leo Heart',
+    video: 'ZouZ4K8RExU@1623',
+    note: '1 side(s), replayTheater · NLBC Online #87. Resolves to leo-whitefang. Evidence: "chvpter(Ramlethal Valentine) vs Leo Heart(Ky Kiske)"',
+  },
+  {
+    id: 'lotus-leo',
+    handle: 'Lotus Leo',
+    video: 'FDi_cyBErIU@2661',
+    note: '1 side(s), replayTheater · Juicy Time Skip 2021. Resolves to leo-whitefang. Evidence: "Bwead(Zato-1) vs Lotus Leo(Leo Whitefang)"',
+  },
+  {
+    id: 'may-gang',
+    handle: 'May Gang',
+    video: 'u8bEnp8LV5I@11260',
+    note: '1 side(s), replayTheater · ARCREVO America 2021 -CANADA- Day 1. Resolves to may. Evidence: "May Gang(May) vs Remi Celeste(Axl Low)"',
+  },
+  {
+    id: 'millia-hater',
+    handle: 'MILLIA HATER',
+    video: 'riiDup9rpWE',
+    note: '1 side(s), ggstBattleCollection. Resolves to millia-rage. Evidence: "GGST➤ Rank 2nd JOHNNY / ジョニー [ Blackbeard ] vs Rank 5th Giovanna / ジオヴァーナ [ MILLIA HATER ]"',
+  },
+  {
+    id: 'millia-hopium',
+    handle: 'Millia Hopium',
+    video: 'u5yqzm3BVl4@1337',
+    note: '1 side(s), replayTheater. Resolves to millia-rage. Evidence: "Romolla(Testament) vs Millia Hopium(Millia Rage)"',
+  },
+  {
+    id: 'millia-rage',
+    handle: 'Millia Rage',
+    video: 'KcTYFZYofPc@4204',
+    note: '1 side(s), replayTheater. Resolves to millia-rage. Evidence: "Sajam(Baiken) vs Millia Rage(Millia Rage)"',
+  },
+  {
+    id: 'myterious-i-no',
+    handle: 'Myterious I-no',
+    video: 'dEPG-3n_tzA@2304',
+    note: '1 side(s), replayTheater. Resolves to i-no. Evidence: "Romolla(Testament) vs Myterious I-no(I-No)"',
+  },
+  {
+    id: 'nagoriyuki',
+    handle: 'Nagoriyuki',
+    video: 'ocDDmyTMk5k',
+    note: '1 side(s), guiltyGearReplays. Resolves to nagoriyuki. Evidence: "GGST | HappyGRJ (Elphelt) VS Nagoriyuki (Nagoriyuki) | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'par-daru-ino',
+    handle: 'PAR Daru_ INo',
+    video: '1nSFfPfiVRg',
+    note: '1 side(s), ggstHighRank. Resolves to i-no. Evidence: "GGST High Level Gameplay | #2 ZATO (debu) vs I-NO (PAR Daru_ INo)"',
+  },
+  {
+    id: 'rip-potemkin',
+    handle: 'RIP Potemkin',
+    video: 'Pf6wu57q004',
+    note: '1 side(s), ggstBattleCollection. Resolves to potemkin. Evidence: "GGST➤Rank 5th SIN / シン [ Revil ] vs Rank 2nd LEO / レオ [ RIP Potemkin ] Guilty Gear Strive"',
+  },
+  {
+    id: 'sdytko',
+    handle: 'sdytko /アクセル',
+    video: 'fZBKBI0GBqU',
+    note: '1 side(s), guiltyGearReplays. Resolves to axl-low. Evidence: "GGST | Hotashi (Nagoriyuki/名残雪) VS sdytko (Axl Low)/アクセル | Guilty Gear Strive High level gameplay"',
+  },
+  {
+    id: 'shaking-chaos-eighth-region',
+    handle: 'Shaking Chaos"Eighth Region"/揺れる混沌【第八領域',
+    video: 'y4cv_2c2CNU',
+    note: '1 side(s), ggstBattleCollection. Resolves to happy-chaos. Evidence: "GGST➤ Ramlethal/ラムレザル [ HITOSI/ひとし ] vs HappyChaos/ケイオス [ Shaking Chaos"Eighth Region"/揺れる混沌【第八領域】]"',
+  },
+  {
+    id: 'slayer',
+    handle: 'SLAYER',
+    video: 'RLY6x2FlMSM',
+    note: '1 side(s), ggstBattleCollection. Resolves to slayer. Evidence: "GGST➤ Rank 2nd CHIPP / チップ [ SUMMIT/サミット ] vs Rank 1st SLAYER / スレイヤー [ SLAYER ] Guilty Gear Strive"',
+  },
+  {
+    id: 'sorede-i-no-ne-wwwwww',
+    handle: 'sorede I-NO ne wwwwww',
+    video: 'vLJPWJVIOfY',
+    note: '1 side(s), ggstHighRank. Resolves to i-no. Evidence: "GGST 🔥 DAY 1 ROBO-KY (DN7) vs DAY 1 ROBO-KY (sorede I-NO ne wwwwww) | High Level Gameplay"',
+  },
+  {
+    id: 'the-jack-o-player',
+    handle: 'The Jack-O Player',
+    video: 'eIBTbFzmT6k@4257',
+    note: '1 side(s), replayTheater · Let\'s Rock #46. Resolves to jack-o. Evidence: "Lurry(Faust) vs The Jack-O Player(Jack-O\')"',
+  },
+  {
+    id: 'ttv-pedrito-ky',
+    handle: 'ttv/pedrito_ky',
+    video: '2dzs80KsNUE',
+    note: '1 side(s), ggstBattleCollection. Resolves to ky-kiske. Evidence: "GGST➤ Rank 3rd AXL / アクセル [ ant ] vs Rank 5th A.B.A / アバ [ ttv/pedrito_ky ] Guilty Gear Strive"',
+  },
+  {
+    id: 'usui-slayer',
+    handle: 'Usui Slayer',
+    video: 'bgTKb0cmrzk@1432',
+    note: '1 side(s), replayTheater · Brojo Cup #110. Resolves to slayer. Evidence: "Usui Slayer(A.B.A) vs Megane(Baiken)"',
+  },
+  {
+    id: 'venom-snake',
+    handle: 'Venom Snake',
+    video: 'xRLD4LVmGF4',
+    note: '1 side(s), ggstHighRank. Resolves to venom. Evidence: "[GGST-REPLAY] #2 MAY Venom Snake vs TOP JACK-O Daimster"',
+  },
 ];
 
 // ── VENDOR SCRAPE ───────────────────────────────────────────────────────────

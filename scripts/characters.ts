@@ -245,9 +245,18 @@ const ROSTER: RosterEntry[] = [
     // `Doc` and `Bag Man` are lore nicknames with no measured character-slot
     // use, and `Doc` is a classic FGC handle. Left out; the residue gate will
     // report them if uploaders start using them.
+    //
+    // `Fauts` IS DELIBERATELY ABSENT, and it was here for a day. The recon
+    // listed it among the measured uploader typos (channels-live.md §5d) and it
+    // was added on that word. Its ONE occurrence in the whole corpus is
+    // "GGST | Fauts (Faust) VS iDom (Testament)" — `Fauts` is the PLAYER, and
+    // the character is spelled correctly in the same title. As an alias it made
+    // a real handle resolve to a fighter and tripped the registry invariant on
+    // the first full parse. A typo list assembled by eye needs its SLOT checked,
+    // not just its spelling.
     season: 0,
     released: '2021-06-11',
-    aliases: ['ファウスト', 'Fauts'],
+    aliases: ['ファウスト'],
   },
   {
     id: 'millia-rage',
