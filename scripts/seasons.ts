@@ -249,9 +249,12 @@ const post = (id: number): string => `https://www.guiltygear.com/ggst/en/news/po
  * at once: the `to` half is this patch's battle version, and the `from` half is
  * the value that was in force on the patch immediately before it. Both halves
  * are transcribed; rows with neither stated carry no `battleVersion` rather
- * than an interpolation between two known values. 21 of 45 rows carry one
+ * than an interpolation between two known values. 29 of 48 rows carry one
  * today, including every season opener and the row before it, which is what
- * check 8 needs. Filling in the rest means reading 23 more patch bodies.
+ * check 8 needs. The first 21 were transcribed by hand; the next 8 (1.35,
+ * 1.44–1.50) came off scripts/patch-check.ts on 2026-09-08, which reads every
+ * body and prints each stated-but-absent value as fillable — so the rest of
+ * the table fills the same way, one checker run at a time, never by guessing.
  *
  * Season headings below are a reading aid. Membership is DERIVED from the date
  * by seasonForDate(), never authored — attributing by version prefix is the
@@ -485,6 +488,7 @@ export const PATCHES: PatchBoundary[] = [
   {
     version: '1.35',
     start: '2024-03-26',
+    battleVersion: '3.04',
     url: post(2163),
     announcedOn: 'guiltygear-news',
     note: 'A.B.A',
@@ -536,10 +540,17 @@ export const PATCHES: PatchBoundary[] = [
   },
   // No 1.42 row: nothing announced it on either source, and the battle version
   // is 4.01 on both sides of this gap. The gap is the record.
+  //
+  // THE FROM/TO TRAP, caught by scripts/patch-check.ts on 2026-09-08. The vendor
+  // writes "Updated the Battle Version from Ver. 4.01 to Ver. 4.02" and a row
+  // carries the TO half; the FROM half confirms the row BEFORE it. This row
+  // shipped with 4.01 — the from half — and the checker reported DRIFT against
+  // 1.44's own "from 4.02 to 4.03". validate() could not see it, because 4.01
+  // and 4.02 share a major and the season rule only reads the major.
   {
     version: '1.43',
     start: '2024-12-23',
-    battleVersion: '4.01',
+    battleVersion: '4.02',
     url: post(2405),
     announcedOn: 'guiltygear-news',
     note: 'Balance update',
@@ -547,28 +558,55 @@ export const PATCHES: PatchBoundary[] = [
   {
     version: '1.44',
     start: '2025-03-24',
+    battleVersion: '4.03',
     url: post(2426),
     announcedOn: 'guiltygear-news',
     note: 'Venom',
   },
-  { version: '1.45', start: '2025-04-08', url: post(2463), announcedOn: 'guiltygear-news' },
+  {
+    version: '1.45',
+    start: '2025-04-08',
+    battleVersion: '4.04',
+    url: post(2463),
+    announcedOn: 'guiltygear-news',
+  },
   {
     version: '1.46',
     start: '2025-05-27',
+    battleVersion: '4.05',
     url: post(2472),
     announcedOn: 'guiltygear-news',
     note: 'Unika',
   },
-  { version: '1.47', start: '2025-06-24', url: post(2543), announcedOn: 'guiltygear-news' },
+  {
+    version: '1.47',
+    start: '2025-06-24',
+    battleVersion: '4.06',
+    url: post(2543),
+    announcedOn: 'guiltygear-news',
+  },
   {
     version: '1.48',
     start: '2025-08-21',
+    battleVersion: '4.07',
     url: post(2559),
     announcedOn: 'guiltygear-news',
     note: 'Lucy · Ranked Match',
   },
-  { version: '1.49', start: '2025-09-09', url: post(2683), announcedOn: 'guiltygear-news' },
-  { version: '1.50', start: '2025-10-09', url: post(2712), announcedOn: 'guiltygear-news' },
+  {
+    version: '1.49',
+    start: '2025-09-09',
+    battleVersion: '4.08',
+    url: post(2683),
+    announcedOn: 'guiltygear-news',
+  },
+  {
+    version: '1.50',
+    start: '2025-10-09',
+    battleVersion: '4.09',
+    url: post(2712),
+    announcedOn: 'guiltygear-news',
+  },
   { version: '1.51', start: '2025-10-22', url: post(2771), announcedOn: 'guiltygear-news' },
   {
     // The 127-day gap behind this row is the longest silence in the game's

@@ -251,6 +251,7 @@
   {
     "version": "1.35",
     "start": "2024-03-26",
+    "battleVersion": "3.04",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2163/",
     "announcedOn": "guiltygear-news",
     "note": "A.B.A",
@@ -317,7 +318,7 @@
   {
     "version": "1.43",
     "start": "2024-12-23",
-    "battleVersion": "4.01",
+    "battleVersion": "4.02",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2405/",
     "announcedOn": "guiltygear-news",
     "note": "Balance update",
@@ -327,6 +328,7 @@
   {
     "version": "1.44",
     "start": "2025-03-24",
+    "battleVersion": "4.03",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2426/",
     "announcedOn": "guiltygear-news",
     "note": "Venom",
@@ -336,6 +338,7 @@
   {
     "version": "1.45",
     "start": "2025-04-08",
+    "battleVersion": "4.04",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2463/",
     "announcedOn": "guiltygear-news",
     "end": "2025-05-27",
@@ -344,6 +347,7 @@
   {
     "version": "1.46",
     "start": "2025-05-27",
+    "battleVersion": "4.05",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2472/",
     "announcedOn": "guiltygear-news",
     "note": "Unika",
@@ -353,6 +357,7 @@
   {
     "version": "1.47",
     "start": "2025-06-24",
+    "battleVersion": "4.06",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2543/",
     "announcedOn": "guiltygear-news",
     "end": "2025-08-21",
@@ -361,6 +366,7 @@
   {
     "version": "1.48",
     "start": "2025-08-21",
+    "battleVersion": "4.07",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2559/",
     "announcedOn": "guiltygear-news",
     "note": "Lucy · Ranked Match",
@@ -370,6 +376,7 @@
   {
     "version": "1.49",
     "start": "2025-09-09",
+    "battleVersion": "4.08",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2683/",
     "announcedOn": "guiltygear-news",
     "end": "2025-10-09",
@@ -378,6 +385,7 @@
   {
     "version": "1.50",
     "start": "2025-10-09",
+    "battleVersion": "4.09",
     "url": "https://www.guiltygear.com/ggst/en/news/post-2712/",
     "announcedOn": "guiltygear-news",
     "end": "2025-10-22",

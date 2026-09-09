@@ -131,10 +131,12 @@ export function dueExpiries(asOf: string = today()): Expiry[] {
         date: s.start,
         action:
           `Season ${s.season} was scheduled for ${s.start} and is still unconfirmed. Verify the ` +
-          `balance patch landed, add its opening patch to PATCHES in scripts/patches.ts, set ` +
-          `confirmed: true, and re-run \`npm run data:emit\`. The era opens on the patch whose ` +
-          `own notes page says it opens the season — NEVER on the marketing start date and ` +
-          `NEVER on a major-version bump (Ver.2.0.1 is the counter-example that ships).`,
+          `balance patch landed, add its opening patch to PATCHES in scripts/seasons.ts with ` +
+          `the battleVersion the vendor's note states, set confirmed: true, and re-run ` +
+          `\`npm run data:seasons\` then \`npm run data:emit\`. The era opens on the patch whose ` +
+          `own notes page bumps the BATTLE VERSION major — never on the marketing start date ` +
+          `and never on the game's major: Seasons 2, 3 and 4 all opened inside the 1.x line ` +
+          `(Ver 1.18, 1.29, 1.40), and only Season 5 coincided with a game-major bump.`,
       });
     }
   }
