@@ -1,0 +1,300 @@
+{
+  "measured": {
+    "atEntryId": 495703,
+    "compared": 11467,
+    "unmatched": 3600,
+    "segmented": 6,
+    "players": {
+      "both": 11356,
+      "one": 107,
+      "neither": 3,
+      "flipped": 1,
+      "placeholder": 1,
+      "handleAffix": {
+        "ours": 9,
+        "theirs": 11,
+        "unrelated": 93
+      }
+    },
+    "characters": {
+      "sides": 22934,
+      "agree": 22909,
+      "subset": 6,
+      "disagree": 19,
+      "cannotWitness": 0,
+      "blindSpot": 0,
+      "unreadable": 0,
+      "overCap": 0
+    }
+  },
+  "blindSpots": [],
+  "disagreements": [
+    {
+      "videoId": "UzGiYOr8vKk",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "millia-rage"
+      ],
+      "theirs": [
+        "leo-whitefang"
+      ],
+      "title": "GGST | Heko-Chan (Millia) VS Leo (Faust) | Guilty Gear Strive High level gameplay"
+    },
+    {
+      "videoId": "NMSksktmplE",
+      "field": "players",
+      "ours": [
+        "御覧",
+        "butigire-beyblade"
+      ],
+      "theirs": [
+        "goran",
+        "kal"
+      ],
+      "title": "【御覧(Testament テスタメント)VS BUTIGIRE BEYBLADE(Nagoriyuki 名残雪)】#GGST No.376 日曜から夜更かし WinnersTop8"
+    },
+    {
+      "videoId": "PUzomT08YG8",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "asuka-r"
+      ],
+      "theirs": [
+        "may"
+      ],
+      "title": "GGST | Gobou (Asuka) VS Hemhemee (May) | Guilty Gear Strive High level gameplay"
+    },
+    {
+      "videoId": "lSyBfeZBbh0",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "johnny"
+      ],
+      "theirs": [
+        "i-no"
+      ],
+      "title": "GGST➤ Rank 4th IJOHNNY/ ジョニー [ Dr_Spiderman97 ] vs Rank 2nd BEDMAN? / ベッドマン [ TechAMEK ] Guilty Gear"
+    },
+    {
+      "videoId": "lSyBfeZBbh0",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "bedman"
+      ],
+      "theirs": [
+        "sin-kiske"
+      ],
+      "title": "GGST➤ Rank 4th IJOHNNY/ ジョニー [ Dr_Spiderman97 ] vs Rank 2nd BEDMAN? / ベッドマン [ TechAMEK ] Guilty Gear"
+    },
+    {
+      "videoId": "ZuU0u_JylSc",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "sol-badguy"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST➤ Rank 1st SOL / ソル [ UMISHO ] vs Rank 7th SLAYER / スレイヤー [ $1.50 Hotdog ] Guilty Gear Strive"
+    },
+    {
+      "videoId": "ELWpsSY-0nQ",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "happy-chaos"
+      ],
+      "theirs": [
+        "queen-dizzy"
+      ],
+      "title": "GGST | Hazen (Happy Chaos) VS KingAfrica4 (Dizzy) | Guilty Gear Strive High level gameplay"
+    },
+    {
+      "videoId": "XKAMEdee2ko",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "ramlethal-valentine"
+      ],
+      "theirs": [
+        "johnny"
+      ],
+      "title": "GGST➤Rank TOP JOHNNY / ジョニー [ NBNHMR ] vs Rank 3rd RAMLETHAL / ラムレザル [ PalmTopTiger ] Guilty Gear"
+    },
+    {
+      "videoId": "0mFhJNy1QKk",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "goldlewis-dickinson"
+      ],
+      "theirs": [
+        "asuka-r"
+      ],
+      "title": "GGST➤Rank 7th SLAYER / スレイヤー [ Orphen ] vs Rank 1st Goldlewis / ゴールドルイス [ Red|AmNot ] Guilty Gear"
+    },
+    {
+      "videoId": "mZYs2n2Zxts",
+      "field": "players",
+      "ours": [
+        "ナケ",
+        "フシン"
+      ],
+      "theirs": [
+        "nage",
+        "bushin"
+      ],
+      "title": "【JIG|ナゲ(Faust ファウスト)VS ブシン(Slayer Leo スレイヤー レオ)】#ggst No.442 日曜から夜更し 🔥Season4"
+    },
+    {
+      "videoId": "eMCZp4mVSro",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "nagoriyuki"
+      ],
+      "theirs": [
+        "goldlewis-dickinson"
+      ],
+      "title": "GGST | Gobou (Nagoriyuki) VS Garmiria (Millia) | Guilty Gear Strive High level gameplay"
+    },
+    {
+      "videoId": "XT9YPacG0Pw",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "unika"
+      ],
+      "theirs": [
+        "asuka-r"
+      ],
+      "title": "GGST➤Rank 7th UNIKA / ユニカ [ Zato-Van ] vs Rank TOP Elphelt / エルフェルト [ Totshulover ] Guilty Gear"
+    },
+    {
+      "videoId": "RvaMM_V6Uts",
+      "field": "players",
+      "ours": [
+        "red-ditto",
+        "sloth"
+      ],
+      "theirs": [
+        "redditto",
+        "sl0th"
+      ],
+      "title": "GGST High Level Gameplay | #1 RANKED RAMLETHAL (Red Ditto) vs HIGH RANK CHIPP (slOth)"
+    },
+    {
+      "videoId": "BEQ6hvSn42c",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "jam-kuradoberi"
+      ],
+      "theirs": [
+        "bedman"
+      ],
+      "title": "GGST2.0➤Rank 2nd JAM / ジャム [ 13 Year Hustle ] vs Rank 1st JAM / 紗夢 [ Symbol of Hope ] Guilty Gear"
+    },
+    {
+      "videoId": "hUqQDD0CLqA",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Black Cat (Day 1 Robo-Ky) vs Namorisu (Dizzy). High Level Gameplay"
+    },
+    {
+      "videoId": "1Ssvp08QHnI",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Seisei (Day 1 Robo-Ky) vs Apollo (#5 Ranked Sol). High Level Gameplay"
+    },
+    {
+      "videoId": "4PNqzwKZt5g",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Gobou (Day 1 Robo-Ky) vs Goldjin0 (Day 1 Robo-Ky). High Level Gameplay"
+    },
+    {
+      "videoId": "4PNqzwKZt5g",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Gobou (Day 1 Robo-Ky) vs Goldjin0 (Day 1 Robo-Ky). High Level Gameplay"
+    },
+    {
+      "videoId": "1PsurFV_sME",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Tyurara (Day 1 Robo-Ky) vs Seongmin (Day 1 Robo-Ky). High Level Gameplay"
+    },
+    {
+      "videoId": "1PsurFV_sME",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST ▰ Tyurara (Day 1 Robo-Ky) vs Seongmin (Day 1 Robo-Ky). High Level Gameplay"
+    },
+    {
+      "videoId": "_QWVcBVzYzw",
+      "field": "characters",
+      "side": 0,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST2.0➤DAY 1 Robo-Ky / ロボカイ [ seisei ] vs Rank TOP LEO / レオ [ Jonaru ] Guilty Gear Strive"
+    },
+    {
+      "videoId": "KVp07tIERwY",
+      "field": "characters",
+      "side": 1,
+      "ours": [
+        "robo-ky"
+      ],
+      "theirs": [
+        "ky-kiske"
+      ],
+      "title": "GGST2.0➤Rank TOP Giovanna / ジオヴァーナ [ Octova ] vs DAY 1 ROBO-KY / ロボカイ [ Grimm ]"
+    }
+  ]
+}
