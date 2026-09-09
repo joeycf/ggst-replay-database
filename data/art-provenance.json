@@ -129,10 +129,10 @@
       "credit": "© ARC SYSTEM WORKS",
       "portrait": {
         "dimensions": "512×683",
-        "crop": "bust 615×820 at 828,105 on #C78356",
-        "figure": "head TABLE at 74%,11% of body 1422×1577 (estimate 35%,5%; top rows span x 24–36%)",
-        "bytes": 24470,
-        "sha256": "58d38b59f323078b"
+        "crop": "bust 615×820 at 657,200 on #C78356",
+        "figure": "head TABLE at 62%,17% of body 1422×1577 (estimate 35%,5%; top rows span x 24–36%)",
+        "bytes": 33518,
+        "sha256": "d858a7ef07035b22"
       },
       "splash": {
         "dimensions": "2880×680",
@@ -244,10 +244,10 @@
       "credit": "© ARC SYSTEM WORKS",
       "portrait": {
         "dimensions": "512×683",
-        "crop": "bust 605×807 at 433,288 on #F3D98C",
-        "figure": "head TABLE at 50%,21% of body 1249×1552 (estimate 55%,5%; top rows span x 86–92%)",
-        "bytes": 53074,
-        "sha256": "77e70eba108521ad"
+        "crop": "bust 605×807 at 483,350 on #F3D98C",
+        "figure": "head TABLE at 54%,25% of body 1249×1552 (estimate 55%,5%; top rows span x 86–92%)",
+        "bytes": 55180,
+        "sha256": "94f7e21433e4432f"
       },
       "splash": {
         "dimensions": "2880×680",
@@ -543,10 +543,10 @@
       "credit": "© ARC SYSTEM WORKS",
       "portrait": {
         "dimensions": "512×683",
-        "crop": "bust 607×809 at 574,144 on #B3ECFF",
-        "figure": "head TABLE at 55%,13% of body 1588×1556 (estimate 63%,5%; top rows span x 26–32%)",
-        "bytes": 54536,
-        "sha256": "485b3caa28d68b6a"
+        "crop": "bust 607×809 at 558,284 on #B3ECFF",
+        "figure": "head TABLE at 54%,22% of body 1588×1556 (estimate 63%,5%; top rows span x 26–32%)",
+        "bytes": 61204,
+        "sha256": "419496b784994337"
       },
       "splash": {
         "dimensions": "2880×680",
@@ -635,10 +635,10 @@
       "credit": "© ARC SYSTEM WORKS",
       "portrait": {
         "dimensions": "512×683",
-        "crop": "bust 619×826 at 608,67 on #D45078",
-        "figure": "head TABLE at 62%,9% of body 1339×1588 (estimate 63%,5%; top rows span x 41–66%)",
-        "bytes": 34308,
-        "sha256": "3e34894782364609"
+        "crop": "bust 619×826 at 433,179 on #D45078",
+        "figure": "head TABLE at 49%,16% of body 1339×1588 (estimate 63%,5%; top rows span x 41–66%)",
+        "bytes": 34000,
+        "sha256": "1f52878ec0107ca8"
       },
       "splash": {
         "dimensions": "2880×680",

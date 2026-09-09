@@ -38,7 +38,9 @@
  *   · "The competitive GUILTY GEAR -STRIVE- replay database", then the tagline
  *   · a footer stripe that is THE ROSTER: one segment per fighter, in roster
  *     order, each in that fighter's own accent, read from data/characters.json.
- *     Tōkon's card carries 21 segments and SF6's 30 — their roster sizes — so
+ *     Tōkon's card carries 21 segments and SF6's 30 (SF6's roster has since
+ *     grown to 31 — its card went stale, which is exactly the failure reading
+ *     characters.json on every run prevents) — so
  *     34 here, decided over the design handoff's 5-per-family strip
  *     (design-handoff.md, block 08): the card tracks the roster instead of
  *     going stale on the next DLC.

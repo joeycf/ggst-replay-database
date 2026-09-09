@@ -52,14 +52,14 @@
 // and every one resolves on the roster's alias table, so today this derives
 // NOTHING here. It stays because the day a fighter merges into another upstream
 // (Dizzy into Queen Dizzy is the live candidate: the catalogue writes "Queen
-// Dizzy" on 448 sides and our roster carries "Dizzy" as her alias) the
+// Dizzy" on 719 sides and our roster carries "Dizzy" as her alias) the
 // derivation reads the change instead of needing an edit.
 //
 // A FOURTH OUTCOME THIS GAME NEEDS AND NO SIBLING DID: the PLACEHOLDER handle.
 // 645 side appearances carry `Unknown Player` (504), `GG Player` / `GG PLAYER` /
 // `GG player` (86), `Honest Player` (16) and a 15-spelling tail (recon §8.5) —
 // a witness that declined to name the player, not one that named a different
-// one. Scored as a miss those would be ~300 spurious handle rows in an artifact
+// one. Scored as a miss those would be spurious handle rows in an artifact — measured at 1 of 11,467 compared records on the launch sweep, against the 430 the intake itself refuses on the same predicate
 // whose whole value is that its rows are worth reading. Held out as
 // `players.placeholder`; the characters on that row are still witnessed.
 //
@@ -253,7 +253,7 @@ const VIDEO_ID =
  * Player (いもG Player)`. The first four are folded in below; the bilingual one
  * is left to surface in `handleAffix.unrelated`, which is where an unlisted
  * spelling should appear rather than vanish. Pure punctuation is a placeholder
- * too — `.` ×8, `|`, `…`, `...`, `▼▲▼▲…`, 12 sides the recon did not count —
+ * too — `.` ×8, `|`, `…`, `...`, `▼▲▼▲…`, 13 sides the recon did not count —
  * because playerId() slugs it to '' and parse refuses it anyway. Total with
  * this predicate: 656 sides over 31 spellings.
  *

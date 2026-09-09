@@ -518,8 +518,8 @@ export async function writeReportAndData(input: FinishInput): Promise<void> {
   //
   // A HARD STOP, with the evidence a human needs to add the row: the id, the
   // handle, the character(s) it resolves to, and a record it appears in. All
-  // offenders are printed at once — a 21,944-row catalogue can surface several
-  // on its first full sweep, and one stop per handle would be a bad morning.
+  // offenders are printed at once — the first full run surfaced 69 of them
+  // (2026-09-09), and one stop per handle would have been a bad morning.
   const confirmedById = new Map(CONFIRMED_FIGHTER_NAMED_PLAYERS.map((p) => [p.id, p]));
   const collisions: string[] = [];
   const confirmedSeen: string[] = [];
@@ -867,7 +867,7 @@ export async function writeReportAndData(input: FinishInput): Promise<void> {
     lines.push(
       '## Version tokens — counted, never a patch',
       '',
-      'ggstHq opens 2,864 of its 2,994 titles with a bare version ("5.2", "5.1"); ggstBattleCollection',
+      'ggstHq opens 644 of its 3,006 uploads with a bare version ("5.2", "5.1"); ggstBattleCollection',
       'glues one to the marker ("GGST2.0"). They are NOT parsed into Replay.patch: ArcSys publishes two',
       'version spaces (game X.YY, Battle Version), "5.2" exists in neither as a patch-note title, and a',
       'token that appears in no source may not be minted (scripts/seasons.ts). The HYPOTHESIS is that',

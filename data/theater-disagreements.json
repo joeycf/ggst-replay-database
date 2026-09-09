@@ -5,15 +5,15 @@
     "unmatched": 3600,
     "segmented": 6,
     "players": {
-      "both": 11356,
-      "one": 107,
+      "both": 11358,
+      "one": 105,
       "neither": 3,
       "flipped": 1,
       "placeholder": 1,
       "handleAffix": {
-        "ours": 9,
+        "ours": 8,
         "theirs": 11,
-        "unrelated": 93
+        "unrelated": 92
       }
     },
     "characters": {

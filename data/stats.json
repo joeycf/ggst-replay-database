@@ -2,7 +2,7 @@
   "totals": {
     "replays": 24706,
     "characters": 34,
-    "players": 6542,
+    "players": 6540,
     "byPatch": {
       "2020-04-18": 74,
       "2020-10-11": 3,
@@ -12780,7 +12780,7 @@
       "faust": 3
     },
     "zin": {
-      "chipp-zanuff": 35,
+      "chipp-zanuff": 36,
       "johnny": 1,
       "asuka-r": 2,
       "sin-kiske": 2,
@@ -18587,7 +18587,7 @@
       "zato-1": 2
     },
     "天帝わんちゃん": {
-      "testament": 4
+      "testament": 5
     },
     "olliedaolive": {
       "sol-badguy": 9
@@ -18699,9 +18699,6 @@
     "arsen-kamelot": {
       "potemkin": 2
     },
-    "patch-2-0-zin": {
-      "chipp-zanuff": 1
-    },
     "pistachio": {
       "anji-mito": 2
     },
@@ -18719,9 +18716,6 @@
     },
     "rauba-n": {
       "nagoriyuki": 3
-    },
-    "patch-2-0": {
-      "testament": 1
     },
     "damokay": {
       "sol-badguy": 1

@@ -107,15 +107,26 @@ export const MIN_MATCH_SEC = 120;
 
 /**
  * A handle is at most MAX_HANDLE_WORDS words. MEASURED 2026-09-09 on the first
- * real parse (32,816 sides): 1 word 29,385 · 2 → 2,277 · 3 → 1,004 · 4 → 132 ·
- * 5 → 18. CotW measured 4 on 8,776 sides and every longer "handle" there was
- * leaked decoration; here the four-word band is REAL — "ichi tada kuro neko",
- * "babu san diki san", "dai dai taizai nin", "warawa @ nikoniko douga" — and
- * the five-word band is a mix: "eruforute = noeru = varenta", "sorede I-NO ne
- * wwwwww" and "5[D] = 1 SHOT" are players, while "First To 5 High Level" and
- * "Part 2 #guiltygearstrive #ggst2.0" were decoration the strips below now
- * remove. So 5 stays, the strips carry the burden, and report.md keeps
- * printing the distribution so the next drift is visible as a bump at 5.
+ * real parse (32,922 sides): 1 word 30,230 · 2 → 2,230 · 3 → 395 · 4 → 61 ·
+ * 5 → 6. CotW measured 4 on 8,776 sides and every longer "handle" there was
+ * leaked decoration; here the four-word band is REAL — Japanese handles run
+ * long ("ichi tada kuro neko", "jinin neko neko") — so 5 stays and the strips
+ * carry the burden.
+ *
+ * THE RESIDUAL IS NAMED RATHER THAN CLAIMED GONE, because a comment saying the
+ * strips handle it is worth nothing once they do not. Of the 6,540 handles,
+ * FOUR are still decoration the strips do not reach:
+ *   "UFA 2023 Losers Semifinals Sorani"     the player is Sorani
+ *   "Infiltration Arc Revo Japan Runback"   the player is Infiltration
+ *   "First To 3"                            not a person at all
+ *   "3 OB = My Turn"                        a set label
+ * They survive because every word in them is a plausible handle word somewhere
+ * else — a blanket strip of "first", "to", "arc" or "final" would cost real
+ * players. "PATCH 2.0 ZIN" and "PATCH 2.0 天帝わんちゃん" WERE in this list and
+ * are not any more: the literal word PATCH followed by a version is
+ * unambiguous, so DECOR_PREFIX consumes it and the two records rejoined their
+ * real players. report.md keeps printing the distribution, so the next drift
+ * shows as a bump at 5.
  */
 const MAX_HANDLE_WORDS = 5;
 
@@ -132,8 +143,8 @@ const MAX_HANDLE_WORDS = 5;
 // (ggstHighRank, yumegiwa's tail). U+FE0F is the emoji variation selector that
 // rides on "▶️"; without it the selector survives the strip and lands in a
 // handle as an invisible first character.
-const DECOR = '▰▶⏺➤✪🔥⭐🌟✨⚡👑🎮\\uFE0F|｜:\\-–—';
-const DECOR_GLYPHS = /[▰▶⏺➤✪🔥⭐🌟✨⚡👑🎮️]/gu;
+const DECOR = '\\uFE0F▰▶⏺➤✪🔥⭐🌟✨⚡👑🎮|｜:\\-–—';
+const DECOR_GLYPHS = /[\uFE0F▰▶⏺➤✪🔥⭐🌟✨⚡👑🎮]/gu;
 
 const DECOR_PREFIX = new RegExp(
   [
@@ -156,6 +167,11 @@ const DECOR_PREFIX = new RegExp(
     // of the handle. The version token is consumed here and COUNTED separately
     // by VERSION_TOKEN below — it is never a patch.
     String.raw`^\s*(?:Guilty\s*Gear\s*-?\s*Strive\s*-?|GGST)\s*(?:\d+\.\d+(?![\d.]))?\s*(?:Season\s*\d+\s*)?(?:(?:Floor|Iron)\s*\d+)?\s*(?:(?:High|Mid|Low)\s*(?:Level\s*)?(?:Game\s*play\s*)?)?(?:Special\s*Bout\s*)?(?:PS[45]\s*|PC\s*)?[${DECOR}]*\s*`,
+    // "PATCH 2.0 ZIN vs …" — ggstBattleCollection stamps the patch on the FRONT
+    // of some titles, where it read as the handles "PATCH 2.0 ZIN" and
+    // "PATCH 2.0 天帝わんちゃん" on the 2026-09-09 run. Unambiguous: no handle in
+    // 6,542 begins with the literal word PATCH followed by a version.
+    String.raw`^\s*PATCH\s*\d+\.\d+\s*`,
     // "【わらわ（RoboKy ロボカイ）VS …】" — yumegiwa wraps the matchup in 【 】.
     String.raw`^\s*【\s*`,
   ].join('|'),
@@ -217,7 +233,11 @@ const HASHTAG_TOKEN = /(?<![\p{L}\p{N}])#[\p{L}][\p{L}\p{N}_.]*/gu;
 
 /**
  * ggstHq's version token — "GGST 5.2 …", "Guilty Gear Strive 5.1 …", and the
- * glued "GGST2.0➤" on ggstBattleCollection — on 2,864 of ggstHq's 2,994 titles.
+ * glued "GGST2.0➤" on ggstBattleCollection. THE PARSER SEES 644 of ggstHq's
+ * 3,006 uploads, not the recon's 2,864: that figure is from a different field
+ * (channels-live.md:306 calls it "a Version field"), and no reading of the
+ * title text reaches it — loosening to any X.Y anywhere, hashtags included,
+ * tops out at 656. Re-measured with this regex 2026-09-09.
  *
  * COUNTED, NEVER PARSED INTO Replay.patch. recon/critic.md flags that "5.2" and
  * "5.1" appear in no ArcSys patch-note title: the vendor's game version is
@@ -290,7 +310,7 @@ const VS = /(?<![\p{L}\p{N}])(?:vs\.?|versus|×)(?![\p{L}\p{N}])/giu;
  * Left to right, each alternative consumes its whole group, so the inner paren
  * of a square group is never seen as a group of its own.
  */
-const BRACKET = /\((?:[^()]|\([^()]*\))*\)|（[^（）]*）|\[[^\[\]]*\]/gu;
+const BRACKET = /\((?:[^()]|\([^()]*\))*\)|（[^（）]*）|\[[^[\]]*\]/gu;
 
 const countVs = (s: string): number => {
   VS.lastIndex = 0;

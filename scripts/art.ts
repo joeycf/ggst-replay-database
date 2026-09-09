@@ -387,12 +387,20 @@ const BUST_HEAD: Record<string, { x: number; y: number }> = {
   may: { x: 0.6, y: 0.09 }, // hood is the top; the anchor and whale sit left of her face
   'axl-low': { x: 0.58, y: 0.05 }, // the left scythe pulls the centroid to 0.47
   'chipp-zanuff': { x: 0.63, y: 0.05 }, // hair spikes spread the top across 0.29–0.72
-  potemkin: { x: 0.74, y: 0.11 }, // crouched; the gauntlet owns the top-left, the helmet spike starts at 0.09
+  // RE-READ 2026-09-09 from 0.74/0.11, which landed on EMPTY BACKGROUND: alpha 0
+  // at that point and 0% opaque within 55px, so the window centred on nothing and
+  // the shipped tile put his helmet ~18% from the left edge. The huge shape in the
+  // top-left is his GAUNTLET, not his head; the head is the small helmeted one at
+  // centre-right. 72% opaque within 55px now. This is the row the alpha guard below
+  // was added for.
+  potemkin: { x: 0.62, y: 0.17 },
   faust: { x: 0.85, y: 0.03 }, // stooped; the bag is topmost AND spans 77–98% across
   'millia-rage': { x: 0.58, y: 0.07 }, // hair mass drags the centroid left
   'zato-1': { x: 0.6, y: 0.19 }, // Eddie's silhouette fills the frame above him
   'ramlethal-valentine': { x: 0.48, y: 0.12 }, // hat; a greatsword hilt reaches the top-left
-  'leo-whitefang': { x: 0.5, y: 0.21 }, // both axe-swords raised above the head
+  // RE-READ 2026-09-09 from 0.5/0.21 (alpha 0, 21% opaque nearby — it sat in the
+  // gap between the two raised axe-swords, just above the crown). 93% now.
+  'leo-whitefang': { x: 0.54, y: 0.25 },
   nagoriyuki: { x: 0.47, y: 0.21 }, // the sword hilt is the top 13%
   giovanna: { x: 0.6, y: 0.16 }, // Rei sits above and left of her
   'anji-mito': { x: 0.55, y: 0.1 }, // raised arm and open fan above
@@ -405,11 +413,18 @@ const BUST_HEAD: Record<string, { x: number; y: number }> = {
   bridget: { x: 0.55, y: 0.12 }, // yoyo and raised hand above
   'sin-kiske': { x: 0.53, y: 0.1 }, // flagpole crosses the top band
   bedman: { x: 0.43, y: 0.46 }, // Delilah, at the centre; the top 40% is the machine
-  'asuka-r': { x: 0.55, y: 0.13 }, // tome, staff ring and pages all extend above him
+  // RE-READ 2026-09-09 from 0.55/0.13, which was in the gap between the floating
+  // tome on his right and the swirling pages on his left — alpha 0, 0% opaque
+  // within 55px. His head is lower and centre. 78% now. Found by the guard
+  // below, not by eye: it is the fourth row of this kind and the only one the
+  // adversarial review missed.
+  'asuka-r': { x: 0.54, y: 0.22 }, // tome, staff ring and pages all extend above him
   johnny: { x: 0.52, y: 0.09 }, // hat and raised arm
   'elphelt-valentine': { x: 0.5, y: 0.11 }, // raised arm is topmost
   aba: { x: 0.38, y: 0.27 }, // Paracelsus's face owns the top fifth
-  slayer: { x: 0.62, y: 0.09 }, // bats above
+  // RE-READ 2026-09-09 from 0.62/0.09 (alpha 0, 2.6% opaque nearby — it sat among
+  // the bats above his shoulder, not on him). 86% now.
+  slayer: { x: 0.49, y: 0.16 },
   'queen-dizzy': { x: 0.6, y: 0.26 }, // the two wing-spirits and their halos above
   venom: { x: 0.33, y: 0.27 }, // near-horizontal; the cue tip is the top row (x 0.43–0.46), his face a quarter down
   'jam-kuradoberi': { x: 0.42, y: 0.27 }, // dim-sum basket top-left, rabbit top-right
@@ -567,7 +582,7 @@ async function generatedTiles(
   // FIGURE_RIGHT like every real figure, so the engine's stripe backplate still
   // shows around it. NOT FIGURE_MAX_W wide: a slab that wide sits with 0px to
   // spare against the 360×280 window (e2e's narrowest-viewport check passed on
-  // rounding alone, measured 2026-09-09), and the real bodies carry 42–370px.
+  // rounding alone, measured 2026-09-09), and the real bodies carry 42–522px.
   const SH = Math.round(HERO_H * FIGURE_H);
   const SW = Math.round(SH * 0.75);
   const sx = Math.round(HERO_W * FIGURE_RIGHT) - SW;
@@ -616,6 +631,53 @@ async function savePortrait(
   const estY = box.top + 0.05 * box.height;
   const hx = head ? box.left + head.x * box.width : estX;
   const hy = head ? box.top + head.y * box.height : estY;
+
+  // THE CROSSHAIR MUST LAND ON THE FIGURE. A hand-read row is a pair of numbers
+  // typed by a person looking at a picture, and the failure mode is silent: the
+  // window centres on empty background, the crop still succeeds, and the tile
+  // renders with the fighter shoved against an edge. Three of the 30 table rows
+  // shipped that way on 2026-09-09 — potemkin at alpha 0 with NOTHING opaque
+  // within 55px, slayer 2.6%, leo-whitefang 21% — and none of the existing
+  // checks noticed, because every one of them asks about dimensions or aspect
+  // rather than about where the point is.
+  //
+  // So: probe the source alpha AROUND the crosshair. Cheap, and it turns "I
+  // looked at it" into something the build re-asserts on every run.
+  //
+  // IT MEASURES A NEIGHBOURHOOD, NOT A PIXEL, and the first version of this
+  // guard got that wrong. A single-pixel alpha test failed four rows whose
+  // crosshair is fine — may, zato-1, anji-mito and goldlewis-dickinson all land
+  // in a one-pixel gap between hair strands or inside a costume cut-out. The
+  // separation is unambiguous once you look at the density instead
+  // (measured 2026-09-09 over all 30 table rows, 55px radius):
+  //      genuinely off the figure   potemkin 0.0%  asuka-r 0.0%  slayer 2.6%
+  //                                 leo-whitefang 21.0%
+  //      a gap inside the figure    goldlewis 51.2%  may 52.3%  zato-1 58.7%
+  //                                 anji-mito 85.4%
+  // Nothing lands between 21% and 51%, so the threshold sits in the middle of a
+  // real gap rather than being tuned to the failures.
+  const R = 55;
+  const px = Math.round(hx);
+  const py = Math.round(hy);
+  const win = {
+    left: Math.max(0, px - R),
+    top: Math.max(0, py - R),
+    width: Math.min(KIT_FRAME, px + R) - Math.max(0, px - R),
+    height: Math.min(KIT_FRAME, py + R) - Math.max(0, py - R),
+  };
+  const near = await sharp(buf).ensureAlpha().extract(win).raw().toBuffer();
+  let opaque = 0;
+  for (let i = 3; i < near.length; i += 4) if (near[i]! > 200) opaque++;
+  const density = opaque / (win.width * win.height);
+  if (density < 0.35) {
+    throw new Error(
+      `${c.id}: the head crosshair (${head ? `BUST_HEAD ${head.x}, ${head.y}` : 'estimate'}) ` +
+        `is at source pixel (${px}, ${py}), where only ${(density * 100).toFixed(1)}% of the ` +
+        `surrounding ${R}px is opaque. The window would centre on empty background and the ` +
+        `fighter would sit against an edge. Re-read the position ON THE CUTOUT — the biggest ` +
+        `shape near the top is often a weapon, a prop or a gauntlet, not the head.`,
+    );
+  }
 
   // Fit the window to the image before placing it, so a short render shrinks
   // the crop rather than silently sliding it off the figure.

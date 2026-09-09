@@ -1,6 +1,6 @@
 # GGST pipeline report
 
-- **24706** published records · **6542** players · **34** fighters
+- **24706** published records · **6540** players · **34** fighters
 - **817** mirror match(es) (3.3%) — the stat unit is side appearances, so each adds 2 to one character (scripts/stats.ts)
 - **230** pending review item(s) — absent from the site, never guessed
 - **0** duplicate id(s) resolved by intake precedence
@@ -118,13 +118,13 @@ and lab shorts everywhere below 120s except ggstHq, whose Shorts are titled matc
 
 ## Handles
 
-- word count per side: 1 → 30228 · 2 → 2230 · 3 → 397 · 4 → 61 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
+- word count per side: 1 → 30230 · 2 → 2230 · 3 → 395 · 4 → 61 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
 - 629 player(s) seen under more than one spelling; the display casing is the majority spelling, tie-broken toward mixed case, and the rest are kept as aliases
 - placeholder handles refused: 145 on the channels, 430 in the catalogue
 
 ## Version tokens — counted, never a patch
 
-ggstHq opens 2,864 of its 2,994 titles with a bare version ("5.2", "5.1"); ggstBattleCollection
+ggstHq opens 644 of its 3,006 uploads with a bare version ("5.2", "5.1"); ggstBattleCollection
 glues one to the marker ("GGST2.0"). They are NOT parsed into Replay.patch: ArcSys publishes two
 version spaces (game X.YY, Battle Version), "5.2" exists in neither as a patch-note title, and a
 token that appears in no source may not be minted (scripts/seasons.ts). The HYPOTHESIS is that
@@ -314,7 +314,7 @@ _we do not hold from a tracked channel; 6 are VODs the catalogue segments, which
 
 | field | population | agree | partial | disagree | cannot witness |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| players (both handles) | 11466 | 11356 (99.04%) | 107 | 3 | 1 |
+| players (both handles) | 11466 | 11358 (99.06%) | 105 | 3 | 1 |
 | characters (per side) | 22934 | 22909 (99.89%) | 6 | 19 (0.08%) | 0 |
 
 Side order differed on **1** record(s); the comparison realigns on the
@@ -325,9 +325,9 @@ character disagreement. Handles are compared sponsor-stripped on both sides.
 (`Unknown Player`, `GG Player`, …) — a witness that declined to name the player, held
 out of the players row rather than scored as a miss. Their characters are still compared.
 
-Of the 113 side(s) whose handles did not match, **9** are ours carrying extra text
+Of the 111 side(s) whose handles did not match, **8** are ours carrying extra text
 the catalogue does not, **11** are theirs carrying a team tag THEATER_SPONSOR does not
-strip yet, and **93** are genuinely different names — the only bucket worth reading one
+strip yet, and **92** are genuinely different names — the only bucket worth reading one
 row at a time. Reported, never scored: substring matching on handles is the kind of
 guessing this module refuses.
 
@@ -358,4 +358,4 @@ guessing this module refuses.
 
 > ggstLowLevel: frozen since 2026-07-16; 19 record(s) parsed from a frozen dump (the seeding path) and asserted against the pin.
 
-_Generated 2026-09-09T13:18:23.043Z_
+_Generated 2026-09-09T13:34:36.125Z_

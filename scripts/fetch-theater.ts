@@ -51,7 +51,7 @@
 // ── WHAT THIS CATALOGUE IS, AND WHY THE SIZE CHANGES THE DESIGN ────────────
 // Measured live 2026-09-07 over the whole catalogue (recon/replay-theater-live.md):
 //
-//   22,064 entries at the last read, 21,944 four hours earlier — IT MOVES, so
+//   22,064 entries at the last read, 21,944 21 hours earlier — IT MOVES, so
 //   nothing here pins the count. ~442 pages of 50. The platform's largest by a
 //   wide margin: 6× CotW, 64% of all five prior catalogues combined.
 //
@@ -144,7 +144,7 @@ const CLEAN_PAGES_TO_STOP = 2;
 /** A hard ceiling on the daily path, so a catalogue-side reordering can never
  *  turn the cron into a sweep. At ~442 pages this bound is 2.3% of the
  *  catalogue — far tighter than CotW's 10-of-70 — and it WILL bite on an
- *  upstream reorder or on a burst (the catalogue took 120 rows in four hours
+ *  upstream reorder or on a burst (the catalogue took 120 rows in 21 hours
  *  on 2026-09-07). That is what it is for. Hitting it is reported, not silent:
  *  `hitCursorBound` goes in the stats file, and under add-only nothing is
  *  lost, only late — the reconcile is `npm run data:theater -- --full`. */
@@ -172,7 +172,7 @@ const LIMIT = ((): number => {
 })();
 
 /** THE TEST SEAM. The endpoint is committed config (channels.ts) and the live
- *  catalogue moves — 21,944 → 22,064 rows in four hours — so a positive
+ *  catalogue moves — 21,944 → 22,064 rows in 21 hours — so a positive
  *  control that needs two pulls to be byte-identical cannot be run against
  *  it. verify:gates serves a frozen fixture and points this here. Logged
  *  loudly whenever it is in effect, so a stray shell variable cannot quietly
@@ -733,13 +733,20 @@ async function main(): Promise<void> {
   // then on the ENTRY ID, so the survivor never depends on read order (a
   // resumed sweep must collapse the same way a clean one does).
   //
-  // WHAT IS LEFT IS COUNTED, NOT FATAL. Measured 2026-09-07: four genuine
-  // collisions, three of them true duplicates and ONE A REAL DATA ERROR — VOD
-  // `tmyR-G1zxqs` has RT #292436 `UA Rang13 (Goldlewis) vs Kal (Nagoriyuki)`
-  // and #292437 `TempestNYC (Leo) vs Consomme (Potemkin)` at the same EVO
-  // Japan 2024 offset. Two different matches at one offset is upstream's to
-  // fix, not a reason to refuse 22,000 rows every morning; the lower entry id
-  // survives, the loser is counted, and the report names the count.
+  // WHAT IS LEFT IS COUNTED, NOT FATAL. Measured on the full sweep 2026-09-09:
+  // four record ids carry two entries each — TWO are true duplicates the
+  // collapse above explains, and TWO ARE REAL DATA ERRORS, two genuinely
+  // different matches sharing one id:
+  //   `tmyR-G1zxqs`  #292436 UA Rang13 (Goldlewis) vs Kal (Nagoriyuki)
+  //                  #292437 TempestNYC (Leo) vs Consomme (Potemkin)  [EVO Japan 2024]
+  //   `oq97ugafLMI`  #252443 ArtemaSeeker vs WashedPotemkin
+  //                  #252646 UltimaWielder vs Aboii                   [untagged]
+  // The recon found only the first and read the split as three duplicates and
+  // one error; the sweep says two and two. That makes the case for counting
+  // STRONGER, not weaker: upstream data errors are a standing condition, not an
+  // incident, and refusing 22,000 rows every morning over two of them would be
+  // the wrong trade. The lower entry id survives, the loser is counted, and the
+  // report names the count.
   const byKey = new Map<string, Array<{ e: TheaterEntry; link: Link }>>();
   for (const l of linked) {
     const key = recId(l.link);
@@ -755,7 +762,7 @@ async function main(): Promise<void> {
       (e.p2_name ?? '').trim(),
       chars(e, 1).join('/'),
       chars(e, 2).join('/'),
-    ].join(' ');
+    ].join('\u0000');
   for (const [key, group] of byKey) {
     if (group.length === 1) {
       deduped.push(group[0]!);
