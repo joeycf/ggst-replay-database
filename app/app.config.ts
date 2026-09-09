@@ -101,14 +101,20 @@ export default defineAppConfig({
       metaTimelineTopN: 8,
       metaTimelineFullWidth: true,
     },
-    // INHERITED FROM CotW AND NOT YET RE-DERIVED — see scripts/art.ts.
-    // CotW measured '100% 50%' against splashes its own art.ts composes at the
-    // hero's 4.2353:1 ratio; that arithmetic only holds once the same
-    // composition exists here. Strive's art pipeline is NOT CotW's: the
-    // "top of the figure is the head" heuristic holds for 6 of 34 fighters
-    // (6 more warn, 22 need a hand-read), and the source aspect ratio spans
-    // 0.90 to 2.07, so the crop table is the thing that decides this value.
-    // Re-measure when art.ts lands; do not treat this as verified.
+    // MEASURED 2026-09-09 against scripts/art.ts, which composes every splash
+    // on a 2880×680 canvas at the hero's own 4.2353:1 ratio, figure flush right
+    // at 0.97 (CotW's composition). At that ratio the box never has horizontal
+    // overflow, so '100% 50%' is the value the arithmetic produces rather than
+    // a preference: right-aligning the window keeps the 3% margin at every
+    // breakpoint, and Y is inert. e2e replication on the shipped set: 34/34
+    // splashes 4.2353:1 with alpha, 0 clipped in the 360×280 narrow window.
+    //
+    // The crop table is where the real work was. On the Fan Kit cutouts "top
+    // of the figure is the head" holds for 3 of 34 (sol, ky, unika — the only
+    // estimated rows); 30 carry a hand-read BUST_HEAD row, and lucy is
+    // generated. The recon's "6 safe / 22 hand-read" was measured on the
+    // detail-page renders, which are different poses — faust's head sits at
+    // 0.72 across there and 0.85 on the kit.
     heroFocus: '100% 50%',
     accents: {
       // Base roster (launch 2021-06-11)

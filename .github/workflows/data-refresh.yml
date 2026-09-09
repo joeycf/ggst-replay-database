@@ -135,8 +135,11 @@ jobs:
             git restore --staged --worktree data/report.md
           fi
           # AND THE SAME FOR THE CURSOR. The catalogue takes new entries most
-          # days whether or not any of OUR data changed — measured at ~8.75
-          # rows/day — so the highest-seen id rises on essentially every run.
+          # days whether or not any of OUR data changed — four total_count
+          # readings over ~43 hours (2026-09-07 → 09-09) gave a baseline of
+          # ~10–12 rows/day AND one bulk-submission day of +120, so the
+          # highest-seen id rises on essentially every run and sometimes by a
+          # lot. (The +120 day is also why the 10-page cursor bound exists.)
           # Left staged that would retire the no-change-no-commit rule outright
           # and put a deploy on the calendar every day forever. Dropped when it
           # is the only thing left, the cursor simply does not advance on a quiet
