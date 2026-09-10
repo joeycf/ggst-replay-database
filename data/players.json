@@ -1377,6 +1377,10 @@
     "handle": "Ashimriat"
   },
   {
+    "id": "ashkoys",
+    "handle": "Ashkoys"
+  },
+  {
     "id": "ashz",
     "handle": "ASHZ"
   },
@@ -2442,6 +2446,10 @@
   {
     "id": "blackcoffin",
     "handle": "BlackCoffin"
+  },
+  {
+    "id": "blackframeblaze",
+    "handle": "BlackFrameBlaze / 黒炎ブレイズ"
   },
   {
     "id": "blankzero",
@@ -3896,6 +3904,10 @@
   {
     "id": "cinder",
     "handle": "Cinder"
+  },
+  {
+    "id": "cinderella-gray",
+    "handle": "Cinderella Gray"
   },
   {
     "id": "cinderella-man",
@@ -6699,6 +6711,10 @@
     "handle": "Enorph"
   },
   {
+    "id": "entoo",
+    "handle": "entoo"
+  },
+  {
     "id": "env",
     "handle": "EnV"
   },
@@ -7416,7 +7432,12 @@
   },
   {
     "id": "flyinbacon",
-    "handle": "flyinbacon"
+    "handle": "flyinbacon",
+    "extra": {
+      "aliases": [
+        "Flyinbacon"
+      ]
+    }
   },
   {
     "id": "flying-beagle",
@@ -10384,6 +10405,10 @@
     "handle": "ichi tada kuroneko"
   },
   {
+    "id": "ichigo-kurosaki",
+    "handle": "Ichigo Kurosaki"
+  },
+  {
     "id": "ichigo233",
     "handle": "Ichigo233"
   },
@@ -11164,6 +11189,10 @@
   {
     "id": "jeisonyea",
     "handle": "JeisonYEA!!!"
+  },
+  {
+    "id": "jejusamdasu",
+    "handle": "jejusamdasu"
   },
   {
     "id": "jel-sensei",
@@ -13027,6 +13056,10 @@
   {
     "id": "krozeba",
     "handle": "Krozeba"
+  },
+  {
+    "id": "kshue",
+    "handle": "KSHUE"
   },
   {
     "id": "kshuewhatdamoo",
@@ -26282,6 +26315,10 @@
         "*VL* Lurry"
       ]
     }
+  },
+  {
+    "id": "vlink",
+    "handle": "Vlink"
   },
   {
     "id": "vlv",
