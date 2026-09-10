@@ -22,3 +22,4 @@ secrets/
 # directory the process happened to start in.
 .fc-cache/
 design/fonts/.fc-cache/
+.env*
