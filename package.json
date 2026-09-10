@@ -25,6 +25,7 @@
     "data:og": "tsx scripts/og.ts",
     "data:seasons": "tsx scripts/seasons.ts --check",
     "data:patch-check": "tsx scripts/patch-check.ts",
+    "data:roster-check": "tsx scripts/roster-check.ts",
     "data:expiries": "tsx scripts/expiries.ts --check",
     "data:catchup": "tsx --env-file-if-exists=.env scripts/catchup.ts",
     "data:redirects": "tsx scripts/redirects.ts",

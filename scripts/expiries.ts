@@ -43,8 +43,14 @@ import type { Expiry } from '../types/index';
  *   DLC Additional Character #20  ???  (Available Winter 2026)
  *   DLC Additional Character #21  ???  (Available Spring 2027)
  *
- * Verified live 2026-09-07: no name, no portrait, no character page, no sitemap
- * entry, no Fan Kit asset. There is nothing to gate on. The Season Pass 5
+ * Verified live 2026-09-07 and re-verified 2026-09-09: no name, no portrait, no
+ * character page, no sitemap entry, no Fan Kit asset. There is nothing to gate on.
+ *
+ * ONE THING IS NOW PUBLIC AND IT IS NOT A NAME. Arc System Works confirmed in
+ * July 2026 that DLC #20 — the Winter 2026 slot — is a GUEST character, the
+ * season's second. That narrows what to expect and changes nothing here: a
+ * guest still has no name, no slug and no art, so there is still nothing to
+ * gate on. Do not let "we know something about it" become a speculative row. The Season Pass 5
  * purchase-bonus text corroborates the count — "7 additional colors for each of
  * the 4 characters added in GGST Season 5".
  *
@@ -105,18 +111,31 @@ export function dueExpiries(asOf: string = today()): Expiry[] {
         kind: 'unreleased-character',
         id: u.id,
         date: u.releases,
+        // This text was ported from the CotW repo and carried its instructions
+        // for six weeks: it sent you to SNK's Fatal Fury character index to
+        // check a Guilty Gear spelling, and it told you to add `--char-<id>`,
+        // which is not how accents are keyed HERE. Both are fixed below. An
+        // action string is documentation that only ever gets read once, on the
+        // day it fires, by someone who is trusting it — so a wrong one is worse
+        // than none.
         action:
           `${u.id} should now be playable. If it is: confirm the name and spelling on ` +
-          `snk-corp.co.jp/us/games/fatalfury-cotw/characters/, add --char-${u.id} to ` +
-          `design/handoff/tokens.css (${
+          `guiltygear.com/ggst/en/character/ — the DETAIL PAGE'S <h1>, never the grid's ` +
+          `<h2> and never buynow.html, which disagree for 13 of 34 — then add a TOKEN_FOR ` +
+          `entry in scripts/characters.ts mapping the full-name-kebab roster id to the ` +
+          `handoff's SHORT token, and add --char-<that short token> to ` +
+          `design/handoff/tokens.css in the right hue family (${
             u.accent
               ? `the handoff already derived ${u.accent}`
               : 'accent from a Claude Design session — never invent one'
           } — contrast ≥4.5:1 on --color-surface and a hue ≥8–12° off its roster ` +
-          `neighbours), add the same hex to accents in app/app.config.ts, add the fighter to ` +
-          `ROSTER in scripts/characters.ts with the aliases its uploaders actually use, drop ` +
-          `this entry from UNRELEASED, then run \`npm run data:characters\` and ` +
-          `\`npm run data:art\`. Also add a comboforge null for it in app/app.config.ts until ` +
+          `neighbours). Accents in app/app.config.ts are keyed by ROSTER ID, not by token — ` +
+          `the short keys stop at TOKEN_FOR. Then add the fighter to ROSTER in ` +
+          `scripts/characters.ts with the aliases its uploaders actually use (respecting ` +
+          `BANNED_ALIASES), add the patch to scripts/seasons.ts — patchBoundaries.json is ` +
+          `GENERATED here, editing it does nothing — drop this entry from UNRELEASED, then ` +
+          `run \`npm run data:characters\`, \`npm run data:art\` and \`npm run data:og\`. ` +
+          `Also add a comboforge null for it in app/app.config.ts until the ENGINE's ` +
           `\`npm run verify:comboforge\` says they carry it. If it has NOT shipped, re-date ` +
           `this row to the new window — do not delete it.`,
       });

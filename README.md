@@ -204,6 +204,7 @@ on-figure 51–85%.
 | `data:characters`      | roster + all its validators                                            |
 | `data:seasons`         | the patch table; `--check` runs inside `npm run typecheck`             |
 | `data:patch-check`     | ArcSys's feed vs the table. Manual — a vendor outage is not ours       |
+| `data:roster-check`    | ArcSys's grid + sitemap vs the roster. Manual; same contract           |
 | `data:art` / `data:og` | the kit crops and the card. Manual; the kit changes on DLC days        |
 | `verify:gates`         | the positive-control suite                                             |
 | `verify:deployed`      | content-digest smoke check against production                          |
