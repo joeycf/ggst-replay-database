@@ -23,3 +23,6 @@ secrets/
 .fc-cache/
 design/fonts/.fc-cache/
 .env*
+# Documentation, and placeholders only — tracked on purpose. The negation keeps
+# that true if it is ever removed and re-added.
+!.env.example
