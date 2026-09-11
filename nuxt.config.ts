@@ -52,7 +52,7 @@ export default defineNuxtConfig({
   // needs it. THE TAG MUST BE PUSHED BEFORE THE FIRST VERCEL BUILD: Vercel
   // leaves ENGINE_PATH unset and clones the pinned tag, so a tag that exists
   // only locally fails the remote build on a missing ref.
-  extends: [process.env.ENGINE_PATH || ['github:joeycf/replay-engine#v0.12.1', { install: true }]],
+  extends: [process.env.ENGINE_PATH || ['github:joeycf/replay-engine#v0.13.0', { install: true }]],
 
   compatibilityDate: '2025-07-01',
 
