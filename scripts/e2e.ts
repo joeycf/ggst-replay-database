@@ -259,14 +259,24 @@ const declared = [
   ),
 ].map((m) => ({ id: m[1], name: m[2] }));
 const jsChunks = readdirSync(join(OUT, '_nuxt')).filter((f) => f.endsWith('.js'));
-const bundleWith = jsChunks.find((f) => read(join('_nuxt', f)).includes('sourceChannels'));
+// Find the chunk carrying the DECLARED ARRAY, not merely the word. Several
+// chunks mention `sourceChannels` — FilterBar and FilterDrawer read it, and so
+// does SourceBadge — and the engine's own empty default (`sourceChannels:[]`)
+// sits in the same chunk as the game's. Matching on the word alone picked
+// whichever chunk readdir happened to return first and then reported "built 0"
+// against a pipeline that declares nine: a gate failing for a reason that has
+// nothing to do with what it gates.
+const CONFIG_ARRAY = /sourceChannels:\s*\[\s*\{/;
+const bundleWith = jsChunks.find((f) => CONFIG_ARRAY.test(read(join('_nuxt', f))));
 if (!bundleWith) {
   check('the built bundle carries sourceChannels', false, 'no chunk mentions it');
 } else if (declared.length === 0) {
   check('scripts/channels.ts yields its {id, name} pairs', false, 'the reader matched nothing');
 } else {
   const chunk = read(join('_nuxt', bundleWith));
-  const list = /sourceChannels:\s*\[(.*?)\]/s.exec(chunk)?.[1] ?? '';
+  // …and the same narrowing here: `[(.*?)]` would otherwise stop at the
+  // engine default's empty pair if that one came first in the chunk.
+  const list = /sourceChannels:\s*\[(\s*\{.*?)\]/s.exec(chunk)?.[1] ?? '';
   const shipped = [
     ...list.matchAll(/\{\s*id:\s*["'`]([^"'`]+)["'`]\s*,\s*name:\s*["'`]([^"'`]+)["'`]\s*\}/g),
   ].map((m) => ({ id: m[1], name: m[2] }));
@@ -458,8 +468,12 @@ const replays = JSON.parse(read('data/replays.json')) as {
   date: string;
   patch?: string;
   source: string;
+  title: string;
   videoId?: string;
   startSeconds?: number;
+  /** What the badge prints instead of the source name (engine v0.13.0). */
+  event?: string;
+  channelName?: string;
 }[];
 const EMPTY = replays.length === 0;
 
@@ -526,6 +540,72 @@ if (EMPTY) {
     ungrouped.length === 0,
     `${ungrouped.join(', ')} — those records cannot be reached from the filter bar`,
   );
+
+  // ── the badge names the EVENT, not the catalogue (engine v0.13.0) ─────────
+  // This is the only corpus on the platform where BOTH label arms are live.
+  // The tagged arm (6,915) publishes the event it was played at. The untagged
+  // arm (1,330) is whole videos the catalogue merely indexed, from 65 creator
+  // channels — Sajam, Romolla Ch., GGST FAUST REPLAY — so it publishes the
+  // uploader instead. Calling those "Tournament" would be false about every
+  // one of them, which is the whole reason the second arm exists.
+  const theater = replays.filter((r) => r.source === 'replayTheater');
+  const byEvent = theater.filter((r) => r.event);
+  const byChannel = theater.filter((r) => r.channelName);
+  check(
+    'the tagged arm carries an event',
+    byEvent.length === 6915,
+    `${byEvent.length} of ${theater.length} (expected 6915)`,
+  );
+  check(
+    'the untagged arm carries its uploader',
+    byChannel.length === 1330,
+    `${byChannel.length} of ${theater.length} (expected 1330)`,
+  );
+  check(
+    'every index-sourced record carries exactly one label',
+    byEvent.length + byChannel.length === theater.length &&
+      !theater.some((r) => r.event && r.channelName),
+    `${byEvent.length} + ${byChannel.length} = ${theater.length}, none with both`,
+  );
+  check(
+    'no channel-sourced record carries a label',
+    replays.every((r) => r.source === 'replayTheater' || (!r.event && !r.channelName)),
+    'labels are emitted only by the index intake',
+  );
+  check(
+    'no emitted label is empty or blank',
+    replays.every((r) => (r.event ?? 'x').trim() !== '' && (r.channelName ?? 'x').trim() !== ''),
+    'an empty label would render a bordered chip with no text',
+  );
+  // The tag rides in the synthesized title too — that is what makes an event
+  // findable by search — and BOTH are normalizeText'd at ingest, so they must
+  // agree exactly. A disagreement means one of them stopped being folded, and
+  // the corpus starts carrying two spellings of one event.
+  const disagree = byEvent.filter((r) => !r.title.endsWith(`▰ ${r.event}`));
+  check(
+    "every event matches its title's trailing slot",
+    disagree.length === 0,
+    disagree.length ? `${disagree.length}, e.g. ${disagree[0]!.id}` : `${byEvent.length} checked`,
+  );
+  // An uploader that happens to be spelled like a tracked channel would render
+  // a chip indistinguishable from that channel's, on a record filed under a
+  // different source. None collide today; this is the tripwire.
+  const configured = new Set(declared.map((c) => c.name));
+  const collide = [...new Set(byChannel.map((r) => r.channelName!))].filter((n) =>
+    configured.has(n),
+  );
+  check(
+    'no uploader label collides with a configured source name',
+    collide.length === 0,
+    collide.join(', '),
+  );
+  // The card caps the chip and ellipsizes past it, so a runaway catalogue tag
+  // should fail HERE rather than render as a three-word fragment.
+  const longest = [...byEvent, ...byChannel].reduce(
+    (n, r) => Math.max(n, (r.event ?? r.channelName ?? '').length),
+    0,
+  );
+  check('longest label is within the card budget', longest <= 60, `${longest} chars (cap 60)`);
 
   check(
     'summary.json replay count matches the emitted archive',

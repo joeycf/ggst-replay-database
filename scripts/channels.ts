@@ -361,9 +361,15 @@ export const CHANNELS: ChannelConfig[] = [
      * because ?game= is a filter the catalogue answers, not one we control —
      * 21,944 of 21,944 pass today.
      */
+    // `name` is kept in lockstep with app/app.config.ts by the NAME SYNC gate in
+    // e2e.ts — two TypeScript tracks, no compiler sees both. That gate reads
+    // these three lines with a regex that allows only whitespace between them,
+    // so this comment sits ABOVE the triple rather than inside it. Since engine
+    // v0.13.0 the name is a FALLBACK: the badge prints each record's own
+    // `event` or `channelName` first, and on this corpus one always exists.
     id: 'replayTheater',
     source: 'replayTheater',
-    name: 'Replay Theater',
+    name: 'Tournament',
     index: {
       endpoint: 'https://replaytheater.app/api/matches',
       // THEIR slug, not ours. `?game=ggst` returns HTTP 400 "Invalid game", as

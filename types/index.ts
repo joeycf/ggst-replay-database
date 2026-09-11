@@ -400,6 +400,17 @@ export interface MatchVideo {
   /** Where this record's footage starts inside `videoId`, in seconds. Absent
    *  means the whole video. */
   startSeconds?: number;
+  /** THE BADGE LABEL (engine v0.13.0). `event` is the catalogue's event tag —
+   *  what the set was actually played at. `channelName` is the VOD's uploader,
+   *  set only where it differs from the source's configured name, which is
+   *  exactly the index intake: one token covering 65 uploaders on the untagged
+   *  arm alone. The engine prints the first one present INSTEAD of the source
+   *  name, so this intake's untagged arm names whoever published the video
+   *  rather than claiming a tournament that does not exist. Both go through
+   *  `normalizeText`, like `title` — see the builder for why that is not
+   *  optional. Absent on every channel record. */
+  event?: string;
+  channelName?: string;
   sides: [MatchSide, MatchSide];
 }
 

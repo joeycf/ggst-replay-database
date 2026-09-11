@@ -184,8 +184,13 @@ export default defineAppConfig({
       { id: 'yumegiwa', name: 'Yumegiwa Tournament Replays' },
       { id: 'guiltyGearVods', name: 'Guilty Gear VODs' },
       { id: 'ggstLowLevel', name: 'GGST Low Level Gameplay' },
-      // Named for what the footage IS, not for the catalogue that indexed it.
-      { id: 'replayTheater', name: 'Replay Theater' },
+      // Named for what the footage IS, never for the catalogue that indexed it
+      // — and as of engine v0.13.0 it renders on nothing at all. Every record
+      // on this token publishes either the event it was played at (6,915) or
+      // the channel that uploaded it (1,330), and the badge prints that
+      // instead. This string is only the floor under both, kept because a
+      // future entry the catalogue can describe neither way would land on it.
+      { id: 'replayTheater', name: 'Tournament' },
     ],
     // Filter chips consolidate to two groups (engine v0.5.5). Group ids appear
     // NOWHERE else — not in Replay.source, not in a URL: toggling a group

@@ -1177,6 +1177,23 @@ export function buildTheaterRecords(
       ...(r.startSeconds !== undefined && r.startSeconds > 0
         ? { videoId: r.videoId, startSeconds: r.startSeconds }
         : {}),
+      // What the badge prints (engine v0.13.0), and EXACTLY ONE of them. The
+      // tagged arm gets the event; the untagged arm — whole videos the
+      // catalogue merely indexed, from 65 creator channels — gets the uploader,
+      // because calling those a tournament would be false about every one of
+      // them. The engine would prefer `event` anyway, so emitting both would
+      // add ~200KB of string to this repo's whale file to render nothing.
+      //
+      // THROUGH normalizeText, and that is not tidiness. `title` above is
+      // normalized and carries the same tag in its trailing slot, so a raw tag
+      // here would disagree with it: measured on this corpus, 12 records carry
+      // a curly apostrophe or a U+3000 that the title already folded, and
+      // "Dragon’s Palace #8" and "Dragon's Palace #8" would render as two
+      // events. The same fold applies to the uploader for the same reason.
+      ...((tag, up) => (tag ? { event: tag } : up ? { channelName: up } : {}))(
+        normalizeText(r.tag ?? '').trim(),
+        normalizeText(r.uploader ?? '').trim(),
+      ),
       sides: [s0, s1],
     });
   }
