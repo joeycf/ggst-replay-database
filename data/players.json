@@ -7301,6 +7301,10 @@
     "handle": "Fireworker"
   },
   {
+    "id": "fireworks-master",
+    "handle": "Fireworks Master/花火師"
+  },
+  {
     "id": "firkins",
     "handle": "Firkins"
   },
@@ -15622,7 +15626,12 @@
   },
   {
     "id": "misooden",
-    "handle": "misooden"
+    "handle": "Misooden",
+    "extra": {
+      "aliases": [
+        "misooden"
+      ]
+    }
   },
   {
     "id": "missinput-god",

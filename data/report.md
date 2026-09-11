@@ -1,7 +1,7 @@
 # GGST pipeline report
 
-- **24734** published records · **6548** players · **34** fighters
-- **817** mirror match(es) (3.3%) — the stat unit is side appearances, so each adds 2 to one character (scripts/stats.ts)
+- **24751** published records · **6549** players · **34** fighters
+- **818** mirror match(es) (3.3%) — the stat unit is side appearances, so each adds 2 to one character (scripts/stats.ts)
 - **216** pending review item(s) — absent from the site, never guessed
 - **0** duplicate id(s) resolved by intake precedence
 - **85** of 85 confirmed fighter-named players present in the registry; every other handle resolves to no fighter
@@ -17,12 +17,12 @@ is only ever visible as a smaller `raw` count — which is what the collapse gua
 
 | intake | source | raw | Strive-marked | parsed | published | too-short (floor) | live | rejects naming a fighter |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel | ggHighLevel | 5919 | 5861 | 5772 | 5772 | 3 (120s) | 0 | 86 |
-| guiltyGearReplays | guiltyGearReplays | 3569 | 3400 | 3178 | 3178 | 33 (120s) | 0 | 188 |
-| ggstBattleCollection | ggstBattleCollection | 3389 | 2568 | 2259 | 2259 | 119 (120s) | 0 | 73 |
-| ggstHq | ggstHq | 3009 | 3003 | 2672 | 2672 | 1 (30s) | 1 | 210 |
-| ggstHighRank | ggstHighRank | 1516 | 1512 | 1477 | 1477 | 0 (120s) | 0 | 35 |
-| yumegiwa | yumegiwa | 3610 | 1380 | 972 | 972 | 28 (120s) | 0 | 14 |
+| ggHighLevel | ggHighLevel | 5923 | 5865 | 5776 | 5776 | 3 (120s) | 0 | 86 |
+| guiltyGearReplays | guiltyGearReplays | 3572 | 3403 | 3181 | 3181 | 33 (120s) | 0 | 188 |
+| ggstBattleCollection | ggstBattleCollection | 3390 | 2569 | 2260 | 2260 | 119 (120s) | 0 | 73 |
+| ggstHq | ggstHq | 3012 | 3006 | 2675 | 2675 | 1 (30s) | 1 | 210 |
+| ggstHighRank | ggstHighRank | 1522 | 1518 | 1483 | 1483 | 0 (120s) | 0 | 35 |
+| yumegiwa | yumegiwa | 3611 | 1380 | 972 | 972 | 28 (120s) | 0 | 14 |
 | guiltyGearVods | guiltyGearVods | 146 | 146 | 140 | 140 | 0 (120s) | 0 | 5 |
 | ggstLowLevel _(frozen)_ | ggstLowLevel | — | — | — | 19 | — | — | — |
 | replayTheater _(index, cursor)_ | replayTheater | — | — | — | 8245 | — | — | — |
@@ -51,7 +51,7 @@ that name a parser problem are `no-char`, `no-handle` and `slot-ambiguous`.
 | ggstBattleCollection | 821 | 0 | 0 | 119 | 129 | 0 | 0 | 61 | 0 | 0 |
 | ggstHq | 6 | 0 | 1 | 1 | 129 | 0 | 101 | 97 | 2 | 0 |
 | ggstHighRank | 4 | 0 | 0 | 0 | 0 | 1 | 0 | 34 | 0 | 0 |
-| yumegiwa | 2230 | 0 | 0 | 28 | 340 | 0 | 37 | 3 | 0 | 0 |
+| yumegiwa | 2231 | 0 | 0 | 28 | 340 | 0 | 37 | 3 | 0 | 0 |
 | guiltyGearVods | 0 | 0 | 0 | 0 | 2 | 0 | 4 | 0 | 0 | 0 |
 
 ## Slot order, per intake — both sides tallied
@@ -64,11 +64,11 @@ printed it.
 
 | intake | declared | handle-outside | chars-outside | handle-first-bare | chars-only | tie-broken | sides |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel | handle-outside | 11544 | 0 | 0 | 0 | 89 (0.8%) | 11544 |
-| guiltyGearReplays | handle-outside | 6356 | 0 | 0 | 0 | 161 (2.5%) | 6356 |
-| ggstBattleCollection | chars-outside | 0 | 4518 | 0 | 0 | 132 (2.9%) | 4518 |
-| ggstHq | handle-first-bare | 146 | 5 | 5193 | 0 | 0 (0.0%) | 5344 |
-| ggstHighRank | chars-outside | 0 | 2954 | 0 | 0 | 106 (3.6%) | 2954 |
+| ggHighLevel | handle-outside | 11552 | 0 | 0 | 0 | 89 (0.8%) | 11552 |
+| guiltyGearReplays | handle-outside | 6362 | 0 | 0 | 0 | 162 (2.5%) | 6362 |
+| ggstBattleCollection | chars-outside | 0 | 4520 | 0 | 0 | 132 (2.9%) | 4520 |
+| ggstHq | handle-first-bare | 146 | 5 | 5199 | 0 | 0 (0.0%) | 5350 |
+| ggstHighRank | chars-outside | 0 | 2966 | 0 | 0 | 106 (3.6%) | 2966 |
 | yumegiwa | handle-outside | 1944 | 0 | 0 | 0 | 25 (1.3%) | 1944 |
 | guiltyGearVods | handle-outside | 280 | 0 | 0 | 0 | 7 (2.5%) | 280 |
 
@@ -85,19 +85,19 @@ and lab shorts everywhere below 120s except ggstHq, whose Shorts are titled matc
 
 | intake · population | 0 (live/unknown) | 1–29s | 30–59s | 60–119s | 120–179s | 180–299s | 300–599s | 600–1799s | 1800s+ |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel · records | 0 | 0 | 0 | 0 | 1 | 249 | 3251 | 2269 | 2 |
+| ggHighLevel · records | 0 | 0 | 0 | 0 | 1 | 250 | 3253 | 2270 | 2 |
 | ggHighLevel · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggHighLevel · other misses | 0 | 2 | 1 | 0 | 2 | 4 | 48 | 23 | 9 |
-| guiltyGearReplays · records | 0 | 0 | 0 | 0 | 0 | 34 | 2636 | 508 | 0 |
+| guiltyGearReplays · records | 0 | 0 | 0 | 0 | 0 | 34 | 2639 | 508 | 0 |
 | guiltyGearReplays · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | guiltyGearReplays · other misses | 0 | 13 | 14 | 6 | 0 | 25 | 148 | 16 | 0 |
-| ggstBattleCollection · records | 0 | 0 | 0 | 0 | 0 | 70 | 979 | 1210 | 0 |
+| ggstBattleCollection · records | 0 | 0 | 0 | 0 | 0 | 70 | 979 | 1211 | 0 |
 | ggstBattleCollection · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstBattleCollection · other misses | 0 | 99 | 20 | 0 | 2 | 4 | 33 | 37 | 114 |
-| ggstHq · records | 0 | 0 | 83 | 259 | 14 | 215 | 1928 | 173 | 0 |
+| ggstHq · records | 0 | 0 | 84 | 260 | 14 | 215 | 1929 | 173 | 0 |
 | ggstHq · match-shaped misses | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstHq · other misses | 1 | 0 | 9 | 123 | 3 | 9 | 106 | 53 | 26 |
-| ggstHighRank · records | 0 | 0 | 0 | 0 | 35 | 594 | 811 | 37 | 0 |
+| ggstHighRank · records | 0 | 0 | 0 | 0 | 35 | 597 | 814 | 37 | 0 |
 | ggstHighRank · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstHighRank · other misses | 0 | 0 | 0 | 0 | 1 | 12 | 22 | 0 | 0 |
 | yumegiwa · records | 0 | 0 | 0 | 0 | 0 | 24 | 602 | 345 | 1 |
@@ -109,8 +109,8 @@ and lab shorts everywhere below 120s except ggstHq, whose Shorts are titled matc
 
 ## Handles
 
-- word count per side: 1 → 30245 · 2 → 2232 · 3 → 396 · 4 → 61 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
-- 630 player(s) seen under more than one spelling; the display casing is the majority spelling, tie-broken toward mixed case, and the rest are kept as aliases
+- word count per side: 1 → 30275 · 2 → 2236 · 3 → 396 · 4 → 61 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
+- 631 player(s) seen under more than one spelling; the display casing is the majority spelling, tie-broken toward mixed case, and the rest are kept as aliases
 - placeholder handles refused: 136 on the channels, 0 in the catalogue
 
 ## Version tokens — counted, never a patch
@@ -124,12 +124,12 @@ they are Battle Versions; the columns test it against the date-derived patch, pe
 | intake | tokens | = battle version | = game version | = both | neither | no window |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | ggHighLevel | 2.00×181, 2.01×7 | 0 | 178 | 0 | 10 | 0 |
-| ggstBattleCollection | 2.0×287 | 0 | 69 | 0 | 211 | 0 |
-| ggstHq | 5.2×261, 2.0×250, 2.1×111, 5.1×17, 4.1×4, 4.2×3 | 251 | 288 | 0 | 81 | 0 |
+| ggstBattleCollection | 2.0×288 | 0 | 69 | 0 | 212 | 0 |
+| ggstHq | 5.2×264, 2.0×250, 2.1×111, 5.1×17, 4.1×4, 4.2×3 | 254 | 288 | 0 | 81 | 0 |
 
 ## Registry invariant — no player is a fighter
 
-Every handle in players.json was resolved through the roster matcher at parse time. 85 resolve to a fighter and are on the confirmed list (scripts/roster.ts): `johnny-black`, `daru-i-no`, `sol-mugi`, `dara-i-no`, `lasagna-slayer`, `lasanga-slayer`, `futa-elphelt-67`, `leo`, `dizzy`, `f-elphelt`, `futa-elphelt`, `chris-chaos`, `sorede-i-no-ne-wwwwww`, `pot-noodle`, `zato-van`, `johnny`, `aba-bottom-1`, `jam-s-thighs`, `薄い-紗夢`, `par-daru-ino`, `axl-the-grappler`, `par-daru-i-no`, `sol-hc`, `venom-snake`, `sabamiso-bedman`, `leo-whatsapp`, `ユニカ`, `pot`, `oscar-d-leo`, `jam-session`, `unika-8-deluxe`, `sol-low-tier`, `a-b-a`, `sdytko`, `zato-2`, `pedrito-ky`, `goldlewis`, `lucy`, `bald-pot`, `millia-hater`, `lasangna-slayer`, `may`, `rip-potemkin`, `bbl-dizzy`, `baiken`, `ttv-pedrito-ky`, `baiken-hain`, `slayer`, `usui-slayer`, `asuka`, `光景-ヘットマン`, `shaking-chaos-eighth-region`, `nagoriyuki`, `usui-a-b-a`, `lucy-the-lamia`, `ky`, `the-jack-o-player`, `his-bridget`, `axl-low`, `bridget-hater`, `zato-bro`, `johnny-peperon`, `ibushigin-leo`, `gp-daru-i-no`, `mark-i-no`, `bridget-bussy`, `high-may`, `millia-hopium`, `myterious-i-no`, `i-no-s-tier`, `sandbag-ky`, `giovanna`, `life-jam`, `papa-leo`, `i-no`, `zoner-testament`, `johnny-volcano`, `millia-rage`, `may-gang`, `millia-thighs`, `leo-heart`, `sonic-sol`, `lotus-leo`, `こん-メイ`, `huawen-sol`.
+Every handle in players.json was resolved through the roster matcher at parse time. 85 resolve to a fighter and are on the confirmed list (scripts/roster.ts): `daru-i-no`, `johnny-black`, `sol-mugi`, `dara-i-no`, `lasagna-slayer`, `lasanga-slayer`, `futa-elphelt-67`, `leo`, `dizzy`, `f-elphelt`, `futa-elphelt`, `chris-chaos`, `sorede-i-no-ne-wwwwww`, `pot-noodle`, `zato-van`, `johnny`, `aba-bottom-1`, `jam-s-thighs`, `薄い-紗夢`, `par-daru-ino`, `axl-the-grappler`, `par-daru-i-no`, `sol-hc`, `venom-snake`, `sabamiso-bedman`, `leo-whatsapp`, `ユニカ`, `pot`, `oscar-d-leo`, `jam-session`, `unika-8-deluxe`, `sol-low-tier`, `a-b-a`, `sdytko`, `zato-2`, `pedrito-ky`, `goldlewis`, `lucy`, `bald-pot`, `millia-hater`, `lasangna-slayer`, `may`, `rip-potemkin`, `bbl-dizzy`, `baiken`, `ttv-pedrito-ky`, `baiken-hain`, `slayer`, `usui-slayer`, `asuka`, `光景-ヘットマン`, `shaking-chaos-eighth-region`, `nagoriyuki`, `usui-a-b-a`, `lucy-the-lamia`, `ky`, `the-jack-o-player`, `his-bridget`, `axl-low`, `bridget-hater`, `zato-bro`, `johnny-peperon`, `ibushigin-leo`, `gp-daru-i-no`, `mark-i-no`, `bridget-bussy`, `high-may`, `millia-hopium`, `myterious-i-no`, `i-no-s-tier`, `sandbag-ky`, `giovanna`, `life-jam`, `papa-leo`, `i-no`, `zoner-testament`, `johnny-volcano`, `millia-rage`, `may-gang`, `millia-thighs`, `leo-heart`, `sonic-sol`, `lotus-leo`, `こん-メイ`, `huawen-sol`.
 
 ## Rejects — titles that name a fighter but did not parse, per intake
 
@@ -336,4 +336,4 @@ guessing this module refuses.
 
 > ggstLowLevel: frozen since 2026-07-16, 19 record(s) carried.
 
-_Generated 2026-09-10T13:11:29.052Z_
+_Generated 2026-09-11T13:04:50.601Z_
