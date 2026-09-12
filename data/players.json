@@ -2538,6 +2538,10 @@
     }
   },
   {
+    "id": "blueberry-shake",
+    "handle": "Blueberry Shake/ブルーベリー"
+  },
+  {
     "id": "bluedude",
     "handle": "Bluedude"
   },
@@ -12008,6 +12012,10 @@
   {
     "id": "kakutamu-vtuber",
     "handle": "kakutamu @VTuber"
+  },
+  {
+    "id": "kakutamu-vtuber-haishin-naka",
+    "handle": "kakutamu @VTuber haishin naka"
   },
   {
     "id": "kal",
@@ -23898,6 +23906,7 @@
         "SYO",
         "SYO--------/しょーーーーーーー",
         "SYO------/ しょ",
+        "SYO------/しょーーーーーーー",
         "SYO----/しょーーーーー"
       ]
     }
@@ -25230,6 +25239,10 @@
         "toshikazu"
       ]
     }
+  },
+  {
+    "id": "toshikozu",
+    "handle": "Toshikozu"
   },
   {
     "id": "tosi-bb",
