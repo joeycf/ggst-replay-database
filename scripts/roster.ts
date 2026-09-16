@@ -853,6 +853,12 @@ export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
     note: '1 side(s), replayTheater · Brojo Cup #95. Resolves to johnny. Evidence: "FAB(Potemkin) vs Johnny Peperon(Johnny)"',
   },
   {
+    id: 'johnny-red',
+    handle: 'JOHNNY RED/ジョニーレッド',
+    video: 'FMfwzXgihSA',
+    note: '1 side(s), ggstBattleCollection. Resolves to johnny. Evidence: "GGST2.0➤Rank 2nd VENOM / ヴェノム [ papaya ] vs Rank 3rd Ramlethal / ラムレザル [ JOHNNY RED/ジョニーレッド ]" — handle bracket, playing RAMLETHAL. Stopped the cron 2026-09-16.',
+  },
+  {
     id: 'johnny-volcano',
     handle: 'Johnny Volcano',
     video: 'mcZC4LjOqt4@2012',
