@@ -3839,6 +3839,10 @@
     "handle": "Chummy"
   },
   {
+    "id": "chunchun",
+    "handle": "Chunchun"
+  },
+  {
     "id": "chunchun-shuriken",
     "handle": "chunchun shuriken"
   },
@@ -4870,6 +4874,10 @@
   {
     "id": "dance-delightful",
     "handle": "Dance Delightful"
+  },
+  {
+    "id": "dance-dlightful",
+    "handle": "Dance Dlightful"
   },
   {
     "id": "danganronpa",
@@ -11478,6 +11486,10 @@
     "handle": "Johnny Peperon"
   },
   {
+    "id": "johnny-red",
+    "handle": "JOHNNY RED/ジョニーレッド"
+  },
+  {
     "id": "johnny-volcano",
     "handle": "Johnny Volcano"
   },
@@ -14473,6 +14485,10 @@
     "handle": "madam gup"
   },
   {
+    "id": "madamtrapinch",
+    "handle": "MadamTrapinch"
+  },
+  {
     "id": "madatubomi",
     "handle": "MADATUBOMI/マダツボミ"
   },
@@ -14635,7 +14651,12 @@
   },
   {
     "id": "makki",
-    "handle": "Makki"
+    "handle": "Makki",
+    "extra": {
+      "aliases": [
+        "Makki/まっきぃ"
+      ]
+    }
   },
   {
     "id": "makkii",
