@@ -1,6 +1,6 @@
 # GGST pipeline report
 
-- **24846** published records · **6559** players · **34** fighters
+- **24858** published records · **6561** players · **34** fighters
 - **820** mirror match(es) (3.3%) — the stat unit is side appearances, so each adds 2 to one character (scripts/stats.ts)
 - **216** pending review item(s) — absent from the site, never guessed
 - **0** duplicate id(s) resolved by intake precedence
@@ -17,12 +17,12 @@ is only ever visible as a smaller `raw` count — which is what the collapse gua
 
 | intake | source | raw | Strive-marked | parsed | published | too-short (floor) | live | rejects naming a fighter |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel | ggHighLevel | 5943 | 5885 | 5796 | 5796 | 3 (120s) | 0 | 86 |
-| guiltyGearReplays | guiltyGearReplays | 3593 | 3418 | 3196 | 3196 | 33 (120s) | 0 | 188 |
-| ggstBattleCollection | ggstBattleCollection | 3412 | 2585 | 2275 | 2275 | 119 (120s) | 0 | 74 |
-| ggstHq | ggstHq | 3026 | 3020 | 2688 | 2688 | 2 (30s) | 1 | 210 |
-| ggstHighRank | ggstHighRank | 1554 | 1550 | 1515 | 1515 | 0 (120s) | 0 | 35 |
-| yumegiwa | yumegiwa | 3645 | 1381 | 972 | 972 | 28 (120s) | 0 | 14 |
+| ggHighLevel | ggHighLevel | 5945 | 5887 | 5798 | 5798 | 3 (120s) | 0 | 86 |
+| guiltyGearReplays | guiltyGearReplays | 3595 | 3418 | 3196 | 3196 | 33 (120s) | 0 | 188 |
+| ggstBattleCollection | ggstBattleCollection | 3415 | 2587 | 2277 | 2277 | 119 (120s) | 0 | 74 |
+| ggstHq | ggstHq | 3028 | 3022 | 2690 | 2690 | 2 (30s) | 1 | 210 |
+| ggstHighRank | ggstHighRank | 1560 | 1556 | 1521 | 1521 | 0 (120s) | 0 | 35 |
+| yumegiwa | yumegiwa | 3654 | 1381 | 972 | 972 | 28 (120s) | 0 | 14 |
 | guiltyGearVods | guiltyGearVods | 146 | 146 | 140 | 140 | 0 (120s) | 0 | 5 |
 | ggstLowLevel _(frozen)_ | ggstLowLevel | — | — | — | 19 | — | — | — |
 | replayTheater _(index, cursor)_ | replayTheater | — | — | — | 8245 | — | — | — |
@@ -47,11 +47,11 @@ that name a parser problem are `no-char`, `no-handle` and `slot-ambiguous`.
 | intake | no-marker | before-floor | live | too-short | no-vs | vs-count | no-char | no-handle | slot-ambiguous | excluded |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | ggHighLevel | 58 | 0 | 0 | 3 | 3 | 0 | 14 | 69 | 0 | 0 |
-| guiltyGearReplays | 175 | 0 | 0 | 33 | 1 | 0 | 58 | 130 | 0 | 0 |
-| ggstBattleCollection | 827 | 0 | 0 | 119 | 130 | 0 | 0 | 61 | 0 | 0 |
+| guiltyGearReplays | 177 | 0 | 0 | 33 | 1 | 0 | 58 | 130 | 0 | 0 |
+| ggstBattleCollection | 828 | 0 | 0 | 119 | 130 | 0 | 0 | 61 | 0 | 0 |
 | ggstHq | 6 | 0 | 1 | 2 | 129 | 0 | 101 | 97 | 2 | 0 |
 | ggstHighRank | 4 | 0 | 0 | 0 | 0 | 1 | 0 | 34 | 0 | 0 |
-| yumegiwa | 2264 | 0 | 0 | 28 | 341 | 0 | 37 | 3 | 0 | 0 |
+| yumegiwa | 2273 | 0 | 0 | 28 | 341 | 0 | 37 | 3 | 0 | 0 |
 | guiltyGearVods | 0 | 0 | 0 | 0 | 2 | 0 | 4 | 0 | 0 | 0 |
 
 ## Slot order, per intake — both sides tallied
@@ -64,11 +64,11 @@ printed it.
 
 | intake | declared | handle-outside | chars-outside | handle-first-bare | chars-only | tie-broken | sides |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel | handle-outside | 11592 | 0 | 0 | 0 | 89 (0.8%) | 11592 |
+| ggHighLevel | handle-outside | 11596 | 0 | 0 | 0 | 89 (0.8%) | 11596 |
 | guiltyGearReplays | handle-outside | 6392 | 0 | 0 | 0 | 164 (2.6%) | 6392 |
-| ggstBattleCollection | chars-outside | 0 | 4550 | 0 | 0 | 135 (3.0%) | 4550 |
-| ggstHq | handle-first-bare | 146 | 5 | 5225 | 0 | 0 (0.0%) | 5376 |
-| ggstHighRank | chars-outside | 0 | 3030 | 0 | 0 | 107 (3.5%) | 3030 |
+| ggstBattleCollection | chars-outside | 0 | 4554 | 0 | 0 | 135 (3.0%) | 4554 |
+| ggstHq | handle-first-bare | 146 | 5 | 5229 | 0 | 0 (0.0%) | 5380 |
+| ggstHighRank | chars-outside | 0 | 3042 | 0 | 0 | 107 (3.5%) | 3042 |
 | yumegiwa | handle-outside | 1944 | 0 | 0 | 0 | 25 (1.3%) | 1944 |
 | guiltyGearVods | handle-outside | 280 | 0 | 0 | 0 | 7 (2.5%) | 280 |
 
@@ -85,19 +85,19 @@ and lab shorts everywhere below 120s except ggstHq, whose Shorts are titled matc
 
 | intake · population | 0 (live/unknown) | 1–29s | 30–59s | 60–119s | 120–179s | 180–299s | 300–599s | 600–1799s | 1800s+ |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ggHighLevel · records | 0 | 0 | 0 | 0 | 1 | 251 | 3269 | 2273 | 2 |
+| ggHighLevel · records | 0 | 0 | 0 | 0 | 1 | 251 | 3271 | 2273 | 2 |
 | ggHighLevel · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggHighLevel · other misses | 0 | 2 | 1 | 0 | 2 | 4 | 48 | 23 | 9 |
 | guiltyGearReplays · records | 0 | 0 | 0 | 0 | 0 | 34 | 2654 | 508 | 0 |
 | guiltyGearReplays · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | guiltyGearReplays · other misses | 0 | 13 | 14 | 6 | 0 | 25 | 148 | 16 | 0 |
-| ggstBattleCollection · records | 0 | 0 | 0 | 0 | 0 | 70 | 986 | 1219 | 0 |
+| ggstBattleCollection · records | 0 | 0 | 0 | 0 | 0 | 70 | 988 | 1219 | 0 |
 | ggstBattleCollection · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstBattleCollection · other misses | 0 | 99 | 20 | 0 | 2 | 4 | 33 | 38 | 114 |
-| ggstHq · records | 0 | 0 | 87 | 265 | 14 | 216 | 1933 | 173 | 0 |
+| ggstHq · records | 0 | 0 | 87 | 266 | 14 | 216 | 1934 | 173 | 0 |
 | ggstHq · match-shaped misses | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstHq · other misses | 1 | 0 | 9 | 123 | 3 | 9 | 106 | 53 | 26 |
-| ggstHighRank · records | 0 | 0 | 0 | 0 | 36 | 606 | 836 | 37 | 0 |
+| ggstHighRank · records | 0 | 0 | 0 | 0 | 37 | 608 | 839 | 37 | 0 |
 | ggstHighRank · match-shaped misses | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ggstHighRank · other misses | 0 | 0 | 0 | 0 | 1 | 12 | 22 | 0 | 0 |
 | yumegiwa · records | 0 | 0 | 0 | 0 | 0 | 24 | 602 | 345 | 1 |
@@ -109,7 +109,7 @@ and lab shorts everywhere below 120s except ggstHq, whose Shorts are titled matc
 
 ## Handles
 
-- word count per side: 1 → 30452 · 2 → 2247 · 3 → 397 · 4 → 62 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
+- word count per side: 1 → 30471 · 2 → 2252 · 3 → 397 · 4 → 62 · 5 → 6 — the cap is 5 words (parse.ts MAX_HANDLE_WORDS: measured 2026-09-09, the 4-word band is real and the 5-word band is where decoration leaks show first; CotW measured 4)
 - 632 player(s) seen under more than one spelling; the display casing is the majority spelling, tie-broken toward mixed case, and the rest are kept as aliases
 - placeholder handles refused: 136 on the channels, 0 in the catalogue
 
@@ -124,8 +124,8 @@ they are Battle Versions; the columns test it against the date-derived patch, pe
 | intake | tokens | = battle version | = game version | = both | neither | no window |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | ggHighLevel | 2.00×181, 2.01×7 | 0 | 178 | 0 | 10 | 0 |
-| ggstBattleCollection | 2.0×304 | 0 | 69 | 0 | 227 | 0 |
-| ggstHq | 5.2×274, 2.0×250, 2.1×111, 5.1×20, 4.1×4, 4.2×3 | 263 | 288 | 0 | 84 | 0 |
+| ggstBattleCollection | 2.0×306 | 0 | 69 | 0 | 229 | 0 |
+| ggstHq | 5.2×276, 2.0×250, 2.1×111, 5.1×20, 4.1×4, 4.2×3 | 265 | 288 | 0 | 84 | 0 |
 
 ## Registry invariant — no player is a fighter
 
@@ -336,4 +336,4 @@ guessing this module refuses.
 
 > ggstLowLevel: frozen since 2026-07-16, 19 record(s) carried.
 
-_Generated 2026-09-17T13:51:15.214Z_
+_Generated 2026-09-18T13:13:46.313Z_

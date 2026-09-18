@@ -25300,6 +25300,10 @@
     "handle": "Tota"
   },
   {
+    "id": "total-strategy",
+    "handle": "Total Strategy/トータル戦法"
+  },
+  {
     "id": "totallyvvx-q",
     "handle": "TotallyVvx_q"
   },
@@ -26999,6 +27003,10 @@
   {
     "id": "wisp",
     "handle": "Wisp"
+  },
+  {
+    "id": "witchomelancholy",
+    "handle": "WitchOMelancholy"
   },
   {
     "id": "witchway",
