@@ -11487,7 +11487,12 @@
   },
   {
     "id": "johnny-red",
-    "handle": "JOHNNY RED/ジョニーレッド"
+    "handle": "JOHNNY RED",
+    "extra": {
+      "aliases": [
+        "JOHNNY RED/ジョニーレッド"
+      ]
+    }
   },
   {
     "id": "johnny-volcano",
@@ -12939,7 +12944,8 @@
     "extra": {
       "aliases": [
         "komekome",
-        "KomeKome/コメコメ"
+        "KomeKome/コメコメ",
+        "KOMEKOME/コメコメ"
       ]
     }
   },
@@ -18287,6 +18293,10 @@
     "handle": "OX"
   },
   {
+    "id": "oxa",
+    "handle": "oxa"
+  },
+  {
     "id": "ozakacho",
     "handle": "Ozakacho"
   },
@@ -19926,6 +19936,10 @@
   {
     "id": "re-shunp",
     "handle": "Re:'SHUNP"
+  },
+  {
+    "id": "re4-merchant",
+    "handle": "RE4 Merchant"
   },
   {
     "id": "real",
@@ -27422,8 +27436,8 @@
     "handle": "Yamamoto",
     "extra": {
       "aliases": [
-        "YAMAMOTO",
         "YAMAMOTO/山本",
+        "YAMAMOTO",
         "yamamoto",
         "YAMAMOTO / 山本"
       ]
