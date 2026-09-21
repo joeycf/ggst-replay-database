@@ -844,6 +844,10 @@
     "handle": "Algebra2"
   },
   {
+    "id": "alice-kurokawa",
+    "handle": "Alice Kurokawa"
+  },
+  {
     "id": "aliz",
     "handle": "Aliz"
   },
@@ -7744,6 +7748,10 @@
     }
   },
   {
+    "id": "funa",
+    "handle": "Funa/川魚フナ"
+  },
+  {
     "id": "funabashifurioso",
     "handle": "FunabashiFurioso"
   },
@@ -12949,9 +12957,14 @@
       "aliases": [
         "komekome",
         "KomeKome/コメコメ",
+        "komekome/コメコメ",
         "KOMEKOME/コメコメ"
       ]
     }
+  },
+  {
+    "id": "komekone",
+    "handle": "komekone"
   },
   {
     "id": "konah",
@@ -16055,6 +16068,10 @@
   {
     "id": "mr-fresh",
     "handle": "mr.fresh"
+  },
+  {
+    "id": "mr-morale",
+    "handle": "Mr.Morale"
   },
   {
     "id": "mr-panda",
@@ -28670,6 +28687,10 @@
   {
     "id": "サルウァトーレ-スティッチ",
     "handle": "サルヴァトーレ・スティッチ"
+  },
+  {
+    "id": "シェム",
+    "handle": "ジェム"
   },
   {
     "id": "ししま",
