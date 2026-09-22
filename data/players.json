@@ -4039,6 +4039,10 @@
     "handle": "Cloud805"
   },
   {
+    "id": "clover",
+    "handle": "CLOVER"
+  },
+  {
     "id": "clover-feed",
     "handle": "clover_feed"
   },
@@ -10502,6 +10506,10 @@
   {
     "id": "iizaka-hironori",
     "handle": "IIZAKA HIRONORI/いいざかひろのり"
+  },
+  {
+    "id": "iizakahironori",
+    "handle": "iizakahironori"
   },
   {
     "id": "ika",
@@ -29290,6 +29298,10 @@
     "handle": "内山の大将"
   },
   {
+    "id": "刃離剣",
+    "handle": "刃離剣"
+  },
+  {
     "id": "初星学園ヘットマン",
     "handle": "初星学園ベッドマン?"
   },
@@ -29613,6 +29625,10 @@
   {
     "id": "謎のヘットマン使い",
     "handle": "謎のベッドマン使い"
+  },
+  {
+    "id": "謎のラムレサル使い",
+    "handle": "謎のラムレザル使い"
   },
   {
     "id": "遠空",
