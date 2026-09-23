@@ -307,6 +307,10 @@
     "handle": "A.B.A"
   },
   {
+    "id": "a-b-andon",
+    "handle": "A.B.Andon"
+  },
+  {
     "id": "a-big-bear",
     "handle": "A big bear"
   },
@@ -9862,7 +9866,8 @@
     "handle": "Hiroaki",
     "extra": {
       "aliases": [
-        "HIROAKI"
+        "HIROAKI",
+        "HIROAKI/ひろあき"
       ]
     }
   },
@@ -10357,6 +10362,10 @@
   {
     "id": "i-love-suffering",
     "handle": "I LOVE Suffering"
+  },
+  {
+    "id": "i-m-a-chuckster",
+    "handle": "I`m a Chuckster"
   },
   {
     "id": "i-no",
