@@ -646,6 +646,14 @@ export const PATCHES: PatchBoundary[] = [
     announcedOn: 'guiltygear-news',
     note: 'Robo-Ky',
   },
+  {
+    version: '2.03',
+    start: '2026-09-24',
+    battleVersion: '5.03',
+    url: post(5223),
+    announcedOn: 'guiltygear-news',
+    note: 'Blazing Pass Duel 3 · Counter Blitz and character balance',
+  },
 ];
 
 const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
