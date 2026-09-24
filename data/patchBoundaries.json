@@ -435,6 +435,16 @@
     "url": "https://www.guiltygear.com/ggst/en/news/post-5079/",
     "announcedOn": "guiltygear-news",
     "note": "Robo-Ky",
+    "end": "2026-09-24",
+    "season": 5
+  },
+  {
+    "version": "2.03",
+    "start": "2026-09-24",
+    "battleVersion": "5.03",
+    "url": "https://www.guiltygear.com/ggst/en/news/post-5223/",
+    "announcedOn": "guiltygear-news",
+    "note": "Blazing Pass Duel 3 · Counter Blitz and character balance",
     "end": null,
     "season": 5
   }
