@@ -14905,6 +14905,10 @@
     "handle": "Marn"
   },
   {
+    "id": "maro",
+    "handle": "Maro"
+  },
+  {
     "id": "maron",
     "handle": "Maron",
     "extra": {
@@ -21156,6 +21160,7 @@
     "handle": "Saki",
     "extra": {
       "aliases": [
+        "Saki/咲樹",
         "咲樹@Saki",
         "SAKI",
         "SAKI / 咲樹",
