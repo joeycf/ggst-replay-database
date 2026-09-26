@@ -5744,6 +5744,10 @@
     }
   },
   {
+    "id": "dm-for-free",
+    "handle": "DM FOR FREE"
+  },
+  {
     "id": "dmon",
     "handle": "dmon"
   },
@@ -14622,6 +14626,10 @@
     "handle": "Mafurako"
   },
   {
+    "id": "mafuruko",
+    "handle": "Mafuruko"
+  },
+  {
     "id": "mag3r",
     "handle": "Mag3r"
   },
@@ -19314,6 +19322,10 @@
     "handle": "Potential Man"
   },
   {
+    "id": "pothandicap3",
+    "handle": "PotHandicap3"
+  },
+  {
     "id": "power-makima",
     "handle": "power makima"
   },
@@ -19619,6 +19631,10 @@
   {
     "id": "pustaponte",
     "handle": "Pustaponte"
+  },
+  {
+    "id": "puyo-puyo-tetris",
+    "handle": "Puyo Puyo Tetris"
   },
   {
     "id": "puyupop",
