@@ -652,6 +652,7 @@
     "extra": {
       "aliases": [
         "AIN/あいん",
+        "AIn",
         "ain"
       ]
     }
@@ -2545,6 +2546,7 @@
     "handle": "blueberry",
     "extra": {
       "aliases": [
+        "Blueberry",
         "Blueberryブルーベリー"
       ]
     }
@@ -5749,7 +5751,12 @@
   },
   {
     "id": "dmon",
-    "handle": "dmon"
+    "handle": "dmon",
+    "extra": {
+      "aliases": [
+        "DMon"
+      ]
+    }
   },
   {
     "id": "dn-el-maza",
@@ -13236,7 +13243,12 @@
   },
   {
     "id": "kurokich",
-    "handle": "Kurokich"
+    "handle": "Kurokich",
+    "extra": {
+      "aliases": [
+        "kurokich"
+      ]
+    }
   },
   {
     "id": "kuroma",
