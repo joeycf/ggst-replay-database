@@ -4412,7 +4412,12 @@
   },
   {
     "id": "craw",
-    "handle": "CRAW"
+    "handle": "CRAW",
+    "extra": {
+      "aliases": [
+        "craw"
+      ]
+    }
   },
   {
     "id": "crawm",
@@ -7342,6 +7347,10 @@
   {
     "id": "firekami",
     "handle": "FireKami"
+  },
+  {
+    "id": "firework",
+    "handle": "firework / 花火師"
   },
   {
     "id": "fireworker",
@@ -26221,6 +26230,10 @@
   {
     "id": "vaishtan",
     "handle": "Vaishtan"
+  },
+  {
+    "id": "valantine",
+    "handle": "Valantine/バランタイン"
   },
   {
     "id": "valdi",
