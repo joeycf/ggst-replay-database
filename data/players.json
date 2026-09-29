@@ -2543,17 +2543,22 @@
   },
   {
     "id": "blueberry",
-    "handle": "blueberry",
+    "handle": "Blueberry",
     "extra": {
       "aliases": [
-        "Blueberry",
+        "blueberry",
         "Blueberryブルーベリー"
       ]
     }
   },
   {
     "id": "blueberry-shake",
-    "handle": "Blueberry Shake/ブルーベリー"
+    "handle": "Blueberry Shake/ブルーベリー",
+    "extra": {
+      "aliases": [
+        "Blueberry Shake/ブルーベリーシェイク"
+      ]
+    }
   },
   {
     "id": "bluedude",
@@ -9900,7 +9905,8 @@
     "handle": "hironori",
     "extra": {
       "aliases": [
-        "Hironori"
+        "Hironori",
+        "HIRONORI/いいざかひろのり"
       ]
     }
   },
@@ -14538,6 +14544,10 @@
     "handle": "MacMens AGE-2"
   },
   {
+    "id": "macmens-kimarisv",
+    "handle": "MacMens KimarisV"
+  },
+  {
     "id": "macssama",
     "handle": "MacsSama"
   },
@@ -16687,6 +16697,10 @@
   {
     "id": "naoto",
     "handle": "Naoto"
+  },
+  {
+    "id": "nappy-boy-radio",
+    "handle": "Nappy Boy Radio"
   },
   {
     "id": "narath",
