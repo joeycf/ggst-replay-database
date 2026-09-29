@@ -264,10 +264,17 @@ which CotW's workflow reserved by name for game six. The platform's no-push
 window is now 06:00–09:00. Game seven takes 09:17.
 
 fetch → theater (allowed to fail, and last of the fetches) → parse → emit →
-commit-if-changed → smoke check → expiries. The index pull is
-`continue-on-error` because the cron must never depend on a third party
-succeeding: on any failure there is no dump, parse carries the committed records
-against the pin, and the run stays green.
+regenerate redirects → refuse redirect drift → commit-if-changed → smoke check →
+expiries. The index pull is `continue-on-error` because the cron must never
+depend on a third party succeeding: on any failure there is no dump, parse
+carries the committed records against the pin, and the run stays green.
+
+Player redirects live in `data/player-redirects.json`, which is hand-authored,
+and are served from `vercel.json`, which `npm run data:redirects` derives from it.
+The cron regenerates `vercel.json` before its commit. `redirects.ts --drift` then
+refuses to commit, holding the whole day's data, if a row cannot ship: a target
+that stopped being a player, or a retired id that came back as one. The refusal
+names the row and its fix.
 
 Steady state is ~9–20 quota units a day. The one-time backfill was 828 — 8.3% of
 the daily allowance — because it walks uploads playlists. The same backfill via
