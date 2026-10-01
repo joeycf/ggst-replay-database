@@ -651,12 +651,43 @@ if (EMPTY) {
     check(`/characters/${sample.id} prerendered`, false, 'missing from the build');
   }
 
-  const players = JSON.parse(src('data/players.json')) as { id: string }[];
+  const players = JSON.parse(src('data/players.json')) as {
+    id: string;
+    featured?: boolean;
+    extra?: { titles?: { event: string }[] };
+  }[];
   const p = players[0]?.id;
   check(
     'player pages prerendered (they must not 404 on static hosting)',
     !!p && has(`players/${p}/index.html`),
   );
+
+  // ── tournament placements (engine v0.17.0; scripts/tournaments.ts) ────────
+  // A title makes a player featured, and the page that shows it must carry the
+  // Liquipedia credit — CC BY-SA 3.0 is a condition of using the table at all.
+  const titled = players.filter((x) => (x.extra?.titles?.length ?? 0) > 0);
+  if (existsSync(join(ROOT, 'data', 'tournaments.json')) && titled.length) {
+    check(
+      `every tournament-placed player is featured (${titled.length})`,
+      titled.every((x) => x.featured === true),
+      titled
+        .filter((x) => x.featured !== true)
+        .map((x) => x.id)
+        .join(', '),
+    );
+    const t = titled[0]!;
+    if (has(`players/${t.id}/index.html`)) {
+      const html = read(`players/${t.id}/index.html`);
+      check(
+        `/players/${t.id} renders its placements with the Liquipedia credit`,
+        html.includes('data-testid="player-titles"') && html.includes('Liquipedia'),
+      );
+    } else {
+      check(`/players/${t.id} prerendered`, false, 'missing from the build');
+    }
+  } else {
+    skip('tournament placement assertions', 'no data/tournaments.json or nobody titled yet');
+  }
 }
 
 // ── ComboForge cross-link (engine v0.11.0/v0.12.0) ──────────────────────────

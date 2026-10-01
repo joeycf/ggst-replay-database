@@ -37,6 +37,13 @@ import { dueExpiries, expiryBlock, UNRELEASED } from './expiries';
 import { CONFIRMED_FIGHTER_NAMED_PLAYERS, normalizeText, playerId } from './roster';
 import { LAUNCH, patchForDate, patchWindows, seasonForDate, seasonToken } from './seasons';
 import { MIN_MATCH_SEC, DURATION_BUCKETS } from './parse';
+import {
+  applyTournamentTitles,
+  describeOutcome,
+  matchTournaments,
+  readAliases,
+  readTournaments,
+} from './tournaments';
 import type { WitnessArtifact, WitnessFile } from './crosscheck';
 import type { AliasMatcher } from './roster';
 import type {
@@ -506,6 +513,24 @@ export async function writeReportAndData(input: FinishInput): Promise<void> {
     });
   }
 
+  // ── 6b. tournament placements → featured + extra.titles ──────────────────
+  // data/tournaments.json is Liquipedia's Tier 1–2 winners and runners-up,
+  // fetched by hand (scripts/tournaments.ts — NETWORK, MANUAL, NEVER IN THE
+  // CRON). The match runs HERE, against the registry this run just built, so a
+  // champion with no replay yet costs nothing today and is featured the morning
+  // their first video is ingested. Names the matcher will not decide on its own
+  // (a fighter's name, under three alphanumerics, two candidates) are reported
+  // for data/tournament-aliases.json, never guessed: a wrong person featured is
+  // worse than a right one missed.
+  const tournaments = matchTournaments(
+    players.values(),
+    readTournaments(),
+    readAliases().aliases,
+    playerId,
+    (h) => matcher.ids(h).length > 0,
+  );
+  const titled = applyTournamentTitles(players, tournaments);
+
   // THE REGISTRY INVARIANT (checklist 5n), AT PARSE TIME, THROUGH THE MATCHER.
   // No player-registry entry may resolve to a roster character unless a human
   // has vouched for it with a video id (roster.ts
@@ -913,6 +938,19 @@ export async function writeReportAndData(input: FinishInput): Promise<void> {
     '',
   );
 
+  // ── tournament placements (Liquipedia, CC BY-SA 3.0) ─────────────────────
+  lines.push(
+    '## Tournament placements — Liquipedia Tier 1–2, CC BY-SA 3.0',
+    '',
+    ...(tournaments.events
+      ? describeOutcome(tournaments, players.size)
+      : [
+          'No data/tournaments.json — run `npm run data:tournaments` (manual, network) to pull ' +
+            "Liquipedia's winner and runner-up tables.",
+          '',
+        ]),
+  );
+
   // ── rejects (checklist 5e) ───────────────────────────────────────────────
   lines.push(
     '## Rejects — titles that name a fighter but did not parse, per intake',
@@ -978,7 +1016,7 @@ export async function writeReportAndData(input: FinishInput): Promise<void> {
     );
   }
   console.log(
-    `✓ ${records.length} records · ${players.size} players · ${pending.length} pending · ` +
+    `✓ ${records.length} records · ${players.size} players · ${titled} titled · ${pending.length} pending · ` +
       `${residueRows.length} residue line(s) · ${mirrors} mirror(s)` +
       (cursorWrite !== null ? ` · theater cursor → ${cursorWrite}` : ''),
   );

@@ -1,0 +1,3994 @@
+{
+  "source": {
+    "name": "Liquipedia Fighting Games Wiki",
+    "url": "https://liquipedia.net/fighters/Guilty_Gear_-STRIVE-/Tournaments",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "game": "ggst",
+    "tiers": [
+      1,
+      2
+    ]
+  },
+  "generatedAt": "2026-10-01",
+  "events": [
+    {
+      "name": "ARC World Tour 2026-2027 Finals",
+      "page": "ARC_World_Tour/2026-27/Finals/GGST",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2026-27/Finals/GGST",
+      "date": "2027-03-27",
+      "tier": 1,
+      "entrants": null,
+      "prize": null,
+      "location": "New York City, NY",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "AUTplayed 2027",
+      "page": "AUTplayed/2027/GGST",
+      "url": "https://liquipedia.net/fighters/AUTplayed/2027/GGST",
+      "date": "2027-01-27",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Vienna",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Frosty Faustings XIX",
+      "page": "Frosty_Faustings/2027/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2027/GGST",
+      "date": "2027-01-27",
+      "tier": 1,
+      "entrants": null,
+      "prize": null,
+      "location": "United States",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Wai-Wai ThankSTRIVE 5",
+      "page": "Wai-Wai_ThankSTRIVE/5/AWT",
+      "url": "https://liquipedia.net/fighters/Wai-Wai_ThankSTRIVE/5/AWT",
+      "date": "2027-01-27",
+      "tier": 1,
+      "entrants": null,
+      "prize": null,
+      "location": "Japan",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Astral Finish 2026",
+      "page": "Astral_Finish/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Astral_Finish/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Zapopan",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Battle Coliseum 2026",
+      "page": "Battle_Coliseum/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Coliseum/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 1,
+      "entrants": null,
+      "prize": null,
+      "location": "São Paulo, SP",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "CROSSOVER 2026",
+      "page": "CROSSOVER/2026/GGST",
+      "url": "https://liquipedia.net/fighters/CROSSOVER/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Germany",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "FightClub Championship 7",
+      "page": "FightClub_Championship/7/GGST",
+      "url": "https://liquipedia.net/fighters/FightClub_Championship/7/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "China",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Headstomper 2026",
+      "page": "Headstomper/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Headstomper/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Malmö",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "MINDSET 2026",
+      "page": "MINDSET/2026/GGST",
+      "url": "https://liquipedia.net/fighters/MINDSET/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "France",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Thaiger Uppercut 2026",
+      "page": "Thaiger_Uppercut/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2026/GGST",
+      "date": "2026-11-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Thailand",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "BeePro Taiwan Qualifier 2026",
+      "page": "BeePro_Cup/Taiwan_Qualifier/2026/GGST",
+      "url": "https://liquipedia.net/fighters/BeePro_Cup/Taiwan_Qualifier/2026/GGST",
+      "date": "2026-10-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Taipei City",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Electric Clash 2026",
+      "page": "Electric_Clash/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Electric_Clash/2026/GGST",
+      "date": "2026-10-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Ontario",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Evolution Championship Series: France 2026",
+      "page": "Evolution_Championship_Series/2026/France/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/France/GGST",
+      "date": "2026-10-26",
+      "tier": 1,
+      "entrants": 249,
+      "prize": "$20,396.51",
+      "location": "Nice",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "First Attack 2026",
+      "page": "First_Attack/2026/GGST",
+      "url": "https://liquipedia.net/fighters/First_Attack/2026/GGST",
+      "date": "2026-10-26",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "San Juan",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "SQXL: The Promised Day",
+      "page": "SQ_XL/2026/GGST",
+      "url": "https://liquipedia.net/fighters/SQ_XL/2026/GGST",
+      "date": "2026-10-26",
+      "tier": 2,
+      "entrants": 135,
+      "prize": "$1,350",
+      "location": "Durham, NC",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "OzHadou Nationals 20",
+      "page": "OzHadou_Nationals/20/GGST",
+      "url": "https://liquipedia.net/fighters/OzHadou_Nationals/20/GGST",
+      "date": "2026-09-26",
+      "tier": 2,
+      "entrants": 71,
+      "prize": "$509.35",
+      "location": "Sydney",
+      "winner": {
+        "name": "Jiro",
+        "page": "Jiro",
+        "flag": "Japan",
+        "character": "Anji"
+      },
+      "runnerUp": {
+        "name": "Summit",
+        "page": "Summit",
+        "flag": "Japan",
+        "character": "Chipp"
+      }
+    },
+    {
+      "name": "Ultimate Fighting Arena 2026",
+      "page": "Ultimate_Fighting_Arena/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2026/GGST",
+      "date": "2026-09-26",
+      "tier": 2,
+      "entrants": 185,
+      "prize": "$2,900.89",
+      "location": "Paris",
+      "winner": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Jack-O'"
+      },
+      "runnerUp": {
+        "name": "Resil",
+        "page": "Resil",
+        "flag": "Ukraine",
+        "character": "Bedman?"
+      }
+    },
+    {
+      "name": "CEO 2026",
+      "page": "Community_Effort_Orlando/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2026/GGST",
+      "date": "2026-08-26",
+      "tier": 1,
+      "entrants": 523,
+      "prize": "$5,230",
+      "location": "Orlando, FL",
+      "winner": {
+        "name": "Peluna",
+        "page": "Peluna",
+        "flag": "United States",
+        "character": "Dizzy"
+      },
+      "runnerUp": {
+        "name": "RedIAmNot",
+        "page": "RedIAmNot",
+        "flag": "Colombia",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "RAGNAROK 2026",
+      "page": "Ragnarok/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Ragnarok/2026/GGST",
+      "date": "2026-08-26",
+      "tier": 2,
+      "entrants": 61,
+      "prize": "$691.77",
+      "location": "Buenos Aires",
+      "winner": {
+        "name": "Bodoque",
+        "page": null,
+        "flag": "Argentina",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Abbysairaf",
+        "page": "Abbysairaf",
+        "flag": "Brazil",
+        "character": "Potemkin"
+      }
+    },
+    {
+      "name": "Boston Blue Beat: Beach Episode 2026",
+      "page": "Boston_Blue_Beat/Beach_Episode/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2026/GGST",
+      "date": "2026-07-26",
+      "tier": 2,
+      "entrants": 139,
+      "prize": "$1,390",
+      "location": "Waltham, MA",
+      "winner": {
+        "name": "Kshuewhatdamoo",
+        "page": "Kshuewhatdamoo",
+        "flag": "United States",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "Classified",
+        "page": "Classified",
+        "flag": "United States",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "VSFighting XIV",
+      "page": "VSFighting/2026/GGST",
+      "url": "https://liquipedia.net/fighters/VSFighting/2026/GGST",
+      "date": "2026-07-26",
+      "tier": 1,
+      "entrants": 217,
+      "prize": "$2,890.33",
+      "location": "Birmingham",
+      "winner": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Setchi",
+        "page": "Setchi",
+        "flag": "United Kingdom",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "CHAIN SHIFT 2026",
+      "page": "Chain_Shift/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Chain_Shift/2026/GGST",
+      "date": "2026-06-26",
+      "tier": 2,
+      "entrants": 85,
+      "prize": "$850",
+      "location": "La Mirada, CA",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "QueenKoa",
+        "page": null,
+        "flag": "United States",
+        "character": "Jam"
+      }
+    },
+    {
+      "name": "Evolution Championship Series 2026",
+      "page": "Evolution_Championship_Series/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/GGST",
+      "date": "2026-06-26",
+      "tier": 1,
+      "entrants": 912,
+      "prize": "$40,000",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Verix",
+        "page": "Verix",
+        "flag": "Senegal",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "SOOP Super Tournament 2026",
+      "page": "Super_Tournament/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Super_Tournament/2026/GGST",
+      "date": "2026-06-26",
+      "tier": 1,
+      "entrants": 55,
+      "prize": "$4,489.02",
+      "location": "Seoul",
+      "winner": {
+        "name": "tatuma",
+        "page": "Tatuma",
+        "flag": "Japan",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "NAGE",
+        "page": "Nage",
+        "flag": "Japan",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "The MIXUP 2026",
+      "page": "The_MIXUP/2026/GGST",
+      "url": "https://liquipedia.net/fighters/The_MIXUP/2026/GGST",
+      "date": "2026-06-26",
+      "tier": 2,
+      "entrants": 96,
+      "prize": "$1,111.23",
+      "location": "Lyon",
+      "winner": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Crillou",
+        "page": "Crillou",
+        "flag": "France",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Combo Breaker 2026",
+      "page": "Combo_Breaker/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Combo_Breaker/2026/GGST",
+      "date": "2026-05-26",
+      "tier": 1,
+      "entrants": 882,
+      "prize": "$8,820",
+      "location": "Schaumburg, IL",
+      "winner": {
+        "name": "NitroNY",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Evolution Championship Series: Japan 2026",
+      "page": "Evolution_Championship_Series/2026/Japan/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/Japan/GGST",
+      "date": "2026-05-26",
+      "tier": 1,
+      "entrants": 740,
+      "prize": "$22,282.63",
+      "location": "Tokyo",
+      "winner": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Daru_I-No",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "Slashback 2026",
+      "page": "Slashback/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Slashback/2026/GGST",
+      "date": "2026-04-26",
+      "tier": 2,
+      "entrants": 119,
+      "prize": "$1,190",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "ARC World Tour 2025-2026 Finals",
+      "page": "ARC_World_Tour/2025-26/Finals/GGST",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST",
+      "date": "2026-03-26",
+      "tier": 1,
+      "entrants": 18,
+      "prize": "$100,000",
+      "location": "Goyang",
+      "winner": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "NitroNY",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "ARC World Tour 2025-2026 Finals Last Chance Qualifier",
+      "page": "ARC_World_Tour/2025-26/Finals/GGST/Last_Chance_Qualifier",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST/Last_Chance_Qualifier",
+      "date": "2026-03-26",
+      "tier": 1,
+      "entrants": 122,
+      "prize": null,
+      "location": "Goyang",
+      "winner": {
+        "name": "Summit",
+        "page": "Summit",
+        "flag": "Japan",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Asuka"
+      }
+    },
+    {
+      "name": "Frosty Faustings XVIII",
+      "page": "Frosty_Faustings/2026/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2026/GGST",
+      "date": "2026-02-26",
+      "tier": 1,
+      "entrants": 663,
+      "prize": "$6,705",
+      "location": "Lombard, IL",
+      "winner": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Walter",
+        "page": "Walter",
+        "flag": "United States",
+        "character": "Millia"
+      }
+    },
+    {
+      "name": "AUTplayed 2026",
+      "page": "AUTplayed/2026/GGST",
+      "url": "https://liquipedia.net/fighters/AUTplayed/2026/GGST",
+      "date": "2026-01-26",
+      "tier": 2,
+      "entrants": 54,
+      "prize": "$628.27",
+      "location": "Vienna",
+      "winner": {
+        "name": "Daseinologist",
+        "page": "Daseinologist",
+        "flag": "France",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Resil",
+        "page": "Resil",
+        "flag": "Ukraine",
+        "character": "Bedman?"
+      }
+    },
+    {
+      "name": "Wai-Wai ThankSTRIVE 4ever",
+      "page": "Wai-Wai_ThankSTRIVE/4/AWT",
+      "url": "https://liquipedia.net/fighters/Wai-Wai_ThankSTRIVE/4/AWT",
+      "date": "2026-01-26",
+      "tier": 2,
+      "entrants": 256,
+      "prize": null,
+      "location": "Osaka",
+      "winner": {
+        "name": "Daru_I-No",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Asuka"
+      }
+    },
+    {
+      "name": "A.C.E 2025",
+      "page": "ACE/2025/GGST",
+      "url": "https://liquipedia.net/fighters/ACE/2025/GGST",
+      "date": "2025-12-25",
+      "tier": 2,
+      "entrants": 39,
+      "prize": "$678.18",
+      "location": "Seoul",
+      "winner": {
+        "name": "Bushin",
+        "page": "Bushin",
+        "flag": "Japan",
+        "character": "Slayer"
+      },
+      "runnerUp": {
+        "name": "sanakan",
+        "page": "Sanakan",
+        "flag": "South Korea",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "FightClub Championship VI Nansha",
+      "page": "FightClub_Championship/6/Nansha/GGST",
+      "url": "https://liquipedia.net/fighters/FightClub_Championship/6/Nansha/GGST",
+      "date": "2025-12-25",
+      "tier": 2,
+      "entrants": 124,
+      "prize": "$2,201.41",
+      "location": "Guangzhou",
+      "winner": {
+        "name": "Maruko",
+        "page": null,
+        "flag": "China",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "ragkyo",
+        "page": null,
+        "flag": "Australia",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Astral Finish 2025",
+      "page": "Astral_Finish/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Astral_Finish/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 50,
+      "prize": "$682.36",
+      "location": "Zapopan",
+      "winner": {
+        "name": "Dany \"El Maza\"",
+        "page": "Dany",
+        "flag": "Mexico",
+        "character": "Ky"
+      },
+      "runnerUp": {
+        "name": "Odriman",
+        "page": null,
+        "flag": "Mexico",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "Battle Coliseum 2025",
+      "page": "Battle_Coliseum/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Coliseum/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 92,
+      "prize": "$521.04",
+      "location": "São Paulo, SP",
+      "winner": {
+        "name": "Abbysairaf",
+        "page": "Abbysairaf",
+        "flag": "Brazil",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Kazam",
+        "page": "Kazam",
+        "flag": "United States",
+        "character": "Johnny"
+      }
+    },
+    {
+      "name": "BeePro Cup 2025",
+      "page": "BeePro_Cup/2025/GGST",
+      "url": "https://liquipedia.net/fighters/BeePro_Cup/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 78,
+      "prize": "$1,913.66",
+      "location": "Taipei City",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "MetallicCake",
+        "page": "MetallicCake",
+        "flag": "Australia",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "Clash of the Olympians 2025",
+      "page": "Clash_of_the_Olympians/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Clash_of_the_Olympians/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 78,
+      "prize": "$581.36",
+      "location": "Athens",
+      "winner": {
+        "name": "Strelitzia",
+        "page": null,
+        "flag": "Norway",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "Scarfed",
+        "page": "Scarfed",
+        "flag": "Austria",
+        "character": "Chipp"
+      }
+    },
+    {
+      "name": "MINDSET 2025",
+      "page": "MINDSET/2025/GGST",
+      "url": "https://liquipedia.net/fighters/MINDSET/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 71,
+      "prize": "$1,159.55",
+      "location": "Paris",
+      "winner": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Daseinologist",
+        "page": "Daseinologist",
+        "flag": "France",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "R.I.S.C. 2025",
+      "page": "Rumble_In_SoCal/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Rumble_In_SoCal/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 57,
+      "prize": "$570",
+      "location": "Los Angeles, CA",
+      "winner": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      }
+    },
+    {
+      "name": "SOOP Super Tournament 2025",
+      "page": "Super_Tournament/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Super_Tournament/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 1,
+      "entrants": 88,
+      "prize": "$4,899.32",
+      "location": "Seoul",
+      "winner": {
+        "name": "YMST",
+        "page": "YMST",
+        "flag": "Japan",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Unika"
+      }
+    },
+    {
+      "name": "Thaiger Uppercut 2025",
+      "page": "Thaiger_Uppercut/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2025/GGST",
+      "date": "2025-11-25",
+      "tier": 2,
+      "entrants": 51,
+      "prize": "$591.71",
+      "location": "Pak Kret",
+      "winner": {
+        "name": "Jiro",
+        "page": "Jiro",
+        "flag": "Japan",
+        "character": "Anji"
+      },
+      "runnerUp": {
+        "name": "MetallicCake",
+        "page": "MetallicCake",
+        "flag": "Australia",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "Evolution Championship Series: France 2025",
+      "page": "Evolution_Championship_Series/2025/France/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/France/GGST",
+      "date": "2025-10-25",
+      "tier": 1,
+      "entrants": 572,
+      "prize": "$19,171.52",
+      "location": "Nice",
+      "winner": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "A.B.A"
+      },
+      "runnerUp": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      }
+    },
+    {
+      "name": "First Attack 2025",
+      "page": "First_Attack/2025/GGST",
+      "url": "https://liquipedia.net/fighters/First_Attack/2025/GGST",
+      "date": "2025-10-25",
+      "tier": 2,
+      "entrants": 40,
+      "prize": "$400",
+      "location": "San Juan",
+      "winner": {
+        "name": "Lord Knight",
+        "page": "Lord_Knight",
+        "flag": "United States",
+        "character": "Baiken"
+      },
+      "runnerUp": {
+        "name": "Diegubis",
+        "page": "Diegubis",
+        "flag": "Puerto Rico",
+        "character": "Slayer"
+      }
+    },
+    {
+      "name": "SEA Major 2025",
+      "page": "South_East_Asia_Major/2025/GGST",
+      "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2025/GGST",
+      "date": "2025-10-25",
+      "tier": 2,
+      "entrants": 34,
+      "prize": "$600",
+      "location": "Singapore",
+      "winner": {
+        "name": "MetallicCake",
+        "page": "MetallicCake",
+        "flag": "Australia",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Leo.",
+        "page": "Leo.",
+        "flag": "Japan",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "Thunderstruck 2025",
+      "page": "Thunderstruck/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Thunderstruck/2025/GGST",
+      "date": "2025-10-25",
+      "tier": 2,
+      "entrants": 17,
+      "prize": "$184.80",
+      "location": "Monterrey",
+      "winner": {
+        "name": "NitroNY",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Dany \"El Maza\"",
+        "page": "Dany",
+        "flag": "Mexico",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "OzHadou Nationals 19",
+      "page": "OzHadou_Nationals/19/GGST",
+      "url": "https://liquipedia.net/fighters/OzHadou_Nationals/19/GGST",
+      "date": "2025-09-25",
+      "tier": 2,
+      "entrants": 58,
+      "prize": "$379.90",
+      "location": "Sydney",
+      "winner": {
+        "name": "MetallicCake",
+        "page": "MetallicCake",
+        "flag": "Australia",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Beedozer",
+        "page": "Beedozer",
+        "flag": "Australia",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "SQ XL: Burst la Burst",
+      "page": "SQ_XL/2025/GGST",
+      "url": "https://liquipedia.net/fighters/SQ_XL/2025/GGST",
+      "date": "2025-09-25",
+      "tier": 2,
+      "entrants": 128,
+      "prize": "$1,805",
+      "location": "Durham, NC",
+      "winner": {
+        "name": "Classified",
+        "page": "Classified",
+        "flag": "United States",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "RedIAmNot",
+        "page": "RedIAmNot",
+        "flag": "Colombia",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Ultimate Fighting Arena 2025",
+      "page": "Ultimate_Fighting_Arena/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2025/GGST",
+      "date": "2025-09-25",
+      "tier": 1,
+      "entrants": 127,
+      "prize": "$2,347.13",
+      "location": "Paris",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Daseinologist",
+        "page": "Daseinologist",
+        "flag": "France",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "ARCREVO in SENZAN 2025",
+      "page": "ARCREVO/Japan/2025",
+      "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2025",
+      "date": "2025-08-25",
+      "tier": 1,
+      "entrants": 256,
+      "prize": null,
+      "location": "Yokohama",
+      "winner": {
+        "name": "tatuma",
+        "page": "Tatuma",
+        "flag": "Japan",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Bushin",
+        "page": "Bushin",
+        "flag": "Japan",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "CROSSOVER 2025",
+      "page": "CROSSOVER/2025/GGST",
+      "url": "https://liquipedia.net/fighters/CROSSOVER/2025/GGST",
+      "date": "2025-08-25",
+      "tier": 2,
+      "entrants": 79,
+      "prize": "$920.21",
+      "location": "Oberhausen",
+      "winner": {
+        "name": "Soap Eater",
+        "page": "Soap_Eater",
+        "flag": "Ukraine",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      }
+    },
+    {
+      "name": "Evolution Championship Series 2025",
+      "page": "Evolution_Championship_Series/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/GGST",
+      "date": "2025-08-25",
+      "tier": 1,
+      "entrants": 1514,
+      "prize": "$30,000",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "Kshuewhatdamoo",
+        "page": "Kshuewhatdamoo",
+        "flag": "United States",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      }
+    },
+    {
+      "name": "VSFighting XIII",
+      "page": "VSFighting/2025/GGST",
+      "url": "https://liquipedia.net/fighters/VSFighting/2025/GGST",
+      "date": "2025-08-25",
+      "tier": 2,
+      "entrants": 150,
+      "prize": "$2,033.93",
+      "location": "Birmingham",
+      "winner": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Precho",
+        "page": "Precho",
+        "flag": "United Kingdom",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Boston Blue Beat: Beach Episode 2025",
+      "page": "Boston_Blue_Beat/Beach_Episode/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2025/GGST",
+      "date": "2025-07-25",
+      "tier": 2,
+      "entrants": 120,
+      "prize": "$1,234",
+      "location": "Waltham, MA",
+      "winner": {
+        "name": "NitroNY",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Walter",
+        "page": "Walter",
+        "flag": "United States",
+        "character": "Millia"
+      }
+    },
+    {
+      "name": "Only The Best 2025",
+      "page": "Only_The_Best/7/GGST",
+      "url": "https://liquipedia.net/fighters/Only_The_Best/7/GGST",
+      "date": "2025-07-25",
+      "tier": 2,
+      "entrants": 23,
+      "prize": "$1,169.04",
+      "location": "Naples",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Revill",
+        "page": null,
+        "flag": "Italy",
+        "character": "Sin"
+      }
+    },
+    {
+      "name": "The MIXUP 2025",
+      "page": "The_MIXUP/2025/GGST",
+      "url": "https://liquipedia.net/fighters/The_MIXUP/2025/GGST",
+      "date": "2025-07-25",
+      "tier": 2,
+      "entrants": 59,
+      "prize": "$694.98",
+      "location": "Lyon",
+      "winner": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      }
+    },
+    {
+      "name": "Battle Arena Melbourne 15",
+      "page": "Battle_Arena_Melbourne/15/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/15/GGST",
+      "date": "2025-06-25",
+      "tier": 2,
+      "entrants": 34,
+      "prize": "$218.65",
+      "location": "Melbourne",
+      "winner": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Beedozer",
+        "page": "Beedozer",
+        "flag": "Australia",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "CEO 2025",
+      "page": "Community_Effort_Orlando/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2025/GGST",
+      "date": "2025-06-25",
+      "tier": 2,
+      "entrants": 305,
+      "prize": "$3,050",
+      "location": "Orlando, FL",
+      "winner": {
+        "name": "Kshuewhatdamoo",
+        "page": "Kshuewhatdamoo",
+        "flag": "United States",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Headstomper 2025",
+      "page": "Headstomper/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Headstomper/2025/GGST",
+      "date": "2025-06-25",
+      "tier": 2,
+      "entrants": 92,
+      "prize": "$1,043.98",
+      "location": "Malmö",
+      "winner": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Hessen Crash XXII",
+      "page": "Hessen_Crash/22/GGST",
+      "url": "https://liquipedia.net/fighters/Hessen_Crash/22/GGST",
+      "date": "2025-06-25",
+      "tier": 2,
+      "entrants": 59,
+      "prize": "$679.96",
+      "location": "Frankfurt",
+      "winner": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "RAGNAROK 2025",
+      "page": "Ragnarok/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Ragnarok/2025/GGST",
+      "date": "2025-06-25",
+      "tier": 2,
+      "entrants": 54,
+      "prize": "$954.68",
+      "location": "Córdoba",
+      "winner": {
+        "name": "Meaty",
+        "page": null,
+        "flag": "Argentina",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Rocky",
+        "page": null,
+        "flag": "Argentina",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "Brussels Challenge Major Edition 2025",
+      "page": "Brussels_Challenge/2025/Major_Edition/GGST",
+      "url": "https://liquipedia.net/fighters/Brussels_Challenge/2025/Major_Edition/GGST",
+      "date": "2025-05-25",
+      "tier": 2,
+      "entrants": 29,
+      "prize": "$323.73",
+      "location": "Brussels",
+      "winner": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      }
+    },
+    {
+      "name": "Combo Breaker 2025",
+      "page": "Combo_Breaker/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Combo_Breaker/2025/GGST",
+      "date": "2025-05-25",
+      "tier": 1,
+      "entrants": 619,
+      "prize": "$6,190",
+      "location": "Schaumburg, IL",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Evolution Championship Series: Japan 2025",
+      "page": "Evolution_Championship_Series/2025/Japan/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/Japan/GGST",
+      "date": "2025-05-25",
+      "tier": 1,
+      "entrants": 693,
+      "prize": "$17,189.92",
+      "location": "Tokyo",
+      "winner": {
+        "name": "Daru_I-No",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      }
+    },
+    {
+      "name": "Kansai Gaming Party 2025",
+      "page": "Kansai_Gaming_Party/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Kansai_Gaming_Party/2025/GGST",
+      "date": "2025-05-25",
+      "tier": 2,
+      "entrants": 102,
+      "prize": null,
+      "location": "Osaka",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "Slashback 2025",
+      "page": "Slashback/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Slashback/2025/GGST",
+      "date": "2025-04-25",
+      "tier": 2,
+      "entrants": 110,
+      "prize": "$1,100",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "NBNHMR",
+        "page": "NBNHMR",
+        "flag": "United States",
+        "character": "Potemkin"
+      }
+    },
+    {
+      "name": "ARC World Tour 2024 Finals",
+      "page": "ARC_World_Tour/2024/Finals/GGST",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST",
+      "date": "2025-03-25",
+      "tier": 1,
+      "entrants": 16,
+      "prize": "$100,000",
+      "location": "Los Angeles, CA",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Rang13",
+        "page": "Rang13",
+        "flag": "Brazil",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "ARC World Tour 2024 Finals Last Chance Qualifier",
+      "page": "ARC_World_Tour/2024/Finals/GGST/Last_Chance_Qualifier",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST/Last_Chance_Qualifier",
+      "date": "2025-03-25",
+      "tier": 1,
+      "entrants": 112,
+      "prize": null,
+      "location": "Los Angeles, CA",
+      "winner": {
+        "name": "RedDitto",
+        "page": "RedDitto",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "RedIAmNot",
+        "page": "RedIAmNot",
+        "flag": "United States",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Kayane Cup 2025",
+      "page": "Kayane_Cup/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Kayane_Cup/2025/GGST",
+      "date": "2025-02-25",
+      "tier": 2,
+      "entrants": 167,
+      "prize": "$1,554.32",
+      "location": "Paris",
+      "winner": {
+        "name": "Andross_11",
+        "page": "Andross_11",
+        "flag": "Spain",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Precho",
+        "page": "Precho",
+        "flag": "United Kingdom",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Cygames Cup Special 2025",
+      "page": "Cygames_Cup/2025/Special/GGST",
+      "url": "https://liquipedia.net/fighters/Cygames_Cup/2025/Special/GGST",
+      "date": "2025-01-25",
+      "tier": 1,
+      "entrants": 176,
+      "prize": null,
+      "location": "Yokohama",
+      "winner": {
+        "name": "tatuma",
+        "page": "Tatuma",
+        "flag": "Japan",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Poka",
+        "page": "Poka",
+        "flag": "Japan",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Frosty Faustings XVII",
+      "page": "Frosty_Faustings/2025/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2025/GGST",
+      "date": "2025-01-25",
+      "tier": 1,
+      "entrants": 701,
+      "prize": "$7,010",
+      "location": "Lombard, IL",
+      "winner": {
+        "name": "Verix",
+        "page": "Verix",
+        "flag": "Senegal",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Jack",
+        "page": "Jack",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "CEOtaku 2024",
+      "page": "CEOtaku/2024/GGST",
+      "url": "https://liquipedia.net/fighters/CEOtaku/2024/GGST",
+      "date": "2024-12-24",
+      "tier": 1,
+      "entrants": 238,
+      "prize": "$2,380",
+      "location": "Orlando, FL",
+      "winner": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "RedIAmNot",
+        "page": "RedIAmNot",
+        "flag": "United States",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Astral Finish 2024",
+      "page": "Astral_Finish/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Astral_Finish/2024/GGST",
+      "date": "2024-11-24",
+      "tier": 2,
+      "entrants": 46,
+      "prize": "$584.63",
+      "location": "Zapopan",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Slayer"
+      },
+      "runnerUp": {
+        "name": "Dany \"El Maza\"",
+        "page": "Dany",
+        "flag": "Mexico",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Battle Coliseum 2024",
+      "page": "Battle_Coliseum/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Coliseum/2024/GGST",
+      "date": "2024-11-24",
+      "tier": 2,
+      "entrants": 110,
+      "prize": "$569.26",
+      "location": "São Paulo, SP",
+      "winner": {
+        "name": "Rang13",
+        "page": "Rang13",
+        "flag": "Brazil",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "Booshy",
+        "page": null,
+        "flag": "Chile",
+        "character": "Johnny"
+      }
+    },
+    {
+      "name": "SEA Major 2024",
+      "page": "South_East_Asia_Major/2024/GGST",
+      "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2024/GGST",
+      "date": "2024-11-24",
+      "tier": 2,
+      "entrants": 47,
+      "prize": "$500",
+      "location": "Singapore",
+      "winner": {
+        "name": "Daru_I-No",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      }
+    },
+    {
+      "name": "DreamHack Atlanta 2024",
+      "page": "DreamHack/2024/Atlanta/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2024/Atlanta/GGST",
+      "date": "2024-10-24",
+      "tier": 2,
+      "entrants": 107,
+      "prize": "$2,500",
+      "location": "Atlanta, GA",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Slayer"
+      },
+      "runnerUp": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "East Coast Throwdown 2024",
+      "page": "East_Coast_Throwdown/2024/GGST",
+      "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2024/GGST",
+      "date": "2024-10-24",
+      "tier": 2,
+      "entrants": 231,
+      "prize": "$2,310",
+      "location": "Hartford, CT",
+      "winner": {
+        "name": "Nitro",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Jack-O'"
+      },
+      "runnerUp": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Slayer"
+      }
+    },
+    {
+      "name": "First Attack 2024",
+      "page": "First_Attack/2024/GGST",
+      "url": "https://liquipedia.net/fighters/First_Attack/2024/GGST",
+      "date": "2024-10-24",
+      "tier": 2,
+      "entrants": 36,
+      "prize": null,
+      "location": "San Juan",
+      "winner": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Diegubis",
+        "page": "Diegubis",
+        "flag": "Puerto Rico",
+        "character": "Slayer"
+      }
+    },
+    {
+      "name": "Thaiger Uppercut 2024",
+      "page": "Thaiger_Uppercut/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2024/GGST",
+      "date": "2024-10-24",
+      "tier": 2,
+      "entrants": 64,
+      "prize": "$901.50",
+      "location": "Bangkok",
+      "winner": {
+        "name": "Poka",
+        "page": "Poka",
+        "flag": "Japan",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Leo.",
+        "page": "Leo.",
+        "flag": "Japan",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "Clash of the Olympians 2K24",
+      "page": "Clash_of_the_Olympians/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Clash_of_the_Olympians/2024/GGST",
+      "date": "2024-09-24",
+      "tier": 2,
+      "entrants": 77,
+      "prize": "$1,117.44",
+      "location": "Athens",
+      "winner": {
+        "name": "Verix",
+        "page": "Verix",
+        "flag": "Senegal",
+        "character": "Slayer"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Thunderstruck 2024",
+      "page": "Thunderstruck/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Thunderstruck/2024/GGST",
+      "date": "2024-09-24",
+      "tier": 2,
+      "entrants": 31,
+      "prize": "$242.14",
+      "location": "Monterrey",
+      "winner": {
+        "name": "Rang13",
+        "page": "Rang13",
+        "flag": "Brazil",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "Dany \"El Maza\"",
+        "page": "Dany",
+        "flag": "Mexico",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Ultimate Fighting Arena 2024",
+      "page": "Ultimate_Fighting_Arena/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2024/GGST",
+      "date": "2024-09-24",
+      "tier": 1,
+      "entrants": 212,
+      "prize": "$3,325.39",
+      "location": "Aubervilliers",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "ARCREVO in SENZAN 2024",
+      "page": "ARCREVO/Japan/2024/GGST",
+      "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2024/GGST",
+      "date": "2024-08-24",
+      "tier": 1,
+      "entrants": 129,
+      "prize": "$13,681.25",
+      "location": "Yokohama",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "A.B.A"
+      },
+      "runnerUp": {
+        "name": "DarkNecro",
+        "page": "DarkNecro",
+        "flag": "South Korea",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "VSFighting XII",
+      "page": "VSFighting/2024/GGST",
+      "url": "https://liquipedia.net/fighters/VSFighting/2024/GGST",
+      "date": "2024-08-24",
+      "tier": 1,
+      "entrants": 193,
+      "prize": "$2,498.40",
+      "location": "Birmingham",
+      "winner": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Setchi",
+        "page": "Setchi",
+        "flag": "United Kingdom",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Evolution Championship Series 2024",
+      "page": "Evolution_Championship_Series/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/GGST",
+      "date": "2024-07-24",
+      "tier": 1,
+      "entrants": 2064,
+      "prize": "$30,000",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "Nitro",
+        "page": "Nitro",
+        "flag": "United States",
+        "character": "Jack-O'"
+      },
+      "runnerUp": {
+        "name": "tatuma",
+        "page": "Tatuma",
+        "flag": "Japan",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "FV Major 2024",
+      "page": "FV_Major/2024/GGST",
+      "url": "https://liquipedia.net/fighters/FV_Major/2024/GGST",
+      "date": "2024-07-24",
+      "tier": 2,
+      "entrants": 111,
+      "prize": "$1,000",
+      "location": "Kuala Lumpur",
+      "winner": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Sin"
+      },
+      "runnerUp": {
+        "name": "Leo.",
+        "page": "Leo.",
+        "flag": "Japan",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "The MIXUP 2024",
+      "page": "The_MIXUP/2024/GGST",
+      "url": "https://liquipedia.net/fighters/The_MIXUP/2024/GGST",
+      "date": "2024-07-24",
+      "tier": 2,
+      "entrants": 71,
+      "prize": "$772.86",
+      "location": "Lyon",
+      "winner": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Daseinologist",
+        "page": "Daseinologist",
+        "flag": "France",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Battle Arena Melbourne 14",
+      "page": "Battle_Arena_Melbourne/14/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/14/GGST",
+      "date": "2024-06-24",
+      "tier": 2,
+      "entrants": 104,
+      "prize": "$693.99",
+      "location": "Melbourne",
+      "winner": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Ky"
+      },
+      "runnerUp": {
+        "name": "BlitzkrieG",
+        "page": "BlitzkrieG",
+        "flag": "Australia",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "CEO 2024",
+      "page": "Community_Effort_Orlando/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2024/GGST",
+      "date": "2024-06-24",
+      "tier": 1,
+      "entrants": 299,
+      "prize": "$2,990",
+      "location": "Daytona Beach, FL",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "DreamHack Dallas 2024",
+      "page": "DreamHack/2024/Dallas/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2024/Dallas/GGST",
+      "date": "2024-06-24",
+      "tier": 2,
+      "entrants": 104,
+      "prize": "$2,500",
+      "location": "Dallas, TX",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Riley",
+        "page": null,
+        "flag": "United States",
+        "character": "Bridget"
+      }
+    },
+    {
+      "name": "Only The Best 2024",
+      "page": "Only_The_Best/6/GGST",
+      "url": "https://liquipedia.net/fighters/Only_The_Best/6/GGST",
+      "date": "2024-06-24",
+      "tier": 2,
+      "entrants": 32,
+      "prize": "$1,605.57",
+      "location": "Turin",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Super Tournament 2024",
+      "page": "Super_Tournament/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Super_Tournament/2024/GGST",
+      "date": "2024-06-24",
+      "tier": 1,
+      "entrants": 84,
+      "prize": "$3,623.08",
+      "location": "Seoul",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "Jiro",
+        "page": "Jiro",
+        "flag": "Japan",
+        "character": "Anji"
+      }
+    },
+    {
+      "name": "Brussels Challenge Major Edition 2024",
+      "page": "Brussels_Challenge/2024/Major_Edition/GGST",
+      "url": "https://liquipedia.net/fighters/Brussels_Challenge/2024/Major_Edition/GGST",
+      "date": "2024-05-24",
+      "tier": 2,
+      "entrants": 41,
+      "prize": "$442.27",
+      "location": "Brussels",
+      "winner": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "A.B.A"
+      }
+    },
+    {
+      "name": "Combo Breaker 2024",
+      "page": "Combo_Breaker/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Combo_Breaker/2024/GGST",
+      "date": "2024-05-24",
+      "tier": 1,
+      "entrants": 867,
+      "prize": "$8,670",
+      "location": "Schaumburg, IL",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Asuka"
+      }
+    },
+    {
+      "name": "Evolution Championship Series: Japan 2024",
+      "page": "Evolution_Championship_Series/2024/Japan/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/Japan/GGST",
+      "date": "2024-04-24",
+      "tier": 1,
+      "entrants": 851,
+      "prize": "$12,642.70",
+      "location": "Tokyo",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "sanakan",
+        "page": "Sanakan",
+        "flag": "South Korea",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Slashback 2024",
+      "page": "Slashback/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Slashback/2024/GGST",
+      "date": "2024-04-24",
+      "tier": 2,
+      "entrants": 131,
+      "prize": "$1,310",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "Ticklememour",
+        "page": "Ticklememour",
+        "flag": "United States",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Texas Showdown 2024",
+      "page": "Texas_Showdown/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Texas_Showdown/2024/GGST",
+      "date": "2024-04-24",
+      "tier": 2,
+      "entrants": 128,
+      "prize": "$1,920",
+      "location": "Houston, TX",
+      "winner": {
+        "name": "Kazam",
+        "page": "Kazam",
+        "flag": "United States",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "Rat",
+        "page": "Rat",
+        "flag": "United States",
+        "character": "Millia"
+      }
+    },
+    {
+      "name": "ARC World Tour 2023 Finals",
+      "page": "ARC_World_Tour/2023/Finals/GGST",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST",
+      "date": "2024-03-24",
+      "tier": 1,
+      "entrants": 16,
+      "prize": "$100,000",
+      "location": "Long Beach, CA",
+      "winner": {
+        "name": "Verix",
+        "page": "Verix",
+        "flag": "Senegal",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      }
+    },
+    {
+      "name": "ARC World Tour 2023 Finals Last Chance Qualifier",
+      "page": "ARC_World_Tour/2023/Finals/GGST/Last_Chance_Qualifier",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST/Last_Chance_Qualifier",
+      "date": "2024-03-24",
+      "tier": 1,
+      "entrants": 106,
+      "prize": null,
+      "location": "Long Beach, CA",
+      "winner": {
+        "name": "Aarondamac",
+        "page": "Aarondamac",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "ApologyMan",
+        "page": "ApologyMan",
+        "flag": "United States",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "TNS 9: CEO Never Sleeps",
+      "page": "Tampa_Never_Sleeps/9/GGST",
+      "url": "https://liquipedia.net/fighters/Tampa_Never_Sleeps/9/GGST",
+      "date": "2024-03-24",
+      "tier": 2,
+      "entrants": 90,
+      "prize": "$900",
+      "location": "Orlando, FL",
+      "winner": {
+        "name": "Aboii",
+        "page": "Aboii",
+        "flag": "United States",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "Venezuela",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "Frosty Faustings XVI",
+      "page": "Frosty_Faustings/2024/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2024/GGST",
+      "date": "2024-01-24",
+      "tier": 1,
+      "entrants": 719,
+      "prize": "$7,254.22",
+      "location": "Chicago, IL",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "DreamHack Atlanta 2023",
+      "page": "DreamHack/2023/Atlanta/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2023/Atlanta/GGST",
+      "date": "2023-12-23",
+      "tier": 2,
+      "entrants": 136,
+      "prize": "$1,500",
+      "location": "Atlanta, GA",
+      "winner": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "Venezuela",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "RedIAmNot",
+        "page": "RedIAmNot",
+        "flag": "United States",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Battle Coliseum 2023",
+      "page": "Battle_Coliseum/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Coliseum/2023/GGST",
+      "date": "2023-11-23",
+      "tier": 1,
+      "entrants": 117,
+      "prize": "$2,715.98",
+      "location": "São Paulo, SP",
+      "winner": {
+        "name": "PepperySplash",
+        "page": "PepperySplash",
+        "flag": "Canada",
+        "character": "Johnny"
+      },
+      "runnerUp": {
+        "name": "Dany",
+        "page": "Dany",
+        "flag": "Mexico",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Fighter's Spirit 2023",
+      "page": "Fighter's_Spirit/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Fighter's_Spirit/2023/GGST",
+      "date": "2023-11-23",
+      "tier": 1,
+      "entrants": 39,
+      "prize": "$2,314.14",
+      "location": "Busan",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "TY",
+        "page": "T_Y",
+        "flag": "Japan",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "Ultimate Fighting Arena 2023",
+      "page": "Ultimate_Fighting_Arena/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2023/GGST",
+      "date": "2023-11-23",
+      "tier": 1,
+      "entrants": 245,
+      "prize": "$3,284.78",
+      "location": "Paris",
+      "winner": {
+        "name": "Verix",
+        "page": "Verix",
+        "flag": "Senegal",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "Libya",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "East Coast Throwdown 2023",
+      "page": "East_Coast_Throwdown/2023/GGST",
+      "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2023/GGST",
+      "date": "2023-10-23",
+      "tier": 2,
+      "entrants": 197,
+      "prize": "$2,402.66",
+      "location": "Stamford, CT",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "REV Major 2023",
+      "page": "REV_Major/2023/GGST",
+      "url": "https://liquipedia.net/fighters/REV_Major/2023/GGST",
+      "date": "2023-10-23",
+      "tier": 2,
+      "entrants": 41,
+      "prize": "$1,084.56",
+      "location": "Metro Manila",
+      "winner": {
+        "name": "Daru_I-No",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "ARCREVO Japan 2023",
+      "page": "ARCREVO/Japan/2023",
+      "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2023",
+      "date": "2023-09-23",
+      "tier": 1,
+      "entrants": 251,
+      "prize": "$13,473.46",
+      "location": "Tokyo",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Asuka"
+      },
+      "runnerUp": {
+        "name": "Mocchii",
+        "page": "Mocchii",
+        "flag": "Japan",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "CEOtaku 2023",
+      "page": "CEOtaku/2023/GGST",
+      "url": "https://liquipedia.net/fighters/CEOtaku/2023/GGST",
+      "date": "2023-09-23",
+      "tier": 1,
+      "entrants": 386,
+      "prize": "$3,860",
+      "location": "Orlando, FL",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "Evolution Championship Series 2023",
+      "page": "Evolution_Championship_Series/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/GGST",
+      "date": "2023-08-23",
+      "tier": 1,
+      "entrants": 2474,
+      "prize": "$25,000",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "NBNHMR",
+        "page": "NBNHMR",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "SENZAN 2023",
+      "page": "SENZAN/2023/GGST",
+      "url": "https://liquipedia.net/fighters/SENZAN/2023/GGST",
+      "date": "2023-08-23",
+      "tier": 2,
+      "entrants": 62,
+      "prize": null,
+      "location": "Yokohama",
+      "winner": {
+        "name": "Summit",
+        "page": "Summit",
+        "flag": "Japan",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Leo.",
+        "page": "Leo.",
+        "flag": "Japan",
+        "character": "Faust"
+      }
+    },
+    {
+      "name": "VSFighting XI",
+      "page": "VSFighting/2023/GGST",
+      "url": "https://liquipedia.net/fighters/VSFighting/2023/GGST",
+      "date": "2023-08-23",
+      "tier": 1,
+      "entrants": 180,
+      "prize": "$2,293.46",
+      "location": "Birmingham",
+      "winner": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Setchi",
+        "page": "Setchi",
+        "flag": "United Kingdom",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Brussels Challenge Major Edition 2023",
+      "page": "Brussels_Challenge/2023/Major_Edition/GGST",
+      "url": "https://liquipedia.net/fighters/Brussels_Challenge/2023/Major_Edition/GGST",
+      "date": "2023-07-23",
+      "tier": 2,
+      "entrants": 62,
+      "prize": "$696.09",
+      "location": "Brussels",
+      "winner": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      },
+      "runnerUp": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Defend the North 2023",
+      "page": "Defend_the_North/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Defend_the_North/2023/GGST",
+      "date": "2023-07-23",
+      "tier": 2,
+      "entrants": 85,
+      "prize": "$850",
+      "location": "New York City, NY",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "iDom",
+        "page": "IDom",
+        "flag": "United States",
+        "character": "Testament"
+      }
+    },
+    {
+      "name": "Get On My Level 2023",
+      "page": "Get_On_My_Level/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Get_On_My_Level/2023/GGST",
+      "date": "2023-07-23",
+      "tier": 2,
+      "entrants": 171,
+      "prize": "$1,292.86",
+      "location": "Toronto",
+      "winner": {
+        "name": "PepperySplash",
+        "page": "PepperySplash",
+        "flag": "Canada",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Smitty",
+        "page": null,
+        "flag": "Canada",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Smash Factor X",
+      "page": "Smash_Factor/10/GGST",
+      "url": "https://liquipedia.net/fighters/Smash_Factor/10/GGST",
+      "date": "2023-07-23",
+      "tier": 2,
+      "entrants": 39,
+      "prize": "$350.65",
+      "location": "Mexico City",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "Battle Arena Melbourne 13",
+      "page": "Battle_Arena_Melbourne/13/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/13/GGST",
+      "date": "2023-06-23",
+      "tier": 2,
+      "entrants": 97,
+      "prize": "$653.46",
+      "location": "Melbourne",
+      "winner": {
+        "name": "Leo.",
+        "page": "Leo.",
+        "flag": "Japan",
+        "character": "Faust"
+      },
+      "runnerUp": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "CEO 2023",
+      "page": "Community_Effort_Orlando/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2023/GGST",
+      "date": "2023-06-23",
+      "tier": 1,
+      "entrants": 421,
+      "prize": "$4,210",
+      "location": "Daytona Beach, FL",
+      "winner": {
+        "name": "Eddventure",
+        "page": "Eddventure",
+        "flag": "United States",
+        "character": "Jack-O'"
+      },
+      "runnerUp": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "Venezuela",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "DreamHack Dallas 2023",
+      "page": "DreamHack/2023/Dallas/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2023/Dallas/GGST",
+      "date": "2023-06-23",
+      "tier": 2,
+      "entrants": 116,
+      "prize": "$5,000",
+      "location": "Dallas, TX",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Bridget"
+      }
+    },
+    {
+      "name": "Headstomper 2023",
+      "page": "Headstomper/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Headstomper/2023/GGST",
+      "date": "2023-06-23",
+      "tier": 1,
+      "entrants": 111,
+      "prize": "$2,114.76",
+      "location": "Malmö",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Combo Breaker 2023",
+      "page": "Combo_Breaker/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Combo_Breaker/2023/GGST",
+      "date": "2023-05-23",
+      "tier": 1,
+      "entrants": 1063,
+      "prize": "$10,630",
+      "location": "Schaumburg, IL",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Ramlethal"
+      }
+    },
+    {
+      "name": "DreamHack San Diego 2023",
+      "page": "DreamHack/2023/San_Diego/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2023/San_Diego/GGST",
+      "date": "2023-04-23",
+      "tier": 2,
+      "entrants": 151,
+      "prize": "$5,000",
+      "location": "San Diego, CA",
+      "winner": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Bridget"
+      },
+      "runnerUp": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "Evolution Championship Series: Japan 2023",
+      "page": "Evolution_Championship_Series/2023/Japan/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/Japan/GGST",
+      "date": "2023-04-23",
+      "tier": 1,
+      "entrants": 1381,
+      "prize": "$15,004.20",
+      "location": "Tokyo",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Lox",
+        "page": "Lox",
+        "flag": "Japan",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "Texas Showdown 2023",
+      "page": "Texas_Showdown/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Texas_Showdown/2023/GGST",
+      "date": "2023-04-23",
+      "tier": 2,
+      "entrants": 239,
+      "prize": "$3,638",
+      "location": "Houston, TX",
+      "winner": {
+        "name": "Snake Eyez",
+        "page": "Snake_Eyez",
+        "flag": "United States",
+        "character": "Potemkin"
+      },
+      "runnerUp": {
+        "name": "Zippy",
+        "page": "Zippy",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "The MIXUP 2023",
+      "page": "The_MIXUP/2023/GGST",
+      "url": "https://liquipedia.net/fighters/The_MIXUP/2023/GGST",
+      "date": "2023-04-23",
+      "tier": 2,
+      "entrants": 109,
+      "prize": "$1,099.19",
+      "location": "Lyon",
+      "winner": {
+        "name": "Daseinologist",
+        "page": "Daseinologist",
+        "flag": "France",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Sin"
+      }
+    },
+    {
+      "name": "ARC World Tour 2022 Finals",
+      "page": "ARC_World_Tour/2022/Finals/GGST",
+      "url": "https://liquipedia.net/fighters/ARC_World_Tour/2022/Finals/GGST",
+      "date": "2023-03-23",
+      "tier": 1,
+      "entrants": 8,
+      "prize": "$100,000",
+      "location": "Burbank, CA",
+      "winner": {
+        "name": "Mocchii",
+        "page": "Mocchii",
+        "flag": "Japan",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "T Y",
+        "page": "T_Y",
+        "flag": "Japan",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "Crossover Arc 2023",
+      "page": "Crossover_Arc/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Crossover_Arc/2023/GGST",
+      "date": "2023-03-23",
+      "tier": 2,
+      "entrants": 52,
+      "prize": "$1,560.81",
+      "location": "New York City, NY",
+      "winner": {
+        "name": "Bean",
+        "page": "Bean",
+        "flag": "United States",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Shine",
+        "page": "Shine_(Jorge_Orellana)",
+        "flag": "United States",
+        "character": "Baiken"
+      }
+    },
+    {
+      "name": "Slashback 2023",
+      "page": "Slashback/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Slashback/2023/GGST",
+      "date": "2023-03-23",
+      "tier": 2,
+      "entrants": 180,
+      "prize": "$1,800",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "NBNHMR",
+        "page": "NBNHMR",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "Frosty Faustings XV",
+      "page": "Frosty_Faustings/2023/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2023/GGST",
+      "date": "2023-02-23",
+      "tier": 1,
+      "entrants": 1059,
+      "prize": "$11,103.03",
+      "location": "Lombard, IL",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "GENESIS 9",
+      "page": "GENESIS/9/GGST",
+      "url": "https://liquipedia.net/fighters/GENESIS/9/GGST",
+      "date": "2023-01-23",
+      "tier": 2,
+      "entrants": 185,
+      "prize": "$1,850",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "Aarondamac",
+        "page": "Aarondamac",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "ARCREVO Japan 2022",
+      "page": "ARCREVO/Japan/2022/GGST",
+      "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2022/GGST",
+      "date": "2022-12-22",
+      "tier": 1,
+      "entrants": 256,
+      "prize": "$14,874.87",
+      "location": "Tokyo",
+      "winner": {
+        "name": "T Y",
+        "page": "T_Y",
+        "flag": "Japan",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Battle Coliseum 2022",
+      "page": "Battle_Coliseum/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Coliseum/2022/GGST",
+      "date": "2022-12-22",
+      "tier": 2,
+      "entrants": 65,
+      "prize": "$373.60",
+      "location": "São Paulo, SP",
+      "winner": {
+        "name": "Rang13",
+        "page": "Rang13",
+        "flag": "Brazil",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "TheXtreme",
+        "page": null,
+        "flag": "Brazil",
+        "character": "Testament"
+      }
+    },
+    {
+      "name": "DreamHack Atlanta 2022",
+      "page": "DreamHack/2022/Atlanta/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2022/Atlanta/GGST",
+      "date": "2022-11-22",
+      "tier": 2,
+      "entrants": 138,
+      "prize": "$5,000",
+      "location": "Atlanta, GA",
+      "winner": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "Venezuela",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Fighter's Spirit 2022",
+      "page": "Fighter's_Spirit/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Fighter's_Spirit/2022/GGST",
+      "date": "2022-11-22",
+      "tier": 1,
+      "entrants": 60,
+      "prize": "$1,141.44",
+      "location": "Seoul",
+      "winner": {
+        "name": "Mocchii",
+        "page": "Mocchii",
+        "flag": "Japan",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "DarkNecro",
+        "page": "DarkNecro",
+        "flag": "South Korea",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Ultimate Fighting Arena 2022",
+      "page": "Ultimate_Fighting_Arena/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2022/GGST",
+      "date": "2022-11-22",
+      "tier": 1,
+      "entrants": 186,
+      "prize": "$6,196.91",
+      "location": "Paris",
+      "winner": {
+        "name": "Tiger_Pop",
+        "page": "Tiger_Pop",
+        "flag": "United Kingdom",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Smoib",
+        "page": null,
+        "flag": "Sweden",
+        "character": "Goldlewis"
+      }
+    },
+    {
+      "name": "Defend the North 2022",
+      "page": "Defend_the_North/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Defend_the_North/2022/GGST",
+      "date": "2022-10-22",
+      "tier": 2,
+      "entrants": 120,
+      "prize": "$2,000",
+      "location": "New York City",
+      "winner": {
+        "name": "Bean",
+        "page": "Bean",
+        "flag": "United States",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "The MIXUP 2022",
+      "page": "The_MIXUP/2022/GGST",
+      "url": "https://liquipedia.net/fighters/The_MIXUP/2022/GGST",
+      "date": "2022-10-22",
+      "tier": 2,
+      "entrants": 120,
+      "prize": "$1,175.82",
+      "location": "Rillieux-la-Pape , Lyon",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Celtic Throwdown 2022",
+      "page": "Celtic_Throwdown/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Celtic_Throwdown/2022/GGST",
+      "date": "2022-09-22",
+      "tier": 2,
+      "entrants": 84,
+      "prize": "$813.84",
+      "location": "Dublin",
+      "winner": {
+        "name": "PataChu",
+        "page": "PataChu",
+        "flag": "France",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Dejojo",
+        "page": "Dejojo",
+        "flag": "United Kingdom",
+        "character": "Baiken"
+      }
+    },
+    {
+      "name": "CEOtaku 2022",
+      "page": "CEOtaku/2022/GGST",
+      "url": "https://liquipedia.net/fighters/CEOtaku/2022/GGST",
+      "date": "2022-09-22",
+      "tier": 1,
+      "entrants": 529,
+      "prize": "$5,290",
+      "location": "Orlando, Florida",
+      "winner": {
+        "name": "NBNHMR",
+        "page": "NBNHMR",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Bean",
+        "page": "Bean",
+        "flag": "United States",
+        "character": "Chipp"
+      }
+    },
+    {
+      "name": "East Coast Throwdown 2022",
+      "page": "East_Coast_Throwdown/2022/GGST",
+      "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2022/GGST",
+      "date": "2022-09-22",
+      "tier": 2,
+      "entrants": 224,
+      "prize": "$3,850.34",
+      "location": "Stamford, CT",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "OneTrueSnorlax",
+        "page": "OneTrueSnorlax",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Only The Best IV",
+      "page": "Only_The_Best/4/GGST",
+      "url": "https://liquipedia.net/fighters/Only_The_Best/4/GGST",
+      "date": "2022-09-22",
+      "tier": 2,
+      "entrants": 57,
+      "prize": "$4,028.42",
+      "location": "Napoli",
+      "winner": {
+        "name": "Skyll",
+        "page": "Skyll",
+        "flag": "France",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Orochi Haohmaru",
+        "page": null,
+        "flag": "France",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "REV Major 2022",
+      "page": "REV_Major/2022/GGST",
+      "url": "https://liquipedia.net/fighters/REV_Major/2022/GGST",
+      "date": "2022-09-22",
+      "tier": 2,
+      "entrants": 86,
+      "prize": "$1,508.50",
+      "location": "Metro Manila",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "Jiro",
+        "page": "Jiro",
+        "flag": "Japan",
+        "character": "Anji"
+      }
+    },
+    {
+      "name": "Evolution Championship Series 2022",
+      "page": "Evolution_Championship_Series/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2022/GGST",
+      "date": "2022-08-22",
+      "tier": 1,
+      "entrants": 2158,
+      "prize": "$21,580",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      },
+      "runnerUp": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      }
+    },
+    {
+      "name": "Saudi Esports Federation Cup",
+      "page": "Saudi_Esports_Federation_Cup/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Saudi_Esports_Federation_Cup/2022/GGST",
+      "date": "2022-08-22",
+      "tier": 2,
+      "entrants": 26,
+      "prize": "$270,000",
+      "location": "Riyadh",
+      "winner": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      },
+      "runnerUp": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Summer Jam 2022",
+      "page": "Summer_Jam/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Summer_Jam/2022/GGST",
+      "date": "2022-08-22",
+      "tier": 2,
+      "entrants": 76,
+      "prize": "$760",
+      "location": "Cherry Hill",
+      "winner": {
+        "name": "Zippy",
+        "page": "Zippy",
+        "flag": "United States",
+        "character": "Ky"
+      },
+      "runnerUp": {
+        "name": "MFCR",
+        "page": "MFCR",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "VSFighting X",
+      "page": "VSFighting/2022/GGST",
+      "url": "https://liquipedia.net/fighters/VSFighting/2022/GGST",
+      "date": "2022-08-22",
+      "tier": 1,
+      "entrants": 180,
+      "prize": "$2,127.14",
+      "location": "Birmingham",
+      "winner": {
+        "name": "Skyll",
+        "page": "Skyll",
+        "flag": "France",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Ramlethal"
+      }
+    },
+    {
+      "name": "Brussels Challenge Major Edition 2022",
+      "page": "Brussels_Challenge/2022/Major_Edition/GGST",
+      "url": "https://liquipedia.net/fighters/Brussels_Challenge/2022/Major_Edition/GGST",
+      "date": "2022-07-22",
+      "tier": 2,
+      "entrants": 75,
+      "prize": null,
+      "location": "Brussels",
+      "winner": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Skyll",
+        "page": "Skyll",
+        "flag": "France",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "Heat Wave 2022",
+      "page": "Heat_Wave/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Heat_Wave/2022/GGST",
+      "date": "2022-07-22",
+      "tier": 2,
+      "entrants": 86,
+      "prize": "$5,018.07",
+      "location": "New York City, NY",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Bean",
+        "page": "Bean",
+        "flag": "United States",
+        "character": "Chipp"
+      }
+    },
+    {
+      "name": "CEO 2022",
+      "page": "Community_Effort_Orlando/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2022/GGST",
+      "date": "2022-06-22",
+      "tier": 1,
+      "entrants": 559,
+      "prize": "$5,590",
+      "location": "Daytona Beach, FL",
+      "winner": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "DreamHack Dallas 2022",
+      "page": "DreamHack/2022/Dallas/GGST",
+      "url": "https://liquipedia.net/fighters/DreamHack/2022/Dallas/GGST",
+      "date": "2022-06-22",
+      "tier": 2,
+      "entrants": 133,
+      "prize": "$5,000",
+      "location": "Dallas , TX",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Battle Arena Melbourne 12",
+      "page": "Battle_Arena_Melbourne/12/GGST",
+      "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/12/GGST",
+      "date": "2022-05-22",
+      "tier": 2,
+      "entrants": 135,
+      "prize": "$1,284.98",
+      "location": "Melbourne",
+      "winner": {
+        "name": "Tito_Ed",
+        "page": null,
+        "flag": "Australia",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "ceraph",
+        "page": null,
+        "flag": "Australia",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "Combo Breaker 2022",
+      "page": "Combo_Breaker/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Combo_Breaker/2022/GGST",
+      "date": "2022-05-22",
+      "tier": 1,
+      "entrants": 1056,
+      "prize": "$10,560",
+      "location": "Schaumburg, IL",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "UMISHO",
+        "page": "UMISHO",
+        "flag": "United States",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Stunfest 2022",
+      "page": "Stunfest/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Stunfest/2022/GGST",
+      "date": "2022-05-22",
+      "tier": 2,
+      "entrants": 66,
+      "prize": "$422.78",
+      "location": "Rennes",
+      "winner": {
+        "name": "Tim119",
+        "page": "Tim119",
+        "flag": "Taiwan",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "Orochi",
+        "page": null,
+        "flag": "France",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "GENESIS 8",
+      "page": "GENESIS/8/GGST",
+      "url": "https://liquipedia.net/fighters/GENESIS/8/GGST",
+      "date": "2022-04-22",
+      "tier": 2,
+      "entrants": 223,
+      "prize": "$2,230",
+      "location": "San Jose, CA",
+      "winner": {
+        "name": "Aarondamac",
+        "page": "Aarondamac",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Series E: $5k Faceoff Invitational",
+      "page": "Series_E:5k_Faceoff_Invitational",
+      "url": "https://liquipedia.net/fighters/Series_E:5k_Faceoff_Invitational",
+      "date": "2022-04-22",
+      "tier": 2,
+      "entrants": 10,
+      "prize": "$5,000",
+      "location": "Irvine, CA",
+      "winner": {
+        "name": "FlashMetroid",
+        "page": "Flash",
+        "flag": "United States",
+        "character": "Ky"
+      },
+      "runnerUp": {
+        "name": "Stealthy",
+        "page": "Stealthy",
+        "flag": "United States",
+        "character": "Axl"
+      }
+    },
+    {
+      "name": "Texas Showdown 2022",
+      "page": "Texas_Showdown/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Texas_Showdown/2022/GGST",
+      "date": "2022-04-22",
+      "tier": 2,
+      "entrants": 225,
+      "prize": "$3,375",
+      "location": "Houston , TX",
+      "winner": {
+        "name": "D.O.N",
+        "page": "D.O.N",
+        "flag": "United States",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Punk",
+        "page": "Punk",
+        "flag": "United States",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "Ultra Hard Tournament",
+      "page": "Ultra_Hard_Tournament/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Ultra_Hard_Tournament/2022/GGST",
+      "date": "2022-04-22",
+      "tier": 2,
+      "entrants": 44,
+      "prize": "$1,770.88",
+      "location": "Belo Horizonte, MG",
+      "winner": {
+        "name": "Rang13",
+        "page": "Rang13",
+        "flag": "Brazil",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "PLSX",
+        "page": "PLSX",
+        "flag": "Brazil",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "ARCREVO America 2021 Finals",
+      "page": "ARCREVO/America/2021/Finals",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Finals",
+      "date": "2022-03-22",
+      "tier": 1,
+      "entrants": 6,
+      "prize": "$26,000",
+      "location": "Burbank, CA",
+      "winner": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Finals",
+      "page": "ARCREVO/EMEA/2021/Finals",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Finals",
+      "date": "2022-03-22",
+      "tier": 1,
+      "entrants": 8,
+      "prize": "$10,947.69",
+      "location": "Lyon",
+      "winner": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Skyll",
+        "page": "Skyll",
+        "flag": "France",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "ARCREVO America 2021 Online Regional - USA West",
+      "page": "ARCREVO/America/2021/Online_Regional/USA/West",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/West",
+      "date": "2022-02-22",
+      "tier": 2,
+      "entrants": 241,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Symbolist",
+        "page": "Symbolist",
+        "flag": "United States",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "Jonathan Tene",
+        "page": "Jonathan_Tene",
+        "flag": "United States",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "ARCREVO Japan & Korea 2021",
+      "page": "ARCREVO/Japan_&_Korea/2021",
+      "url": "https://liquipedia.net/fighters/ARCREVO/Japan_&_Korea/2021",
+      "date": "2022-02-22",
+      "tier": 1,
+      "entrants": 300,
+      "prize": "$17,309.27",
+      "location": "Online",
+      "winner": {
+        "name": "T Y",
+        "page": "T_Y",
+        "flag": "Japan",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "Infiltration",
+        "page": "Infiltration",
+        "flag": "South Korea",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "Toushinsai 2021 REVENGE",
+      "page": "Toushinsai/2021/REVENGE/GGST",
+      "url": "https://liquipedia.net/fighters/Toushinsai/2021/REVENGE/GGST",
+      "date": "2022-02-22",
+      "tier": 2,
+      "entrants": 24,
+      "prize": null,
+      "location": "Tokyo",
+      "winner": null,
+      "runnerUp": null
+    },
+    {
+      "name": "ARCREVO America 2021 Online Regional - Canada",
+      "page": "ARCREVO/America/2021/Online_Regional/Canada",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Canada",
+      "date": "2022-01-22",
+      "tier": 2,
+      "entrants": 119,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "PepperySplash",
+        "page": "PepperySplash",
+        "flag": "Canada",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Remi Celeste",
+        "page": "Remi_Celeste",
+        "flag": "Canada",
+        "character": "Axl"
+      }
+    },
+    {
+      "name": "ARCREVO America 2021 Online Regional - USA East",
+      "page": "ARCREVO/America/2021/Online_Regional/USA/East",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/East",
+      "date": "2022-01-22",
+      "tier": 2,
+      "entrants": 305,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Qualifier #4",
+      "page": "ARCREVO/EMEA/2021/Qualifier_Event/4",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/4",
+      "date": "2022-01-22",
+      "tier": 2,
+      "entrants": 81,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "TrueDevin",
+        "page": "TrueDevin",
+        "flag": "Germany",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Zin",
+        "page": null,
+        "flag": "United Kingdom",
+        "character": "Chipp"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Qualifier #5",
+      "page": "ARCREVO/EMEA/2021/Qualifier_Event/5",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/5",
+      "date": "2022-01-22",
+      "tier": 2,
+      "entrants": 95,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "WhiteBl4ck",
+        "page": "WhiteBl4ck",
+        "flag": "France",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Zeno",
+        "page": "Zeno",
+        "flag": "Portugal",
+        "character": "Happy Chaos"
+      }
+    },
+    {
+      "name": "Frosty Faustings XIV",
+      "page": "Frosty_Faustings/2022/GGST",
+      "url": "https://liquipedia.net/fighters/Frosty_Faustings/2022/GGST",
+      "date": "2022-01-22",
+      "tier": 1,
+      "entrants": 731,
+      "prize": "$7,343",
+      "location": "Lombard, IL",
+      "winner": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "ARCREVO America 2021 Online Regional - Mexico",
+      "page": "ARCREVO/America/2021/Online_Regional/Mexico",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Mexico",
+      "date": "2021-12-21",
+      "tier": 2,
+      "entrants": 68,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Chetoo",
+        "page": null,
+        "flag": "Mexico",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Excelancer",
+        "page": "Excelancer",
+        "flag": "Mexico",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "ARCREVO America 2021 Online Regional - USA Central",
+      "page": "ARCREVO/America/2021/Online_Regional/USA/Central",
+      "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/Central",
+      "date": "2021-12-21",
+      "tier": 2,
+      "entrants": 108,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "daze",
+        "page": "Daze",
+        "flag": "United States",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "FlashMetroid",
+        "page": "Flash",
+        "flag": "United States",
+        "character": "Axl"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Qualifier #3",
+      "page": "ARCREVO/EMEA/2021/Qualifier_Event/3",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/3",
+      "date": "2021-12-21",
+      "tier": 2,
+      "entrants": 57,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Zando",
+        "page": "Zando",
+        "flag": "Israel",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "Zato-VaN",
+        "page": null,
+        "flag": "Belarus",
+        "character": "Zato-1"
+      }
+    },
+    {
+      "name": "CEO 2021",
+      "page": "Community_Effort_Orlando/2021/GGST",
+      "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2021/GGST",
+      "date": "2021-12-21",
+      "tier": 1,
+      "entrants": 740,
+      "prize": "$7,400",
+      "location": "Orlando",
+      "winner": {
+        "name": "K7 Showoff",
+        "page": "K7_Showoff",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Remi Celeste",
+        "page": "Remi_Celeste",
+        "flag": "Canada",
+        "character": "Axl"
+      }
+    },
+    {
+      "name": "Guilty Gear Duel Online #2",
+      "page": "Guilty_Gear_Duel_Online/2",
+      "url": "https://liquipedia.net/fighters/Guilty_Gear_Duel_Online/2",
+      "date": "2021-12-21",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "T Y",
+        "page": "T_Y",
+        "flag": "Japan",
+        "character": "Giovanna"
+      },
+      "runnerUp": {
+        "name": "Doberman Nishijima",
+        "page": null,
+        "flag": "Japan",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Qualifier #2",
+      "page": "ARCREVO/EMEA/2021/Qualifier_Event/2",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/2",
+      "date": "2021-11-21",
+      "tier": 2,
+      "entrants": 54,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Latif",
+        "page": "Latif",
+        "flag": "Saudi Arabia",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Slash",
+        "page": "Slash",
+        "flag": "Saudi Arabia",
+        "character": "May"
+      }
+    },
+    {
+      "name": "Celtic Throwdown 2021",
+      "page": "Celtic_Throwdown/2021/GGST",
+      "url": "https://liquipedia.net/fighters/Celtic_Throwdown/2021/GGST",
+      "date": "2021-11-21",
+      "tier": 2,
+      "entrants": 93,
+      "prize": "$1,064.10",
+      "location": "Dublin",
+      "winner": {
+        "name": "dyb",
+        "page": null,
+        "flag": "Ireland",
+        "character": "Anji"
+      },
+      "runnerUp": {
+        "name": "ShadyImpostor",
+        "page": "ShadyImpostor",
+        "flag": "Poland",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Red Bull Kumite 2021 - Las Vegas",
+      "page": "Red_Bull_Kumite/2021/Las_Vegas/GGST",
+      "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST",
+      "date": "2021-11-21",
+      "tier": 1,
+      "entrants": 8,
+      "prize": "$15,000",
+      "location": "Las Vegas, NV",
+      "winner": {
+        "name": "GOBOU",
+        "page": "GOBOU",
+        "flag": "Japan",
+        "character": "Zato-1"
+      },
+      "runnerUp": {
+        "name": "Diaphone",
+        "page": "Diaphone",
+        "flag": "United States",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "ARCREVO EMEA 2021 Qualifier #1",
+      "page": "ARCREVO/EMEA/2021/Qualifier_Event/1",
+      "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/1",
+      "date": "2021-10-21",
+      "tier": 2,
+      "entrants": 20,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Shady",
+        "page": null,
+        "flag": "Finland",
+        "character": "Goldlewis"
+      },
+      "runnerUp": {
+        "name": "Akaraien",
+        "page": null,
+        "flag": "Austria",
+        "character": "Giovanna"
+      }
+    },
+    {
+      "name": "East Coast Throwdown: The Pit",
+      "page": "East_Coast_Throwdown/The_Pit/2021/GGST",
+      "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/The_Pit/2021/GGST",
+      "date": "2021-10-21",
+      "tier": 2,
+      "entrants": 8,
+      "prize": "$4,000",
+      "location": "New York City , NY",
+      "winner": {
+        "name": "TempestNYC",
+        "page": "TempestNYC",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "Guilty Gear Duel Online #1",
+      "page": "Guilty_Gear_Duel_Online/1",
+      "url": "https://liquipedia.net/fighters/Guilty_Gear_Duel_Online/1",
+      "date": "2021-10-21",
+      "tier": 2,
+      "entrants": null,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Daru",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Tyurara",
+        "page": "Tyurara",
+        "flag": "Japan",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Red Bull Gladiators",
+      "page": "Red_Bull_Gladiators/2021/Final_Phase",
+      "url": "https://liquipedia.net/fighters/Red_Bull_Gladiators/2021/Final_Phase",
+      "date": "2021-10-21",
+      "tier": 1,
+      "entrants": 8,
+      "prize": "$7,887.40",
+      "location": "Mérida",
+      "winner": {
+        "name": "Skyll",
+        "page": "Skyll",
+        "flag": "France",
+        "character": "Sol"
+      },
+      "runnerUp": {
+        "name": "KenDeep",
+        "page": "Sachio",
+        "flag": "Germany",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "Red Bull Kumite 2021 - Las Vegas - LCQ",
+      "page": "Red_Bull_Kumite/2021/Las_Vegas/GGST/Last_Chance_Qualifier",
+      "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST/Last_Chance_Qualifier",
+      "date": "2021-10-21",
+      "tier": 2,
+      "entrants": 100,
+      "prize": null,
+      "location": "Online",
+      "winner": {
+        "name": "Diaphone",
+        "page": "Diaphone",
+        "flag": "United States",
+        "character": "I-No"
+      },
+      "runnerUp": {
+        "name": "Razzo",
+        "page": "Razzo",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "The Pinnacle 2021",
+      "page": "The_Pinnacle/2021/GGST",
+      "url": "https://liquipedia.net/fighters/The_Pinnacle/2021/GGST",
+      "date": "2021-10-21",
+      "tier": 2,
+      "entrants": 196,
+      "prize": "$3,204.23",
+      "location": "Vancouver",
+      "winner": {
+        "name": "Supernoon",
+        "page": "Supernoon",
+        "flag": "United States",
+        "character": "Ramlethal"
+      },
+      "runnerUp": {
+        "name": "KizzieKay",
+        "page": "Kizzie_Kay",
+        "flag": "United States",
+        "character": "Ky"
+      }
+    },
+    {
+      "name": "Not Super TSB 2021",
+      "page": "Not_Super_TSB/2021/GGST",
+      "url": "https://liquipedia.net/fighters/Not_Super_TSB/2021/GGST",
+      "date": "2021-09-21",
+      "tier": 2,
+      "entrants": 93,
+      "prize": "$1,955.71",
+      "location": "New York",
+      "winner": {
+        "name": "K7 Showoff",
+        "page": "K7_Showoff",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "EVO 2021 Online - Asia",
+      "page": "Evolution_Championship_Series/2021/Online/GGST/Asia",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Asia",
+      "date": "2021-08-21",
+      "tier": 2,
+      "entrants": 359,
+      "prize": "$7,250",
+      "location": "Online",
+      "winner": {
+        "name": "Xyzzy",
+        "page": "Xyzzy",
+        "flag": "South Korea",
+        "character": "Axl"
+      },
+      "runnerUp": {
+        "name": "Daru",
+        "page": "Daru",
+        "flag": "South Korea",
+        "character": "I-No"
+      }
+    },
+    {
+      "name": "EVO 2021 Online - Europe",
+      "page": "Evolution_Championship_Series/2021/Online/GGST/Europe",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Europe",
+      "date": "2021-08-21",
+      "tier": 2,
+      "entrants": 449,
+      "prize": "$7,000",
+      "location": "Online",
+      "winner": {
+        "name": "Leffen",
+        "page": "Leffen",
+        "flag": "Sweden",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "Uriel_Legion",
+        "page": "Uriel_Legion",
+        "flag": "Spain",
+        "character": "Nagoriyuki"
+      }
+    },
+    {
+      "name": "EVO 2021 Online - Latin America",
+      "page": "Evolution_Championship_Series/2021/Online/GGST/Latin_America",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Latin_America",
+      "date": "2021-08-21",
+      "tier": 2,
+      "entrants": 386,
+      "prize": "$7,000",
+      "location": "Online",
+      "winner": {
+        "name": "Trema",
+        "page": "Trema",
+        "flag": "Brazil",
+        "character": "Chipp"
+      },
+      "runnerUp": {
+        "name": "mike_Saftig",
+        "page": "MikeSaftig",
+        "flag": "Mexico",
+        "character": "Sol"
+      }
+    },
+    {
+      "name": "EVO 2021 Online - North America",
+      "page": "Evolution_Championship_Series/2021/Online/GGST/North_America",
+      "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/North_America",
+      "date": "2021-08-21",
+      "tier": 2,
+      "entrants": 2262,
+      "prize": "$7,000",
+      "location": "Online",
+      "winner": {
+        "name": "Hotashi",
+        "page": "Hotashi",
+        "flag": "United States",
+        "character": "Nagoriyuki"
+      },
+      "runnerUp": {
+        "name": "SonicFox",
+        "page": "SonicFox",
+        "flag": "United States",
+        "character": "Leo"
+      }
+    },
+    {
+      "name": "Summer Jam 2021",
+      "page": "Summer_Jam/2021/GGST",
+      "url": "https://liquipedia.net/fighters/Summer_Jam/2021/GGST",
+      "date": "2021-08-21",
+      "tier": 2,
+      "entrants": 313,
+      "prize": "$3,130",
+      "location": "Cherry Hill",
+      "winner": {
+        "name": "K7 Showoff",
+        "page": "K7_Showoff",
+        "flag": "United States",
+        "character": "Leo"
+      },
+      "runnerUp": {
+        "name": "SoSickNASHFAN",
+        "page": "SoSickNASHFAN",
+        "flag": "United States",
+        "character": "May"
+      }
+    }
+  ]
+}

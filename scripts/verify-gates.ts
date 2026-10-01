@@ -427,6 +427,73 @@ const THEATER_FILES = [
 ];
 
 const CONTROLS: Control[] = [
+  // ── tournament placements (scripts/tournaments.ts --check) ───────────────
+  // Both offline. The file is Liquipedia's Tier 1–2 table as fetched; the
+  // validator is what keeps a hand-edit (or a half-written fetch) from
+  // reaching parse-finish.ts, which features whoever the file names.
+  {
+    name: 'tournaments: the same event page listed twice (a double-counted title)',
+    cmd: ['tsx', 'scripts/tournaments.ts', '--check'],
+    files: ['data/tournaments.json'],
+    names: /duplicate event page/,
+    inject: () => {
+      if (!existsSync(join(ROOT, 'data/tournaments.json'))) return 'no data/tournaments.json yet';
+      const f = JSON.parse(read('data/tournaments.json')) as { events: unknown[] };
+      if (!f.events.length) return 'tournaments.json carries no events';
+      f.events.push(f.events[0]);
+      write('data/tournaments.json', `${JSON.stringify(f, null, 2)}\n`);
+      return true;
+    },
+  },
+  {
+    name: 'tournaments: an alias row pointing at a player who is not in the registry',
+    cmd: ['tsx', 'scripts/tournaments.ts', '--check'],
+    files: ['data/tournament-aliases.json'],
+    names: /unknown player id "no-such-player"/,
+    inject: () => {
+      if (!existsSync(join(ROOT, 'data/tournament-aliases.json')))
+        return 'no data/tournament-aliases.json yet';
+      const f = JSON.parse(read('data/tournament-aliases.json')) as {
+        aliases: Record<string, string | null>;
+      };
+      const k = Object.keys(f.aliases)[0];
+      if (!k) return 'the aliases file has no rows to corrupt';
+      f.aliases[k] = 'no-such-player';
+      write('data/tournament-aliases.json', `${JSON.stringify(f, null, 2)}\n`);
+      return true;
+    },
+  },
+  {
+    // THE KEEP-THE-FILE GUARANTEE. An unreachable Liquipedia must be
+    // UNVERIFIED (exit 0, yellow in ../sync-tournaments.sh) and must leave the
+    // committed table byte-identical — a fetch failure that wrote an empty file
+    // would un-feature every champion on the next parse. A measurement, not an
+    // exit code, so it brings its own assert. Needs no real network: the
+    // endpoint is pointed at a closed local port, but it is a `fetch`, so it
+    // is filed with the network controls and skipped under --no-network.
+    name: 'tournaments: Liquipedia unreachable → UNVERIFIED and data/tournaments.json untouched',
+    cmd: ['tsx', 'scripts/tournaments.ts'],
+    files: ['data/tournaments.json'],
+    env: { TOURNAMENTS_URL: 'http://127.0.0.1:9/api.php' },
+    network: true,
+    inject: () =>
+      existsSync(join(ROOT, 'data/tournaments.json')) ? true : 'no data/tournaments.json yet',
+    assert: (r) => {
+      if (r.error) return fail(`the command never ran: ${r.error.message}`);
+      if (r.status !== 0)
+        return fail(
+          `exited ${r.status}; an unreachable upstream is UNVERIFIED, never a failure. Got: ${head(r)}`,
+        );
+      if (!/tournaments: UNVERIFIED/.test(r.out))
+        return fail(`no UNVERIFIED trailer. Got: ${head(r)}`);
+      const before = snapshots.get('data/tournaments.json');
+      const after = readFileSync(join(ROOT, 'data/tournaments.json'));
+      if (!before || !before.equals(after))
+        return fail('data/tournaments.json changed on a failed fetch');
+      return pass('UNVERIFIED, file byte-identical');
+    },
+  },
+
   // ── the patch table (scripts/seasons.ts) ─────────────────────────────────
   {
     name: 'patches: two patches share a start date (the CMS error that mis-filed 950 records on CotW)',

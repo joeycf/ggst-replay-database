@@ -396,7 +396,30 @@
   },
   {
     "id": "aarondamac",
-    "handle": "Aarondamac"
+    "handle": "Aarondamac",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARC World Tour 2023 Finals Last Chance Qualifier",
+          "place": 1,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST/Last_Chance_Qualifier"
+        },
+        {
+          "event": "GENESIS 9",
+          "place": 1,
+          "date": "2023-01-23",
+          "url": "https://liquipedia.net/fighters/GENESIS/9/GGST"
+        },
+        {
+          "event": "GENESIS 8",
+          "place": 1,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/GENESIS/8/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "aba-bottom-1",
@@ -416,7 +439,24 @@
   },
   {
     "id": "abbysairaf",
-    "handle": "Abbysairaf"
+    "handle": "Abbysairaf",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "RAGNAROK 2026",
+          "place": 2,
+          "date": "2026-08-26",
+          "url": "https://liquipedia.net/fighters/Ragnarok/2026/GGST"
+        },
+        {
+          "event": "Battle Coliseum 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "abbysairf",
@@ -470,8 +510,17 @@
     "extra": {
       "aliases": [
         "Aboii?"
+      ],
+      "titles": [
+        {
+          "event": "TNS 9: CEO Never Sleeps",
+          "place": 1,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/Tampa_Never_Sleeps/9/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "absolutemaniac",
@@ -711,7 +760,18 @@
   },
   {
     "id": "akaraien",
-    "handle": "Akaraien"
+    "handle": "Akaraien",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #1",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/1"
+        }
+      ]
+    }
   },
   {
     "id": "akari",
@@ -1036,8 +1096,47 @@
       "aliases": [
         "Andross_11",
         "Andross=11"
+      ],
+      "titles": [
+        {
+          "event": "VSFighting XIV",
+          "place": 1,
+          "date": "2026-07-26",
+          "url": "https://liquipedia.net/fighters/VSFighting/2026/GGST"
+        },
+        {
+          "event": "The MIXUP 2026",
+          "place": 1,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2026/GGST"
+        },
+        {
+          "event": "The MIXUP 2025",
+          "place": 2,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2025/GGST"
+        },
+        {
+          "event": "Headstomper 2025",
+          "place": 1,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Headstomper/2025/GGST"
+        },
+        {
+          "event": "Hessen Crash XXII",
+          "place": 1,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Hessen_Crash/22/GGST"
+        },
+        {
+          "event": "Kayane Cup 2025",
+          "place": 1,
+          "date": "2025-02-25",
+          "url": "https://liquipedia.net/fighters/Kayane_Cup/2025/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "aneema",
@@ -1162,7 +1261,18 @@
   },
   {
     "id": "apologyman",
-    "handle": "ApologyMan"
+    "handle": "ApologyMan",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARC World Tour 2023 Finals Last Chance Qualifier",
+          "place": 2,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST/Last_Chance_Qualifier"
+        }
+      ]
+    }
   },
   {
     "id": "apopaino",
@@ -2034,7 +2144,36 @@
   },
   {
     "id": "bean",
-    "handle": "Bean"
+    "handle": "Bean",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Crossover Arc 2023",
+          "place": 1,
+          "date": "2023-03-23",
+          "url": "https://liquipedia.net/fighters/Crossover_Arc/2023/GGST"
+        },
+        {
+          "event": "Defend the North 2022",
+          "place": 1,
+          "date": "2022-10-22",
+          "url": "https://liquipedia.net/fighters/Defend_the_North/2022/GGST"
+        },
+        {
+          "event": "CEOtaku 2022",
+          "place": 2,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2022/GGST"
+        },
+        {
+          "event": "Heat Wave 2022",
+          "place": 2,
+          "date": "2022-07-22",
+          "url": "https://liquipedia.net/fighters/Heat_Wave/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "bearfaust",
@@ -2074,7 +2213,24 @@
   },
   {
     "id": "beedozer",
-    "handle": "Beedozer"
+    "handle": "Beedozer",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "OzHadou Nationals 19",
+          "place": 2,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/OzHadou_Nationals/19/GGST"
+        },
+        {
+          "event": "Battle Arena Melbourne 15",
+          "place": 2,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/15/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "beef",
@@ -2436,6 +2592,10 @@
     }
   },
   {
+    "id": "black-flame",
+    "handle": "Black Flame/黒炎ブレイズ"
+  },
+  {
     "id": "black-panther",
     "handle": "Black Panther"
   },
@@ -2510,8 +2670,17 @@
     "extra": {
       "aliases": [
         "BlitzkrieG"
+      ],
+      "titles": [
+        {
+          "event": "Battle Arena Melbourne 14",
+          "place": 2,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/14/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "bloby",
@@ -2652,7 +2821,18 @@
   },
   {
     "id": "bodoque",
-    "handle": "Bodoque"
+    "handle": "Bodoque",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "RAGNAROK 2026",
+          "place": 1,
+          "date": "2026-08-26",
+          "url": "https://liquipedia.net/fighters/Ragnarok/2026/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "bogusbinted",
@@ -2747,7 +2927,18 @@
   },
   {
     "id": "booshy",
-    "handle": "BooShy"
+    "handle": "BooShy",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Battle Coliseum 2024",
+          "place": 2,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2024/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "booska",
@@ -3050,8 +3241,23 @@
       "aliases": [
         "bushin",
         "BUSHIN"
+      ],
+      "titles": [
+        {
+          "event": "A.C.E 2025",
+          "place": 1,
+          "date": "2025-12-25",
+          "url": "https://liquipedia.net/fighters/ACE/2025/GGST"
+        },
+        {
+          "event": "ARCREVO in SENZAN 2025",
+          "place": 2,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2025"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "busin",
@@ -3610,7 +3816,18 @@
   },
   {
     "id": "chetoo",
-    "handle": "Chetoo"
+    "handle": "Chetoo",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO America 2021 Online Regional - Mexico",
+          "place": 1,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Mexico"
+        }
+      ]
+    }
   },
   {
     "id": "chibi-arcade",
@@ -3986,7 +4203,24 @@
   },
   {
     "id": "classified",
-    "handle": "Classified"
+    "handle": "Classified",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Boston Blue Beat: Beach Episode 2026",
+          "place": 2,
+          "date": "2026-07-26",
+          "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2026/GGST"
+        },
+        {
+          "event": "SQ XL: Burst la Burst",
+          "place": 1,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/SQ_XL/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "clean-hit",
@@ -4458,8 +4692,17 @@
     "extra": {
       "aliases": [
         "crillou"
+      ],
+      "titles": [
+        {
+          "event": "The MIXUP 2026",
+          "place": 2,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2026/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "crimpytie",
@@ -4702,8 +4945,17 @@
     "extra": {
       "aliases": [
         "D.O.N."
+      ],
+      "titles": [
+        {
+          "event": "Texas Showdown 2022",
+          "place": 1,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "d3-will",
@@ -4962,8 +5214,41 @@
     "extra": {
       "aliases": [
         "dany"
+      ],
+      "titles": [
+        {
+          "event": "Astral Finish 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Astral_Finish/2025/GGST"
+        },
+        {
+          "event": "Thunderstruck 2025",
+          "place": 2,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/Thunderstruck/2025/GGST"
+        },
+        {
+          "event": "Astral Finish 2024",
+          "place": 2,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/Astral_Finish/2024/GGST"
+        },
+        {
+          "event": "Thunderstruck 2024",
+          "place": 2,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Thunderstruck/2024/GGST"
+        },
+        {
+          "event": "Battle Coliseum 2023",
+          "place": 2,
+          "date": "2023-11-23",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "dany-el-maza",
@@ -5036,7 +5321,24 @@
   },
   {
     "id": "darknecro",
-    "handle": "DarkNecro"
+    "handle": "DarkNecro",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO in SENZAN 2024",
+          "place": 2,
+          "date": "2024-08-24",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2024/GGST"
+        },
+        {
+          "event": "Fighter's Spirit 2022",
+          "place": 2,
+          "date": "2022-11-22",
+          "url": "https://liquipedia.net/fighters/Fighter's_Spirit/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "darkrai",
@@ -5077,8 +5379,53 @@
       "aliases": [
         "daru",
         "DARU"
+      ],
+      "titles": [
+        {
+          "event": "Evolution Championship Series: Japan 2026",
+          "place": 2,
+          "date": "2026-05-26",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/Japan/GGST"
+        },
+        {
+          "event": "Wai-Wai ThankSTRIVE 4ever",
+          "place": 1,
+          "date": "2026-01-26",
+          "url": "https://liquipedia.net/fighters/Wai-Wai_ThankSTRIVE/4/AWT"
+        },
+        {
+          "event": "Evolution Championship Series: Japan 2025",
+          "place": 1,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/Japan/GGST"
+        },
+        {
+          "event": "SEA Major 2024",
+          "place": 1,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2024/GGST"
+        },
+        {
+          "event": "REV Major 2023",
+          "place": 1,
+          "date": "2023-10-23",
+          "url": "https://liquipedia.net/fighters/REV_Major/2023/GGST"
+        },
+        {
+          "event": "Guilty Gear Duel Online #1",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Guilty_Gear_Duel_Online/1"
+        },
+        {
+          "event": "EVO 2021 Online - Asia",
+          "place": 2,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Asia"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "daru-2",
@@ -5099,7 +5446,42 @@
   },
   {
     "id": "daseinologist",
-    "handle": "Daseinologist"
+    "handle": "Daseinologist",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "AUTplayed 2026",
+          "place": 1,
+          "date": "2026-01-26",
+          "url": "https://liquipedia.net/fighters/AUTplayed/2026/GGST"
+        },
+        {
+          "event": "MINDSET 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/MINDSET/2025/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2025",
+          "place": 2,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2025/GGST"
+        },
+        {
+          "event": "The MIXUP 2024",
+          "place": 2,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2024/GGST"
+        },
+        {
+          "event": "The MIXUP 2023",
+          "place": 1,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2023/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "dashygirl-3",
@@ -5183,8 +5565,17 @@
       "aliases": [
         "Daze",
         "DAZE"
+      ],
+      "titles": [
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA Central",
+          "place": 1,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/Central"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "db215",
@@ -5344,7 +5735,18 @@
   },
   {
     "id": "dejojo",
-    "handle": "Dejojo"
+    "handle": "Dejojo",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Celtic Throwdown 2022",
+          "place": 2,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/Celtic_Throwdown/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "delay-426h248h",
@@ -5540,7 +5942,24 @@
   },
   {
     "id": "diaphone",
-    "handle": "Diaphone"
+    "handle": "Diaphone",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Red Bull Kumite 2021 - Las Vegas",
+          "place": 2,
+          "date": "2021-11-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST"
+        },
+        {
+          "event": "Red Bull Kumite 2021 - Las Vegas - LCQ",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST/Last_Chance_Qualifier"
+        }
+      ]
+    }
   },
   {
     "id": "dice",
@@ -5560,7 +5979,24 @@
   },
   {
     "id": "diegubis",
-    "handle": "Diegubis"
+    "handle": "Diegubis",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "First Attack 2025",
+          "place": 2,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/First_Attack/2025/GGST"
+        },
+        {
+          "event": "First Attack 2024",
+          "place": 2,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/First_Attack/2024/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "diew",
@@ -5799,7 +6235,18 @@
   },
   {
     "id": "doberman-nishijima",
-    "handle": "Doberman Nishijima"
+    "handle": "Doberman Nishijima",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Guilty Gear Duel Online #2",
+          "place": 2,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/Guilty_Gear_Duel_Online/2"
+        }
+      ]
+    }
   },
   {
     "id": "doctor-faustus",
@@ -6434,7 +6881,18 @@
   },
   {
     "id": "eddventure",
-    "handle": "Eddventure"
+    "handle": "Eddventure",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "CEO 2023",
+          "place": 1,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2023/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "eddventure-mirror",
@@ -7006,7 +7464,18 @@
   },
   {
     "id": "excelancer",
-    "handle": "Excelancer"
+    "handle": "Excelancer",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO America 2021 Online Regional - Mexico",
+          "place": 2,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Mexico"
+        }
+      ]
+    }
   },
   {
     "id": "excelent",
@@ -7441,7 +7910,24 @@
   },
   {
     "id": "flash",
-    "handle": "Flash"
+    "handle": "Flash",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Series E: $5k Faceoff Invitational",
+          "place": 1,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/Series_E:5k_Faceoff_Invitational"
+        },
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA Central",
+          "place": 2,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/Central"
+        }
+      ]
+    }
   },
   {
     "id": "flashmetroid",
@@ -8443,8 +8929,71 @@
         "GOBOU",
         "Gobou 御傍(ごぼう)",
         "GOBOU (御傍)"
+      ],
+      "titles": [
+        {
+          "event": "ARC World Tour 2025-2026 Finals Last Chance Qualifier",
+          "place": 2,
+          "date": "2026-03-26",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST/Last_Chance_Qualifier"
+        },
+        {
+          "event": "Wai-Wai ThankSTRIVE 4ever",
+          "place": 2,
+          "date": "2026-01-26",
+          "url": "https://liquipedia.net/fighters/Wai-Wai_ThankSTRIVE/4/AWT"
+        },
+        {
+          "event": "BeePro Cup 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/BeePro_Cup/2025/GGST"
+        },
+        {
+          "event": "ARCREVO in SENZAN 2024",
+          "place": 1,
+          "date": "2024-08-24",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2024/GGST"
+        },
+        {
+          "event": "Super Tournament 2024",
+          "place": 1,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Super_Tournament/2024/GGST"
+        },
+        {
+          "event": "ARCREVO Japan 2023",
+          "place": 1,
+          "date": "2023-09-23",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2023"
+        },
+        {
+          "event": "Evolution Championship Series: Japan 2023",
+          "place": 1,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/Japan/GGST"
+        },
+        {
+          "event": "ARCREVO Japan 2022",
+          "place": 2,
+          "date": "2022-12-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2022/GGST"
+        },
+        {
+          "event": "REV Major 2022",
+          "place": 1,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/REV_Major/2022/GGST"
+        },
+        {
+          "event": "Red Bull Kumite 2021 - Las Vegas",
+          "place": 1,
+          "date": "2021-11-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "gobou-fans",
@@ -10180,8 +10729,71 @@
       "aliases": [
         "hotashi",
         "HOTASHI"
+      ],
+      "titles": [
+        {
+          "event": "DreamHack Dallas 2023",
+          "place": 2,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/Dallas/GGST"
+        },
+        {
+          "event": "DreamHack San Diego 2023",
+          "place": 1,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/San_Diego/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2022",
+          "place": 2,
+          "date": "2022-11-22",
+          "url": "https://liquipedia.net/fighters/DreamHack/2022/Atlanta/GGST"
+        },
+        {
+          "event": "DreamHack Dallas 2022",
+          "place": 2,
+          "date": "2022-06-22",
+          "url": "https://liquipedia.net/fighters/DreamHack/2022/Dallas/GGST"
+        },
+        {
+          "event": "ARCREVO America 2021 Finals",
+          "place": 1,
+          "date": "2022-03-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Finals"
+        },
+        {
+          "event": "Frosty Faustings XIV",
+          "place": 1,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2022/GGST"
+        },
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA East",
+          "place": 2,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/East"
+        },
+        {
+          "event": "East Coast Throwdown: The Pit",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/The_Pit/2021/GGST"
+        },
+        {
+          "event": "Not Super TSB 2021",
+          "place": 2,
+          "date": "2021-09-21",
+          "url": "https://liquipedia.net/fighters/Not_Super_TSB/2021/GGST"
+        },
+        {
+          "event": "EVO 2021 Online - North America",
+          "place": 1,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/North_America"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "hotatekun",
@@ -10523,8 +11135,17 @@
         "Idom",
         "IDOM",
         "IDom"
+      ],
+      "titles": [
+        {
+          "event": "Defend the North 2023",
+          "place": 2,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Defend_the_North/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "iffity",
@@ -10721,7 +11342,18 @@
   },
   {
     "id": "infiltration",
-    "handle": "Infiltration"
+    "handle": "Infiltration",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO Japan & Korea 2021",
+          "place": 2,
+          "date": "2022-02-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan_&_Korea/2021"
+        }
+      ]
+    }
   },
   {
     "id": "infiltration-arc-revo-japan-runback",
@@ -11020,8 +11652,47 @@
     "extra": {
       "aliases": [
         "JACK"
+      ],
+      "titles": [
+        {
+          "event": "Combo Breaker 2026",
+          "place": 2,
+          "date": "2026-05-26",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2026/GGST"
+        },
+        {
+          "event": "ARC World Tour 2025-2026 Finals",
+          "place": 1,
+          "date": "2026-03-26",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST"
+        },
+        {
+          "event": "Frosty Faustings XVIII",
+          "place": 1,
+          "date": "2026-02-26",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2026/GGST"
+        },
+        {
+          "event": "R.I.S.C. 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Rumble_In_SoCal/2025/GGST"
+        },
+        {
+          "event": "Combo Breaker 2025",
+          "place": 2,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2025/GGST"
+        },
+        {
+          "event": "Frosty Faustings XVII",
+          "place": 2,
+          "date": "2025-01-25",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2025/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "jack-black",
@@ -11457,8 +12128,35 @@
       "aliases": [
         "Jiro/ジロー",
         "JIRO"
+      ],
+      "titles": [
+        {
+          "event": "OzHadou Nationals 20",
+          "place": 1,
+          "date": "2026-09-26",
+          "url": "https://liquipedia.net/fighters/OzHadou_Nationals/20/GGST"
+        },
+        {
+          "event": "Thaiger Uppercut 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2025/GGST"
+        },
+        {
+          "event": "Super Tournament 2024",
+          "place": 2,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Super_Tournament/2024/GGST"
+        },
+        {
+          "event": "REV Major 2022",
+          "place": 2,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/REV_Major/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "jirou",
@@ -11647,7 +12345,78 @@
   },
   {
     "id": "jonathan-tene",
-    "handle": "Jonathan Tene"
+    "handle": "Jonathan Tene",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Slashback 2026",
+          "place": 2,
+          "date": "2026-04-26",
+          "url": "https://liquipedia.net/fighters/Slashback/2026/GGST"
+        },
+        {
+          "event": "CEOtaku 2024",
+          "place": 1,
+          "date": "2024-12-24",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2024/GGST"
+        },
+        {
+          "event": "First Attack 2024",
+          "place": 1,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/First_Attack/2024/GGST"
+        },
+        {
+          "event": "Slashback 2024",
+          "place": 2,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Slashback/2024/GGST"
+        },
+        {
+          "event": "VSFighting XI",
+          "place": 1,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/VSFighting/2023/GGST"
+        },
+        {
+          "event": "Headstomper 2023",
+          "place": 2,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Headstomper/2023/GGST"
+        },
+        {
+          "event": "GENESIS 9",
+          "place": 2,
+          "date": "2023-01-23",
+          "url": "https://liquipedia.net/fighters/GENESIS/9/GGST"
+        },
+        {
+          "event": "CEO 2022",
+          "place": 1,
+          "date": "2022-06-22",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2022/GGST"
+        },
+        {
+          "event": "GENESIS 8",
+          "place": 2,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/GENESIS/8/GGST"
+        },
+        {
+          "event": "ARCREVO America 2021 Finals",
+          "place": 2,
+          "date": "2022-03-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Finals"
+        },
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA West",
+          "place": 2,
+          "date": "2022-02-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/West"
+        }
+      ]
+    }
   },
   {
     "id": "jonathantene",
@@ -11971,7 +12740,30 @@
   },
   {
     "id": "k7-showoff",
-    "handle": "K7 Showoff"
+    "handle": "K7 Showoff",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "CEO 2021",
+          "place": 1,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2021/GGST"
+        },
+        {
+          "event": "Not Super TSB 2021",
+          "place": 1,
+          "date": "2021-09-21",
+          "url": "https://liquipedia.net/fighters/Not_Super_TSB/2021/GGST"
+        },
+        {
+          "event": "Summer Jam 2021",
+          "place": 1,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Summer_Jam/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "ka-ko",
@@ -12335,8 +13127,23 @@
     "extra": {
       "aliases": [
         "KAZAM"
+      ],
+      "titles": [
+        {
+          "event": "Battle Coliseum 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2025/GGST"
+        },
+        {
+          "event": "Texas Showdown 2024",
+          "place": 1,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2024/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "kazam-jr",
@@ -12443,7 +13250,18 @@
   },
   {
     "id": "kendeep",
-    "handle": "KenDeep"
+    "handle": "KenDeep",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Red Bull Gladiators",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Gladiators/2021/Final_Phase"
+        }
+      ]
+    }
   },
   {
     "id": "kendrick-olimar",
@@ -12860,7 +13678,18 @@
   },
   {
     "id": "kizzie-kay",
-    "handle": "Kizzie Kay"
+    "handle": "Kizzie Kay",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "The Pinnacle 2021",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/The_Pinnacle/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "kizzy-kay",
@@ -13169,7 +13998,30 @@
   },
   {
     "id": "kshuewhatdamoo",
-    "handle": "Kshuewhatdamoo"
+    "handle": "Kshuewhatdamoo",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Boston Blue Beat: Beach Episode 2026",
+          "place": 1,
+          "date": "2026-07-26",
+          "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2026/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2025",
+          "place": 1,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/GGST"
+        },
+        {
+          "event": "CEO 2025",
+          "place": 1,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "kshuewhatdamoo-zoner",
@@ -13680,7 +14532,48 @@
   },
   {
     "id": "latif",
-    "handle": "Latif"
+    "handle": "Latif",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Battle Arena Melbourne 13",
+          "place": 2,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/13/GGST"
+        },
+        {
+          "event": "Frosty Faustings XV",
+          "place": 2,
+          "date": "2023-02-23",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2023/GGST"
+        },
+        {
+          "event": "The MIXUP 2022",
+          "place": 2,
+          "date": "2022-10-22",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2022/GGST"
+        },
+        {
+          "event": "Saudi Esports Federation Cup",
+          "place": 2,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Saudi_Esports_Federation_Cup/2022/GGST"
+        },
+        {
+          "event": "ARCREVO EMEA 2021 Finals",
+          "place": 1,
+          "date": "2022-03-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Finals"
+        },
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #2",
+          "place": 1,
+          "date": "2021-11-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/2"
+        }
+      ]
+    }
   },
   {
     "id": "lavender",
@@ -13816,7 +14709,72 @@
   },
   {
     "id": "leffen",
-    "handle": "Leffen"
+    "handle": "Leffen",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "VSFighting XIII",
+          "place": 1,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/VSFighting/2025/GGST"
+        },
+        {
+          "event": "CEO 2025",
+          "place": 2,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2025/GGST"
+        },
+        {
+          "event": "Hessen Crash XXII",
+          "place": 2,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Hessen_Crash/22/GGST"
+        },
+        {
+          "event": "Clash of the Olympians 2K24",
+          "place": 2,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Clash_of_the_Olympians/2024/GGST"
+        },
+        {
+          "event": "CEO 2024",
+          "place": 2,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2024/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2024",
+          "place": 2,
+          "date": "2024-05-24",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2024/Major_Edition/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2023",
+          "place": 1,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2023",
+          "place": 2,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2023/Major_Edition/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2022",
+          "place": 1,
+          "date": "2022-07-22",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2022/Major_Edition/GGST"
+        },
+        {
+          "event": "EVO 2021 Online - Europe",
+          "place": 1,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Europe"
+        }
+      ]
+    }
   },
   {
     "id": "leg",
@@ -13888,8 +14846,41 @@
     "extra": {
       "aliases": [
         "Leo."
+      ],
+      "titles": [
+        {
+          "event": "SEA Major 2025",
+          "place": 2,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2025/GGST"
+        },
+        {
+          "event": "Thaiger Uppercut 2024",
+          "place": 2,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2024/GGST"
+        },
+        {
+          "event": "FV Major 2024",
+          "place": 2,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/FV_Major/2024/GGST"
+        },
+        {
+          "event": "SENZAN 2023",
+          "place": 2,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/SENZAN/2023/GGST"
+        },
+        {
+          "event": "Battle Arena Melbourne 13",
+          "place": 1,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/13/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "leo-heart",
@@ -14198,8 +15189,17 @@
     "extra": {
       "aliases": [
         "lord knight"
+      ],
+      "titles": [
+        {
+          "event": "First Attack 2025",
+          "place": 1,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/First_Attack/2025/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "lord-knigth",
@@ -14292,8 +15292,17 @@
     "extra": {
       "aliases": [
         "Lox"
+      ],
+      "titles": [
+        {
+          "event": "Evolution Championship Series: Japan 2023",
+          "place": 2,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/Japan/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "lpn",
@@ -15203,7 +16212,18 @@
   },
   {
     "id": "meaty",
-    "handle": "Meaty"
+    "handle": "Meaty",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "RAGNAROK 2025",
+          "place": 1,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Ragnarok/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "medic",
@@ -15381,7 +16401,36 @@
   },
   {
     "id": "metalliccake",
-    "handle": "MetallicCake"
+    "handle": "MetallicCake",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "BeePro Cup 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/BeePro_Cup/2025/GGST"
+        },
+        {
+          "event": "Thaiger Uppercut 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2025/GGST"
+        },
+        {
+          "event": "SEA Major 2025",
+          "place": 1,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2025/GGST"
+        },
+        {
+          "event": "OzHadou Nationals 19",
+          "place": 1,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/OzHadou_Nationals/19/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "metallichawk",
@@ -15429,7 +16478,48 @@
   },
   {
     "id": "mfcr",
-    "handle": "MFCR"
+    "handle": "MFCR",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "TNS 9: CEO Never Sleeps",
+          "place": 2,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/Tampa_Never_Sleeps/9/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2023",
+          "place": 1,
+          "date": "2023-12-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/Atlanta/GGST"
+        },
+        {
+          "event": "CEO 2023",
+          "place": 2,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2023/GGST"
+        },
+        {
+          "event": "DreamHack San Diego 2023",
+          "place": 2,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/San_Diego/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2022",
+          "place": 1,
+          "date": "2022-11-22",
+          "url": "https://liquipedia.net/fighters/DreamHack/2022/Atlanta/GGST"
+        },
+        {
+          "event": "Summer Jam 2022",
+          "place": 2,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Summer_Jam/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "mgtheart",
@@ -15607,8 +16697,17 @@
     "extra": {
       "aliases": [
         "MikeSaftig"
+      ],
+      "titles": [
+        {
+          "event": "EVO 2021 Online - Latin America",
+          "place": 2,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Latin_America"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "mikke",
@@ -16527,8 +17626,17 @@
         "nage",
         "NAGE/ナゲ",
         "NAGE"
+      ],
+      "titles": [
+        {
+          "event": "SOOP Super Tournament 2026",
+          "place": 2,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Super_Tournament/2026/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "nagihameha",
@@ -16822,7 +17930,36 @@
   },
   {
     "id": "nbnhmr",
-    "handle": "NBNHMR"
+    "handle": "NBNHMR",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Slashback 2025",
+          "place": 2,
+          "date": "2025-04-25",
+          "url": "https://liquipedia.net/fighters/Slashback/2025/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2023",
+          "place": 2,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2023/GGST"
+        },
+        {
+          "event": "Slashback 2023",
+          "place": 1,
+          "date": "2023-03-23",
+          "url": "https://liquipedia.net/fighters/Slashback/2023/GGST"
+        },
+        {
+          "event": "CEOtaku 2022",
+          "place": 1,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "nbnmhr",
@@ -17260,8 +18397,47 @@
     "extra": {
       "aliases": [
         "NITRO"
+      ],
+      "titles": [
+        {
+          "event": "Combo Breaker 2026",
+          "place": 1,
+          "date": "2026-05-26",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2026/GGST"
+        },
+        {
+          "event": "ARC World Tour 2025-2026 Finals",
+          "place": 2,
+          "date": "2026-03-26",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST"
+        },
+        {
+          "event": "Thunderstruck 2025",
+          "place": 1,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/Thunderstruck/2025/GGST"
+        },
+        {
+          "event": "Boston Blue Beat: Beach Episode 2025",
+          "place": 1,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2025/GGST"
+        },
+        {
+          "event": "East Coast Throwdown 2024",
+          "place": 1,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2024/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2024",
+          "place": 1,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "nitro-s-no-1-fan",
@@ -17873,7 +19049,18 @@
   },
   {
     "id": "odriman",
-    "handle": "Odriman"
+    "handle": "Odriman",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Astral Finish 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Astral_Finish/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "ods",
@@ -18069,7 +19256,18 @@
   },
   {
     "id": "onetruesnorlax",
-    "handle": "OneTrueSnorlax"
+    "handle": "OneTrueSnorlax",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "East Coast Throwdown 2022",
+          "place": 2,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "onetrusnorlax",
@@ -18262,7 +19460,18 @@
   },
   {
     "id": "orochi",
-    "handle": "Orochi"
+    "handle": "Orochi",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Stunfest 2022",
+          "place": 2,
+          "date": "2022-05-22",
+          "url": "https://liquipedia.net/fighters/Stunfest/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "orp",
@@ -18668,8 +19877,53 @@
     "extra": {
       "aliases": [
         "PATACHU"
+      ],
+      "titles": [
+        {
+          "event": "MINDSET 2025",
+          "place": 1,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/MINDSET/2025/GGST"
+        },
+        {
+          "event": "Evolution Championship Series: France 2025",
+          "place": 2,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/France/GGST"
+        },
+        {
+          "event": "CROSSOVER 2025",
+          "place": 2,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/CROSSOVER/2025/GGST"
+        },
+        {
+          "event": "The MIXUP 2025",
+          "place": 1,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2025/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2025",
+          "place": 2,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2025/Major_Edition/GGST"
+        },
+        {
+          "event": "The MIXUP 2023",
+          "place": 2,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2023/GGST"
+        },
+        {
+          "event": "Celtic Throwdown 2022",
+          "place": 1,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/Celtic_Throwdown/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "patata-salvaje",
@@ -18815,8 +20069,17 @@
     "extra": {
       "aliases": [
         "PELUNA"
+      ],
+      "titles": [
+        {
+          "event": "CEO 2026",
+          "place": 1,
+          "date": "2026-08-26",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2026/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "pencil",
@@ -18852,7 +20115,30 @@
   },
   {
     "id": "pepperysplash",
-    "handle": "PepperySplash"
+    "handle": "PepperySplash",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Battle Coliseum 2023",
+          "place": 1,
+          "date": "2023-11-23",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2023/GGST"
+        },
+        {
+          "event": "Get On My Level 2023",
+          "place": 1,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Get_On_My_Level/2023/GGST"
+        },
+        {
+          "event": "ARCREVO America 2021 Online Regional - Canada",
+          "place": 1,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Canada"
+        }
+      ]
+    }
   },
   {
     "id": "pepto-griswold",
@@ -19217,8 +20503,23 @@
     "extra": {
       "aliases": [
         "poka"
+      ],
+      "titles": [
+        {
+          "event": "Cygames Cup Special 2025",
+          "place": 2,
+          "date": "2025-01-25",
+          "url": "https://liquipedia.net/fighters/Cygames_Cup/2025/Special/GGST"
+        },
+        {
+          "event": "Thaiger Uppercut 2024",
+          "place": 1,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/Thaiger_Uppercut/2024/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "pokke",
@@ -19398,8 +20699,23 @@
     "extra": {
       "aliases": [
         "precho"
+      ],
+      "titles": [
+        {
+          "event": "VSFighting XIII",
+          "place": 2,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/VSFighting/2025/GGST"
+        },
+        {
+          "event": "Kayane Cup 2025",
+          "place": 2,
+          "date": "2025-02-25",
+          "url": "https://liquipedia.net/fighters/Kayane_Cup/2025/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "prem",
@@ -19612,7 +20928,18 @@
   },
   {
     "id": "punk",
-    "handle": "Punk"
+    "handle": "Punk",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Texas Showdown 2022",
+          "place": 2,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "punk-1-and-done",
@@ -19729,8 +21056,17 @@
     "extra": {
       "aliases": [
         "QueenKoa"
+      ],
+      "titles": [
+        {
+          "event": "CHAIN SHIFT 2026",
+          "place": 2,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Chain_Shift/2026/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "question",
@@ -19831,7 +21167,18 @@
   },
   {
     "id": "ragkyo",
-    "handle": "ragkyo"
+    "handle": "ragkyo",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "FightClub Championship VI Nansha",
+          "place": 2,
+          "date": "2025-12-25",
+          "url": "https://liquipedia.net/fighters/FightClub_Championship/6/Nansha/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "ragna",
@@ -19924,8 +21271,41 @@
     "extra": {
       "aliases": [
         "rang13"
+      ],
+      "titles": [
+        {
+          "event": "ARC World Tour 2024 Finals",
+          "place": 2,
+          "date": "2025-03-25",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST"
+        },
+        {
+          "event": "Battle Coliseum 2024",
+          "place": 1,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2024/GGST"
+        },
+        {
+          "event": "Thunderstruck 2024",
+          "place": 1,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Thunderstruck/2024/GGST"
+        },
+        {
+          "event": "Battle Coliseum 2022",
+          "place": 1,
+          "date": "2022-12-22",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2022/GGST"
+        },
+        {
+          "event": "Ultra Hard Tournament",
+          "place": 1,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/Ultra_Hard_Tournament/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "ranger13",
@@ -19957,8 +21337,17 @@
     "extra": {
       "aliases": [
         "rat"
+      ],
+      "titles": [
+        {
+          "event": "Texas Showdown 2024",
+          "place": 2,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2024/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "ratasusan",
@@ -20027,8 +21416,71 @@
     "extra": {
       "aliases": [
         "razzo"
+      ],
+      "titles": [
+        {
+          "event": "Astral Finish 2024",
+          "place": 1,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/Astral_Finish/2024/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2024",
+          "place": 1,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/DreamHack/2024/Atlanta/GGST"
+        },
+        {
+          "event": "East Coast Throwdown 2024",
+          "place": 2,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2024/GGST"
+        },
+        {
+          "event": "Smash Factor X",
+          "place": 1,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Smash_Factor/10/GGST"
+        },
+        {
+          "event": "DreamHack Dallas 2023",
+          "place": 1,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/Dallas/GGST"
+        },
+        {
+          "event": "DreamHack Dallas 2022",
+          "place": 1,
+          "date": "2022-06-22",
+          "url": "https://liquipedia.net/fighters/DreamHack/2022/Dallas/GGST"
+        },
+        {
+          "event": "CEO 2022",
+          "place": 2,
+          "date": "2022-06-22",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2022/GGST"
+        },
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA East",
+          "place": 1,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/East"
+        },
+        {
+          "event": "Frosty Faustings XIV",
+          "place": 2,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2022/GGST"
+        },
+        {
+          "event": "Red Bull Kumite 2021 - Las Vegas - LCQ",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Kumite/2021/Las_Vegas/GGST/Last_Chance_Qualifier"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "rc",
@@ -20140,8 +21592,65 @@
     "extra": {
       "aliases": [
         "Redditto"
+      ],
+      "titles": [
+        {
+          "event": "CHAIN SHIFT 2026",
+          "place": 1,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Chain_Shift/2026/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2026",
+          "place": 1,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/GGST"
+        },
+        {
+          "event": "Slashback 2026",
+          "place": 1,
+          "date": "2026-04-26",
+          "url": "https://liquipedia.net/fighters/Slashback/2026/GGST"
+        },
+        {
+          "event": "R.I.S.C. 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Rumble_In_SoCal/2025/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2025",
+          "place": 2,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/GGST"
+        },
+        {
+          "event": "Evolution Championship Series: Japan 2025",
+          "place": 2,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/Japan/GGST"
+        },
+        {
+          "event": "Slashback 2025",
+          "place": 1,
+          "date": "2025-04-25",
+          "url": "https://liquipedia.net/fighters/Slashback/2025/GGST"
+        },
+        {
+          "event": "ARC World Tour 2024 Finals",
+          "place": 1,
+          "date": "2025-03-25",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST"
+        },
+        {
+          "event": "ARC World Tour 2024 Finals Last Chance Qualifier",
+          "place": 1,
+          "date": "2025-03-25",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST/Last_Chance_Qualifier"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "redfox5000",
@@ -20153,7 +21662,42 @@
   },
   {
     "id": "rediamnot",
-    "handle": "RedIAmNot"
+    "handle": "RedIAmNot",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "CEO 2026",
+          "place": 2,
+          "date": "2026-08-26",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2026/GGST"
+        },
+        {
+          "event": "SQ XL: Burst la Burst",
+          "place": 2,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/SQ_XL/2025/GGST"
+        },
+        {
+          "event": "ARC World Tour 2024 Finals Last Chance Qualifier",
+          "place": 2,
+          "date": "2025-03-25",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2024/Finals/GGST/Last_Chance_Qualifier"
+        },
+        {
+          "event": "CEOtaku 2024",
+          "place": 2,
+          "date": "2024-12-24",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2024/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2023",
+          "place": 2,
+          "date": "2023-12-23",
+          "url": "https://liquipedia.net/fighters/DreamHack/2023/Atlanta/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "redlamnot",
@@ -20268,7 +21812,24 @@
   },
   {
     "id": "remi-celeste",
-    "handle": "Remi Celeste"
+    "handle": "Remi Celeste",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO America 2021 Online Regional - Canada",
+          "place": 2,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/Canada"
+        },
+        {
+          "event": "CEO 2021",
+          "place": 2,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "remia",
@@ -20332,7 +21893,24 @@
   },
   {
     "id": "resil",
-    "handle": "Resil"
+    "handle": "Resil",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Ultimate Fighting Arena 2026",
+          "place": 2,
+          "date": "2026-09-26",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2026/GGST"
+        },
+        {
+          "event": "AUTplayed 2026",
+          "place": 2,
+          "date": "2026-01-26",
+          "url": "https://liquipedia.net/fighters/AUTplayed/2026/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "reti",
@@ -20373,7 +21951,18 @@
   },
   {
     "id": "revill",
-    "handle": "Revill"
+    "handle": "Revill",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Only The Best 2025",
+          "place": 2,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/Only_The_Best/7/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "revilo",
@@ -20520,7 +22109,18 @@
   },
   {
     "id": "riley",
-    "handle": "Riley"
+    "handle": "Riley",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "DreamHack Dallas 2024",
+          "place": 2,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/DreamHack/2024/Dallas/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "rillumi",
@@ -20689,7 +22289,18 @@
   },
   {
     "id": "rocky",
-    "handle": "Rocky"
+    "handle": "Rocky",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "RAGNAROK 2025",
+          "place": 2,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Ragnarok/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "rodobasu",
@@ -21287,8 +22898,23 @@
       "aliases": [
         "sanakan",
         "SANAKAN"
+      ],
+      "titles": [
+        {
+          "event": "A.C.E 2025",
+          "place": 2,
+          "date": "2025-12-25",
+          "url": "https://liquipedia.net/fighters/ACE/2025/GGST"
+        },
+        {
+          "event": "Evolution Championship Series: Japan 2024",
+          "place": 2,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/Japan/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "sanaken",
@@ -21485,7 +23111,18 @@
   },
   {
     "id": "scarfed",
-    "handle": "Scarfed"
+    "handle": "Scarfed",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Clash of the Olympians 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Clash_of_the_Olympians/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "scarlet",
@@ -21769,7 +23406,30 @@
   },
   {
     "id": "setchi",
-    "handle": "Setchi"
+    "handle": "Setchi",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "VSFighting XIV",
+          "place": 2,
+          "date": "2026-07-26",
+          "url": "https://liquipedia.net/fighters/VSFighting/2026/GGST"
+        },
+        {
+          "event": "VSFighting XII",
+          "place": 2,
+          "date": "2024-08-24",
+          "url": "https://liquipedia.net/fighters/VSFighting/2024/GGST"
+        },
+        {
+          "event": "VSFighting XI",
+          "place": 2,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/VSFighting/2023/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "setchi-s-1-fan",
@@ -21854,7 +23514,18 @@
   },
   {
     "id": "shady",
-    "handle": "Shady"
+    "handle": "Shady",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #1",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/1"
+        }
+      ]
+    }
   },
   {
     "id": "shaka",
@@ -22054,8 +23725,17 @@
     "extra": {
       "aliases": [
         "shine"
+      ],
+      "titles": [
+        {
+          "event": "Crossover Arc 2023",
+          "place": 2,
+          "date": "2023-03-23",
+          "url": "https://liquipedia.net/fighters/Crossover_Arc/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "shinenyc",
@@ -22540,8 +24220,41 @@
     "extra": {
       "aliases": [
         "SKYLL"
+      ],
+      "titles": [
+        {
+          "event": "Only The Best IV",
+          "place": 1,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/Only_The_Best/4/GGST"
+        },
+        {
+          "event": "VSFighting X",
+          "place": 1,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/VSFighting/2022/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2022",
+          "place": 2,
+          "date": "2022-07-22",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2022/Major_Edition/GGST"
+        },
+        {
+          "event": "ARCREVO EMEA 2021 Finals",
+          "place": 2,
+          "date": "2022-03-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Finals"
+        },
+        {
+          "event": "Red Bull Gladiators",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Red_Bull_Gladiators/2021/Final_Phase"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "skynessito",
@@ -22570,7 +24283,54 @@
   },
   {
     "id": "slash",
-    "handle": "Slash"
+    "handle": "Slash",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "SEA Major 2024",
+          "place": 2,
+          "date": "2024-11-24",
+          "url": "https://liquipedia.net/fighters/South_East_Asia_Major/2024/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2024",
+          "place": 1,
+          "date": "2024-05-24",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2024/Major_Edition/GGST"
+        },
+        {
+          "event": "ARC World Tour 2023 Finals",
+          "place": 2,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2023",
+          "place": 1,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2023/Major_Edition/GGST"
+        },
+        {
+          "event": "Saudi Esports Federation Cup",
+          "place": 1,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Saudi_Esports_Federation_Cup/2022/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2022",
+          "place": 2,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2022/GGST"
+        },
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #2",
+          "place": 2,
+          "date": "2021-11-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/2"
+        }
+      ]
+    }
   },
   {
     "id": "slasher",
@@ -22665,8 +24425,17 @@
       "aliases": [
         "Smitty",
         "smitty ΘΔ"
+      ],
+      "titles": [
+        {
+          "event": "Get On My Level 2023",
+          "place": 2,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Get_On_My_Level/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "smitty-fgc",
@@ -22688,7 +24457,18 @@
   },
   {
     "id": "smoib",
-    "handle": "Smoib"
+    "handle": "Smoib",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Ultimate Fighting Arena 2022",
+          "place": 2,
+          "date": "2022-11-22",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "smokey",
@@ -22734,7 +24514,18 @@
   },
   {
     "id": "snake-eyez",
-    "handle": "Snake Eyez"
+    "handle": "Snake Eyez",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Texas Showdown 2023",
+          "place": 1,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2023/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "snakebelmont",
@@ -22871,7 +24662,18 @@
   },
   {
     "id": "soap-eater",
-    "handle": "Soap Eater"
+    "handle": "Soap Eater",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "CROSSOVER 2025",
+          "place": 1,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/CROSSOVER/2025/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "soara",
@@ -23032,7 +24834,18 @@
   },
   {
     "id": "sonicfox",
-    "handle": "SonicFox"
+    "handle": "SonicFox",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "EVO 2021 Online - North America",
+          "place": 2,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/North_America"
+        }
+      ]
+    }
   },
   {
     "id": "sonicnebula",
@@ -23160,7 +24973,18 @@
   },
   {
     "id": "sosicknashfan",
-    "handle": "SoSickNASHFAN"
+    "handle": "SoSickNASHFAN",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Summer Jam 2021",
+          "place": 2,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Summer_Jam/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "soudai",
@@ -23496,7 +25320,18 @@
   },
   {
     "id": "stealthy",
-    "handle": "Stealthy"
+    "handle": "Stealthy",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Series E: $5k Faceoff Invitational",
+          "place": 2,
+          "date": "2022-04-22",
+          "url": "https://liquipedia.net/fighters/Series_E:5k_Faceoff_Invitational"
+        }
+      ]
+    }
   },
   {
     "id": "stechi",
@@ -23772,8 +25607,29 @@
         "Summit サミット",
         "Summit サミットチップ",
         "SUMMITサミット"
+      ],
+      "titles": [
+        {
+          "event": "OzHadou Nationals 20",
+          "place": 2,
+          "date": "2026-09-26",
+          "url": "https://liquipedia.net/fighters/OzHadou_Nationals/20/GGST"
+        },
+        {
+          "event": "ARC World Tour 2025-2026 Finals Last Chance Qualifier",
+          "place": 1,
+          "date": "2026-03-26",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2025-26/Finals/GGST/Last_Chance_Qualifier"
+        },
+        {
+          "event": "SENZAN 2023",
+          "place": 1,
+          "date": "2023-08-23",
+          "url": "https://liquipedia.net/fighters/SENZAN/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "sun-and-moon",
@@ -23841,7 +25697,18 @@
   },
   {
     "id": "supernoon",
-    "handle": "Supernoon"
+    "handle": "Supernoon",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "The Pinnacle 2021",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/The_Pinnacle/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "supernooon",
@@ -24018,7 +25885,18 @@
   },
   {
     "id": "symbolist",
-    "handle": "Symbolist"
+    "handle": "Symbolist",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO America 2021 Online Regional - USA West",
+          "place": 1,
+          "date": "2022-02-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/America/2021/Online_Regional/USA/West"
+        }
+      ]
+    }
   },
   {
     "id": "symbolofhope",
@@ -24447,8 +26325,35 @@
       "aliases": [
         "tatuma",
         "TATUMA"
+      ],
+      "titles": [
+        {
+          "event": "SOOP Super Tournament 2026",
+          "place": 1,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Super_Tournament/2026/GGST"
+        },
+        {
+          "event": "ARCREVO in SENZAN 2025",
+          "place": 1,
+          "date": "2025-08-25",
+          "url": "https://liquipedia.net/fighters/ARCREVO/Japan/2025"
+        },
+        {
+          "event": "Cygames Cup Special 2025",
+          "place": 1,
+          "date": "2025-01-25",
+          "url": "https://liquipedia.net/fighters/Cygames_Cup/2025/Special/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2024",
+          "place": 2,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "tausexe",
@@ -24547,7 +26452,102 @@
   },
   {
     "id": "tempestnyc",
-    "handle": "TempestNYC"
+    "handle": "TempestNYC",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "DreamHack Dallas 2024",
+          "place": 1,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/DreamHack/2024/Dallas/GGST"
+        },
+        {
+          "event": "Combo Breaker 2024",
+          "place": 1,
+          "date": "2024-05-24",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2024/GGST"
+        },
+        {
+          "event": "Evolution Championship Series: Japan 2024",
+          "place": 1,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2024/Japan/GGST"
+        },
+        {
+          "event": "Frosty Faustings XVI",
+          "place": 2,
+          "date": "2024-01-24",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2024/GGST"
+        },
+        {
+          "event": "Fighter's Spirit 2023",
+          "place": 1,
+          "date": "2023-11-23",
+          "url": "https://liquipedia.net/fighters/Fighter's_Spirit/2023/GGST"
+        },
+        {
+          "event": "East Coast Throwdown 2023",
+          "place": 2,
+          "date": "2023-10-23",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2023/GGST"
+        },
+        {
+          "event": "CEOtaku 2023",
+          "place": 1,
+          "date": "2023-09-23",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2023/GGST"
+        },
+        {
+          "event": "Defend the North 2023",
+          "place": 1,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Defend_the_North/2023/GGST"
+        },
+        {
+          "event": "Combo Breaker 2023",
+          "place": 1,
+          "date": "2023-05-23",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2023/GGST"
+        },
+        {
+          "event": "Slashback 2023",
+          "place": 2,
+          "date": "2023-03-23",
+          "url": "https://liquipedia.net/fighters/Slashback/2023/GGST"
+        },
+        {
+          "event": "Frosty Faustings XV",
+          "place": 1,
+          "date": "2023-02-23",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2023/GGST"
+        },
+        {
+          "event": "Defend the North 2022",
+          "place": 2,
+          "date": "2022-10-22",
+          "url": "https://liquipedia.net/fighters/Defend_the_North/2022/GGST"
+        },
+        {
+          "event": "Heat Wave 2022",
+          "place": 1,
+          "date": "2022-07-22",
+          "url": "https://liquipedia.net/fighters/Heat_Wave/2022/GGST"
+        },
+        {
+          "event": "Combo Breaker 2022",
+          "place": 1,
+          "date": "2022-05-22",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2022/GGST"
+        },
+        {
+          "event": "East Coast Throwdown: The Pit",
+          "place": 1,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/The_Pit/2021/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "templenut",
@@ -24932,7 +26932,18 @@
   },
   {
     "id": "thextreme",
-    "handle": "TheXtreme"
+    "handle": "TheXtreme",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Battle Coliseum 2022",
+          "place": 2,
+          "date": "2022-12-22",
+          "url": "https://liquipedia.net/fighters/Battle_Coliseum/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "thezwinge",
@@ -24968,7 +26979,18 @@
   },
   {
     "id": "ticklememour",
-    "handle": "Ticklememour"
+    "handle": "Ticklememour",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Slashback 2024",
+          "place": 1,
+          "date": "2024-04-24",
+          "url": "https://liquipedia.net/fighters/Slashback/2024/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "ticklemonsterram",
@@ -25005,8 +27027,65 @@
       "aliases": [
         "Tiger Pop",
         "Tiger_POP"
+      ],
+      "titles": [
+        {
+          "event": "Ultimate Fighting Arena 2026",
+          "place": 1,
+          "date": "2026-09-26",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2026/GGST"
+        },
+        {
+          "event": "Evolution Championship Series: France 2025",
+          "place": 1,
+          "date": "2025-10-25",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2025/France/GGST"
+        },
+        {
+          "event": "Headstomper 2025",
+          "place": 2,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Headstomper/2025/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2024",
+          "place": 2,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2024/GGST"
+        },
+        {
+          "event": "VSFighting XII",
+          "place": 1,
+          "date": "2024-08-24",
+          "url": "https://liquipedia.net/fighters/VSFighting/2024/GGST"
+        },
+        {
+          "event": "The MIXUP 2024",
+          "place": 1,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2024/GGST"
+        },
+        {
+          "event": "Only The Best 2024",
+          "place": 2,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Only_The_Best/6/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2023",
+          "place": 2,
+          "date": "2023-11-23",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2023/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2022",
+          "place": 1,
+          "date": "2022-11-22",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "tights",
@@ -25042,8 +27121,17 @@
     "extra": {
       "aliases": [
         "tim119"
+      ],
+      "titles": [
+        {
+          "event": "Stunfest 2022",
+          "place": 1,
+          "date": "2022-05-22",
+          "url": "https://liquipedia.net/fighters/Stunfest/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "timbalstone",
@@ -25603,7 +27691,18 @@
   },
   {
     "id": "truedevin",
-    "handle": "TrueDevin"
+    "handle": "TrueDevin",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #4",
+          "place": 1,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/4"
+        }
+      ]
+    }
   },
   {
     "id": "trunks",
@@ -25906,8 +28005,59 @@
         "tyurara",
         "TYURARA",
         "TYURARA / ちゅらら"
+      ],
+      "titles": [
+        {
+          "event": "Evolution Championship Series: Japan 2026",
+          "place": 1,
+          "date": "2026-05-26",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/Japan/GGST"
+        },
+        {
+          "event": "SOOP Super Tournament 2025",
+          "place": 2,
+          "date": "2025-11-25",
+          "url": "https://liquipedia.net/fighters/Super_Tournament/2025/GGST"
+        },
+        {
+          "event": "Battle Arena Melbourne 15",
+          "place": 1,
+          "date": "2025-06-25",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/15/GGST"
+        },
+        {
+          "event": "Brussels Challenge Major Edition 2025",
+          "place": 1,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Brussels_Challenge/2025/Major_Edition/GGST"
+        },
+        {
+          "event": "FV Major 2024",
+          "place": 1,
+          "date": "2024-07-24",
+          "url": "https://liquipedia.net/fighters/FV_Major/2024/GGST"
+        },
+        {
+          "event": "Battle Arena Melbourne 14",
+          "place": 1,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Battle_Arena_Melbourne/14/GGST"
+        },
+        {
+          "event": "REV Major 2023",
+          "place": 2,
+          "date": "2023-10-23",
+          "url": "https://liquipedia.net/fighters/REV_Major/2023/GGST"
+        },
+        {
+          "event": "Guilty Gear Duel Online #1",
+          "place": 2,
+          "date": "2021-10-21",
+          "url": "https://liquipedia.net/fighters/Guilty_Gear_Duel_Online/1"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "tz",
@@ -26040,8 +28190,71 @@
     "extra": {
       "aliases": [
         "Umisho"
+      ],
+      "titles": [
+        {
+          "event": "Combo Breaker 2025",
+          "place": 1,
+          "date": "2025-05-25",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2025/GGST"
+        },
+        {
+          "event": "DreamHack Atlanta 2024",
+          "place": 2,
+          "date": "2024-10-24",
+          "url": "https://liquipedia.net/fighters/DreamHack/2024/Atlanta/GGST"
+        },
+        {
+          "event": "CEO 2024",
+          "place": 1,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Community_Effort_Orlando/2024/GGST"
+        },
+        {
+          "event": "Frosty Faustings XVI",
+          "place": 1,
+          "date": "2024-01-24",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2024/GGST"
+        },
+        {
+          "event": "East Coast Throwdown 2023",
+          "place": 1,
+          "date": "2023-10-23",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2023/GGST"
+        },
+        {
+          "event": "CEOtaku 2023",
+          "place": 2,
+          "date": "2023-09-23",
+          "url": "https://liquipedia.net/fighters/CEOtaku/2023/GGST"
+        },
+        {
+          "event": "Smash Factor X",
+          "place": 2,
+          "date": "2023-07-23",
+          "url": "https://liquipedia.net/fighters/Smash_Factor/10/GGST"
+        },
+        {
+          "event": "East Coast Throwdown 2022",
+          "place": 1,
+          "date": "2022-09-22",
+          "url": "https://liquipedia.net/fighters/East_Coast_Throwdown/2022/GGST"
+        },
+        {
+          "event": "Evolution Championship Series 2022",
+          "place": 1,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2022/GGST"
+        },
+        {
+          "event": "Combo Breaker 2022",
+          "place": 2,
+          "date": "2022-05-22",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2022/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "umkellan",
@@ -26126,8 +28339,17 @@
     "extra": {
       "aliases": [
         "Uriel Legion"
+      ],
+      "titles": [
+        {
+          "event": "EVO 2021 Online - Europe",
+          "place": 2,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Europe"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "uriellegion",
@@ -26378,8 +28600,41 @@
     "extra": {
       "aliases": [
         "VERIX"
+      ],
+      "titles": [
+        {
+          "event": "Evolution Championship Series 2026",
+          "place": 2,
+          "date": "2026-06-26",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2026/GGST"
+        },
+        {
+          "event": "Frosty Faustings XVII",
+          "place": 1,
+          "date": "2025-01-25",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2025/GGST"
+        },
+        {
+          "event": "Clash of the Olympians 2K24",
+          "place": 1,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Clash_of_the_Olympians/2024/GGST"
+        },
+        {
+          "event": "ARC World Tour 2023 Finals",
+          "place": 1,
+          "date": "2024-03-24",
+          "url": "https://liquipedia.net/fighters/ARC_World_Tour/2023/Finals/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2023",
+          "place": 1,
+          "date": "2023-11-23",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2023/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "verix777",
@@ -26676,8 +28931,23 @@
       "aliases": [
         "Walter",
         "WALTER!!!"
+      ],
+      "titles": [
+        {
+          "event": "Frosty Faustings XVIII",
+          "place": 2,
+          "date": "2026-02-26",
+          "url": "https://liquipedia.net/fighters/Frosty_Faustings/2026/GGST"
+        },
+        {
+          "event": "Boston Blue Beat: Beach Episode 2025",
+          "place": 2,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/Boston_Blue_Beat/Beach_Episode/2025/GGST"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "walter-mirror",
@@ -26985,7 +29255,18 @@
   },
   {
     "id": "whitebl4ck",
-    "handle": "WhiteBl4ck"
+    "handle": "WhiteBl4ck",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #5",
+          "place": 1,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/5"
+        }
+      ]
+    }
   },
   {
     "id": "who",
@@ -27446,8 +29727,17 @@
       "aliases": [
         "Xyzzy",
         "XYZZY"
+      ],
+      "titles": [
+        {
+          "event": "EVO 2021 Online - Asia",
+          "place": 1,
+          "date": "2021-08-21",
+          "url": "https://liquipedia.net/fighters/Evolution_Championship_Series/2021/Online/GGST/Asia"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "y",
@@ -28109,7 +30399,72 @@
   },
   {
     "id": "zando",
-    "handle": "Zando"
+    "handle": "Zando",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Ultimate Fighting Arena 2025",
+          "place": 1,
+          "date": "2025-09-25",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2025/GGST"
+        },
+        {
+          "event": "Only The Best 2025",
+          "place": 1,
+          "date": "2025-07-25",
+          "url": "https://liquipedia.net/fighters/Only_The_Best/7/GGST"
+        },
+        {
+          "event": "Ultimate Fighting Arena 2024",
+          "place": 1,
+          "date": "2024-09-24",
+          "url": "https://liquipedia.net/fighters/Ultimate_Fighting_Arena/2024/GGST"
+        },
+        {
+          "event": "Only The Best 2024",
+          "place": 1,
+          "date": "2024-06-24",
+          "url": "https://liquipedia.net/fighters/Only_The_Best/6/GGST"
+        },
+        {
+          "event": "Combo Breaker 2024",
+          "place": 2,
+          "date": "2024-05-24",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2024/GGST"
+        },
+        {
+          "event": "Headstomper 2023",
+          "place": 1,
+          "date": "2023-06-23",
+          "url": "https://liquipedia.net/fighters/Headstomper/2023/GGST"
+        },
+        {
+          "event": "Combo Breaker 2023",
+          "place": 2,
+          "date": "2023-05-23",
+          "url": "https://liquipedia.net/fighters/Combo_Breaker/2023/GGST"
+        },
+        {
+          "event": "The MIXUP 2022",
+          "place": 1,
+          "date": "2022-10-22",
+          "url": "https://liquipedia.net/fighters/The_MIXUP/2022/GGST"
+        },
+        {
+          "event": "VSFighting X",
+          "place": 2,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/VSFighting/2022/GGST"
+        },
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #3",
+          "place": 1,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/3"
+        }
+      ]
+    }
   },
   {
     "id": "zangan",
@@ -28184,8 +30539,17 @@
       "aliases": [
         "Zato-Van",
         "ZATO-VAN"
+      ],
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #3",
+          "place": 2,
+          "date": "2021-12-21",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/3"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "zatogaming",
@@ -28275,7 +30639,18 @@
   },
   {
     "id": "zeno",
-    "handle": "Zeno"
+    "handle": "Zeno",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #5",
+          "place": 2,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/5"
+        }
+      ]
+    }
   },
   {
     "id": "zenos",
@@ -28383,8 +30758,17 @@
     "extra": {
       "aliases": [
         "Zin"
+      ],
+      "titles": [
+        {
+          "event": "ARCREVO EMEA 2021 Qualifier #4",
+          "place": 2,
+          "date": "2022-01-22",
+          "url": "https://liquipedia.net/fighters/ARCREVO/EMEA/2021/Qualifier_Event/4"
+        }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "zina",
@@ -28400,7 +30784,24 @@
   },
   {
     "id": "zippy",
-    "handle": "Zippy"
+    "handle": "Zippy",
+    "featured": true,
+    "extra": {
+      "titles": [
+        {
+          "event": "Texas Showdown 2023",
+          "place": 2,
+          "date": "2023-04-23",
+          "url": "https://liquipedia.net/fighters/Texas_Showdown/2023/GGST"
+        },
+        {
+          "event": "Summer Jam 2022",
+          "place": 1,
+          "date": "2022-08-22",
+          "url": "https://liquipedia.net/fighters/Summer_Jam/2022/GGST"
+        }
+      ]
+    }
   },
   {
     "id": "zipst",

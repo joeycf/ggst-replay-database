@@ -194,25 +194,51 @@ on-figure 51–85%.
 
 ## Scripts
 
-| command                | what it does                                                           |
-| ---------------------- | ---------------------------------------------------------------------- |
-| `data:fetch`           | uploads-playlist walk, 8 channels. Never `search.list` (1 unit vs 100) |
-| `data:theater`         | the catalogue. `--full`, `--fresh`, `--limit=N`, `--allow-shrink`      |
-| `data:parse`           | title parse + the index merge, every guard, `data/report.md`           |
-| `data:emit`            | the public contract, with every assertion a throw                      |
-| `data:catchup`         | fetch → theater → parse → emit, in that order, as one command          |
-| `data:characters`      | roster + all its validators                                            |
-| `data:seasons`         | the patch table; `--check` runs inside `npm run typecheck`             |
-| `data:patch-check`     | ArcSys's feed vs the table. Manual — a vendor outage is not ours       |
-| `data:roster-check`    | ArcSys's grid + sitemap vs the roster. Manual; same contract           |
-| `data:art` / `data:og` | the kit crops and the card. Manual; the kit changes on DLC days        |
-| `verify:gates`         | the positive-control suite                                             |
-| `verify:deployed`      | content-digest smoke check against production                          |
-| `test:e2e`             | assertions against the built output                                    |
+| command                | what it does                                                                                     |
+| ---------------------- | ------------------------------------------------------------------------------------------------ |
+| `data:fetch`           | uploads-playlist walk, 8 channels. Never `search.list` (1 unit vs 100)                           |
+| `data:theater`         | the catalogue. `--full`, `--fresh`, `--limit=N`, `--allow-shrink`                                |
+| `data:parse`           | title parse + the index merge, every guard, `data/report.md`                                     |
+| `data:emit`            | the public contract, with every assertion a throw                                                |
+| `data:catchup`         | fetch → theater → parse → emit, in that order, as one command                                    |
+| `data:characters`      | roster + all its validators                                                                      |
+| `data:seasons`         | the patch table; `--check` runs inside `npm run typecheck`                                       |
+| `data:patch-check`     | ArcSys's feed vs the table. Manual — a vendor outage is not ours                                 |
+| `data:roster-check`    | ArcSys's grid + sitemap vs the roster. Manual; same contract                                     |
+| `data:tournaments`     | Liquipedia's Tier 1–2 winners/runners-up → `data/tournaments.json`. Manual; `--match`, `--check` |
+| `data:art` / `data:og` | the kit crops and the card. Manual; the kit changes on DLC days                                  |
+| `verify:gates`         | the positive-control suite                                                                       |
+| `verify:deployed`      | content-digest smoke check against production                                                    |
+| `test:e2e`             | assertions against the built output                                                              |
 
 `npm run typecheck` — **never raw `tsc`**. The repo is two disjoint TypeScript
 tracks and the root config delegates to Nuxt's, so `npx tsc --noEmit -p .`
 reports clean while a pipeline script references deleted functions.
+
+## Featured players come from tournament results
+
+A player is **featured** when they won or placed second at a Liquipedia Tier 1 or
+Tier 2 event, or when they rank in the top 2% of the unflagged players by
+appearances (engine v0.17.0; the old rule, "25+ replays", made 359 people
+"featured" here). The placements are `data/tournaments.json`, pulled by
+`npm run data:tournaments` — **manual, network, never in the cron** — through
+Liquipedia's MediaWiki API (its HTML pages are bot-walled and off limits by its
+terms; the API wants gzip, a contact User-Agent and one `parse` call per 30 s,
+which is why two tiers take 35 s). The daily parse re-matches the file against
+the registry it just built and stamps `featured: true` + `extra.titles` on every
+hit, so a champion with no replay yet costs nothing today and is featured the
+morning their first video is ingested.
+
+The matcher never guesses between people. A name that is also a fighter
+(`Leo.`), has under three alphanumerics (`TY`), or resolves to two registry ids
+is reported in `data/report.md` and `npm run data:tournaments -- --match`, and a
+human closes it in `data/tournament-aliases.json` (an id, or `null` to ignore).
+`tsx scripts/tournaments.ts --check` validates both files inside
+`npm run typecheck`.
+
+Liquipedia's content is **CC BY-SA 3.0**: the credit is in the file's `source`
+block and the engine renders it beside every title on the player page.
+Pacing across all eight games is `../sync-tournaments.sh`.
 
 ## Things worth knowing
 
