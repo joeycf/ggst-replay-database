@@ -147,7 +147,7 @@ export function unescapeHtml(s: string): string {
     .replace(/&#(\d+);/g, (_, d: string) => String.fromCodePoint(Number(d)))
     .replace(/&#x([0-9a-f]+);/gi, (_, h: string) => String.fromCodePoint(parseInt(h, 16)))
     .replace(/&([a-z]+);/gi, (m, n: string) => ENTITIES[n.toLowerCase()] ?? m)
-    .replace(/ /g, ' ')
+    .replace(/\u00a0/g, ' ')
     .trim();
 }
 
