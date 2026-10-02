@@ -247,6 +247,42 @@ const verdict = (r: Run, names: RegExp): Verdict => {
  *  precondition) · `false` is anchor drift, which is a FAILURE. */
 type Injected = true | false | string;
 
+/** The departure controls' fixture: cut the newest committed guiltyGearVods
+ *  record (and everything newer) out of the dump, then write a departure file
+ *  naming it. `bound` decides whether that file matches the cut dump or the
+ *  dump as it was before the cut. */
+let departedId = '';
+function departureFixture(bound: boolean): Injected {
+  const p = 'raw/guiltyGearVods.json';
+  if (!existsSync(join(ROOT, p))) return `no ${p} — run \`npm run data:fetch\``;
+  const dump = readJson<{ id: string; publishedAt: string }[]>(p);
+  const newest = readJson<{ id: string; intake: string; publishedAt: string }[]>('data/videos.json')
+    .filter((v) => v.intake === 'guiltyGearVods')
+    .reduce<{ id: string; publishedAt: string } | undefined>(
+      (a, v) => (!a || v.publishedAt > a.publishedAt ? v : a),
+      undefined,
+    );
+  if (!newest) return 'no committed guiltyGearVods record';
+  if (!dump.some((r) => r.id === newest.id))
+    return `${p} does not hold the newest committed record ${newest.id} — run \`npm run data:fetch\``;
+  const was = dump.reduce((a, r) => (r.publishedAt > a ? r.publishedAt : a), '');
+  const kept = dump.filter((r) => r.publishedAt < newest.publishedAt);
+  if (!kept.length) return `cutting ${newest.id} would empty ${p}`;
+  const now = kept.reduce((a, r) => (r.publishedAt > a ? r.publishedAt : a), '');
+  departedId = newest.id;
+  write(p, JSON.stringify(kept));
+  write(
+    'raw/guiltyGearVods.departed.json',
+    JSON.stringify({
+      channel: 'guiltyGearVods',
+      newestInDump: bound ? now : was,
+      checkedAt: 'verify-gates',
+      ids: [newest.id],
+    }),
+  );
+  return true;
+}
+
 interface Control {
   /** What the gate protects, phrased as the failure it refuses. */
   name: string;
@@ -881,6 +917,36 @@ const CONTROLS: Control[] = [
       write(p, JSON.stringify(dump));
       return true;
     },
+  },
+  // ── the departure carve-out, from both sides ─────────────────────────────
+  //
+  // The newest committed guiltyGearVods record is cut from the dump along with
+  // everything newer, which is exactly what deleting a channel's newest upload
+  // does to the next fetch. With a departure file BOUND to that dump the run
+  // must complete and prune the record. With one bound to a DIFFERENT dump it
+  // must still be refused as stale, or a leftover file from an earlier fetch
+  // could launder a genuinely stale dump.
+  {
+    name: 'parse: a departure the fetch confirmed is pruned, not refused as stale',
+    cmd: ['tsx', 'scripts/parse.ts'],
+    files: ['raw/guiltyGearVods.json', 'raw/guiltyGearVods.departed.json', ...PARSE_OUTPUTS],
+    // The run SUCCEEDS; the assertion is on the output and data/videos.json.
+    inject: () => departureFixture(true),
+    assert: (r) => {
+      if (r.status !== 0) return fail(`parse exited ${r.status ?? `on ${r.signal}`}: ${head(r)}`);
+      if (!/left YouTube[\s\S]*Pruned, not read as staleness/.test(r.out))
+        return fail('parse completed without naming the departure it pruned');
+      const kept = readJson<{ id: string }[]>('data/videos.json').some((v) => v.id === departedId);
+      if (kept) return fail(`${departedId} is still in data/videos.json`);
+      return pass(`${departedId} pruned as a departure`);
+    },
+  },
+  {
+    name: 'parse: a departure file bound to a different dump is ignored (the guard stays strict)',
+    cmd: ['tsx', 'scripts/parse.ts'],
+    files: ['raw/guiltyGearVods.json', 'raw/guiltyGearVods.departed.json'],
+    names: /raw\/guiltyGearVods\.json is stale/,
+    inject: () => departureFixture(false),
   },
   {
     // videos.json is the baseline for the freeze carry, the index intake's

@@ -25,7 +25,8 @@
 //                         seeding a freeze pin — see FROZEN below. Never on the
 //                         cron.
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -33,7 +34,13 @@ import { ACTIVE_CHANNELS, CHANNELS, hasStriveMarker } from './channels';
 import { buildAliasMatcher, loadCharacters } from './roster';
 import { apiGet, parseDuration, requireApiKey } from './youtube';
 import type { AliasMatcher } from './roster';
-import type { ChannelConfig, RawVideoRecord } from '../types/index';
+import type {
+  ChannelConfig,
+  ChannelKey,
+  DepartedEvidence,
+  MatchVideo,
+  RawVideoRecord,
+} from '../types/index';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -193,6 +200,63 @@ function recon(ch: ChannelConfig, records: RawVideoRecord[], matcher: AliasMatch
   }
 }
 
+// ── departures: the one case the stale-raw guard cannot judge from data ─────
+//
+// parse.ts refuses a dump when the committed corpus holds a record for that
+// intake newer than anything in it. That proves the dump stale, EXCEPT when the
+// record has left YouTube: delete a channel's newest upload, post nothing after
+// it, and a dump fetched a minute ago fails the same test a month-old one does.
+// Observed 2026-10-02: ggstBattleCollection's 5VB5RbRr9Ck (published
+// 2026-10-01T12:00:05Z, committed by that day's cron) was gone by the next
+// morning, the channel had posted nothing since, and the cron died in Parse
+// with every dump in hand fresh.
+//
+// The data cannot separate the two cases, so this asks YouTube, and only about
+// committed records newer than the dump. On an ordinary morning there are none,
+// so it makes no call and costs nothing. One videos.list call covers 50 ids.
+interface StatusResponse {
+  items: { id: string; status: { privacyStatus: string } }[];
+}
+
+async function confirmDepartures(
+  id: ChannelKey,
+  dump: RawVideoRecord[],
+  committed: MatchVideo[],
+): Promise<DepartedEvidence> {
+  const newestInDump = dump.reduce((a, v) => (v.publishedAt > a ? v.publishedAt : a), '');
+  const ahead = newestInDump
+    ? committed.filter((v) => v.intake === id && v.publishedAt > newestInDump).map((v) => v.id)
+    : [];
+  const ids: string[] = [];
+  for (let i = 0; i < ahead.length; i += 50) {
+    const batch = ahead.slice(i, i + 50);
+    const res: StatusResponse = await apiGet('videos', {
+      part: 'status',
+      id: batch.join(','),
+      maxResults: '50',
+    });
+    const live = new Set(
+      res.items.filter((v) => v.status.privacyStatus === 'public').map((v) => v.id),
+    );
+    ids.push(...batch.filter((x) => !live.has(x)));
+  }
+  return { channel: id, newestInDump, checkedAt: new Date().toISOString(), ids };
+}
+
+/** The committed corpus, for the departure check only. Absent or unreadable is
+ *  treated as empty here: no check runs, so no departure is recorded, and the
+ *  guard stays strict. parse.ts refuses an unreadable videos.json itself. */
+async function readCommitted(): Promise<MatchVideo[]> {
+  const p = join(ROOT, 'data', 'videos.json');
+  if (!existsSync(p)) return [];
+  try {
+    const v = JSON.parse(await readFile(p, 'utf8')) as MatchVideo[];
+    return Array.isArray(v) ? v : [];
+  } catch {
+    return [];
+  }
+}
+
 async function main(): Promise<void> {
   await mkdir(RAW_DIR, { recursive: true });
   const only = process.argv.find((a) => a.startsWith('--only='))?.slice('--only='.length);
@@ -235,10 +299,15 @@ async function main(): Promise<void> {
       (includeFrozen ? ' (--include-frozen: seeding a freeze pin)' : '') +
       '…\n',
   );
+  const committed = await readCommitted();
   const rows: { ch: string; total: number; marked: number; newest: string }[] = [];
   for (const ch of targets) {
     const vids = await fetchChannel(ch);
     await writeFile(join(RAW_DIR, `${ch.id}.json`), JSON.stringify(vids));
+    // Written beside EVERY dump, empty or not, so a dump never sits next to a
+    // departure file from an earlier fetch. parse.ts also checks the binding.
+    const departed = await confirmDepartures(ch.id, vids, committed);
+    await writeFile(join(RAW_DIR, `${ch.id}.departed.json`), JSON.stringify(departed));
     // The marker count is RECON ONLY — it gates nothing here. It is printed so
     // a channel that quietly rebrands to another game is visible at fetch time
     // rather than three stages later as a collapse. EXPECT IT TO READ BELOW THE
@@ -256,6 +325,11 @@ async function main(): Promise<void> {
         `newest ${newest.slice(0, 10)}` +
         (ch.frozen ? '  [FROZEN — seeding]' : ''),
     );
+    if (departed.ids.length)
+      console.log(
+        `    ↘ ${departed.ids.length} committed upload(s) newer than this dump are gone from ` +
+          `YouTube (deleted, private or unlisted): ${departed.ids.join(', ')}. parse prunes them.`,
+      );
     recon(ch, vids, matcher);
   }
 
