@@ -438,6 +438,10 @@
     "handle": "Abbanor"
   },
   {
+    "id": "abby",
+    "handle": "ABBY"
+  },
+  {
     "id": "abbysairaf",
     "handle": "Abbysairaf",
     "featured": true,
@@ -2590,10 +2594,6 @@
         "black cat/一只黑猫"
       ]
     }
-  },
-  {
-    "id": "black-flame",
-    "handle": "Black Flame/黒炎ブレイズ"
   },
   {
     "id": "black-panther",
