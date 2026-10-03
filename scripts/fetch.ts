@@ -303,10 +303,12 @@ async function main(): Promise<void> {
   const rows: { ch: string; total: number; marked: number; newest: string }[] = [];
   for (const ch of targets) {
     const vids = await fetchChannel(ch);
-    await writeFile(join(RAW_DIR, `${ch.id}.json`), JSON.stringify(vids));
-    // Written beside EVERY dump, empty or not, so a dump never sits next to a
-    // departure file from an earlier fetch. parse.ts also checks the binding.
+    // Asked BEFORE anything is written, so a failure here leaves the previous
+    // dump and its departure file together, untouched. Then written beside
+    // EVERY dump, empty or not, so a dump never sits next to a departure file
+    // from an earlier fetch. parse.ts also checks the binding.
     const departed = await confirmDepartures(ch.id, vids, committed);
+    await writeFile(join(RAW_DIR, `${ch.id}.json`), JSON.stringify(vids));
     await writeFile(join(RAW_DIR, `${ch.id}.departed.json`), JSON.stringify(departed));
     // The marker count is RECON ONLY — it gates nothing here. It is printed so
     // a channel that quietly rebrands to another game is visible at fetch time
