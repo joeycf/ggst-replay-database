@@ -2596,6 +2596,10 @@
     }
   },
   {
+    "id": "black-flame",
+    "handle": "Black Flame/黒炎ブレイズ"
+  },
+  {
     "id": "black-panther",
     "handle": "Black Panther"
   },
@@ -8650,6 +8654,10 @@
     "handle": "GenisGod"
   },
   {
+    "id": "genocide-jack",
+    "handle": "Genocide Jack"
+  },
+  {
     "id": "genow",
     "handle": "Genow"
   },
@@ -8876,6 +8884,10 @@
   {
     "id": "gluma",
     "handle": "Gluma"
+  },
+  {
+    "id": "glyph",
+    "handle": "Glyph"
   },
   {
     "id": "glyph-bandit",
@@ -11134,6 +11146,7 @@
       "aliases": [
         "Idom",
         "IDOM",
+        "iDOm",
         "IDom"
       ],
       "titles": [
@@ -16683,6 +16696,7 @@
     "extra": {
       "aliases": [
         "MikenBancho/眉間番長",
+        "MikenBancho/ 眉間番長",
         "MikenBancho眉間番長"
       ]
     }
@@ -31826,6 +31840,10 @@
   {
     "id": "夢際反転アンチ",
     "handle": "夢際反転アンチ"
+  },
+  {
+    "id": "大大大罪人",
+    "handle": "大大大罪人"
   },
   {
     "id": "天帝わんちゃん",
