@@ -5680,7 +5680,8 @@
       "aliases": [
         "DEBU/でぶ",
         "debu",
-        "DEBU"
+        "DEBU",
+        "DEBU//でぶ"
       ]
     }
   },
@@ -11159,6 +11160,10 @@
       ]
     },
     "featured": true
+  },
+  {
+    "id": "idon",
+    "handle": "iDon"
   },
   {
     "id": "iffity",
@@ -18381,6 +18386,10 @@
     "handle": "Ninjakakutei"
   },
   {
+    "id": "ninjari",
+    "handle": "Ninjari"
+  },
+  {
     "id": "ninjaritensan",
     "handle": "ninjaritensan"
   },
@@ -20634,6 +20643,14 @@
     "handle": "PopMagoot"
   },
   {
+    "id": "popst-r",
+    "handle": "POPST☆R"
+  },
+  {
+    "id": "popstar",
+    "handle": "POPSTAR"
+  },
+  {
     "id": "popyong",
     "handle": "Popyong"
   },
@@ -21937,6 +21954,10 @@
   {
     "id": "retukaioh",
     "handle": "RETUKAIOH/列海王"
+  },
+  {
+    "id": "reveie",
+    "handle": "Reveie"
   },
   {
     "id": "revelator",
@@ -23772,6 +23793,10 @@
     "handle": "ShinKensou"
   },
   {
+    "id": "shinki",
+    "handle": "Shinki"
+  },
+  {
     "id": "shinkuislame",
     "handle": "ShinkuIsLame"
   },
@@ -24912,7 +24937,12 @@
   },
   {
     "id": "sora",
-    "handle": "Sora"
+    "handle": "Sora",
+    "extra": {
+      "aliases": [
+        "sora"
+      ]
+    }
   },
   {
     "id": "sora-no-jotei",
@@ -25951,8 +25981,8 @@
     "extra": {
       "aliases": [
         "SYO------/しょーーーーー",
-        "SYO-/しょ",
         "SYO",
+        "SYO-/しょ",
         "SYO--------/しょーーーーーーー",
         "SYO------/ しょ",
         "SYO------/しょーーーーーーー",
