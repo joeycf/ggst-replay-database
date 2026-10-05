@@ -1091,7 +1091,12 @@
   },
   {
     "id": "andross",
-    "handle": "Andross"
+    "handle": "Andross",
+    "extra": {
+      "aliases": [
+        "ANDROSS"
+      ]
+    }
   },
   {
     "id": "andross-11",
@@ -9020,6 +9025,10 @@
   {
     "id": "gobuu",
     "handle": "Gobuu"
+  },
+  {
+    "id": "goddohando-fukutomi",
+    "handle": "goddohando fukutomi"
   },
   {
     "id": "godsibb",
@@ -19151,6 +19160,10 @@
     }
   },
   {
+    "id": "okayu",
+    "handle": "okayu"
+  },
+  {
     "id": "okina",
     "handle": "OKINA"
   },
@@ -21991,8 +22004,10 @@
   {
     "id": "revill",
     "handle": "Revill",
-    "featured": true,
     "extra": {
+      "aliases": [
+        "REVILL"
+      ],
       "titles": [
         {
           "event": "Only The Best 2025",
@@ -22001,7 +22016,8 @@
           "url": "https://liquipedia.net/fighters/Only_The_Best/7/GGST"
         }
       ]
-    }
+    },
+    "featured": true
   },
   {
     "id": "revilo",
