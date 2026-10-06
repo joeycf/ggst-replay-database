@@ -1,8 +1,8 @@
 {
   "totals": {
-    "replays": 25172,
+    "replays": 25187,
     "characters": 34,
-    "players": 6605,
+    "players": 6608,
     "byPatch": {
       "2020-04-18": 74,
       "2020-10-11": 3,
@@ -52,40 +52,40 @@
       "2.00": 927,
       "2.01": 1156,
       "2.02": 1547,
-      "2.03": 207
+      "2.03": 222
     }
   },
   "characterUsage": {
-    "potemkin": 3127,
+    "aba": 1266,
+    "potemkin": 3130,
+    "may": 1563,
+    "venom": 808,
+    "leo-whitefang": 1543,
+    "anji-mito": 1216,
+    "giovanna": 1861,
+    "queen-dizzy": 956,
+    "happy-chaos": 1741,
+    "nagoriyuki": 2508,
+    "axl-low": 1703,
+    "bridget": 1152,
+    "slayer": 1547,
+    "ky-kiske": 2282,
+    "i-no": 1568,
+    "elphelt-valentine": 1111,
+    "jack-o": 1231,
+    "sol-badguy": 3214,
+    "jam-kuradoberi": 619,
+    "millia-rage": 1497,
+    "bedman": 1034,
     "johnny": 1403,
-    "aba": 1265,
     "asuka-r": 1264,
-    "anji-mito": 1215,
     "ramlethal-valentine": 2132,
     "lucy": 601,
     "unika": 689,
-    "elphelt-valentine": 1110,
-    "may": 1561,
     "zato-1": 1539,
-    "nagoriyuki": 2505,
-    "i-no": 1567,
-    "jam-kuradoberi": 618,
-    "jack-o": 1230,
-    "happy-chaos": 1740,
     "chipp-zanuff": 1616,
-    "bridget": 1151,
-    "ky-kiske": 2281,
     "faust": 1567,
-    "giovanna": 1860,
-    "sol-badguy": 3213,
-    "slayer": 1545,
-    "bedman": 1033,
-    "venom": 806,
     "testament": 1744,
-    "queen-dizzy": 955,
-    "axl-low": 1701,
-    "millia-rage": 1496,
-    "leo-whitefang": 1541,
     "robo-ky": 450,
     "goldlewis-dickinson": 1471,
     "baiken": 1616,
@@ -1348,36 +1348,36 @@
       "queen-dizzy": 99
     },
     "2.03": {
-      "potemkin": 40,
+      "aba": 16,
+      "potemkin": 43,
+      "may": 19,
+      "venom": 13,
+      "leo-whitefang": 11,
+      "anji-mito": 14,
+      "giovanna": 16,
+      "queen-dizzy": 11,
+      "happy-chaos": 4,
+      "nagoriyuki": 20,
+      "axl-low": 13,
+      "bridget": 14,
+      "slayer": 11,
+      "ky-kiske": 14,
+      "i-no": 10,
+      "elphelt-valentine": 18,
+      "jack-o": 4,
+      "sol-badguy": 13,
+      "jam-kuradoberi": 12,
+      "millia-rage": 9,
+      "bedman": 14,
       "johnny": 23,
-      "aba": 15,
       "asuka-r": 17,
-      "anji-mito": 13,
       "ramlethal-valentine": 13,
       "lucy": 15,
       "unika": 11,
-      "elphelt-valentine": 17,
-      "may": 17,
       "zato-1": 18,
-      "nagoriyuki": 17,
-      "i-no": 9,
-      "jam-kuradoberi": 11,
-      "jack-o": 3,
-      "happy-chaos": 3,
       "chipp-zanuff": 2,
-      "bridget": 13,
-      "ky-kiske": 13,
       "faust": 12,
-      "giovanna": 15,
-      "sol-badguy": 12,
-      "slayer": 9,
-      "bedman": 13,
-      "venom": 11,
       "testament": 9,
-      "queen-dizzy": 10,
-      "axl-low": 11,
-      "millia-rage": 8,
-      "leo-whitefang": 9,
       "robo-ky": 10,
       "goldlewis-dickinson": 3,
       "baiken": 9,
@@ -1413,20 +1413,148 @@
     "866": {
       "sin-kiske": 1
     },
-    "edochin-pc": {
-      "potemkin": 7
-    },
-    "h2o": {
-      "johnny": 66
-    },
     "beshh00": {
-      "aba": 370,
+      "aba": 371,
       "giovanna": 11,
       "slayer": 9,
       "unika": 3,
       "sol-badguy": 2,
       "elphelt-valentine": 1,
       "jack-o": 1
+    },
+    "fab": {
+      "potemkin": 1275,
+      "johnny": 1
+    },
+    "azesuke": {
+      "may": 183
+    },
+    "isami": {
+      "venom": 12
+    },
+    "meili": {
+      "leo-whitefang": 1
+    },
+    "macmens-kimarisv": {
+      "anji-mito": 2
+    },
+    "serenoa": {
+      "giovanna": 1
+    },
+    "mr-shakedown": {
+      "potemkin": 23
+    },
+    "daiji": {
+      "queen-dizzy": 68,
+      "robo-ky": 1,
+      "ramlethal-valentine": 1,
+      "slayer": 1
+    },
+    "lunpa": {
+      "happy-chaos": 11,
+      "sin-kiske": 1
+    },
+    "onetrusnorlax": {
+      "nagoriyuki": 39
+    },
+    "sydtko": {
+      "axl-low": 17
+    },
+    "rl": {
+      "bridget": 66
+    },
+    "pietro": {
+      "slayer": 9
+    },
+    "fern22": {
+      "ky-kiske": 94,
+      "elphelt-valentine": 3
+    },
+    "guess": {
+      "slayer": 7,
+      "nagoriyuki": 1
+    },
+    "daru-i-no": {
+      "i-no": 243,
+      "aba": 1
+    },
+    "yamamoto": {
+      "elphelt-valentine": 93,
+      "sin-kiske": 2,
+      "bridget": 9,
+      "robo-ky": 1,
+      "jam-kuradoberi": 1
+    },
+    "diraesdd": {
+      "axl-low": 15,
+      "giovanna": 2
+    },
+    "snowfight-bard": {
+      "jack-o": 64,
+      "aba": 15,
+      "queen-dizzy": 20,
+      "i-no": 3,
+      "asuka-r": 1,
+      "testament": 2,
+      "may": 1
+    },
+    "mugi": {
+      "nagoriyuki": 186,
+      "slayer": 42,
+      "baiken": 6,
+      "sol-badguy": 19,
+      "elphelt-valentine": 2,
+      "jack-o": 2,
+      "leo-whitefang": 16,
+      "millia-rage": 1,
+      "venom": 3,
+      "axl-low": 12,
+      "potemkin": 1,
+      "chipp-zanuff": 1,
+      "giovanna": 4,
+      "sin-kiske": 1,
+      "may": 2,
+      "ky-kiske": 3
+    },
+    "urei": {
+      "leo-whitefang": 64
+    },
+    "sol-mugi": {
+      "nagoriyuki": 9,
+      "slayer": 1
+    },
+    "tatuma": {
+      "sol-badguy": 660,
+      "nagoriyuki": 1,
+      "giovanna": 1
+    },
+    "seisei": {
+      "jam-kuradoberi": 76,
+      "happy-chaos": 16,
+      "johnny": 1,
+      "aba": 18,
+      "leo-whitefang": 13,
+      "slayer": 45,
+      "lucy": 29,
+      "robo-ky": 25,
+      "asuka-r": 11,
+      "nagoriyuki": 2,
+      "sin-kiske": 10,
+      "unika": 7,
+      "venom": 3,
+      "queen-dizzy": 10
+    },
+    "i-got-no-options": {
+      "millia-rage": 1
+    },
+    "memetoast": {
+      "bedman": 38
+    },
+    "edochin-pc": {
+      "potemkin": 7
+    },
+    "h2o": {
+      "johnny": 66
     },
     "chocoservant": {
       "asuka-r": 92,
@@ -1464,13 +1592,6 @@
       "asuka-r": 28,
       "robo-ky": 1
     },
-    "yamamoto": {
-      "elphelt-valentine": 92,
-      "sin-kiske": 2,
-      "bridget": 9,
-      "robo-ky": 1,
-      "jam-kuradoberi": 1
-    },
     "goddohando-fukutomi": {
       "may": 1
     },
@@ -1479,12 +1600,6 @@
     },
     "palm-toptiger": {
       "ramlethal-valentine": 5
-    },
-    "onetrusnorlax": {
-      "nagoriyuki": 38
-    },
-    "mr-shakedown": {
-      "potemkin": 22
     },
     "joe-brownie": {
       "lucy": 8,
@@ -1519,28 +1634,6 @@
       "aba": 1,
       "lucy": 1
     },
-    "mugi": {
-      "nagoriyuki": 185,
-      "slayer": 42,
-      "baiken": 6,
-      "sol-badguy": 19,
-      "elphelt-valentine": 2,
-      "jack-o": 2,
-      "leo-whitefang": 16,
-      "millia-rage": 1,
-      "venom": 3,
-      "axl-low": 12,
-      "potemkin": 1,
-      "chipp-zanuff": 1,
-      "giovanna": 4,
-      "sin-kiske": 1,
-      "may": 2,
-      "ky-kiske": 3
-    },
-    "daru-i-no": {
-      "i-no": 242,
-      "aba": 1
-    },
     "crillou": {
       "nagoriyuki": 14,
       "axl-low": 1,
@@ -1550,29 +1643,6 @@
     },
     "aranea": {
       "jack-o": 27
-    },
-    "fab": {
-      "potemkin": 1273,
-      "johnny": 1
-    },
-    "seisei": {
-      "happy-chaos": 16,
-      "johnny": 1,
-      "aba": 18,
-      "jam-kuradoberi": 75,
-      "leo-whitefang": 13,
-      "slayer": 45,
-      "lucy": 29,
-      "robo-ky": 25,
-      "asuka-r": 11,
-      "nagoriyuki": 2,
-      "sin-kiske": 10,
-      "unika": 7,
-      "venom": 3,
-      "queen-dizzy": 10
-    },
-    "azesuke": {
-      "may": 181
     },
     "revill": {
       "elphelt-valentine": 6,
@@ -1635,11 +1705,6 @@
     },
     "shinki": {
       "faust": 1
-    },
-    "tatuma": {
-      "sol-badguy": 659,
-      "nagoriyuki": 1,
-      "giovanna": 1
     },
     "craw": {
       "slayer": 14
@@ -1763,9 +1828,6 @@
     },
     "大大大罪人": {
       "jack-o": 1
-    },
-    "urei": {
-      "leo-whitefang": 63
     },
     "glyph": {
       "millia-rage": 1
@@ -1899,9 +1961,6 @@
       "lucy": 30,
       "johnny": 14
     },
-    "rl": {
-      "bridget": 65
-    },
     "black-cat": {
       "aba": 6,
       "happy-chaos": 1,
@@ -1979,24 +2038,8 @@
     "yato": {
       "potemkin": 6
     },
-    "macmens-kimarisv": {
-      "anji-mito": 1
-    },
     "blueberry": {
       "faust": 5
-    },
-    "snowfight-bard": {
-      "aba": 15,
-      "jack-o": 63,
-      "queen-dizzy": 20,
-      "i-no": 3,
-      "asuka-r": 1,
-      "testament": 2,
-      "may": 1
-    },
-    "fern22": {
-      "ky-kiske": 93,
-      "elphelt-valentine": 3
     },
     "hot-space": {
       "slayer": 12
@@ -2202,12 +2245,6 @@
       "johnny": 8,
       "ky-kiske": 1
     },
-    "daiji": {
-      "queen-dizzy": 67,
-      "robo-ky": 1,
-      "ramlethal-valentine": 1,
-      "slayer": 1
-    },
     "amato": {
       "faust": 44
     },
@@ -2299,9 +2336,6 @@
       "asuka-r": 126,
       "unika": 8,
       "lucy": 2
-    },
-    "memetoast": {
-      "bedman": 37
     },
     "kshuewhatdamoo": {
       "i-no": 23,
@@ -2412,9 +2446,6 @@
     "caliber": {
       "unika": 3,
       "ky-kiske": 6
-    },
-    "isami": {
-      "venom": 10
     },
     "boltman": {
       "robo-ky": 4
@@ -2622,10 +2653,6 @@
       "bedman": 3,
       "ramlethal-valentine": 1
     },
-    "guess": {
-      "slayer": 6,
-      "nagoriyuki": 1
-    },
     "trash": {
       "i-no": 1,
       "anji-mito": 1,
@@ -2752,10 +2779,6 @@
     "nsk": {
       "goldlewis-dickinson": 4
     },
-    "diraesdd": {
-      "axl-low": 14,
-      "giovanna": 2
-    },
     "dinosaurorotante": {
       "anji-mito": 1
     },
@@ -2807,13 +2830,6 @@
     },
     "ichi-tada-kuro-neko": {
       "happy-chaos": 1
-    },
-    "sol-mugi": {
-      "nagoriyuki": 8,
-      "slayer": 1
-    },
-    "pietro": {
-      "slayer": 8
     },
     "daishoji": {
       "queen-dizzy": 1
@@ -3050,10 +3066,6 @@
     "kawasakana-funa": {
       "baiken": 27
     },
-    "lunpa": {
-      "happy-chaos": 10,
-      "sin-kiske": 1
-    },
     "playvery-badly": {
       "asuka-r": 2
     },
@@ -3193,9 +3205,6 @@
     },
     "edotin-pc-pc": {
       "potemkin": 2
-    },
-    "sydtko": {
-      "axl-low": 16
     },
     "booska": {
       "ramlethal-valentine": 26
