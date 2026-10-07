@@ -6949,6 +6949,10 @@
     "handle": "edochin PC"
   },
   {
+    "id": "edochin-pc-pc",
+    "handle": "EDOCHIN PC/えどちんPC"
+  },
+  {
     "id": "edosetora",
     "handle": "Edosetora"
   },
@@ -7535,6 +7539,10 @@
   {
     "id": "eyelash",
     "handle": "eyelash"
+  },
+  {
+    "id": "eyes-open",
+    "handle": "EYES OPEN"
   },
   {
     "id": "ezakil7-7",
@@ -9266,6 +9274,10 @@
   {
     "id": "gotugotumet",
     "handle": "GOTUGOTUMET/ゴツゴツメット"
+  },
+  {
+    "id": "gotugotumetto",
+    "handle": "GOTUGOTUMETTO/ゴツゴツメット"
   },
   {
     "id": "gou",
@@ -15755,6 +15767,10 @@
   {
     "id": "maigo",
     "handle": "Maigo"
+  },
+  {
+    "id": "majesty",
+    "handle": "Majesty"
   },
   {
     "id": "maji-yabaiken",
@@ -31049,6 +31065,10 @@
   {
     "id": "いあ",
     "handle": "いあ"
+  },
+  {
+    "id": "いいさかひろのり",
+    "handle": "いいざかひろのり"
   },
   {
     "id": "いきと",
