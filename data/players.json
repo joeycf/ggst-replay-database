@@ -28876,7 +28876,8 @@
     "handle": "VOID",
     "extra": {
       "aliases": [
-        "Void"
+        "Void",
+        "void"
       ]
     }
   },
