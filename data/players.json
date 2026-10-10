@@ -24478,6 +24478,10 @@
     }
   },
   {
+    "id": "slowly-dickison",
+    "handle": "Slowly Dickison"
+  },
+  {
     "id": "slushrushsweep",
     "handle": "SlushRushSweep"
   },
@@ -26211,6 +26215,7 @@
     "extra": {
       "aliases": [
         "TAKEHARA/竹原",
+        "takehara",
         "TAKEHARA",
         "TAKEHARA / 竹原"
       ]
