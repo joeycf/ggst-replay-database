@@ -4967,6 +4967,10 @@
     "featured": true
   },
   {
+    "id": "d-p-miracle",
+    "handle": "D.P. Miracle"
+  },
+  {
     "id": "d3-will",
     "handle": "D3_Will"
   },
@@ -16715,9 +16719,9 @@
     "extra": {
       "aliases": [
         "Miken",
+        "MIKEN",
         "miken/眉間番長",
-        "眉間番長 / miken",
-        "MIKEN"
+        "眉間番長 / miken"
       ]
     }
   },
