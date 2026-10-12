@@ -210,6 +210,10 @@
     "handle": "46SK"
   },
   {
+    "id": "5-2-dark-necro",
+    "handle": "5 2 Dark Necro"
+  },
+  {
     "id": "5-2-fame",
     "handle": "5 2 Fame"
   },
@@ -5051,8 +5055,8 @@
     "extra": {
       "aliases": [
         "daiji",
-        "DAIJI/ダイジ",
-        "DAIJI"
+        "DAIJI",
+        "DAIJI/ダイジ"
       ]
     }
   },
@@ -7112,7 +7116,12 @@
   },
   {
     "id": "elk",
-    "handle": "ELK/エルク"
+    "handle": "ELK",
+    "extra": {
+      "aliases": [
+        "ELK/エルク"
+      ]
+    }
   },
   {
     "id": "elkhound",
@@ -8254,6 +8263,10 @@
   {
     "id": "fugu",
     "handle": "Fugu_"
+  },
+  {
+    "id": "fuh-nih",
+    "handle": "Fuh Nih"
   },
   {
     "id": "fujii",
@@ -9751,6 +9764,10 @@
   {
     "id": "hahex",
     "handle": "Hahex"
+  },
+  {
+    "id": "hain",
+    "handle": "HAIN"
   },
   {
     "id": "hair-conditioner",
@@ -15521,7 +15538,12 @@
   },
   {
     "id": "lykris",
-    "handle": "Lykris"
+    "handle": "Lykris",
+    "extra": {
+      "aliases": [
+        "LYKRIS"
+      ]
+    }
   },
   {
     "id": "lyn-aka-blpry",
