@@ -1956,6 +1956,10 @@
     }
   },
   {
+    "id": "baikenhyne",
+    "handle": "BAIKENHYNE/バイケンハイン"
+  },
+  {
     "id": "bake-no-hana",
     "handle": "Bake no Hana"
   },
@@ -11164,6 +11168,10 @@
     "handle": "Ichika"
   },
   {
+    "id": "ichitose",
+    "handle": "Ichitose"
+  },
+  {
     "id": "ichiyou",
     "handle": "Ichiyou"
   },
@@ -15146,7 +15154,12 @@
   },
   {
     "id": "lizaka",
-    "handle": "lizaka"
+    "handle": "lizaka",
+    "extra": {
+      "aliases": [
+        "LIZAKA"
+      ]
+    }
   },
   {
     "id": "lkblue",
@@ -18239,6 +18252,10 @@
   {
     "id": "nestobtg",
     "handle": "NestoBTG"
+  },
+  {
+    "id": "netsu-rebaburu-jikaiyokoku",
+    "handle": "netsu rebaburu jikaiyokoku"
   },
   {
     "id": "neuralarch",
@@ -25230,6 +25247,10 @@
     "handle": "SpicyFetus"
   },
   {
+    "id": "spider",
+    "handle": "SPIDER"
+  },
+  {
     "id": "spidey-mikey",
     "handle": "Spidey Mikey"
   },
@@ -27671,6 +27692,10 @@
   {
     "id": "totsugekii",
     "handle": "totsugekii"
+  },
+  {
+    "id": "tough-guy",
+    "handle": "tough guy"
   },
   {
     "id": "tousand-sunny",
