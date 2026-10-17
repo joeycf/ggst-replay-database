@@ -290,8 +290,10 @@ which CotW's workflow reserved by name for game six. The platform's no-push
 window is now 06:00–09:00. Game seven takes 09:17.
 
 fetch → theater (allowed to fail, and last of the fetches) → parse → emit →
-regenerate redirects → refuse redirect drift → commit-if-changed → smoke check →
-expiries. The index pull is `continue-on-error` because the cron must never
+regenerate redirects → refuse redirect drift → commit-if-changed → smoke check.
+Due expiries run in `pending-work.yml` ("Pending work", `workflow_run` after
+every completed data run), so a red data run means only that the archive is
+stale or wrong. The index pull is `continue-on-error` because the cron must never
 depend on a third party succeeding: on any failure there is no dump, parse
 carries the committed records against the pin, and the run stays green.
 
