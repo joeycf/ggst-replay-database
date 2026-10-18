@@ -1634,6 +1634,10 @@
     "handle": "Atra"
   },
   {
+    "id": "attela",
+    "handle": "Attela"
+  },
+  {
     "id": "attemon",
     "handle": "Attemon"
   },
@@ -2603,8 +2607,8 @@
     "extra": {
       "aliases": [
         "Black Cat",
-        "Black Cat/一只黑猫",
-        "black cat/一只黑猫"
+        "black cat/一只黑猫",
+        "Black Cat/一只黑猫"
       ]
     }
   },
@@ -13255,6 +13259,10 @@
   {
     "id": "kazusa",
     "handle": "Kazusa"
+  },
+  {
+    "id": "kazusa0528",
+    "handle": "Kazusa0528"
   },
   {
     "id": "kazuya",
@@ -24028,6 +24036,10 @@
     "handle": "Shokushi"
   },
   {
+    "id": "shokushin",
+    "handle": "SHOKUSHIN"
+  },
+  {
     "id": "shokushu",
     "handle": "shokushu"
   },
@@ -27060,6 +27072,10 @@
     "handle": "TheL"
   },
   {
+    "id": "themrsunemployed",
+    "handle": "TheMrsUnemployed"
+  },
+  {
     "id": "thenaturalnut",
     "handle": "TheNaturalNut"
   },
@@ -29193,7 +29209,8 @@
     "handle": "Waroniku",
     "extra": {
       "aliases": [
-        "waroniku"
+        "waroniku",
+        "WARONIKU"
       ]
     }
   },
@@ -31788,6 +31805,10 @@
   {
     "id": "まとい",
     "handle": "まとい"
+  },
+  {
+    "id": "まなと",
+    "handle": "まなと"
   },
   {
     "id": "マホイッフ",
