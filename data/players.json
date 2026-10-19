@@ -7782,7 +7782,12 @@
   },
   {
     "id": "fern22",
-    "handle": "Fern22"
+    "handle": "Fern22",
+    "extra": {
+      "aliases": [
+        "FERN22"
+      ]
+    }
   },
   {
     "id": "fern22s",
@@ -15165,6 +15170,10 @@
     "handle": "Little Neemer's"
   },
   {
+    "id": "little-secret",
+    "handle": "Little Secret"
+  },
+  {
     "id": "livingdead",
     "handle": "LivingDead"
   },
@@ -18510,6 +18519,10 @@
   {
     "id": "niteraid",
     "handle": "NiteRaid"
+  },
+  {
+    "id": "nitoro-s-no1-fan",
+    "handle": "Nitoro's №1 fan"
   },
   {
     "id": "nitro",
@@ -21885,6 +21898,10 @@
     "handle": "REGENT MAIN"
   },
   {
+    "id": "regex",
+    "handle": "Regex"
+  },
+  {
     "id": "reggi",
     "handle": "Reggi"
   },
@@ -22241,6 +22258,10 @@
   {
     "id": "rikir",
     "handle": "Rikir"
+  },
+  {
+    "id": "rikka",
+    "handle": "RIKKA"
   },
   {
     "id": "rikku",
