@@ -2339,7 +2339,12 @@
   },
   {
     "id": "besh",
-    "handle": "Besh"
+    "handle": "Besh",
+    "extra": {
+      "aliases": [
+        "BESH"
+      ]
+    }
   },
   {
     "id": "besh00",
@@ -4813,6 +4818,10 @@
   {
     "id": "cryophantasm",
     "handle": "CRYOPHANTASM"
+  },
+  {
+    "id": "cs-cache-instant",
+    "handle": "cs cache instant"
   },
   {
     "id": "cstiger",
@@ -15834,6 +15843,10 @@
     "handle": "Maigo"
   },
   {
+    "id": "maiken-vantsuo",
+    "handle": "maiken ･vantsuo"
+  },
+  {
     "id": "majesty",
     "handle": "Majesty"
   },
@@ -23502,7 +23515,8 @@
     "handle": "Seongmin",
     "extra": {
       "aliases": [
-        "seongmin"
+        "seongmin",
+        "SEONGMIN"
       ]
     }
   },
