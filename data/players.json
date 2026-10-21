@@ -11575,10 +11575,10 @@
   },
   {
     "id": "isami",
-    "handle": "isami",
+    "handle": "isami/勇",
     "extra": {
       "aliases": [
-        "isami/勇",
+        "isami",
         "勇/isami",
         "ISAMI"
       ]
@@ -15169,6 +15169,10 @@
   {
     "id": "litetheironman",
     "handle": "LiteTheIronMan"
+  },
+  {
+    "id": "littke-secret",
+    "handle": "Littke Secret"
   },
   {
     "id": "little-anger",
