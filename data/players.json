@@ -2676,7 +2676,12 @@
   },
   {
     "id": "blazobs",
-    "handle": "Blazobs"
+    "handle": "Blazobs",
+    "extra": {
+      "aliases": [
+        "BLAZOBS"
+      ]
+    }
   },
   {
     "id": "bleed",
@@ -10164,6 +10169,10 @@
   {
     "id": "hdn",
     "handle": "HDN"
+  },
+  {
+    "id": "he-mingshuo",
+    "handle": "He Mingshuo"
   },
   {
     "id": "he3",
