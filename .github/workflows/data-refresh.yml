@@ -13,9 +13,9 @@ on:
     # GAME SEVEN HAS TAKEN 09:17. Avatar Legends claimed the slot this note used
     # to offer, on 2026-09-19, and its own workflow records the handoff.
     #
-    # NOTE FOR WHOEVER ADDS GAME EIGHT (Granblue Rising is the announced one):
-    # the pattern is +30 minutes alternating :17/:47, so the next free slot is
-    # 09:47 and the window becomes 06:00–10:00.
+    # GAME EIGHT HAS TAKEN 09:47. Granblue Rising claimed the slot this note
+    # used to offer, on 2026-09-30 (gbvsr b3f088b), and its own workflow
+    # records the handoff and carries the note for game nine.
     - cron: '47 8 * * *'
   workflow_dispatch:
 
@@ -31,9 +31,9 @@ jobs:
     name: Refresh the archive — red means the live archive is stale or wrong
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           # matches engines.node (the platform's Node policy — STACK.md §1)
           node-version: 24

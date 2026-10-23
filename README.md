@@ -286,8 +286,11 @@ handle word somewhere else, and a blanket strip would cost real players.
 ## Daily data refresh
 
 `.github/workflows/data-refresh.yml`, **08:47 UTC** — the sixth stagger slot,
-which CotW's workflow reserved by name for game six. The platform's no-push
-window is now 06:00–09:00. Game seven takes 09:17.
+which CotW's workflow reserved by name for game six. Game seven, Avatar Legends,
+took 09:17 on 2026-09-19, and game eight, Granblue Rising, took 09:47 on
+2026-09-30. GitHub starts these slots hours late (11:00–19:21 UTC over 223
+runs, ending by 19:25), so check the Actions tab before any push, whatever the
+slot.
 
 fetch → theater (allowed to fail, and last of the fetches) → parse → emit →
 regenerate redirects → refuse redirect drift → commit-if-changed → smoke check.
@@ -312,7 +315,7 @@ the daily allowance — because it walks uploads playlists. The same backfill vi
 
 Project `ggst-replay-database`. `NUXT_PUBLIC_SITE_URL` and `NUXT_APP_BASE_URL`
 (`/ggst/`) must both be set on **Production and Preview** before the first
-build. The engine pin is `v0.12.1` and **that tag must exist on the remote** —
+build. The engine pin is `v0.18.1` and **that tag must exist on the remote** —
 Vercel leaves `ENGINE_PATH` unset and clones the pinned ref.
 
 `observability.insights: '/ggst-insights'` pairs 1:1 with the shell's rewrite.
