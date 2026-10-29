@@ -320,9 +320,10 @@
   },
   {
     "id": "a-black-cat",
-    "handle": "一只黑猫 / A Black Cat",
+    "handle": "A black cat",
     "extra": {
       "aliases": [
+        "一只黑猫 / A Black Cat",
         "a black cat"
       ]
     }
@@ -2617,7 +2618,8 @@
       "aliases": [
         "Black Cat",
         "black cat/一只黑猫",
-        "Black Cat/一只黑猫"
+        "Black Cat/一只黑猫",
+        "一只黑猫/black cat"
       ]
     }
   },
@@ -9753,6 +9755,10 @@
     "handle": "Habaki"
   },
   {
+    "id": "hachiroku",
+    "handle": "hachiroku"
+  },
+  {
     "id": "hackfraudwizard",
     "handle": "HackFraudWizard"
   },
@@ -10593,6 +10599,10 @@
   {
     "id": "hispanic-dadisco",
     "handle": "Hispanic@daDisco"
+  },
+  {
+    "id": "hisuik",
+    "handle": "Hisuik"
   },
   {
     "id": "hitoshi",
@@ -13138,6 +13148,10 @@
   {
     "id": "kaslana",
     "handle": "Kaslana"
+  },
+  {
+    "id": "kasusa",
+    "handle": "Kasusa"
   },
   {
     "id": "kata-kan-banchou-miken",
@@ -16265,6 +16279,10 @@
     }
   },
   {
+    "id": "matto-dusk",
+    "handle": "Matto Dusk"
+  },
+  {
     "id": "mattshroom",
     "handle": "MattShroom"
   },
@@ -18381,6 +18399,10 @@
     "handle": "Nico Douga"
   },
   {
+    "id": "nicol",
+    "handle": "Nicol"
+  },
+  {
     "id": "nicole",
     "handle": "nicole"
   },
@@ -19891,6 +19913,10 @@
     "handle": "Pankek"
   },
   {
+    "id": "panpaasu",
+    "handle": "panpaasu"
+  },
+  {
     "id": "panpi",
     "handle": "Panpi"
   },
@@ -20621,6 +20647,10 @@
   {
     "id": "ployk1ckshaw",
     "handle": "Ployk1ckshaw"
+  },
+  {
+    "id": "plugging-on-ram",
+    "handle": "Plugging on ram"
   },
   {
     "id": "pluparoos",
@@ -22318,6 +22348,10 @@
     "handle": "Rikkumi"
   },
   {
+    "id": "rikumi",
+    "handle": "Rikumi"
+  },
+  {
     "id": "riley",
     "handle": "Riley",
     "featured": true,
@@ -22427,6 +22461,10 @@
   {
     "id": "riverfish",
     "handle": "RiverFish"
+  },
+  {
+    "id": "rivy",
+    "handle": "Rivy"
   },
   {
     "id": "rizzolini",
@@ -26907,6 +26945,10 @@
     "handle": "Testugakuteki Zombie"
   },
   {
+    "id": "testyour-luck",
+    "handle": "TestYour Luck"
+  },
+  {
     "id": "testyourluck",
     "handle": "TestYourLuck",
     "extra": {
@@ -27209,6 +27251,10 @@
   {
     "id": "thights",
     "handle": "THIGHTS"
+  },
+  {
+    "id": "thorfinn",
+    "handle": "Thorfinn"
   },
   {
     "id": "thork",
@@ -31172,6 +31218,10 @@
   {
     "id": "zzub99",
     "handle": "Zzub99"
+  },
+  {
+    "id": "ππ",
+    "handle": "ππ"
   },
   {
     "id": "моим-богам",
