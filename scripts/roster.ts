@@ -931,6 +931,12 @@ export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
     note: '1 side(s), ggstHighRank. Resolves to i-no. Evidence: "GGST High Level Gameplay | #2 ZATO (debu) vs I-NO (PAR Daru_ INo)"',
   },
   {
+    id: 'plugging-on-ram',
+    handle: 'Plugging on ram',
+    video: 'Z4sVZD5wI1M',
+    note: '1 side(s), ggstHighRank. Resolves to ramlethal-valentine. Evidence: "GGST 🔥 #1 TESTAMENT (iDom) vs #3 KY (Plugging on ram) | High Level Gameplay" — handle inside the parens, playing KY; the index row for the same video (theater 504375) agrees: players iDom / Plugging on ram, characters Testament / Ky Kiske. Stopped the cron 2026-10-25.',
+  },
+  {
     id: 'rip-potemkin',
     handle: 'RIP Potemkin',
     video: 'Pf6wu57q004',
