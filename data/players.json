@@ -9125,6 +9125,10 @@
     "handle": "GoH Tensorial"
   },
   {
+    "id": "going-second",
+    "handle": "Going Second"
+  },
+  {
     "id": "goingmygame",
     "handle": "Goingmygame"
   },
@@ -15842,6 +15846,10 @@
     "handle": "Magic"
   },
   {
+    "id": "magic-cosmos",
+    "handle": "魔法少女コスモス/Magic Cosmos"
+  },
+  {
     "id": "magic-man",
     "handle": "Magic Man"
   },
@@ -17649,6 +17657,7 @@
     "extra": {
       "aliases": [
         "muroi",
+        "muroi/室井",
         "MUROI/室井"
       ]
     }
