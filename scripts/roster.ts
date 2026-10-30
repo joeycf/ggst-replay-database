@@ -567,9 +567,10 @@ export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
   //
   // THIS LIST WILL KEEP GROWING, and that is the cost of the guard rather than
   // a flaw in it: a 34-fighter roster and a five-year corpus means new players
-  // named after fighters arrive continuously, and each one hard-stops the
-  // pipeline until a human looks. The alternative — a guard that guesses — is
-  // what put 26 fighter-named player pages on another game.
+  // named after fighters arrive continuously, and each one's records wait in
+  // the review queue until a human looks (until 2026-10-30 each one stopped
+  // the whole day — see parse-finish.ts step 6). The alternative — a guard
+  // that guesses — is what put 26 fighter-named player pages on another game.
   {
     id: 'daru-i-no',
     handle: 'Daru_I-No',
@@ -991,6 +992,16 @@ export const CONFIRMED_FIGHTER_NAMED_PLAYERS: ConfirmedFighterNamedPlayer[] = [
     note: '1 side(s), ggstHighRank. Resolves to venom. Evidence: "[GGST-REPLAY] #2 MAY Venom Snake vs TOP JACK-O Daimster"',
   },
 ];
+
+/**
+ * THE ONE PREDICATE FOR CHECKLIST 5n: the fighter id(s) a player's voted
+ * display handle resolves to, [] when it names no fighter. parse-finish.ts
+ * holds records on it and e2e.ts asserts the published archive with it, so
+ * the hold and the check that the hold worked cannot drift apart.
+ */
+export function fighterNamedHits(handle: string, matcher: AliasMatcher): string[] {
+  return matcher.ids(handle);
+}
 
 // ── VENDOR SCRAPE ───────────────────────────────────────────────────────────
 // The provenance half. Everything below talks to guiltygear.com and answers one

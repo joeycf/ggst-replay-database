@@ -3,11 +3,13 @@ name: Pending work
 # THE OTHER MEANING OF RED. "Daily data refresh" goes red when the archive is
 # stale or wrong. THIS workflow goes red when a person has work: a gated
 # character's window has opened, a season is unconfirmed, a patch table has
-# been quiet too long. The two used to share one job, and on 2026-10-12 Tekken's
-# data run stopped at "Refuse redirect drift", so the due expiry behind it never
-# ran — while from 10-07 Tōkon was red BY DESIGN next to the one run that was
-# holding data. One job, two meanings, and the by-design red had normalised
-# red. Now each workflow has one.
+# been quiet too long, or a new record is HELD on an unconfirmed fighter-named
+# handle (checklist 5n — since 2026-10-30 the parse holds the record and ships
+# the day, where it used to refuse the day). The two used to share one job,
+# and on 2026-10-12 Tekken's data run stopped at "Refuse redirect drift", so
+# the due expiry behind it never ran — while from 10-07 Tōkon was red BY DESIGN
+# next to the one run that was holding data. One job, two meanings, and the
+# by-design red had normalised red. Now each workflow has one.
 #
 # It runs after EVERY completed "Daily data refresh", whatever that run
 # concluded: a held data run is exactly the morning a due expiry must still be
@@ -69,6 +71,13 @@ jobs:
         # ArcSys's store page (DLC #20 Winter 2026, DLC #21 Spring 2027) with no
         # name, no portrait and no page, so there is nothing to gate on yet. The
         # season and patch-table arms are live from day one.
+        #
+        # THE HELD-HANDLE ARM reads the committed data/review-queue.json: every
+        # 'fighter-named-handle' item is a record the parse held because its
+        # handle resolves to a fighter with no CONFIRMED row, and the step names
+        # each handle and its record count. Add the row with its video id (or a
+        # `sides` override), push, then dispatch "Daily data refresh"; this
+        # workflow follows it and goes green once the record has published.
         # Clear it by doing the work, NOT by deleting this step.
         run: npx tsx scripts/expiries.ts --check
 

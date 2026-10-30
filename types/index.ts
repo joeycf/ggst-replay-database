@@ -518,10 +518,24 @@ export type VideoOverride = Partial<Pick<MatchVideo, 'season' | 'patch' | 'sides
  *                            aliases and the channel declares no slotOrder, so
  *                            which one names the character is a guess. Never
  *                            guessed. This is the queue's biggest kind on this
- *                            game by design (checklist 5m). */
+ *                            game by design (checklist 5m).
+ *   'fighter-named-handle' — a NEW record (not yet published) whose handle
+ *                            resolves to a fighter and is not on
+ *                            CONFIRMED_FIGHTER_NAMED_PLAYERS (checklist 5n).
+ *                            The record is held, the rest of the day ships,
+ *                            and Pending work goes red naming the handle. A
+ *                            row with a video id releases it on the next
+ *                            parse; a `sides` override (the handle IS the
+ *                            fighter) or an `exclude` resolves it the way the
+ *                            other kinds resolve. */
 export interface ReviewQueueItem {
   id: string;
-  kind: 'character-completion' | 'source-classification' | 'index-conflict' | 'slot-ambiguous';
+  kind:
+    | 'character-completion'
+    | 'source-classification'
+    | 'index-conflict'
+    | 'slot-ambiguous'
+    | 'fighter-named-handle';
   channel: ChannelKey;
   title: string;
   publishedAt: string;
@@ -536,6 +550,15 @@ export interface ReviewQueueItem {
   /** For 'slot-ambiguous': the two readings, so the reviewer picks rather than
    *  re-derives. */
   readings?: { handle: string; characters: string[] }[];
+  /** For 'fighter-named-handle': each side whose handle resolves to a fighter
+   *  with no CONFIRMED row — the side index, the handle as voted, the player
+   *  id the registry would mint, and the fighter id(s) it resolves to. */
+  held?: { side: 0 | 1; handle: string; player: string; resolvesTo: string[] }[];
+  /** For 'fighter-named-handle': the held record itself, post-override. The
+   *  index intake is read through a cursor, so a held index record is in no
+   *  later dump and not in videos.json; parse-finish.ts carries it forward
+   *  from HERE until it is confirmed or rejected. */
+  record?: MatchVideo;
 }
 
 /** One balance era (a named Season). */

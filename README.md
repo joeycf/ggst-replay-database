@@ -89,15 +89,43 @@ tie-broken rate climbs is drifting, and that is visible before it is wrong.
 
 Every handle is resolved through the roster matcher **at parse time**, not in a
 test after the site is generated. A handle that resolves to a fighter and is not
-on `CONFIRMED_FIGHTER_NAMED_PLAYERS` is a hard stop naming the video.
+on `CONFIRMED_FIGHTER_NAMED_PLAYERS` never publishes.
 
 It fired on **69 handles and found zero defects**. Every one was a real person:
 `Leo.` plays Faust, `Dizzy` plays Millia, `pot` plays Chipp, and the catalogue
-itself carries a player called `Millia Rage`. All 85 rows carry a video id;
+itself carries a player called `Millia Rage`. All 87 rows carry a video id;
 none is a guess. Expect it to keep firing — a 34-fighter roster and a five-year
-corpus means new fighter-named players arrive continuously, and each one stops
-the pipeline until a human looks. That is the cost of the guard, not a flaw in
-it: the alternative is what put 26 fighter-named player pages on another game.
+corpus means new fighter-named players arrive continuously. That is the cost of
+the guard, not a flaw in it: the alternative is what put 26 fighter-named player
+pages on another game.
+
+**Refuse the record, not the day.** Until 2026-10-30 every hit stopped the
+whole parse. It fired twice in the cron, and both times on one new upload:
+`JOHNNY RED/ジョニーレッド` held 09-15/16, and `Plugging on ram` held every record
+from 10-25 to 10-29 (25,485 waited on one row). Now a hit on a **new** record (not
+in the committed `data/videos.json`) is held instead:
+
+- the record goes to `data/review-queue.json` as `fighter-named-handle`, with
+  the handle, the side, the fighter it resolves to and the record itself, and
+  stays out of `videos.json`, `players.json` and the site;
+- the rest of the day ships, and `report.md` and the parse log say
+  "N record(s) held on unconfirmed fighter-named handle X — confirm with a
+  video id (scripts/roster.ts) or reject";
+- Pending work goes red naming the handle and the count (below).
+
+Confirm by adding the row with its video id; the next parse publishes the
+record. Reject (the handle IS the fighter, slot-swapped) with a `sides` override
+in `data/overrides.json`, as for any queue item. A held index record has no later
+dump to come back from (the pull is a cursor), so parse carries it from the
+queue, and the theater pin counts only what ships.
+
+It **stays a hard stop** when any record of the handle is already published.
+Holding those would unpublish live pages with exit 0, after the collapse guard
+has run, and the only way there is a human change: a row removed, an alias
+added, or a parser regression such as a flipped `slotOrder`. Frozen-channel
+records count as published. There is no player-id-vs-character-route check to
+keep: `/players/<id>` and `/characters/<id>` are separate routes, and `johnny`
+and `may` share an id by design (`scripts/roster.ts`).
 
 ## Replay Theater is SF6's fetcher, not CotW's
 
@@ -296,7 +324,10 @@ fetch → theater (allowed to fail, and last of the fetches) → parse → emit 
 regenerate redirects → refuse redirect drift → commit-if-changed → smoke check.
 Due expiries run in `pending-work.yml` ("Pending work", `workflow_run` after
 every completed data run), so a red data run means only that the archive is
-stale or wrong. The index pull is `continue-on-error` because the cron must never
+stale or wrong. Pending work is also red while a record is held on an
+unconfirmed fighter-named handle (the registry invariant above): it names each
+handle and its record count. Clear it by adding the row (or the override),
+pushing, and dispatching the data run; Pending work follows it. The index pull is `continue-on-error` because the cron must never
 depend on a third party succeeding: on any failure there is no dump, parse
 carries the committed records against the pin, and the run stays green.
 
