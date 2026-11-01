@@ -881,6 +881,10 @@
     "handle": "Albireo"
   },
   {
+    "id": "alburpagaeltabaq",
+    "handle": "Alburpagaeltabaq"
+  },
+  {
     "id": "alcyone",
     "handle": "Alcyone"
   },
@@ -2541,6 +2545,10 @@
         "BIN"
       ]
     }
+  },
+  {
+    "id": "bing-hua",
+    "handle": "Bing Hua"
   },
   {
     "id": "binkaioh",
@@ -7447,6 +7455,10 @@
     "handle": "EthanTheGameBo | HeadReceiver"
   },
   {
+    "id": "ethical-hoops",
+    "handle": "Ethical Hoops"
+  },
+  {
     "id": "etholux",
     "handle": "Etholux"
   },
@@ -7945,6 +7957,10 @@
   {
     "id": "fishyfishy",
     "handle": "FishyFishy"
+  },
+  {
+    "id": "fixing-my-mental",
+    "handle": "Fixing My Mental"
   },
   {
     "id": "fizzgig",
@@ -15932,6 +15948,7 @@
     "extra": {
       "aliases": [
         "makkii/まっきぃ",
+        "Makkii/まっきぃ",
         "MAKKIi/まっきぃ"
       ]
     }
