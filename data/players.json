@@ -3943,6 +3943,10 @@
     "handle": "Chinese monocle"
   },
   {
+    "id": "chinesegodfather",
+    "handle": "ChineseGodfather"
+  },
+  {
     "id": "chinetsu",
     "handle": "chinetsu"
   },
@@ -30142,10 +30146,10 @@
   },
   {
     "id": "yagi",
-    "handle": "Yagi",
+    "handle": "YAGI/ヤギ",
     "extra": {
       "aliases": [
-        "YAGI/ヤギ",
+        "Yagi",
         "yagi"
       ]
     }
