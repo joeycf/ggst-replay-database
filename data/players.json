@@ -234,6 +234,10 @@
     "handle": "5 2 Tyurara"
   },
   {
+    "id": "5-3-akatsuki",
+    "handle": "5 3 Akatsuki"
+  },
+  {
     "id": "5-d-1-shot",
     "handle": "5[D] = 1 SHOT"
   },
@@ -2596,10 +2600,10 @@
   },
   {
     "id": "bjdenim",
-    "handle": "BjDenim",
+    "handle": "BJDenim",
     "extra": {
       "aliases": [
-        "BJDenim"
+        "BjDenim"
       ]
     }
   },
@@ -7779,6 +7783,10 @@
   {
     "id": "fecianfates",
     "handle": "FecianFates"
+  },
+  {
+    "id": "feezu",
+    "handle": "Feezu"
   },
   {
     "id": "fel",
@@ -26251,6 +26259,7 @@
         "SYO------/しょーーーーー",
         "SYO",
         "SYO-/しょ",
+        "syo-----/しょーーーーー",
         "SYO--------/しょーーーーーーー",
         "SYO------/ しょ",
         "SYO------/しょーーーーーーー",
@@ -27876,6 +27885,10 @@
         "totsubunger"
       ]
     }
+  },
+  {
+    "id": "totsuburger",
+    "handle": "totsuburger"
   },
   {
     "id": "totsugekii",
