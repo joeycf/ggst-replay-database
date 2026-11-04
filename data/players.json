@@ -974,6 +974,10 @@
     "handle": "AlTusi"
   },
   {
+    "id": "alucard",
+    "handle": "Alucard"
+  },
+  {
     "id": "alukardny",
     "handle": "AlukardNY"
   },
@@ -4325,6 +4329,10 @@
     "handle": "Climbatize"
   },
   {
+    "id": "clive",
+    "handle": "clive"
+  },
+  {
     "id": "clock",
     "handle": "Clock"
   },
@@ -7644,6 +7652,10 @@
   {
     "id": "fab",
     "handle": "FAB"
+  },
+  {
+    "id": "faber",
+    "handle": "faber"
   },
   {
     "id": "fabz",
@@ -19476,7 +19488,8 @@
     "extra": {
       "aliases": [
         "OneMore",
-        "onemore / ワンモア"
+        "onemore / ワンモア",
+        "ONEMORE/ワンモア"
       ]
     }
   },
@@ -29415,6 +29428,10 @@
   {
     "id": "waru",
     "handle": "Waru"
+  },
+  {
+    "id": "wasabe",
+    "handle": "Wasabe"
   },
   {
     "id": "washed-boze",
