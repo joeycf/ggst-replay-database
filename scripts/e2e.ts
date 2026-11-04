@@ -632,23 +632,53 @@ if (EMPTY) {
 
   // ── the badge names the EVENT, not the catalogue (engine v0.13.0) ─────────
   // This is the only corpus on the platform where BOTH label arms are live.
-  // The tagged arm (6,915) publishes the event it was played at. The untagged
-  // arm (1,330) is whole videos the catalogue merely indexed, from 65 creator
-  // channels — Sajam, Romolla Ch., GGST FAUST REPLAY — so it publishes the
-  // uploader instead. Calling those "Tournament" would be false about every
-  // one of them, which is the whole reason the second arm exists.
+  // The tagged arm publishes the event it was played at. The untagged arm is
+  // whole videos the catalogue merely indexed, from creator channels — Sajam,
+  // Romolla Ch., GGST FAUST REPLAY — so it publishes the uploader instead.
+  // Calling those "Tournament" would be false about every one of them, which
+  // is the whole reason the second arm exists.
+  //
+  // THE EXPECTATION IS COMPUTED FROM THE COMMITTED SUBSTRATE, not typed in.
+  // Until 2026-11-04 these read `=== 6915` and `=== 1330`, literals from 09-11:
+  // the cron grew the tagged arm to 6,934 and the suite went red on a correct
+  // archive, which teaches a reader that this red means nothing. What the check
+  // is FOR is that emit carries the label it was handed: every data/videos.json
+  // index record with an `event` ships one, every one with a `channelName`
+  // ships that. So the build is compared with data/videos.json, record by
+  // record, and a record that loses its label between the two is named.
+  const substrate = JSON.parse(src('data/videos.json')) as {
+    id: string;
+    intake: string;
+    event?: string;
+    channelName?: string;
+  }[];
+  const subTheater = substrate.filter((v) => v.intake === 'replayTheater');
+  const wantEvent = new Set(subTheater.filter((v) => v.event).map((v) => v.id));
+  const wantChannel = new Set(subTheater.filter((v) => v.channelName).map((v) => v.id));
   const theater = replays.filter((r) => r.source === 'replayTheater');
   const byEvent = theater.filter((r) => r.event);
   const byChannel = theater.filter((r) => r.channelName);
+  const lostEvent = theater.filter((r) => wantEvent.has(r.id) && !r.event).map((r) => r.id);
+  const lostChannel = theater
+    .filter((r) => wantChannel.has(r.id) && !r.channelName)
+    .map((r) => r.id);
   check(
     'the tagged arm carries an event',
-    byEvent.length === 6915,
-    `${byEvent.length} of ${theater.length} (expected 6915)`,
+    byEvent.length === wantEvent.size && lostEvent.length === 0,
+    `${byEvent.length} of ${theater.length} (data/videos.json: ${wantEvent.size})` +
+      (lostEvent.length ? `; lost: ${lostEvent.slice(0, 3).join(', ')}` : ''),
   );
   check(
     'the untagged arm carries its uploader',
-    byChannel.length === 1330,
-    `${byChannel.length} of ${theater.length} (expected 1330)`,
+    byChannel.length === wantChannel.size && lostChannel.length === 0,
+    `${byChannel.length} of ${theater.length} (data/videos.json: ${wantChannel.size})` +
+      (lostChannel.length ? `; lost: ${lostChannel.slice(0, 3).join(', ')}` : ''),
+  );
+  check(
+    'both arms are live (the computed expectation is not vacuous)',
+    wantEvent.size > 0 && wantChannel.size > 0 && theater.length === subTheater.length,
+    `${wantEvent.size} tagged + ${wantChannel.size} untagged of ${subTheater.length} in data, ` +
+      `${theater.length} built`,
   );
   check(
     'every index-sourced record carries exactly one label',
