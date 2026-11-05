@@ -2327,6 +2327,10 @@
     "handle": "Berkeley"
   },
   {
+    "id": "bernkastel",
+    "handle": "Bernkastel"
+  },
+  {
     "id": "berp",
     "handle": "berp"
   },
@@ -4229,6 +4233,10 @@
   {
     "id": "cino",
     "handle": "cino"
+  },
+  {
+    "id": "cirilla",
+    "handle": "Cirilla"
   },
   {
     "id": "citizensnips",
@@ -16698,6 +16706,10 @@
     "handle": "MF Bandit"
   },
   {
+    "id": "mf-ghoul",
+    "handle": "MF Ghoul"
+  },
+  {
     "id": "mfahim",
     "handle": "MFAHIM"
   },
@@ -23272,6 +23284,10 @@
         "SanuKing"
       ]
     }
+  },
+  {
+    "id": "sanya-buldozer",
+    "handle": "Sanya buldozer"
   },
   {
     "id": "sanya-monowire",
