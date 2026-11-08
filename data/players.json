@@ -6492,6 +6492,10 @@
     }
   },
   {
+    "id": "doramon",
+    "handle": "Doramon"
+  },
+  {
     "id": "doran",
     "handle": "doran"
   },
@@ -8544,6 +8548,10 @@
   {
     "id": "gaia",
     "handle": "Gaia"
+  },
+  {
+    "id": "gaia-sv",
+    "handle": "Gaia SV"
   },
   {
     "id": "gailardia",
@@ -29980,6 +29988,10 @@
   {
     "id": "xandra",
     "handle": "Xandra"
+  },
+  {
+    "id": "xandranoodle",
+    "handle": "Xandranoodle"
   },
   {
     "id": "xanmoskgimkdcake",
