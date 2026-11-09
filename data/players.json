@@ -922,6 +922,10 @@
     "handle": "AlexDaLyin"
   },
   {
+    "id": "alexnomas",
+    "handle": "AlexNomas"
+  },
+  {
     "id": "algebra2",
     "handle": "Algebra2"
   },
@@ -8285,6 +8289,10 @@
     "handle": "Frijoles Guapo"
   },
   {
+    "id": "frionel",
+    "handle": "FRIONEL"
+  },
+  {
     "id": "frnce",
     "handle": "Frnce"
   },
@@ -11580,6 +11588,10 @@
     "handle": "INOHA GLAZER"
   },
   {
+    "id": "inoru",
+    "handle": "Inoru"
+  },
+  {
     "id": "insert",
     "handle": "*Insert*",
     "extra": {
@@ -12669,6 +12681,10 @@
   {
     "id": "joyhome",
     "handle": "Joyhome"
+  },
+  {
+    "id": "jp-only",
+    "handle": "jp only"
   },
   {
     "id": "jretion",
@@ -16466,6 +16482,10 @@
         }
       ]
     }
+  },
+  {
+    "id": "mechwarrior",
+    "handle": "MechWarrior"
   },
   {
     "id": "medic",
@@ -20567,6 +20587,10 @@
   {
     "id": "pimped-doink",
     "handle": "Pimped_doink"
+  },
+  {
+    "id": "pineapple-fish",
+    "handle": "Pineapple Fish"
   },
   {
     "id": "pineapplehour",
@@ -25489,6 +25513,10 @@
     "handle": "Spinel"
   },
   {
+    "id": "spirikzx",
+    "handle": "SpiriKzX"
+  },
+  {
     "id": "spius",
     "handle": "Spius"
   },
@@ -25905,6 +25933,10 @@
   {
     "id": "stupid-chud",
     "handle": "stupid chud"
+  },
+  {
+    "id": "stupid-gup",
+    "handle": "stupid gup"
   },
   {
     "id": "subarashi",
@@ -30704,7 +30736,12 @@
   },
   {
     "id": "yunigoo",
-    "handle": "Yunigoo"
+    "handle": "Yunigoo",
+    "extra": {
+      "aliases": [
+        "yunigoo"
+      ]
+    }
   },
   {
     "id": "yurameku",
