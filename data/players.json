@@ -18071,6 +18071,10 @@
     "handle": "Nano beast"
   },
   {
+    "id": "nano-sento",
+    "handle": "nano sento"
+  },
+  {
     "id": "nao",
     "handle": "nao"
   },
@@ -27960,6 +27964,10 @@
     "handle": "Totshulover"
   },
   {
+    "id": "totsu",
+    "handle": "TOTSU"
+  },
+  {
     "id": "totsubunger",
     "handle": "Totsubunger",
     "extra": {
@@ -28748,6 +28756,10 @@
   {
     "id": "unika-8-deluxe",
     "handle": "Unika 8 Deluxe"
+  },
+  {
+    "id": "university-student",
+    "handle": "思春期大学生/university student"
   },
   {
     "id": "unlucky",
