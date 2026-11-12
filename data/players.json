@@ -16009,6 +16009,7 @@
     "extra": {
       "aliases": [
         "makkii/まっきぃ",
+        "Makkii",
         "Makkii/まっきぃ",
         "MAKKIi/まっきぃ"
       ]
@@ -20330,7 +20331,8 @@
     "handle": "Pedrito",
     "extra": {
       "aliases": [
-        "pedrito"
+        "pedrito",
+        "PEDRITO"
       ]
     }
   },
@@ -26205,7 +26207,12 @@
   },
   {
     "id": "suzuki",
-    "handle": "Suzuki"
+    "handle": "Suzuki",
+    "extra": {
+      "aliases": [
+        "SUZUKI"
+      ]
+    }
   },
   {
     "id": "svanesang",
