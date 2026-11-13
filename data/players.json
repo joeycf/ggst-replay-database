@@ -11201,7 +11201,12 @@
   },
   {
     "id": "i-m-a-chuckster",
-    "handle": "I`m a Chuckster"
+    "handle": "I`m a Chuckster",
+    "extra": {
+      "aliases": [
+        "I'm a Chuckster"
+      ]
+    }
   },
   {
     "id": "i-no",
@@ -16055,6 +16060,10 @@
   {
     "id": "mams92",
     "handle": "Mams92"
+  },
+  {
+    "id": "manafesto",
+    "handle": "Manafesto"
   },
   {
     "id": "manamon",
@@ -22578,7 +22587,12 @@
   },
   {
     "id": "rivy",
-    "handle": "Rivy"
+    "handle": "Rivy",
+    "extra": {
+      "aliases": [
+        "RIVY"
+      ]
+    }
   },
   {
     "id": "rizzolini",
