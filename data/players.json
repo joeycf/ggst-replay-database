@@ -6907,7 +6907,8 @@
     "extra": {
       "aliases": [
         "early_type",
-        "early_ type"
+        "early_ type",
+        "Early_type"
       ]
     }
   },
@@ -16900,6 +16901,10 @@
     "handle": "Miidas"
   },
   {
+    "id": "mika",
+    "handle": "mika"
+  },
+  {
     "id": "mika-ready-toeat",
     "handle": "Mika Ready toEat"
   },
@@ -19996,7 +20001,12 @@
   },
   {
     "id": "pamu",
-    "handle": "Pamu"
+    "handle": "Pamu",
+    "extra": {
+      "aliases": [
+        "PAMU/パム"
+      ]
+    }
   },
   {
     "id": "panaki",
