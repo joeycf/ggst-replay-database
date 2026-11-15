@@ -13213,6 +13213,10 @@
     "handle": "Karintou"
   },
   {
+    "id": "karoora",
+    "handle": "karoora"
+  },
+  {
     "id": "karu",
     "handle": "Karu"
   },
@@ -18181,7 +18185,12 @@
   },
   {
     "id": "natsume",
-    "handle": "Natsume"
+    "handle": "Natsume",
+    "extra": {
+      "aliases": [
+        "natsume"
+      ]
+    }
   },
   {
     "id": "natsumo",
