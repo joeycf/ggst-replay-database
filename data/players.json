@@ -10494,10 +10494,10 @@
   },
   {
     "id": "hidden",
-    "handle": "hidden",
+    "handle": "Hidden",
     "extra": {
       "aliases": [
-        "Hidden"
+        "hidden"
       ]
     }
   },
