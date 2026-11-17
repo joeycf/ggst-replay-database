@@ -16136,7 +16136,12 @@
   },
   {
     "id": "maoko",
-    "handle": "maoko"
+    "handle": "maoko",
+    "extra": {
+      "aliases": [
+        "MAOKO"
+      ]
+    }
   },
   {
     "id": "maooooooo",
