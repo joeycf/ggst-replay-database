@@ -16911,7 +16911,12 @@
   },
   {
     "id": "mika",
-    "handle": "mika"
+    "handle": "Mika",
+    "extra": {
+      "aliases": [
+        "mika"
+      ]
+    }
   },
   {
     "id": "mika-ready-toeat",
@@ -26235,7 +26240,8 @@
     "extra": {
       "aliases": [
         "sutera",
-        "SUTERA/すてら"
+        "SUTERA/すてら",
+        "SUTERA"
       ]
     }
   },
