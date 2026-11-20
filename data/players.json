@@ -18150,7 +18150,12 @@
   },
   {
     "id": "nashikani",
-    "handle": "nashikani"
+    "handle": "nashikani",
+    "extra": {
+      "aliases": [
+        "NASHIKANI/なしかに"
+      ]
+    }
   },
   {
     "id": "nasikani",
@@ -26593,6 +26598,10 @@
   {
     "id": "takenthundur",
     "handle": "TakenTHUNDUR"
+  },
+  {
+    "id": "takerhara",
+    "handle": "Takerhara"
   },
   {
     "id": "takeuchi",
