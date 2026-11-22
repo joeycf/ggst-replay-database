@@ -7083,7 +7083,12 @@
   },
   {
     "id": "ego",
-    "handle": "Ego"
+    "handle": "Ego",
+    "extra": {
+      "aliases": [
+        "EGO"
+      ]
+    }
   },
   {
     "id": "egoeddie",
@@ -22564,6 +22569,10 @@
     "handle": "Rinoa_05"
   },
   {
+    "id": "rinrin-v-ji-tonakai",
+    "handle": "rinrin ♪ V ji tonakai"
+  },
+  {
     "id": "rio",
     "handle": "Rio"
   },
@@ -26418,8 +26427,8 @@
     "handle": "Syokusyu",
     "extra": {
       "aliases": [
-        "syokusyu/しょくしゅ",
-        "SYOKUSYU/しょくしゅ"
+        "SYOKUSYU/しょくしゅ",
+        "syokusyu/しょくしゅ"
       ]
     }
   },
