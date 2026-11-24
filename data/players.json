@@ -8468,10 +8468,10 @@
   },
   {
     "id": "futa-elphelt",
-    "handle": "Futa Elphelt",
+    "handle": "FUTA ELPHELT",
     "extra": {
       "aliases": [
-        "FUTA ELPHELT"
+        "Futa Elphelt"
       ]
     }
   },
@@ -11311,6 +11311,10 @@
   {
     "id": "ichika",
     "handle": "Ichika"
+  },
+  {
+    "id": "ichiogo-kurosaki",
+    "handle": "Ichiogo Kurosaki"
   },
   {
     "id": "ichitose",
@@ -16077,7 +16081,12 @@
   },
   {
     "id": "manafesto",
-    "handle": "Manafesto"
+    "handle": "Manafesto",
+    "extra": {
+      "aliases": [
+        "MANAFESTO"
+      ]
+    }
   },
   {
     "id": "manamon",
