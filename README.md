@@ -346,7 +346,7 @@ the daily allowance — because it walks uploads playlists. The same backfill vi
 
 Project `ggst-replay-database`. `NUXT_PUBLIC_SITE_URL` and `NUXT_APP_BASE_URL`
 (`/ggst/`) must both be set on **Production and Preview** before the first
-build. The engine pin is `v0.18.1` and **that tag must exist on the remote** —
+build. The engine pin is `v0.19.0` and **that tag must exist on the remote** —
 Vercel leaves `ENGINE_PATH` unset and clones the pinned ref.
 
 `observability.insights: '/ggst-insights'` pairs 1:1 with the shell's rewrite.

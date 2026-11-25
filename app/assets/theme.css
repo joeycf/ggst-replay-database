@@ -143,8 +143,9 @@
 @import '@fontsource/figtree/600';
 @import '@fontsource/figtree/700';
 @import '@fontsource/figtree/800';
-@import '@fontsource/jetbrains-mono/400';
-@import '@fontsource/jetbrains-mono/700';
+/* JetBrains Mono comes from the engine's variable face (tailwind/theme-default.css,
+   weights 100-800); importing @fontsource's static copies as well made browsers
+   download both (removed for engine v0.19.0). */
 
 :root {
   /* Type. Black Ops One is display-only stencil slab and ships one weight.
