@@ -1778,5 +1778,73 @@
     "title": "GGST ✪ FUBUKI (#1 Ranked Testament) VS JIKISHIRONE (#5 Ranked Ramlet) | GGST High Level Match Replay",
     "publishedAt": "2026-05-23T19:13:30Z",
     "durationSec": 400
+  },
+  {
+    "id": "Xb2VEUpZByc",
+    "kind": "fighter-named-handle",
+    "channel": "ggstBattleCollection",
+    "title": "GGST2.0➤ Rank 6th A.B.A / アバ [ Taigbb ] vs Rank 3rd NAGORIYUKI / 名残雪 [ SOL むぎ ] Guilty Gear Strive",
+    "publishedAt": "2026-11-25T13:15:29Z",
+    "durationSec": 536,
+    "held": [
+      {
+        "side": 1,
+        "handle": "SOL むぎ",
+        "player": "sol",
+        "resolvesTo": [
+          "sol-badguy"
+        ]
+      }
+    ],
+    "record": {
+      "id": "Xb2VEUpZByc",
+      "channel": "ggstBattleCollection",
+      "intake": "ggstBattleCollection",
+      "title": "GGST2.0➤ Rank 6th A.B.A / アバ [ Taigbb ] vs Rank 3rd NAGORIYUKI / 名残雪 [ SOL むぎ ] Guilty Gear Strive",
+      "publishedAt": "2026-11-25T13:15:29Z",
+      "durationSec": 536,
+      "viewCount": 257,
+      "season": 5,
+      "patch": "2.03",
+      "sides": [
+        {
+          "player": "taigbb",
+          "handle": "Taigbb",
+          "characters": [
+            "aba"
+          ],
+          "provenance": {
+            "tier": "title",
+            "tiers": [
+              "title"
+            ],
+            "fromTitle": [
+              "aba"
+            ],
+            "slotOrder": "chars-outside",
+            "complete": true
+          }
+        },
+        {
+          "player": "sol",
+          "handle": "SOL むぎ",
+          "characters": [
+            "nagoriyuki"
+          ],
+          "provenance": {
+            "tier": "title",
+            "tiers": [
+              "title"
+            ],
+            "fromTitle": [
+              "nagoriyuki"
+            ],
+            "slotOrder": "chars-outside",
+            "tieBroken": true,
+            "complete": true
+          }
+        }
+      ]
+    }
   }
 ]

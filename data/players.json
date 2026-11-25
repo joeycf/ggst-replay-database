@@ -2705,6 +2705,10 @@
     "handle": "Blazer"
   },
   {
+    "id": "blazing-cat-rin",
+    "handle": "Blazing Cat Rin"
+  },
+  {
     "id": "blazobs",
     "handle": "Blazobs",
     "extra": {
@@ -5529,7 +5533,8 @@
         "Daru_I-NO",
         "DARU_I_NO",
         "Daru I-No",
-        "Daru_I NO"
+        "Daru_I NO",
+        "DARU_I-NO"
       ]
     }
   },
@@ -7510,6 +7515,7 @@
     "extra": {
       "aliases": [
         "eto",
+        "ETO",
         "ETO/エト"
       ]
     }
@@ -28845,7 +28851,12 @@
   },
   {
     "id": "university-student",
-    "handle": "思春期大学生/university student"
+    "handle": "university student/思春期大学生",
+    "extra": {
+      "aliases": [
+        "思春期大学生/university student"
+      ]
+    }
   },
   {
     "id": "unlucky",
