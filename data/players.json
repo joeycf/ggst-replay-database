@@ -282,6 +282,10 @@
     "handle": "9am"
   },
   {
+    "id": "9for",
+    "handle": "9for"
+  },
+  {
     "id": "9moons-aoikypher",
     "handle": "9Moons AoiKypher"
   },
@@ -11224,7 +11228,8 @@
     "handle": "I`m a Chuckster",
     "extra": {
       "aliases": [
-        "I'm a Chuckster"
+        "I'm a Chuckster",
+        "I‘m a Chuckster"
       ]
     }
   },
@@ -28479,6 +28484,7 @@
     "handle": "tutiya",
     "extra": {
       "aliases": [
+        "TUTIYA",
         "TUTIYA/つちや"
       ]
     }
@@ -30382,7 +30388,8 @@
     "extra": {
       "aliases": [
         "Yagi",
-        "yagi"
+        "yagi",
+        "YAGI"
       ]
     }
   },

@@ -1780,6 +1780,74 @@
     "durationSec": 400
   },
   {
+    "id": "Uz0y0GBJdoE",
+    "kind": "fighter-named-handle",
+    "channel": "ggstBattleCollection",
+    "title": "GGST2.0➤Rank 3rd SOL / ソル [ UMISHO ] vs Rank 2nd Ramlethal / ラムレザル [ Ramlethal ] Guilty Gear Strive",
+    "publishedAt": "2026-11-27T13:15:04Z",
+    "durationSec": 899,
+    "held": [
+      {
+        "side": 1,
+        "handle": "Ramlethal",
+        "player": "ramlethal",
+        "resolvesTo": [
+          "ramlethal-valentine"
+        ]
+      }
+    ],
+    "record": {
+      "id": "Uz0y0GBJdoE",
+      "channel": "ggstBattleCollection",
+      "intake": "ggstBattleCollection",
+      "title": "GGST2.0➤Rank 3rd SOL / ソル [ UMISHO ] vs Rank 2nd Ramlethal / ラムレザル [ Ramlethal ] Guilty Gear Strive",
+      "publishedAt": "2026-11-27T13:15:04Z",
+      "durationSec": 899,
+      "viewCount": 384,
+      "season": 5,
+      "patch": "2.03",
+      "sides": [
+        {
+          "player": "umisho",
+          "handle": "UMISHO",
+          "characters": [
+            "sol-badguy"
+          ],
+          "provenance": {
+            "tier": "title",
+            "tiers": [
+              "title"
+            ],
+            "fromTitle": [
+              "sol-badguy"
+            ],
+            "slotOrder": "chars-outside",
+            "complete": true
+          }
+        },
+        {
+          "player": "ramlethal",
+          "handle": "Ramlethal",
+          "characters": [
+            "ramlethal-valentine"
+          ],
+          "provenance": {
+            "tier": "title",
+            "tiers": [
+              "title"
+            ],
+            "fromTitle": [
+              "ramlethal-valentine"
+            ],
+            "slotOrder": "chars-outside",
+            "tieBroken": true,
+            "complete": true
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "Xb2VEUpZByc",
     "kind": "fighter-named-handle",
     "channel": "ggstBattleCollection",
@@ -1803,7 +1871,7 @@
       "title": "GGST2.0➤ Rank 6th A.B.A / アバ [ Taigbb ] vs Rank 3rd NAGORIYUKI / 名残雪 [ SOL むぎ ] Guilty Gear Strive",
       "publishedAt": "2026-11-25T13:15:29Z",
       "durationSec": 536,
-      "viewCount": 806,
+      "viewCount": 931,
       "season": 5,
       "patch": "2.03",
       "sides": [
